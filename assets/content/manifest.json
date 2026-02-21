@@ -13,6 +13,12 @@
       "file": "puzzles/tactics/forks_beginner.json",
       "version": 1,
       "count": 3
+    },
+    {
+      "id": "tactics_beginner_2",
+      "file": "puzzles/tactics/tactics_beginner2.json",
+      "version": 1,
+      "count": 3
     }
   ]
 }

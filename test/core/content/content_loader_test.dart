@@ -11,10 +11,12 @@ void main() {
       final manifest = await loader.loadManifest();
       final lesson = await loader.loadLessonById('lesson_pawn');
       final pack = await loader.loadPuzzlePackById('forks_beginner');
+      final secondPack = await loader.loadPuzzlePackById('tactics_beginner_2');
 
       expect(manifest.version, isNotEmpty);
       expect(lesson.steps, isNotEmpty);
       expect(pack.puzzles.length, greaterThanOrEqualTo(3));
+      expect(secondPack.puzzles.length, greaterThanOrEqualTo(3));
     });
 
     test('verifies integrity without throwing', () async {

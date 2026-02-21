@@ -16,13 +16,14 @@
       "rating": 600
     },
     {
-      "id": "fork_002",
-      "fen": "4k3/8/8/3n4/8/8/4N3/4K3 w - - 0 1",
-      "solutionMoves": ["e2c3"],
+      "id": "lichess_00sO1",
+      "fen": "3r4/ppk2pp1/2p1p3/4b3/P3n1P1/8/KPP2PN1/3rBR1R w - - 3 32",
+      "solutionMoves": ["e1a5", "b7b6", "f1d1"],
       "firstMoveBy": "white",
-      "hint": "Der Springer springt in L-Form.",
-      "theme": "fork",
-      "rating": 650
+      "hint": "Ziehe den Laeufer weg – was passiert dann mit dem Turm auf d1?",
+      "theme": "discoveredAttack",
+      "rating": 998,
+      "source": "https://lichess.org/training/00sO1"
     },
     {
       "id": "fork_003",
