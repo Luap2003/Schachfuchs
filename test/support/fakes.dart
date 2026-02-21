@@ -1,8 +1,10 @@
 import 'package:schach_app/core/models/game_record.dart';
 import 'package:schach_app/core/models/progress.dart';
+import 'package:schach_app/core/models/saved_ai_game.dart';
 import 'package:schach_app/core/storage/repositories/auth_repository.dart';
 import 'package:schach_app/core/storage/repositories/game_history_repository.dart';
 import 'package:schach_app/core/storage/repositories/progress_repository.dart';
+import 'package:schach_app/core/storage/repositories/saved_ai_game_repository.dart';
 
 class InMemoryAuthRepository implements AuthRepository {
   InMemoryAuthRepository({this.userId = 'test-user'});
@@ -67,5 +69,84 @@ class InMemoryGameHistoryRepository implements GameHistoryRepository {
         .where((row) => row.ownerUserId == ownerUserId)
         .take(limit)
         .toList();
+  }
+}
+
+class InMemorySavedAiGameRepository implements SavedAiGameRepository {
+  final Map<int, SavedAiGame> _savedGames = <int, SavedAiGame>{};
+  int _nextId = 1;
+
+  @override
+  Future<int> createNewGame({
+    required String ownerUserId,
+    required int skillLevel,
+  }) async {
+    final id = _nextId++;
+    final now = DateTime.now();
+    _savedGames[id] = SavedAiGame(
+      id: id,
+      ownerUserId: ownerUserId,
+      skillLevel: skillLevel,
+      createdAt: now,
+      updatedAt: now,
+    );
+    return id;
+  }
+
+  @override
+  Future<SavedAiGame?> getById({
+    required String ownerUserId,
+    required int id,
+  }) async {
+    final game = _savedGames[id];
+    if (game == null || game.ownerUserId != ownerUserId) {
+      return null;
+    }
+    return game;
+  }
+
+  @override
+  Future<List<SavedAiGame>> listByUser({
+    required String ownerUserId,
+    int limit = 50,
+  }) async {
+    final games =
+        _savedGames.values
+            .where((game) => game.ownerUserId == ownerUserId)
+            .toList(growable: false)
+          ..sort((a, b) => b.updatedAt.compareTo(a.updatedAt));
+    if (games.length <= limit) {
+      return games;
+    }
+    return games.take(limit).toList(growable: false);
+  }
+
+  @override
+  Future<void> updateMoves({
+    required String ownerUserId,
+    required int id,
+    required List<String> movesUci,
+    required DateTime updatedAt,
+  }) async {
+    final existing = _savedGames[id];
+    if (existing == null || existing.ownerUserId != ownerUserId) {
+      return;
+    }
+    _savedGames[id] = existing.copyWith(
+      movesUci: movesUci,
+      updatedAt: updatedAt,
+    );
+  }
+
+  @override
+  Future<void> deleteById({
+    required String ownerUserId,
+    required int id,
+  }) async {
+    final existing = _savedGames[id];
+    if (existing == null || existing.ownerUserId != ownerUserId) {
+      return;
+    }
+    _savedGames.remove(id);
   }
 }

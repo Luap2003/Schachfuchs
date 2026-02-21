@@ -5,6 +5,7 @@ import 'package:schach_app/core/engine/chess_engine.dart';
 import 'package:schach_app/core/opponent/ai_opponent.dart';
 import 'package:schach_app/core/storage/repositories/auth_repository.dart';
 import 'package:schach_app/core/storage/repositories/game_history_repository.dart';
+import 'package:schach_app/core/storage/repositories/saved_ai_game_repository.dart';
 import 'package:schach_app/features/play/bloc/game_bloc.dart';
 import 'package:schach_app/features/play/widgets/game_board.dart';
 import 'package:schach_app/features/play/widgets/game_controls.dart';
@@ -12,9 +13,10 @@ import 'package:schach_app/features/play/widgets/game_move_input_section.dart';
 import 'package:schach_app/shared/widgets/app_back_button.dart';
 
 class GameScreen extends StatelessWidget {
-  const GameScreen({required this.skillLevel, super.key});
+  const GameScreen({required this.skillLevel, this.savedGameId, super.key});
 
   final int skillLevel;
+  final int? savedGameId;
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +26,9 @@ class GameScreen extends StatelessWidget {
         opponent: AiOpponent(skillLevel: skillLevel),
         authRepository: getIt<AuthRepository>(),
         gameHistoryRepository: getIt<GameHistoryRepository>(),
-      )..startGame(),
+        savedAiGameRepository: getIt<SavedAiGameRepository>(),
+        skillLevel: skillLevel,
+      )..startGame(resumeGameId: savedGameId),
       child: Scaffold(
         appBar: AppBar(
           leading: const AppBackButton(),
@@ -85,7 +89,7 @@ class GameScreen extends StatelessWidget {
                     ),
                   ],
                   const SizedBox(height: 8),
-                  GameControls(onNewGame: bloc.startGame),
+                  GameControls(onNewGame: () => bloc.startGame()),
                 ],
               ),
             );

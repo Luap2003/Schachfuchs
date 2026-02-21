@@ -10,8 +10,10 @@ import 'package:schach_app/core/storage/repositories/local_content_version_repos
 import 'package:schach_app/core/storage/repositories/local_game_history_repository.dart';
 import 'package:schach_app/core/storage/repositories/local_profile_repository.dart';
 import 'package:schach_app/core/storage/repositories/local_progress_repository.dart';
+import 'package:schach_app/core/storage/repositories/local_saved_ai_game_repository.dart';
 import 'package:schach_app/core/storage/repositories/profile_repository.dart';
 import 'package:schach_app/core/storage/repositories/progress_repository.dart';
+import 'package:schach_app/core/storage/repositories/saved_ai_game_repository.dart';
 import 'package:uuid/uuid.dart';
 
 final GetIt getIt = GetIt.instance;
@@ -35,6 +37,9 @@ Future<void> setupDependencies() async {
   );
   getIt.registerLazySingleton<GameHistoryRepository>(
     () => LocalGameHistoryRepository(getIt<AppDatabase>()),
+  );
+  getIt.registerLazySingleton<SavedAiGameRepository>(
+    () => LocalSavedAiGameRepository(getIt<AppDatabase>()),
   );
   getIt.registerLazySingleton<ContentVersionRepository>(
     () => LocalContentVersionRepository(getIt<AppDatabase>()),

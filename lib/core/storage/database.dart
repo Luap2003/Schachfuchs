@@ -106,6 +106,23 @@ class GameHistories extends Table {
       text().withDefault(const Constant('local_only'))();
 }
 
+class SavedAiGameSessions extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  TextColumn get ownerUserId => text().references(Users, #localUserId)();
+
+  IntColumn get skillLevel => integer()();
+
+  TextColumn get movesUciJson => text().withDefault(const Constant('[]'))();
+
+  DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
+
+  DateTimeColumn get updatedAt => dateTime()();
+
+  TextColumn get syncState =>
+      text().withDefault(const Constant('local_only'))();
+}
+
 class Achievements extends Table {
   TextColumn get id => text()();
 
@@ -146,6 +163,7 @@ class ContentVersions extends Table {
     LessonProgresses,
     PuzzleProgresses,
     GameHistories,
+    SavedAiGameSessions,
     Achievements,
     ContentVersions,
   ],
@@ -154,12 +172,17 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
     onCreate: (Migrator migrator) async {
       await migrator.createAll();
+    },
+    onUpgrade: (Migrator migrator, int from, int to) async {
+      if (from < 2) {
+        await migrator.createTable(savedAiGameSessions);
+      }
     },
   );
 }

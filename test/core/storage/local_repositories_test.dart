@@ -6,6 +6,7 @@ import 'package:schach_app/core/storage/database.dart';
 import 'package:schach_app/core/storage/repositories/local_game_history_repository.dart';
 import 'package:schach_app/core/storage/repositories/local_profile_repository.dart';
 import 'package:schach_app/core/storage/repositories/local_progress_repository.dart';
+import 'package:schach_app/core/storage/repositories/local_saved_ai_game_repository.dart';
 import 'package:uuid/uuid.dart';
 
 void main() {
@@ -93,5 +94,52 @@ void main() {
       final records = await repo.getRecent(ownerUserId: profile.localUserId);
       expect(records, hasLength(1));
     });
+
+    test(
+      'saved ai game repository stores and updates resumable games',
+      () async {
+        final profileRepo = LocalProfileRepository(db, const Uuid());
+        await profileRepo.ensureLocalProfile();
+        final profile = await profileRepo.getActiveProfile();
+
+        final repo = LocalSavedAiGameRepository(db);
+        final firstId = await repo.createNewGame(
+          ownerUserId: profile.localUserId,
+          skillLevel: 3,
+        );
+        final secondId = await repo.createNewGame(
+          ownerUserId: profile.localUserId,
+          skillLevel: 12,
+        );
+
+        await repo.updateMoves(
+          ownerUserId: profile.localUserId,
+          id: firstId,
+          movesUci: const <String>['e2e4', 'e7e5'],
+          updatedAt: DateTime(2026, 2, 20, 10, 0),
+        );
+        await repo.updateMoves(
+          ownerUserId: profile.localUserId,
+          id: secondId,
+          movesUci: const <String>['d2d4'],
+          updatedAt: DateTime(2026, 2, 20, 11, 0),
+        );
+
+        final firstGame = await repo.getById(
+          ownerUserId: profile.localUserId,
+          id: firstId,
+        );
+        expect(firstGame?.movesUci, const <String>['e2e4', 'e7e5']);
+
+        final sorted = await repo.listByUser(ownerUserId: profile.localUserId);
+        expect(sorted.map((game) => game.id), <int?>[secondId, firstId]);
+
+        await repo.deleteById(ownerUserId: profile.localUserId, id: secondId);
+        final afterDelete = await repo.listByUser(
+          ownerUserId: profile.localUserId,
+        );
+        expect(afterDelete.map((game) => game.id), <int?>[firstId]);
+      },
+    );
   });
 }

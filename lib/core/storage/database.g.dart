@@ -2455,6 +2455,470 @@ class GameHistoriesCompanion extends UpdateCompanion<GameHistory> {
   }
 }
 
+class $SavedAiGameSessionsTable extends SavedAiGameSessions
+    with TableInfo<$SavedAiGameSessionsTable, SavedAiGameSession> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SavedAiGameSessionsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _ownerUserIdMeta = const VerificationMeta(
+    'ownerUserId',
+  );
+  @override
+  late final GeneratedColumn<String> ownerUserId = GeneratedColumn<String>(
+    'owner_user_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES users (local_user_id)',
+    ),
+  );
+  static const VerificationMeta _skillLevelMeta = const VerificationMeta(
+    'skillLevel',
+  );
+  @override
+  late final GeneratedColumn<int> skillLevel = GeneratedColumn<int>(
+    'skill_level',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _movesUciJsonMeta = const VerificationMeta(
+    'movesUciJson',
+  );
+  @override
+  late final GeneratedColumn<String> movesUciJson = GeneratedColumn<String>(
+    'moves_uci_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _createdAtMeta = const VerificationMeta(
+    'createdAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> createdAt = GeneratedColumn<DateTime>(
+    'created_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: false,
+    defaultValue: currentDateAndTime,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> updatedAt = GeneratedColumn<DateTime>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _syncStateMeta = const VerificationMeta(
+    'syncState',
+  );
+  @override
+  late final GeneratedColumn<String> syncState = GeneratedColumn<String>(
+    'sync_state',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('local_only'),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    ownerUserId,
+    skillLevel,
+    movesUciJson,
+    createdAt,
+    updatedAt,
+    syncState,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'saved_ai_game_sessions';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SavedAiGameSession> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('owner_user_id')) {
+      context.handle(
+        _ownerUserIdMeta,
+        ownerUserId.isAcceptableOrUnknown(
+          data['owner_user_id']!,
+          _ownerUserIdMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_ownerUserIdMeta);
+    }
+    if (data.containsKey('skill_level')) {
+      context.handle(
+        _skillLevelMeta,
+        skillLevel.isAcceptableOrUnknown(data['skill_level']!, _skillLevelMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_skillLevelMeta);
+    }
+    if (data.containsKey('moves_uci_json')) {
+      context.handle(
+        _movesUciJsonMeta,
+        movesUciJson.isAcceptableOrUnknown(
+          data['moves_uci_json']!,
+          _movesUciJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('created_at')) {
+      context.handle(
+        _createdAtMeta,
+        createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
+      );
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    if (data.containsKey('sync_state')) {
+      context.handle(
+        _syncStateMeta,
+        syncState.isAcceptableOrUnknown(data['sync_state']!, _syncStateMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  SavedAiGameSession map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SavedAiGameSession(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      ownerUserId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}owner_user_id'],
+      )!,
+      skillLevel: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}skill_level'],
+      )!,
+      movesUciJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}moves_uci_json'],
+      )!,
+      createdAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}created_at'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}updated_at'],
+      )!,
+      syncState: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}sync_state'],
+      )!,
+    );
+  }
+
+  @override
+  $SavedAiGameSessionsTable createAlias(String alias) {
+    return $SavedAiGameSessionsTable(attachedDatabase, alias);
+  }
+}
+
+class SavedAiGameSession extends DataClass
+    implements Insertable<SavedAiGameSession> {
+  final int id;
+  final String ownerUserId;
+  final int skillLevel;
+  final String movesUciJson;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final String syncState;
+  const SavedAiGameSession({
+    required this.id,
+    required this.ownerUserId,
+    required this.skillLevel,
+    required this.movesUciJson,
+    required this.createdAt,
+    required this.updatedAt,
+    required this.syncState,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['owner_user_id'] = Variable<String>(ownerUserId);
+    map['skill_level'] = Variable<int>(skillLevel);
+    map['moves_uci_json'] = Variable<String>(movesUciJson);
+    map['created_at'] = Variable<DateTime>(createdAt);
+    map['updated_at'] = Variable<DateTime>(updatedAt);
+    map['sync_state'] = Variable<String>(syncState);
+    return map;
+  }
+
+  SavedAiGameSessionsCompanion toCompanion(bool nullToAbsent) {
+    return SavedAiGameSessionsCompanion(
+      id: Value(id),
+      ownerUserId: Value(ownerUserId),
+      skillLevel: Value(skillLevel),
+      movesUciJson: Value(movesUciJson),
+      createdAt: Value(createdAt),
+      updatedAt: Value(updatedAt),
+      syncState: Value(syncState),
+    );
+  }
+
+  factory SavedAiGameSession.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SavedAiGameSession(
+      id: serializer.fromJson<int>(json['id']),
+      ownerUserId: serializer.fromJson<String>(json['ownerUserId']),
+      skillLevel: serializer.fromJson<int>(json['skillLevel']),
+      movesUciJson: serializer.fromJson<String>(json['movesUciJson']),
+      createdAt: serializer.fromJson<DateTime>(json['createdAt']),
+      updatedAt: serializer.fromJson<DateTime>(json['updatedAt']),
+      syncState: serializer.fromJson<String>(json['syncState']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'ownerUserId': serializer.toJson<String>(ownerUserId),
+      'skillLevel': serializer.toJson<int>(skillLevel),
+      'movesUciJson': serializer.toJson<String>(movesUciJson),
+      'createdAt': serializer.toJson<DateTime>(createdAt),
+      'updatedAt': serializer.toJson<DateTime>(updatedAt),
+      'syncState': serializer.toJson<String>(syncState),
+    };
+  }
+
+  SavedAiGameSession copyWith({
+    int? id,
+    String? ownerUserId,
+    int? skillLevel,
+    String? movesUciJson,
+    DateTime? createdAt,
+    DateTime? updatedAt,
+    String? syncState,
+  }) => SavedAiGameSession(
+    id: id ?? this.id,
+    ownerUserId: ownerUserId ?? this.ownerUserId,
+    skillLevel: skillLevel ?? this.skillLevel,
+    movesUciJson: movesUciJson ?? this.movesUciJson,
+    createdAt: createdAt ?? this.createdAt,
+    updatedAt: updatedAt ?? this.updatedAt,
+    syncState: syncState ?? this.syncState,
+  );
+  SavedAiGameSession copyWithCompanion(SavedAiGameSessionsCompanion data) {
+    return SavedAiGameSession(
+      id: data.id.present ? data.id.value : this.id,
+      ownerUserId: data.ownerUserId.present
+          ? data.ownerUserId.value
+          : this.ownerUserId,
+      skillLevel: data.skillLevel.present
+          ? data.skillLevel.value
+          : this.skillLevel,
+      movesUciJson: data.movesUciJson.present
+          ? data.movesUciJson.value
+          : this.movesUciJson,
+      createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+      syncState: data.syncState.present ? data.syncState.value : this.syncState,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SavedAiGameSession(')
+          ..write('id: $id, ')
+          ..write('ownerUserId: $ownerUserId, ')
+          ..write('skillLevel: $skillLevel, ')
+          ..write('movesUciJson: $movesUciJson, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('syncState: $syncState')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    ownerUserId,
+    skillLevel,
+    movesUciJson,
+    createdAt,
+    updatedAt,
+    syncState,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SavedAiGameSession &&
+          other.id == this.id &&
+          other.ownerUserId == this.ownerUserId &&
+          other.skillLevel == this.skillLevel &&
+          other.movesUciJson == this.movesUciJson &&
+          other.createdAt == this.createdAt &&
+          other.updatedAt == this.updatedAt &&
+          other.syncState == this.syncState);
+}
+
+class SavedAiGameSessionsCompanion extends UpdateCompanion<SavedAiGameSession> {
+  final Value<int> id;
+  final Value<String> ownerUserId;
+  final Value<int> skillLevel;
+  final Value<String> movesUciJson;
+  final Value<DateTime> createdAt;
+  final Value<DateTime> updatedAt;
+  final Value<String> syncState;
+  const SavedAiGameSessionsCompanion({
+    this.id = const Value.absent(),
+    this.ownerUserId = const Value.absent(),
+    this.skillLevel = const Value.absent(),
+    this.movesUciJson = const Value.absent(),
+    this.createdAt = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+    this.syncState = const Value.absent(),
+  });
+  SavedAiGameSessionsCompanion.insert({
+    this.id = const Value.absent(),
+    required String ownerUserId,
+    required int skillLevel,
+    this.movesUciJson = const Value.absent(),
+    this.createdAt = const Value.absent(),
+    required DateTime updatedAt,
+    this.syncState = const Value.absent(),
+  }) : ownerUserId = Value(ownerUserId),
+       skillLevel = Value(skillLevel),
+       updatedAt = Value(updatedAt);
+  static Insertable<SavedAiGameSession> custom({
+    Expression<int>? id,
+    Expression<String>? ownerUserId,
+    Expression<int>? skillLevel,
+    Expression<String>? movesUciJson,
+    Expression<DateTime>? createdAt,
+    Expression<DateTime>? updatedAt,
+    Expression<String>? syncState,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (ownerUserId != null) 'owner_user_id': ownerUserId,
+      if (skillLevel != null) 'skill_level': skillLevel,
+      if (movesUciJson != null) 'moves_uci_json': movesUciJson,
+      if (createdAt != null) 'created_at': createdAt,
+      if (updatedAt != null) 'updated_at': updatedAt,
+      if (syncState != null) 'sync_state': syncState,
+    });
+  }
+
+  SavedAiGameSessionsCompanion copyWith({
+    Value<int>? id,
+    Value<String>? ownerUserId,
+    Value<int>? skillLevel,
+    Value<String>? movesUciJson,
+    Value<DateTime>? createdAt,
+    Value<DateTime>? updatedAt,
+    Value<String>? syncState,
+  }) {
+    return SavedAiGameSessionsCompanion(
+      id: id ?? this.id,
+      ownerUserId: ownerUserId ?? this.ownerUserId,
+      skillLevel: skillLevel ?? this.skillLevel,
+      movesUciJson: movesUciJson ?? this.movesUciJson,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+      syncState: syncState ?? this.syncState,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (ownerUserId.present) {
+      map['owner_user_id'] = Variable<String>(ownerUserId.value);
+    }
+    if (skillLevel.present) {
+      map['skill_level'] = Variable<int>(skillLevel.value);
+    }
+    if (movesUciJson.present) {
+      map['moves_uci_json'] = Variable<String>(movesUciJson.value);
+    }
+    if (createdAt.present) {
+      map['created_at'] = Variable<DateTime>(createdAt.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<DateTime>(updatedAt.value);
+    }
+    if (syncState.present) {
+      map['sync_state'] = Variable<String>(syncState.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SavedAiGameSessionsCompanion(')
+          ..write('id: $id, ')
+          ..write('ownerUserId: $ownerUserId, ')
+          ..write('skillLevel: $skillLevel, ')
+          ..write('movesUciJson: $movesUciJson, ')
+          ..write('createdAt: $createdAt, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('syncState: $syncState')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $AchievementsTable extends Achievements
     with TableInfo<$AchievementsTable, Achievement> {
   @override
@@ -3263,6 +3727,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     this,
   );
   late final $GameHistoriesTable gameHistories = $GameHistoriesTable(this);
+  late final $SavedAiGameSessionsTable savedAiGameSessions =
+      $SavedAiGameSessionsTable(this);
   late final $AchievementsTable achievements = $AchievementsTable(this);
   late final $ContentVersionsTable contentVersions = $ContentVersionsTable(
     this,
@@ -3276,6 +3742,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     lessonProgresses,
     puzzleProgresses,
     gameHistories,
+    savedAiGameSessions,
     achievements,
     contentVersions,
   ];
@@ -3380,6 +3847,38 @@ final class $$UsersTableReferences
         );
 
     final cache = $_typedResult.readTableOrNull(_gameHistoriesRefsTable($_db));
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+
+  static MultiTypedResultKey<
+    $SavedAiGameSessionsTable,
+    List<SavedAiGameSession>
+  >
+  _savedAiGameSessionsRefsTable(_$AppDatabase db) =>
+      MultiTypedResultKey.fromTable(
+        db.savedAiGameSessions,
+        aliasName: $_aliasNameGenerator(
+          db.users.localUserId,
+          db.savedAiGameSessions.ownerUserId,
+        ),
+      );
+
+  $$SavedAiGameSessionsTableProcessedTableManager get savedAiGameSessionsRefs {
+    final manager =
+        $$SavedAiGameSessionsTableTableManager(
+          $_db,
+          $_db.savedAiGameSessions,
+        ).filter(
+          (f) => f.ownerUserId.localUserId.sqlEquals(
+            $_itemColumn<String>('local_user_id')!,
+          ),
+        );
+
+    final cache = $_typedResult.readTableOrNull(
+      _savedAiGameSessionsRefsTable($_db),
+    );
     return ProcessedTableManager(
       manager.$state.copyWith(prefetchedData: cache),
     );
@@ -3528,6 +4027,31 @@ class $$UsersTableFilterComposer extends Composer<_$AppDatabase, $UsersTable> {
           }) => $$GameHistoriesTableFilterComposer(
             $db: $db,
             $table: $db.gameHistories,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
+  }
+
+  Expression<bool> savedAiGameSessionsRefs(
+    Expression<bool> Function($$SavedAiGameSessionsTableFilterComposer f) f,
+  ) {
+    final $$SavedAiGameSessionsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.localUserId,
+      referencedTable: $db.savedAiGameSessions,
+      getReferencedColumn: (t) => t.ownerUserId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$SavedAiGameSessionsTableFilterComposer(
+            $db: $db,
+            $table: $db.savedAiGameSessions,
             $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
             joinBuilder: joinBuilder,
             $removeJoinBuilderFromRootComposer:
@@ -3737,6 +4261,32 @@ class $$UsersTableAnnotationComposer
     return f(composer);
   }
 
+  Expression<T> savedAiGameSessionsRefs<T extends Object>(
+    Expression<T> Function($$SavedAiGameSessionsTableAnnotationComposer a) f,
+  ) {
+    final $$SavedAiGameSessionsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.localUserId,
+          referencedTable: $db.savedAiGameSessions,
+          getReferencedColumn: (t) => t.ownerUserId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$SavedAiGameSessionsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.savedAiGameSessions,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+
   Expression<T> achievementsRefs<T extends Object>(
     Expression<T> Function($$AchievementsTableAnnotationComposer a) f,
   ) {
@@ -3780,6 +4330,7 @@ class $$UsersTableTableManager
             bool lessonProgressesRefs,
             bool puzzleProgressesRefs,
             bool gameHistoriesRefs,
+            bool savedAiGameSessionsRefs,
             bool achievementsRefs,
           })
         > {
@@ -3853,6 +4404,7 @@ class $$UsersTableTableManager
                 lessonProgressesRefs = false,
                 puzzleProgressesRefs = false,
                 gameHistoriesRefs = false,
+                savedAiGameSessionsRefs = false,
                 achievementsRefs = false,
               }) {
                 return PrefetchHooks(
@@ -3861,6 +4413,7 @@ class $$UsersTableTableManager
                     if (lessonProgressesRefs) db.lessonProgresses,
                     if (puzzleProgressesRefs) db.puzzleProgresses,
                     if (gameHistoriesRefs) db.gameHistories,
+                    if (savedAiGameSessionsRefs) db.savedAiGameSessions,
                     if (achievementsRefs) db.achievements,
                   ],
                   addJoins: null,
@@ -3929,6 +4482,27 @@ class $$UsersTableTableManager
                               ),
                           typedResults: items,
                         ),
+                      if (savedAiGameSessionsRefs)
+                        await $_getPrefetchedData<
+                          User,
+                          $UsersTable,
+                          SavedAiGameSession
+                        >(
+                          currentTable: table,
+                          referencedTable: $$UsersTableReferences
+                              ._savedAiGameSessionsRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$UsersTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).savedAiGameSessionsRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.ownerUserId == item.localUserId,
+                              ),
+                          typedResults: items,
+                        ),
                       if (achievementsRefs)
                         await $_getPrefetchedData<
                           User,
@@ -3974,6 +4548,7 @@ typedef $$UsersTableProcessedTableManager =
         bool lessonProgressesRefs,
         bool puzzleProgressesRefs,
         bool gameHistoriesRefs,
+        bool savedAiGameSessionsRefs,
         bool achievementsRefs,
       })
     >;
@@ -5268,6 +5843,383 @@ typedef $$GameHistoriesTableProcessedTableManager =
       GameHistory,
       PrefetchHooks Function({bool ownerUserId})
     >;
+typedef $$SavedAiGameSessionsTableCreateCompanionBuilder =
+    SavedAiGameSessionsCompanion Function({
+      Value<int> id,
+      required String ownerUserId,
+      required int skillLevel,
+      Value<String> movesUciJson,
+      Value<DateTime> createdAt,
+      required DateTime updatedAt,
+      Value<String> syncState,
+    });
+typedef $$SavedAiGameSessionsTableUpdateCompanionBuilder =
+    SavedAiGameSessionsCompanion Function({
+      Value<int> id,
+      Value<String> ownerUserId,
+      Value<int> skillLevel,
+      Value<String> movesUciJson,
+      Value<DateTime> createdAt,
+      Value<DateTime> updatedAt,
+      Value<String> syncState,
+    });
+
+final class $$SavedAiGameSessionsTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $SavedAiGameSessionsTable,
+          SavedAiGameSession
+        > {
+  $$SavedAiGameSessionsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $UsersTable _ownerUserIdTable(_$AppDatabase db) =>
+      db.users.createAlias(
+        $_aliasNameGenerator(
+          db.savedAiGameSessions.ownerUserId,
+          db.users.localUserId,
+        ),
+      );
+
+  $$UsersTableProcessedTableManager get ownerUserId {
+    final $_column = $_itemColumn<String>('owner_user_id')!;
+
+    final manager = $$UsersTableTableManager(
+      $_db,
+      $_db.users,
+    ).filter((f) => f.localUserId.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_ownerUserIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$SavedAiGameSessionsTableFilterComposer
+    extends Composer<_$AppDatabase, $SavedAiGameSessionsTable> {
+  $$SavedAiGameSessionsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get skillLevel => $composableBuilder(
+    column: $table.skillLevel,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get movesUciJson => $composableBuilder(
+    column: $table.movesUciJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get syncState => $composableBuilder(
+    column: $table.syncState,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$UsersTableFilterComposer get ownerUserId {
+    final $$UsersTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.ownerUserId,
+      referencedTable: $db.users,
+      getReferencedColumn: (t) => t.localUserId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$UsersTableFilterComposer(
+            $db: $db,
+            $table: $db.users,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SavedAiGameSessionsTableOrderingComposer
+    extends Composer<_$AppDatabase, $SavedAiGameSessionsTable> {
+  $$SavedAiGameSessionsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get skillLevel => $composableBuilder(
+    column: $table.skillLevel,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get movesUciJson => $composableBuilder(
+    column: $table.movesUciJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get createdAt => $composableBuilder(
+    column: $table.createdAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get syncState => $composableBuilder(
+    column: $table.syncState,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$UsersTableOrderingComposer get ownerUserId {
+    final $$UsersTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.ownerUserId,
+      referencedTable: $db.users,
+      getReferencedColumn: (t) => t.localUserId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$UsersTableOrderingComposer(
+            $db: $db,
+            $table: $db.users,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SavedAiGameSessionsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SavedAiGameSessionsTable> {
+  $$SavedAiGameSessionsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<int> get skillLevel => $composableBuilder(
+    column: $table.skillLevel,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get movesUciJson => $composableBuilder(
+    column: $table.movesUciJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<DateTime> get createdAt =>
+      $composableBuilder(column: $table.createdAt, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  GeneratedColumn<String> get syncState =>
+      $composableBuilder(column: $table.syncState, builder: (column) => column);
+
+  $$UsersTableAnnotationComposer get ownerUserId {
+    final $$UsersTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.ownerUserId,
+      referencedTable: $db.users,
+      getReferencedColumn: (t) => t.localUserId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$UsersTableAnnotationComposer(
+            $db: $db,
+            $table: $db.users,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$SavedAiGameSessionsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SavedAiGameSessionsTable,
+          SavedAiGameSession,
+          $$SavedAiGameSessionsTableFilterComposer,
+          $$SavedAiGameSessionsTableOrderingComposer,
+          $$SavedAiGameSessionsTableAnnotationComposer,
+          $$SavedAiGameSessionsTableCreateCompanionBuilder,
+          $$SavedAiGameSessionsTableUpdateCompanionBuilder,
+          (SavedAiGameSession, $$SavedAiGameSessionsTableReferences),
+          SavedAiGameSession,
+          PrefetchHooks Function({bool ownerUserId})
+        > {
+  $$SavedAiGameSessionsTableTableManager(
+    _$AppDatabase db,
+    $SavedAiGameSessionsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SavedAiGameSessionsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$SavedAiGameSessionsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$SavedAiGameSessionsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> ownerUserId = const Value.absent(),
+                Value<int> skillLevel = const Value.absent(),
+                Value<String> movesUciJson = const Value.absent(),
+                Value<DateTime> createdAt = const Value.absent(),
+                Value<DateTime> updatedAt = const Value.absent(),
+                Value<String> syncState = const Value.absent(),
+              }) => SavedAiGameSessionsCompanion(
+                id: id,
+                ownerUserId: ownerUserId,
+                skillLevel: skillLevel,
+                movesUciJson: movesUciJson,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+                syncState: syncState,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String ownerUserId,
+                required int skillLevel,
+                Value<String> movesUciJson = const Value.absent(),
+                Value<DateTime> createdAt = const Value.absent(),
+                required DateTime updatedAt,
+                Value<String> syncState = const Value.absent(),
+              }) => SavedAiGameSessionsCompanion.insert(
+                id: id,
+                ownerUserId: ownerUserId,
+                skillLevel: skillLevel,
+                movesUciJson: movesUciJson,
+                createdAt: createdAt,
+                updatedAt: updatedAt,
+                syncState: syncState,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$SavedAiGameSessionsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({ownerUserId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (ownerUserId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.ownerUserId,
+                                referencedTable:
+                                    $$SavedAiGameSessionsTableReferences
+                                        ._ownerUserIdTable(db),
+                                referencedColumn:
+                                    $$SavedAiGameSessionsTableReferences
+                                        ._ownerUserIdTable(db)
+                                        .localUserId,
+                              )
+                              as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$SavedAiGameSessionsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SavedAiGameSessionsTable,
+      SavedAiGameSession,
+      $$SavedAiGameSessionsTableFilterComposer,
+      $$SavedAiGameSessionsTableOrderingComposer,
+      $$SavedAiGameSessionsTableAnnotationComposer,
+      $$SavedAiGameSessionsTableCreateCompanionBuilder,
+      $$SavedAiGameSessionsTableUpdateCompanionBuilder,
+      (SavedAiGameSession, $$SavedAiGameSessionsTableReferences),
+      SavedAiGameSession,
+      PrefetchHooks Function({bool ownerUserId})
+    >;
 typedef $$AchievementsTableCreateCompanionBuilder =
     AchievementsCompanion Function({
       required String id,
@@ -5830,6 +6782,8 @@ class $AppDatabaseManager {
       $$PuzzleProgressesTableTableManager(_db, _db.puzzleProgresses);
   $$GameHistoriesTableTableManager get gameHistories =>
       $$GameHistoriesTableTableManager(_db, _db.gameHistories);
+  $$SavedAiGameSessionsTableTableManager get savedAiGameSessions =>
+      $$SavedAiGameSessionsTableTableManager(_db, _db.savedAiGameSessions);
   $$AchievementsTableTableManager get achievements =>
       $$AchievementsTableTableManager(_db, _db.achievements);
   $$ContentVersionsTableTableManager get contentVersions =>

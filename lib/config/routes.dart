@@ -41,5 +41,16 @@ final GoRouter appRouter = GoRouter(
         return GameScreen(skillLevel: skillLevel);
       },
     ),
+    GoRoute(
+      path: '/play/game/:skillLevel/resume/:savedGameId',
+      builder: (context, state) {
+        final skillLevel =
+            int.tryParse(state.pathParameters['skillLevel'] ?? '3') ?? 3;
+        final savedGameId = int.tryParse(
+          state.pathParameters['savedGameId'] ?? '',
+        );
+        return GameScreen(skillLevel: skillLevel, savedGameId: savedGameId);
+      },
+    ),
   ],
 );

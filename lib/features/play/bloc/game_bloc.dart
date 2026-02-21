@@ -9,6 +9,7 @@ import 'package:schach_app/core/models/game_record.dart';
 import 'package:schach_app/core/opponent/opponent_provider.dart';
 import 'package:schach_app/core/storage/repositories/auth_repository.dart';
 import 'package:schach_app/core/storage/repositories/game_history_repository.dart';
+import 'package:schach_app/core/storage/repositories/saved_ai_game_repository.dart';
 
 part 'game_state.dart';
 
@@ -18,22 +19,52 @@ class GameBloc extends Cubit<GameState> {
     required OpponentProvider opponent,
     required AuthRepository authRepository,
     required GameHistoryRepository gameHistoryRepository,
+    required SavedAiGameRepository savedAiGameRepository,
+    required int skillLevel,
   }) : _engine = engine,
        _opponent = opponent,
        _authRepository = authRepository,
        _gameHistoryRepository = gameHistoryRepository,
+       _savedAiGameRepository = savedAiGameRepository,
+       _skillLevel = skillLevel,
        super(const GameState());
 
   final ChessEngine _engine;
   final OpponentProvider _opponent;
   final AuthRepository _authRepository;
   final GameHistoryRepository _gameHistoryRepository;
+  final SavedAiGameRepository _savedAiGameRepository;
+  final int _skillLevel;
 
   DateTime? _gameStartedAt;
+  String? _ownerUserId;
+  int? _savedGameId;
+  List<String> _movesUci = <String>[];
 
-  Future<void> startGame() async {
+  Future<void> startGame({int? resumeGameId}) async {
     _engine.reset();
     _gameStartedAt = DateTime.now();
+    _movesUci = <String>[];
+    _savedGameId = null;
+
+    final userId = await _authRepository.getCurrentLocalUserId();
+    _ownerUserId = userId;
+
+    String? startError;
+    final resumed = resumeGameId == null
+        ? false
+        : await _tryResumeGame(userId, resumeGameId);
+
+    if (!resumed) {
+      if (resumeGameId != null) {
+        startError =
+            'Gespeichertes Spiel konnte nicht geladen werden. Neues Spiel gestartet.';
+      }
+      _engine.reset();
+      await _createNewSavedGame(userId);
+    }
+
+    await _persistSavedGameState();
     final board = _engine.boardState;
     await _opponent.onGameStart(board);
 
@@ -43,7 +74,8 @@ class GameBloc extends Cubit<GameState> {
         boardState: board,
         legalMoves: _engine.allLegalMoves(),
         opponentName: _opponent.displayName,
-        clearMessages: true,
+        clearMessages: startError == null,
+        errorMessage: startError,
       ),
     );
   }
@@ -60,6 +92,7 @@ class GameBloc extends Cubit<GameState> {
       );
       return;
     }
+    await _appendMoveAndPersist(move);
 
     emit(
       state.copyWith(
@@ -86,6 +119,16 @@ class GameBloc extends Cubit<GameState> {
     }
 
     final opponentResult = _engine.makeMove(opponentMove);
+    if (!opponentResult.isLegal) {
+      emit(
+        state.copyWith(
+          isOpponentThinking: false,
+          errorMessage: opponentResult.message ?? 'Ungueltiger KI-Zug',
+        ),
+      );
+      return;
+    }
+    await _appendMoveAndPersist(opponentMove);
     emit(
       state.copyWith(
         boardState: _engine.boardState,
@@ -135,6 +178,7 @@ class GameBloc extends Cubit<GameState> {
         updatedAt: DateTime.now(),
       ),
     );
+    await _deleteSavedGame();
 
     emit(
       state.copyWith(
@@ -184,6 +228,74 @@ class GameBloc extends Cubit<GameState> {
             type: GameResultType.loss,
             message: 'Versuch es nochmal!',
           );
+  }
+
+  Future<void> _appendMoveAndPersist(String moveUci) async {
+    _movesUci.add(moveUci);
+    await _persistSavedGameState();
+  }
+
+  Future<void> _createNewSavedGame(String ownerUserId) async {
+    _savedGameId = await _savedAiGameRepository.createNewGame(
+      ownerUserId: ownerUserId,
+      skillLevel: _skillLevel,
+    );
+    _movesUci = <String>[];
+  }
+
+  Future<bool> _tryResumeGame(String ownerUserId, int resumeGameId) async {
+    final saved = await _savedAiGameRepository.getById(
+      ownerUserId: ownerUserId,
+      id: resumeGameId,
+    );
+    if (saved == null || saved.id == null) {
+      return false;
+    }
+
+    _engine.reset();
+    final restoredMoves = <String>[];
+    for (final move in saved.movesUci) {
+      final moveResult = _engine.makeMove(move);
+      if (!moveResult.isLegal) {
+        _engine.reset();
+        _movesUci = <String>[];
+        _savedGameId = null;
+        return false;
+      }
+      restoredMoves.add(move);
+    }
+
+    _savedGameId = saved.id;
+    _movesUci = restoredMoves;
+    return true;
+  }
+
+  Future<void> _persistSavedGameState() async {
+    final ownerUserId = _ownerUserId;
+    final savedGameId = _savedGameId;
+    if (ownerUserId == null || savedGameId == null) {
+      return;
+    }
+    await _savedAiGameRepository.updateMoves(
+      ownerUserId: ownerUserId,
+      id: savedGameId,
+      movesUci: _movesUci,
+      updatedAt: DateTime.now(),
+    );
+  }
+
+  Future<void> _deleteSavedGame() async {
+    final ownerUserId = _ownerUserId;
+    final savedGameId = _savedGameId;
+    _savedGameId = null;
+    _movesUci = <String>[];
+    if (ownerUserId == null || savedGameId == null) {
+      return;
+    }
+    await _savedAiGameRepository.deleteById(
+      ownerUserId: ownerUserId,
+      id: savedGameId,
+    );
   }
 
   @override
