@@ -1,18 +1,19 @@
 # PuzzlePlayerBloc
 
 ## Responsibility
-Drive puzzle-solving flow with hint handling and persistence of attempts/solves.
+Drive puzzle solving with drag-first input, hint handling, attempt tracking, and persistence.
 
 ## Inputs/Outputs
-- Input: puzzle pack id, move selection, hint action.
-- Output: puzzle state progression and persisted puzzle progress.
+- Input: pack id, `onUserMove(uci)`, hint/reset/next actions.
+- Output: puzzle progression state and persisted puzzle progress.
 
 ## State Model
-- status, active pack/puzzle index, legal moves, selected move, feedback, solved flag.
+- `status`, `pack`, `puzzleIndex`, `legalMoves`, `feedback`, `solved`.
+- Drag-sync fields: `boardFen`, `positionVersion`.
 
 ## Failure Handling
-- illegal move -> feedback.
-- wrong move -> reset puzzle position and increment attempts.
+- Illegal move -> feedback only.
+- Wrong legal move -> keep moved position visible, increment attempts, do not auto-reset.
 
 ## Dependencies
 - `ContentLoader`
@@ -21,9 +22,10 @@ Drive puzzle-solving flow with hint handling and persistence of attempts/solves.
 - `AuthRepository`
 
 ## Test Strategy
-- solve path and fail/retry path tests.
-- hint usage and persistence tests.
+- Correct drag move solves puzzle.
+- Wrong legal drag preserves moved board and feedback.
+- Manual reset restores start position.
 
 ## Extension Points
-- support multi-ply puzzle lines.
-- add timed mode and streak scoring.
+- Multi-ply puzzle lines.
+- Adaptive hint/feedback system.
