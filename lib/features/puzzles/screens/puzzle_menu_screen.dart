@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:schach_app/config/di.dart';
 import 'package:schach_app/core/content/content_loader.dart';
 import 'package:schach_app/core/content/content_manifest.dart';
+import 'package:schach_app/shared/widgets/app_back_button.dart';
 
 class PuzzleMenuScreen extends StatelessWidget {
   const PuzzleMenuScreen({super.key});
@@ -10,7 +11,10 @@ class PuzzleMenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Puzzle Packs')),
+      appBar: AppBar(
+        leading: const AppBackButton(),
+        title: const Text('Puzzle Packs'),
+      ),
       body: FutureBuilder<ContentManifest>(
         future: getIt<ContentLoader>().loadManifest(),
         builder:
@@ -36,7 +40,7 @@ class PuzzleMenuScreen extends StatelessWidget {
                       title: Text(pack.id),
                       subtitle: Text('${pack.count ?? 0} Aufgaben'),
                       trailing: const Icon(Icons.play_arrow),
-                      onTap: () => context.go('/puzzles/${pack.id}'),
+                      onTap: () => context.push('/puzzles/${pack.id}'),
                     ),
                   );
                 },

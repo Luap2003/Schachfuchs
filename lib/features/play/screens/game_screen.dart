@@ -9,6 +9,7 @@ import 'package:schach_app/features/play/bloc/game_bloc.dart';
 import 'package:schach_app/features/play/widgets/game_board.dart';
 import 'package:schach_app/features/play/widgets/game_controls.dart';
 import 'package:schach_app/features/play/widgets/game_move_input_section.dart';
+import 'package:schach_app/shared/widgets/app_back_button.dart';
 
 class GameScreen extends StatelessWidget {
   const GameScreen({required this.skillLevel, super.key});
@@ -25,7 +26,10 @@ class GameScreen extends StatelessWidget {
         gameHistoryRepository: getIt<GameHistoryRepository>(),
       )..startGame(),
       child: Scaffold(
-        appBar: AppBar(title: const Text('Spiel gegen KI')),
+        appBar: AppBar(
+          leading: const AppBackButton(),
+          title: const Text('Spiel gegen KI'),
+        ),
         body: BlocBuilder<GameBloc, GameState>(
           builder: (BuildContext context, GameState state) {
             final bloc = context.read<GameBloc>();

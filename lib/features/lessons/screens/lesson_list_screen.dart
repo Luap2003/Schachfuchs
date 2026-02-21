@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:schach_app/config/di.dart';
 import 'package:schach_app/core/content/content_loader.dart';
 import 'package:schach_app/core/content/content_manifest.dart';
+import 'package:schach_app/shared/widgets/app_back_button.dart';
 
 class LessonListScreen extends StatelessWidget {
   const LessonListScreen({super.key});
@@ -10,7 +11,10 @@ class LessonListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Lektionen')),
+      appBar: AppBar(
+        leading: const AppBackButton(),
+        title: const Text('Lektionen'),
+      ),
       body: FutureBuilder<ContentManifest>(
         future: getIt<ContentLoader>().loadManifest(),
         builder:
@@ -36,7 +40,7 @@ class LessonListScreen extends StatelessWidget {
                       title: Text(lesson.id),
                       subtitle: Text('Version ${lesson.version}'),
                       trailing: const Icon(Icons.play_arrow),
-                      onTap: () => context.go('/lessons/${lesson.id}'),
+                      onTap: () => context.push('/lessons/${lesson.id}'),
                     ),
                   );
                 },

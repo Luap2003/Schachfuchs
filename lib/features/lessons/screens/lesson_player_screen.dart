@@ -12,6 +12,7 @@ import 'package:schach_app/features/lessons/widgets/step_free_play.dart';
 import 'package:schach_app/features/lessons/widgets/step_guided_move.dart';
 import 'package:schach_app/features/lessons/widgets/step_multiple_choice.dart';
 import 'package:schach_app/features/lessons/widgets/step_watch.dart';
+import 'package:schach_app/shared/widgets/app_back_button.dart';
 import 'package:schach_app/shared/widgets/chess_board_widget.dart';
 
 class LessonPlayerScreen extends StatelessWidget {
@@ -29,7 +30,10 @@ class LessonPlayerScreen extends StatelessWidget {
         authRepository: getIt<AuthRepository>(),
       )..loadLesson(lessonId),
       child: Scaffold(
-        appBar: AppBar(title: const Text('Lektion spielen')),
+        appBar: AppBar(
+          leading: const AppBackButton(),
+          title: const Text('Lektion spielen'),
+        ),
         body: BlocBuilder<LessonPlayerBloc, LessonPlayerState>(
           builder: (BuildContext context, LessonPlayerState state) {
             if (state.status == LessonPlayerStatus.loading ||

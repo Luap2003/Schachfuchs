@@ -9,6 +9,7 @@ import 'package:schach_app/core/storage/repositories/progress_repository.dart';
 import 'package:schach_app/features/puzzles/bloc/puzzle_player_bloc.dart';
 import 'package:schach_app/features/puzzles/widgets/hint_button.dart';
 import 'package:schach_app/features/puzzles/widgets/puzzle_board.dart';
+import 'package:schach_app/shared/widgets/app_back_button.dart';
 
 class PuzzlePlayerScreen extends StatelessWidget {
   const PuzzlePlayerScreen({required this.packId, super.key});
@@ -25,7 +26,10 @@ class PuzzlePlayerScreen extends StatelessWidget {
         authRepository: getIt<AuthRepository>(),
       )..loadPack(packId),
       child: Scaffold(
-        appBar: AppBar(title: const Text('Puzzle spielen')),
+        appBar: AppBar(
+          leading: const AppBackButton(),
+          title: const Text('Puzzle spielen'),
+        ),
         body: BlocBuilder<PuzzlePlayerBloc, PuzzlePlayerState>(
           builder: (BuildContext context, PuzzlePlayerState state) {
             if (state.status == PuzzlePlayerStatus.loading ||
