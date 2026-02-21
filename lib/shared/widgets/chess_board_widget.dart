@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chess_board/flutter_chess_board.dart' as fcb;
 import 'package:schach_app/shared/theme/board_theme.dart';
+import 'package:schach_app/shared/widgets/uci_move_mapper.dart';
 
 class ChessArrowData {
   const ChessArrowData({
@@ -19,6 +20,9 @@ class ChessBoardWidget extends StatefulWidget {
     required this.fen,
     super.key,
     this.enableUserMoves = false,
+    this.isInputLocked = false,
+    this.positionVersion = 0,
+    this.onUserMoveUci,
     this.highlightSquares = const <String>[],
     this.arrows = const <ChessArrowData>[],
     this.size,
@@ -26,6 +30,9 @@ class ChessBoardWidget extends StatefulWidget {
 
   final String fen;
   final bool enableUserMoves;
+  final bool isInputLocked;
+  final int positionVersion;
+  final ValueChanged<String>? onUserMoveUci;
   final List<String> highlightSquares;
   final List<ChessArrowData> arrows;
   final double? size;
@@ -35,19 +42,22 @@ class ChessBoardWidget extends StatefulWidget {
 }
 
 class _ChessBoardWidgetState extends State<ChessBoardWidget> {
-  late final fcb.ChessBoardController _controller;
+  late fcb.ChessBoardController _controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = fcb.ChessBoardController.fromFEN(widget.fen);
+    _controller = _newController(widget.fen);
   }
 
   @override
   void didUpdateWidget(covariant ChessBoardWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.fen != widget.fen) {
-      _controller.loadFen(widget.fen);
+    final fenChanged = oldWidget.fen != widget.fen;
+    final versionChanged = oldWidget.positionVersion != widget.positionVersion;
+
+    if (fenChanged || versionChanged) {
+      _controller = _newController(widget.fen);
     }
   }
 
@@ -71,9 +81,10 @@ class _ChessBoardWidgetState extends State<ChessBoardWidget> {
           fcb.ChessBoard(
             controller: _controller,
             boardColor: fcb.BoardColor.green,
-            enableUserMoves: widget.enableUserMoves,
+            enableUserMoves: widget.enableUserMoves && !widget.isInputLocked,
             arrows: boardArrows,
             size: widget.size,
+            onMove: _onBoardMove,
           ),
           IgnorePointer(
             child: GridView.builder(
@@ -99,5 +110,27 @@ class _ChessBoardWidgetState extends State<ChessBoardWidget> {
         ],
       ),
     );
+  }
+
+  fcb.ChessBoardController _newController(String fen) {
+    return fcb.ChessBoardController.fromFEN(fen);
+  }
+
+  void _onBoardMove() {
+    final onUserMoveUci = widget.onUserMoveUci;
+    if (onUserMoveUci == null) {
+      return;
+    }
+
+    final history = _controller.game.getHistory({'verbose': true});
+    if (history.isEmpty) {
+      return;
+    }
+
+    final lastEntry = history.last as Map<String, dynamic>;
+    final uci = UciMoveMapper.fromVerboseHistoryEntry(lastEntry);
+    if (uci != null) {
+      onUserMoveUci(uci);
+    }
   }
 }
