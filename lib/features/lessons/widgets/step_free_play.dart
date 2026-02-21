@@ -4,33 +4,40 @@ import 'package:schach_app/features/lessons/widgets/step_guided_move.dart';
 class StepFreePlay extends StatelessWidget {
   const StepFreePlay({
     required this.text,
+    required this.feedback,
+    required this.onHint,
+    required this.requiresResetToRetry,
+    required this.onReset,
     required this.moves,
     required this.selectedMove,
-    required this.feedback,
     required this.onSelectMove,
-    required this.onSubmit,
-    required this.onHint,
+    required this.onSubmitDebug,
     super.key,
   });
 
   final String text;
+  final String? feedback;
+  final VoidCallback onHint;
+  final bool requiresResetToRetry;
+  final VoidCallback onReset;
+
   final List<String> moves;
   final String? selectedMove;
-  final String? feedback;
   final ValueChanged<String?> onSelectMove;
-  final VoidCallback onSubmit;
-  final VoidCallback onHint;
+  final VoidCallback onSubmitDebug;
 
   @override
   Widget build(BuildContext context) {
     return StepGuidedMove(
       text: text,
+      feedback: feedback,
+      onHint: onHint,
+      requiresResetToRetry: requiresResetToRetry,
+      onReset: onReset,
       moves: moves,
       selectedMove: selectedMove,
-      feedback: feedback,
       onSelectMove: onSelectMove,
-      onSubmit: onSubmit,
-      onHint: onHint,
+      onSubmitDebug: onSubmitDebug,
     );
   }
 }

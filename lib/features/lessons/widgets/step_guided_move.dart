@@ -1,24 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:schach_app/config/feature_flags.dart';
 
 class StepGuidedMove extends StatelessWidget {
   const StepGuidedMove({
     required this.text,
+    required this.feedback,
+    required this.onHint,
+    required this.requiresResetToRetry,
+    required this.onReset,
     required this.moves,
     required this.selectedMove,
-    required this.feedback,
     required this.onSelectMove,
-    required this.onSubmit,
-    required this.onHint,
+    required this.onSubmitDebug,
     super.key,
   });
 
   final String text;
+  final String? feedback;
+  final VoidCallback onHint;
+  final bool requiresResetToRetry;
+  final VoidCallback onReset;
+
   final List<String> moves;
   final String? selectedMove;
-  final String? feedback;
   final ValueChanged<String?> onSelectMove;
-  final VoidCallback onSubmit;
-  final VoidCallback onHint;
+  final VoidCallback onSubmitDebug;
 
   @override
   Widget build(BuildContext context) {
@@ -26,33 +32,41 @@ class StepGuidedMove extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Text(text, style: const TextStyle(fontSize: 16)),
-        const SizedBox(height: 12),
-        DropdownButtonFormField<String>(
-          key: ValueKey<String?>(selectedMove),
-          initialValue: selectedMove,
-          items: moves
-              .map(
-                (move) =>
-                    DropdownMenuItem<String>(value: move, child: Text(move)),
-              )
-              .toList(growable: false),
-          onChanged: onSelectMove,
-          decoration: const InputDecoration(
-            labelText: 'Waehle deinen Zug',
-            border: OutlineInputBorder(),
-          ),
-        ),
+        const SizedBox(height: 8),
+        const Text('Ziehe eine Figur per Drag-and-Drop auf das Zielfeld.'),
         const SizedBox(height: 10),
+        if (FeatureFlags.manualMoveDebugEnabled) ...<Widget>[
+          DropdownButtonFormField<String>(
+            key: ValueKey<String?>(selectedMove),
+            initialValue: selectedMove,
+            items: moves
+                .map(
+                  (move) =>
+                      DropdownMenuItem<String>(value: move, child: Text(move)),
+                )
+                .toList(growable: false),
+            onChanged: onSelectMove,
+            decoration: const InputDecoration(
+              labelText: 'Waehle deinen Zug (Debug)',
+              border: OutlineInputBorder(),
+            ),
+          ),
+          const SizedBox(height: 8),
+          ElevatedButton(
+            onPressed: onSubmitDebug,
+            child: const Text('Debug: Zug pruefen'),
+          ),
+          const SizedBox(height: 8),
+        ],
         Row(
           children: <Widget>[
-            Expanded(
-              child: ElevatedButton(
-                onPressed: onSubmit,
-                child: const Text('Zug pruefen'),
-              ),
-            ),
-            const SizedBox(width: 8),
             OutlinedButton(onPressed: onHint, child: const Text('Hinweis')),
+            const SizedBox(width: 8),
+            if (requiresResetToRetry)
+              ElevatedButton(
+                onPressed: onReset,
+                child: const Text('Startposition'),
+              ),
           ],
         ),
         if (feedback != null) ...<Widget>[

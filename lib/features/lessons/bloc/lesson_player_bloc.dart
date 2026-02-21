@@ -48,6 +48,9 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
           feedback: null,
           showHint: false,
           legalMoves: _engine.allLegalMoves(),
+          boardFen: _engine.boardState.fen,
+          positionVersion: state.positionVersion + 1,
+          requiresResetToRetry: false,
         ),
       );
     } catch (error) {
@@ -68,7 +71,19 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
     emit(state.copyWith(showHint: true));
   }
 
+  Future<void> onUserMove(String move) async {
+    await _evaluateMove(move);
+  }
+
   Future<void> submitMove() async {
+    if (state.selectedMove == null) {
+      emit(state.copyWith(feedback: 'Bitte waehle zuerst einen Zug aus.'));
+      return;
+    }
+    await _evaluateMove(state.selectedMove!);
+  }
+
+  Future<void> _evaluateMove(String move) async {
     final lesson = state.lesson;
     if (lesson == null || state.status == LessonPlayerStatus.completed) {
       return;
@@ -80,17 +95,23 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
       return;
     }
 
-    final move = state.selectedMove;
-    if (move == null) {
-      emit(state.copyWith(feedback: 'Bitte waehle zuerst einen Zug aus.'));
+    final moveResult = _engine.makeMove(move);
+    if (!moveResult.isLegal) {
+      emit(
+        state.copyWith(
+          feedback: 'Dieser Zug ist hier nicht erlaubt.',
+          selectedMove: null,
+        ),
+      );
       return;
     }
 
-    final moveResult = _engine.makeMove(move);
-    if (!moveResult.isLegal) {
-      emit(state.copyWith(feedback: 'Dieser Zug ist hier nicht erlaubt.'));
-      return;
-    }
+    emit(
+      state.copyWith(
+        boardFen: _engine.boardState.fen,
+        legalMoves: _engine.allLegalMoves(),
+      ),
+    );
 
     final bool isCorrect;
     if (step.type == LessonStepType.guidedMove) {
@@ -104,13 +125,13 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
     if (!isCorrect) {
       emit(
         state.copyWith(
-          feedback: step.failText ?? 'Noch nicht richtig. Versuch es nochmal.',
+          feedback:
+              '${step.failText ?? 'Noch nicht richtig. Versuch es nochmal.'} Nutze bei Bedarf "Startposition".',
           showHint: false,
           selectedMove: null,
+          requiresResetToRetry: true,
         ),
       );
-      _loadStepPosition(step);
-      emit(state.copyWith(legalMoves: _engine.allLegalMoves()));
       return;
     }
 
@@ -124,6 +145,7 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
           status: LessonPlayerStatus.completed,
           feedback: feedback,
           selectedMove: null,
+          requiresResetToRetry: false,
         ),
       );
       return;
@@ -156,6 +178,28 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
         feedback: null,
         showHint: false,
         legalMoves: _engine.allLegalMoves(),
+        boardFen: _engine.boardState.fen,
+        positionVersion: state.positionVersion + 1,
+        requiresResetToRetry: false,
+      ),
+    );
+  }
+
+  void resetCurrentStepPosition() {
+    final lesson = state.lesson;
+    if (lesson == null) {
+      return;
+    }
+    final step = lesson.steps[state.stepIndex];
+    _loadStepPosition(step);
+    emit(
+      state.copyWith(
+        boardFen: _engine.boardState.fen,
+        legalMoves: _engine.allLegalMoves(),
+        positionVersion: state.positionVersion + 1,
+        requiresResetToRetry: false,
+        feedback: null,
+        selectedMove: null,
       ),
     );
   }

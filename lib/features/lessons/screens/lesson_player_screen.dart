@@ -66,7 +66,13 @@ class LessonPlayerScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     ChessBoardWidget(
-                      fen: step.fen,
+                      fen: state.boardFen ?? step.fen,
+                      positionVersion: state.positionVersion,
+                      enableUserMoves: step.type != LessonStepType.explanation,
+                      isInputLocked:
+                          state.status == LessonPlayerStatus.completed,
+                      onUserMoveUci: (String uci) =>
+                          context.read<LessonPlayerBloc>().onUserMove(uci),
                       highlightSquares: step.highlightSquares,
                       arrows: step.arrows
                           .map(
@@ -110,29 +116,33 @@ class LessonPlayerScreen extends StatelessWidget {
       case LessonStepType.guidedMove:
         return StepGuidedMove(
           text: step.text,
+          feedback: state.showHint ? step.hint : state.feedback,
+          requiresResetToRetry: state.requiresResetToRetry,
+          onReset: bloc.resetCurrentStepPosition,
           moves: state.legalMoves,
           selectedMove: state.selectedMove,
-          feedback: state.showHint ? step.hint : state.feedback,
           onSelectMove: (String? value) {
             if (value != null) {
               bloc.selectMove(value);
             }
           },
-          onSubmit: bloc.submitMove,
+          onSubmitDebug: bloc.submitMove,
           onHint: bloc.revealHint,
         );
       case LessonStepType.freePlay:
         return StepFreePlay(
           text: step.text,
+          feedback: state.showHint ? step.hint : state.feedback,
+          requiresResetToRetry: state.requiresResetToRetry,
+          onReset: bloc.resetCurrentStepPosition,
           moves: state.legalMoves,
           selectedMove: state.selectedMove,
-          feedback: state.showHint ? step.hint : state.feedback,
           onSelectMove: (String? value) {
             if (value != null) {
               bloc.selectMove(value);
             }
           },
-          onSubmit: bloc.submitMove,
+          onSubmitDebug: bloc.submitMove,
           onHint: bloc.revealHint,
         );
       case LessonStepType.multipleChoice:
