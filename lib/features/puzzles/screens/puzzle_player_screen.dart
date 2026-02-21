@@ -70,6 +70,8 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     child: PuzzleBoard(
                       fen: state.boardFen ?? puzzle.fen,
                       positionVersion: state.positionVersion,
+                      isInputLocked:
+                          state.status == PuzzlePlayerStatus.completed,
                       onUserMoveUci: bloc.onUserMove,
                     ),
                   ),
@@ -107,21 +109,33 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                   ],
-                  Row(
-                    children: <Widget>[
-                      HintButton(onPressed: bloc.showHint),
-                      const SizedBox(width: 8),
-                      OutlinedButton(
-                        onPressed: bloc.resetCurrentPuzzlePosition,
-                        child: const Text('Startposition'),
-                      ),
-                    ],
-                  ),
+                  if (state.status != PuzzlePlayerStatus.completed)
+                    Row(
+                      children: <Widget>[
+                        HintButton(onPressed: bloc.showHint),
+                        const SizedBox(width: 8),
+                        OutlinedButton(
+                          onPressed: bloc.resetCurrentPuzzlePosition,
+                          child: const Text('Startposition'),
+                        ),
+                      ],
+                    ),
                   if (state.feedback != null) ...<Widget>[
                     const SizedBox(height: 8),
                     Text(state.feedback!),
                   ],
-                  if (state.solved) ...<Widget>[
+                  if (state.status == PuzzlePlayerStatus.completed) ...<Widget>[
+                    const SizedBox(height: 8),
+                    const Text(
+                      'Puzzle-Pack abgeschlossen! Stark!',
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(height: 8),
+                    ElevatedButton(
+                      onPressed: bloc.restartPackFromBeginning,
+                      child: const Text('Von vorne starten'),
+                    ),
+                  ] else if (state.solved) ...<Widget>[
                     const SizedBox(height: 8),
                     ElevatedButton(
                       onPressed: bloc.nextPuzzle,

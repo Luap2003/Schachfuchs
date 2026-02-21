@@ -31,17 +31,42 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
 
     try {
       final lesson = await _contentLoader.loadLessonById(lessonId);
+      if (lesson.steps.isEmpty) {
+        emit(
+          state.copyWith(
+            status: LessonPlayerStatus.ready,
+            lesson: lesson,
+            stepIndex: 0,
+            selectedMove: null,
+            feedback: null,
+            showHint: false,
+            legalMoves: const <String>[],
+            boardFen: null,
+            positionVersion: state.positionVersion + 1,
+            requiresResetToRetry: false,
+          ),
+        );
+        return;
+      }
+
       final userId = await _authRepository.getCurrentLocalUserId();
       final saved = await _progressRepository.getLessonProgress(
         ownerUserId: userId,
         lessonId: lesson.id,
       );
-      final initialIndex = saved?.currentStepIndex ?? 0;
+      final savedIndex = saved?.currentStepIndex ?? 0;
+      final maxIndex = lesson.steps.length - 1;
+      final initialIndex = savedIndex < 0
+          ? 0
+          : (savedIndex > maxIndex ? maxIndex : savedIndex);
+      final wasCompleted = saved?.isCompleted ?? false;
 
       _loadStepPosition(lesson.steps[initialIndex]);
       emit(
         state.copyWith(
-          status: LessonPlayerStatus.ready,
+          status: wasCompleted
+              ? LessonPlayerStatus.completed
+              : LessonPlayerStatus.ready,
           lesson: lesson,
           stepIndex: initialIndex,
           selectedMove: null,
@@ -200,6 +225,32 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
         requiresResetToRetry: false,
         feedback: null,
         selectedMove: null,
+      ),
+    );
+  }
+
+  Future<void> restartFromBeginning() async {
+    final lesson = state.lesson;
+    if (lesson == null) {
+      return;
+    }
+
+    const firstStepIndex = 0;
+    final firstStep = lesson.steps[firstStepIndex];
+    _loadStepPosition(firstStep);
+    await _persistProgress(lesson, firstStepIndex, completed: false);
+
+    emit(
+      state.copyWith(
+        status: LessonPlayerStatus.ready,
+        stepIndex: firstStepIndex,
+        selectedMove: null,
+        feedback: null,
+        showHint: false,
+        legalMoves: _engine.allLegalMoves(),
+        boardFen: _engine.boardState.fen,
+        positionVersion: state.positionVersion + 1,
+        requiresResetToRetry: false,
       ),
     );
   }

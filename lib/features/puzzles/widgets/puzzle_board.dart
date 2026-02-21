@@ -6,12 +6,14 @@ class PuzzleBoard extends StatelessWidget {
     required this.fen,
     required this.positionVersion,
     required this.onUserMoveUci,
+    this.isInputLocked = false,
     super.key,
   });
 
   final String fen;
   final int positionVersion;
   final ValueChanged<String> onUserMoveUci;
+  final bool isInputLocked;
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +21,7 @@ class PuzzleBoard extends StatelessWidget {
       fen: fen,
       positionVersion: positionVersion,
       enableUserMoves: true,
+      isInputLocked: isInputLocked,
       onUserMoveUci: onUserMoveUci,
     );
   }

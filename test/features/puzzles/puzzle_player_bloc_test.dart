@@ -50,4 +50,31 @@ void main() {
     expect(bloc.state.boardFen, initialFen);
     await bloc.close();
   });
+
+  test('completed puzzle pack can be restarted from beginning', () async {
+    final bloc = PuzzlePlayerBloc(
+      contentLoader: ContentLoader(),
+      engine: ChessEngine(),
+      progressRepository: InMemoryProgressRepository(),
+      authRepository: InMemoryAuthRepository(),
+    );
+
+    await bloc.loadPack('forks_beginner');
+    final totalPuzzles = bloc.state.pack!.puzzles.length;
+    for (var index = 0; index < totalPuzzles; index++) {
+      final expectedMove = bloc.state.currentPuzzle!.solutionMoves.first;
+      await bloc.onUserMove(expectedMove);
+      await bloc.nextPuzzle();
+    }
+
+    expect(bloc.state.status, PuzzlePlayerStatus.completed);
+
+    await bloc.restartPackFromBeginning();
+
+    expect(bloc.state.status, PuzzlePlayerStatus.ready);
+    expect(bloc.state.puzzleIndex, 0);
+    expect(bloc.state.solved, isFalse);
+    expect(bloc.state.currentPuzzle?.id, bloc.state.pack!.puzzles.first.id);
+    await bloc.close();
+  });
 }

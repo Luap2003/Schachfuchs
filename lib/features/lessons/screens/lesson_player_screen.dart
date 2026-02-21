@@ -97,6 +97,13 @@ class LessonPlayerScreen extends StatelessWidget {
                         'Lektion abgeschlossen! Super!',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
+                      const SizedBox(height: 8),
+                      ElevatedButton(
+                        onPressed: () => context
+                            .read<LessonPlayerBloc>()
+                            .restartFromBeginning(),
+                        child: const Text('Von vorne starten'),
+                      ),
                     ],
                   ],
                 ),

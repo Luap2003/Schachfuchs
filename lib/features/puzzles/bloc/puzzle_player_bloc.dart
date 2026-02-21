@@ -89,7 +89,9 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
   Future<void> _evaluateMove(String selectedMove) async {
     final puzzle = state.currentPuzzle;
     final pack = state.pack;
-    if (puzzle == null || pack == null) {
+    if (puzzle == null ||
+        pack == null ||
+        state.status == PuzzlePlayerStatus.completed) {
       return;
     }
 
@@ -137,7 +139,14 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
 
     final nextIndex = state.puzzleIndex + 1;
     if (nextIndex >= pack.puzzles.length) {
-      emit(state.copyWith(status: PuzzlePlayerStatus.completed));
+      emit(
+        state.copyWith(
+          status: PuzzlePlayerStatus.completed,
+          solved: false,
+          selectedMove: null,
+          feedback: null,
+        ),
+      );
       return;
     }
 
@@ -151,6 +160,31 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         legalMoves: _engine.allLegalMoves(),
         selectedMove: null,
         feedback: null,
+        solved: false,
+        boardFen: _engine.boardState.fen,
+        positionVersion: state.positionVersion + 1,
+      ),
+    );
+  }
+
+  Future<void> restartPackFromBeginning() async {
+    final pack = state.pack;
+    if (pack == null || pack.puzzles.isEmpty) {
+      return;
+    }
+
+    const firstPuzzleIndex = 0;
+    final firstPuzzle = pack.puzzles[firstPuzzleIndex];
+    _engine.loadFen(firstPuzzle.fen);
+
+    emit(
+      state.copyWith(
+        status: PuzzlePlayerStatus.ready,
+        puzzleIndex: firstPuzzleIndex,
+        legalMoves: _engine.allLegalMoves(),
+        selectedMove: null,
+        feedback: null,
+        hintsUsed: 0,
         solved: false,
         boardFen: _engine.boardState.fen,
         positionVersion: state.positionVersion + 1,

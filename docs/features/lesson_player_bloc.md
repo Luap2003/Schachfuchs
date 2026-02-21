@@ -4,7 +4,7 @@
 Control lesson step flow with drag-first move input, hints, retry/reset behavior, and progress persistence.
 
 ## Inputs/Outputs
-- Input: lesson id, `onUserMove(uci)`, hint/next/reset actions.
+- Input: lesson id, `onUserMove(uci)`, hint/next/reset actions, restart-from-start action.
 - Output: updated lesson state and persisted lesson progress.
 
 ## State Model
@@ -16,6 +16,7 @@ Control lesson step flow with drag-first move input, hints, retry/reset behavior
 - Invalid content -> `error` state.
 - Illegal move -> feedback, no progression.
 - Wrong legal move -> keep moved board visible, set reset-required hint.
+- Previously completed lesson load -> open in `completed` state until restarted.
 
 ## Dependencies
 - `ContentLoader`
@@ -27,6 +28,7 @@ Control lesson step flow with drag-first move input, hints, retry/reset behavior
 - Correct drag move advances step.
 - Wrong legal drag keeps moved board and enables reset path.
 - Hint visibility and reset behavior.
+- Completed lesson can restart from step 1 and clear completion marker.
 
 ## Extension Points
 - Add richer pedagogical feedback over wrong-move positions.
