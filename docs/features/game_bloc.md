@@ -14,6 +14,8 @@ Orchestrate full game loop: player drag move, opponent move, game end handling, 
 ## Failure Handling
 - Illegal player move -> error message, board state unchanged.
 - Opponent timeout/no move -> return to player turn without crash.
+- Checkmate -> finish game with explicit win/loss message.
+- Stalemate -> finish game as draw (`Patt`).
 
 ## Dependencies
 - `ChessEngine`
@@ -24,6 +26,7 @@ Orchestrate full game loop: player drag move, opponent move, game end handling, 
 ## Test Strategy
 - Player move -> opponent move sequencing.
 - Game-over persistence path.
+- Checkmate detection for both player win and player loss paths.
 - Input-locking behavior covered by play widget smoke tests.
 
 ## Extension Points

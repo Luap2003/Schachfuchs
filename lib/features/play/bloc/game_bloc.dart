@@ -107,17 +107,7 @@ class GameBloc extends Cubit<GameState> {
   }
 
   Future<void> _finishGame(MoveResult result, {required bool playerWon}) async {
-    final gameResult = result.isDraw
-        ? const GameResult(type: GameResultType.draw, message: 'Unentschieden!')
-        : playerWon
-        ? const GameResult(
-            type: GameResultType.win,
-            message: 'Du hast gewonnen!',
-          )
-        : const GameResult(
-            type: GameResultType.loss,
-            message: 'Versuch es nochmal!',
-          );
+    final gameResult = _resultFromMoveResult(result, playerWon: playerWon);
 
     await _opponent.onGameEnd(gameResult);
     final userId = await _authRepository.getCurrentLocalUserId();
@@ -153,6 +143,47 @@ class GameBloc extends Cubit<GameState> {
         isOpponentThinking: false,
       ),
     );
+  }
+
+  GameResult _resultFromMoveResult(
+    MoveResult result, {
+    required bool playerWon,
+  }) {
+    if (result.isCheckmate) {
+      return playerWon
+          ? const GameResult(
+              type: GameResultType.win,
+              message: 'Schachmatt! Du hast gewonnen!',
+            )
+          : const GameResult(
+              type: GameResultType.loss,
+              message: 'Schachmatt! Du wurdest mattgesetzt.',
+            );
+    }
+
+    if (result.isStalemate) {
+      return const GameResult(
+        type: GameResultType.draw,
+        message: 'Patt! Unentschieden!',
+      );
+    }
+
+    if (result.isDraw) {
+      return const GameResult(
+        type: GameResultType.draw,
+        message: 'Unentschieden!',
+      );
+    }
+
+    return playerWon
+        ? const GameResult(
+            type: GameResultType.win,
+            message: 'Du hast gewonnen!',
+          )
+        : const GameResult(
+            type: GameResultType.loss,
+            message: 'Versuch es nochmal!',
+          );
   }
 
   @override
