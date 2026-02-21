@@ -1,0 +1,68 @@
+{
+  "id": "lesson_pawn",
+  "title": "Der Bauer",
+  "description": "Lerne, wie der Bauer zieht und schlaegt",
+  "order": 1,
+  "category": "pieces",
+  "difficulty": "beginner",
+  "estimatedMinutes": 5,
+  "icon": "pawn",
+  "steps": [
+    {
+      "id": "pawn_intro",
+      "type": "explanation",
+      "fen": "4k3/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Willkommen Bauer",
+      "text": "Der Bauer geht nach vorne. Er ist klein, aber wichtig!",
+      "highlightSquares": ["e2"],
+      "arrows": []
+    },
+    {
+      "id": "pawn_move_one",
+      "type": "guided_move",
+      "fen": "4k3/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Ein Feld vor",
+      "text": "Ziehe den Bauern ein Feld nach vorne.",
+      "expectedMove": "e2e3",
+      "hint": "Bauern ziehen gerade nach vorne.",
+      "showLegalMoves": true
+    },
+    {
+      "id": "pawn_move_two",
+      "type": "guided_move",
+      "fen": "4k3/8/8/8/8/8/4P3/4K3 w - - 0 1",
+      "title": "Doppelschritt",
+      "text": "Im ersten Zug darf der Bauer auch zwei Felder gehen.",
+      "expectedMove": "e2e4",
+      "hint": "Vom Startfeld darf ein Bauer zwei Felder gehen.",
+      "showLegalMoves": true
+    },
+    {
+      "id": "pawn_capture",
+      "type": "guided_move",
+      "fen": "4k3/8/8/8/8/3p4/4P3/4K3 w - - 0 1",
+      "title": "Schlagen",
+      "text": "Bauern schlagen diagonal. Schlage den schwarzen Bauern.",
+      "expectedMove": "e2d3",
+      "hint": "Nicht geradeaus schlagen, sondern diagonal.",
+      "arrows": [
+        {
+          "from": "e2",
+          "to": "d3",
+          "color": "green"
+        }
+      ],
+      "showLegalMoves": true
+    },
+    {
+      "id": "pawn_quiz",
+      "type": "free_play",
+      "fen": "4k3/8/8/8/8/2p1p3/3P4/4K3 w - - 0 1",
+      "title": "Dein Zug",
+      "text": "Schlage einen der schwarzen Bauern.",
+      "acceptedMoves": ["d2c3", "d2e3"],
+      "successText": "Super! Genau so wird diagonal geschlagen.",
+      "failText": "Das war kein Schlagzug. Probier es diagonal."
+    }
+  ]
+}

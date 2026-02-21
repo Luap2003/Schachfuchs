@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "id": "lesson_pawn",
+      "file": "lessons/pieces/01_the_pawn.json",
+      "version": 1
+    }
+  ],
+  "puzzlePacks": [
+    {
+      "id": "forks_beginner",
+      "file": "puzzles/tactics/forks_beginner.json",
+      "version": 1,
+      "count": 3
+    }
+  ]
+}

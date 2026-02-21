@@ -1,0 +1,37 @@
+{
+  "packId": "forks_beginner",
+  "title": "Einfache Taktik",
+  "description": "Finde den besten Zug",
+  "category": "tactics",
+  "tags": ["fork", "beginner"],
+  "difficulty": 1,
+  "puzzles": [
+    {
+      "id": "fork_001",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 1",
+      "solutionMoves": ["h5f7"],
+      "firstMoveBy": "white",
+      "hint": "Suche einen Zug mit Schach und Figurengewinn.",
+      "theme": "fork",
+      "rating": 600
+    },
+    {
+      "id": "fork_002",
+      "fen": "4k3/8/8/3n4/8/8/4N3/4K3 w - - 0 1",
+      "solutionMoves": ["e2c3"],
+      "firstMoveBy": "white",
+      "hint": "Der Springer springt in L-Form.",
+      "theme": "fork",
+      "rating": 650
+    },
+    {
+      "id": "fork_003",
+      "fen": "4k3/8/8/8/3q4/8/4K3/3Q4 w - - 0 1",
+      "solutionMoves": ["d1d4"],
+      "firstMoveBy": "white",
+      "hint": "Tausche die gefaehrlichste gegnerische Figur ab.",
+      "theme": "fork",
+      "rating": 700
+    }
+  ]
+}
