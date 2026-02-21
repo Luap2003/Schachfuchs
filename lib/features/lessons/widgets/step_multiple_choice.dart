@@ -5,6 +5,6 @@ class StepMultipleChoice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Multiple Choice kommt in einer spaeteren Phase.');
+    return const Text('Multiple Choice kommt in einer späteren Phase.');
   }
 }

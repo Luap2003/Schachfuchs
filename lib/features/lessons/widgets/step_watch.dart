@@ -5,6 +5,6 @@ class StepWatch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Watch-Modus kommt in einer spaeteren Phase.');
+    return const Text('Watch-Modus kommt in einer späteren Phase.');
   }
 }

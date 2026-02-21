@@ -98,7 +98,7 @@ class _PlayMenuScreenState extends State<PlayMenuScreen> {
               const SizedBox(height: 8),
               _LevelTile(
                 title: 'Leicht - Friendly Pawn',
-                subtitle: 'Ideal fuer den Einstieg',
+                subtitle: 'Ideal für den Einstieg',
                 onTap: () => _openRoute('/play/game/3'),
               ),
               _LevelTile(

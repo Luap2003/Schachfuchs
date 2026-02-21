@@ -105,7 +105,7 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     const SizedBox(height: 8),
                     ElevatedButton(
                       onPressed: bloc.submitMove,
-                      child: const Text('Debug: Pruefen'),
+                      child: const Text('Debug: Prüfen'),
                     ),
                     const SizedBox(height: 8),
                   ],
@@ -139,7 +139,7 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     const SizedBox(height: 8),
                     ElevatedButton(
                       onPressed: bloc.nextPuzzle,
-                      child: const Text('Naechstes Puzzle'),
+                      child: const Text('Nächstes Puzzle'),
                     ),
                   ],
                 ],

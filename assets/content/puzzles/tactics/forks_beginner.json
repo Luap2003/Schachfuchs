@@ -29,7 +29,7 @@
       "fen": "4k3/8/8/8/3q4/8/4K3/3Q4 w - - 0 1",
       "solutionMoves": ["d1d4"],
       "firstMoveBy": "white",
-      "hint": "Tausche die gefaehrlichste gegnerische Figur ab.",
+      "hint": "Tausche die gefährlichste gegnerische Figur ab.",
       "theme": "fork",
       "rating": 700
     }

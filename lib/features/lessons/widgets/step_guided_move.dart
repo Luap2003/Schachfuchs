@@ -47,14 +47,14 @@ class StepGuidedMove extends StatelessWidget {
                 .toList(growable: false),
             onChanged: onSelectMove,
             decoration: const InputDecoration(
-              labelText: 'Waehle deinen Zug (Debug)',
+              labelText: 'Wähle deinen Zug (Debug)',
               border: OutlineInputBorder(),
             ),
           ),
           const SizedBox(height: 8),
           ElevatedButton(
             onPressed: onSubmitDebug,
-            child: const Text('Debug: Zug pruefen'),
+            child: const Text('Debug: Zug prüfen'),
           ),
           const SizedBox(height: 8),
         ],

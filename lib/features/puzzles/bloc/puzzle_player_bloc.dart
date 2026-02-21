@@ -80,7 +80,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
 
   Future<void> submitMove() async {
     if (state.selectedMove == null) {
-      emit(state.copyWith(feedback: 'Bitte waehle zuerst einen Zug aus.'));
+      emit(state.copyWith(feedback: 'Bitte wähle zuerst einen Zug aus.'));
       return;
     }
     await _evaluateMove(state.selectedMove!);
@@ -120,7 +120,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         state.copyWith(
           solved: false,
           feedback:
-              'Nicht ganz. Versuche es erneut oder setze die Position zurueck.',
+              'Nicht ganz. Versuche es erneut oder setze die Position zurück.',
           selectedMove: null,
         ),
       );
@@ -128,7 +128,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
     }
 
     await _saveProgress(solved: true, puzzle: puzzle, packId: pack.packId);
-    emit(state.copyWith(solved: true, feedback: 'Perfekt geloest!'));
+    emit(state.copyWith(solved: true, feedback: 'Perfekt gelöst!'));
   }
 
   Future<void> nextPuzzle() async {

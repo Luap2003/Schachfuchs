@@ -20,7 +20,7 @@ class GameMoveInputSection extends StatelessWidget {
     }
 
     return DropdownButtonFormField<String>(
-      hint: const Text('Waehle deinen Zug (Debug)'),
+      hint: const Text('Wähle deinen Zug (Debug)'),
       items: legalMoves
           .map(
             (move) => DropdownMenuItem<String>(value: move, child: Text(move)),

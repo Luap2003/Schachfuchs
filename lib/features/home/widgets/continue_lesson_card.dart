@@ -11,7 +11,7 @@ class ContinueLessonCard extends StatelessWidget {
       child: ListTile(
         leading: const Icon(Icons.menu_book),
         title: const Text('Lerne Lektionen'),
-        subtitle: const Text('Figuren und Regeln Schritt fuer Schritt.'),
+        subtitle: const Text('Figuren und Regeln Schritt für Schritt.'),
         trailing: const Icon(Icons.arrow_forward),
         onTap: onTap,
       ),

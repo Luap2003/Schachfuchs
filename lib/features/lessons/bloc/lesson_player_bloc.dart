@@ -102,7 +102,7 @@ class LessonPlayerBloc extends Cubit<LessonPlayerState> {
 
   Future<void> submitMove() async {
     if (state.selectedMove == null) {
-      emit(state.copyWith(feedback: 'Bitte waehle zuerst einen Zug aus.'));
+      emit(state.copyWith(feedback: 'Bitte wähle zuerst einen Zug aus.'));
       return;
     }
     await _evaluateMove(state.selectedMove!);

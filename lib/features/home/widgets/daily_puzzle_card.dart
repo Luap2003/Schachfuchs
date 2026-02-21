@@ -11,7 +11,7 @@ class DailyPuzzleCard extends StatelessWidget {
       child: ListTile(
         leading: const Icon(Icons.extension),
         title: const Text('Puzzle spielen'),
-        subtitle: const Text('Loese Taktik-Aufgaben offline.'),
+        subtitle: const Text('Löse Taktik-Aufgaben offline.'),
         trailing: const Icon(Icons.arrow_forward),
         onTap: onTap,
       ),

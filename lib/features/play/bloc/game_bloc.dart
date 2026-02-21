@@ -123,7 +123,7 @@ class GameBloc extends Cubit<GameState> {
       emit(
         state.copyWith(
           isOpponentThinking: false,
-          errorMessage: opponentResult.message ?? 'Ungueltiger KI-Zug',
+          errorMessage: opponentResult.message ?? 'Ungültiger KI-Zug',
         ),
       );
       return;
