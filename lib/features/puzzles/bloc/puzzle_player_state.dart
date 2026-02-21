@@ -13,6 +13,8 @@ class PuzzlePlayerState extends Equatable {
     this.errorMessage,
     this.hintsUsed = 0,
     this.solved = false,
+    this.boardFen,
+    this.positionVersion = 0,
   });
 
   final PuzzlePlayerStatus status;
@@ -24,6 +26,8 @@ class PuzzlePlayerState extends Equatable {
   final String? errorMessage;
   final int hintsUsed;
   final bool solved;
+  final String? boardFen;
+  final int positionVersion;
 
   Puzzle? get currentPuzzle {
     final pack = this.pack;
@@ -43,6 +47,8 @@ class PuzzlePlayerState extends Equatable {
     String? errorMessage,
     int? hintsUsed,
     bool? solved,
+    Object? boardFen = _sentinel,
+    int? positionVersion,
     bool clearError = false,
   }) {
     return PuzzlePlayerState(
@@ -57,6 +63,8 @@ class PuzzlePlayerState extends Equatable {
       errorMessage: clearError ? null : (errorMessage ?? this.errorMessage),
       hintsUsed: hintsUsed ?? this.hintsUsed,
       solved: solved ?? this.solved,
+      boardFen: boardFen == _sentinel ? this.boardFen : boardFen as String?,
+      positionVersion: positionVersion ?? this.positionVersion,
     );
   }
 
@@ -71,6 +79,8 @@ class PuzzlePlayerState extends Equatable {
     errorMessage,
     hintsUsed,
     solved,
+    boardFen,
+    positionVersion,
   ];
 }
 

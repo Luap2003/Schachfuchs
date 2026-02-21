@@ -12,6 +12,9 @@ class LessonPlayerState extends Equatable {
     this.feedback,
     this.errorMessage,
     this.showHint = false,
+    this.boardFen,
+    this.positionVersion = 0,
+    this.requiresResetToRetry = false,
   });
 
   final LessonPlayerStatus status;
@@ -22,6 +25,9 @@ class LessonPlayerState extends Equatable {
   final String? feedback;
   final String? errorMessage;
   final bool showHint;
+  final String? boardFen;
+  final int positionVersion;
+  final bool requiresResetToRetry;
 
   LessonStep? get currentStep {
     final lesson = this.lesson;
@@ -40,6 +46,9 @@ class LessonPlayerState extends Equatable {
     Object? feedback = _sentinel,
     String? errorMessage,
     bool? showHint,
+    Object? boardFen = _sentinel,
+    int? positionVersion,
+    bool? requiresResetToRetry,
     bool clearError = false,
   }) {
     return LessonPlayerState(
@@ -53,6 +62,9 @@ class LessonPlayerState extends Equatable {
       feedback: feedback == _sentinel ? this.feedback : feedback as String?,
       errorMessage: clearError ? null : (errorMessage ?? this.errorMessage),
       showHint: showHint ?? this.showHint,
+      boardFen: boardFen == _sentinel ? this.boardFen : boardFen as String?,
+      positionVersion: positionVersion ?? this.positionVersion,
+      requiresResetToRetry: requiresResetToRetry ?? this.requiresResetToRetry,
     );
   }
 
@@ -66,6 +78,9 @@ class LessonPlayerState extends Equatable {
     feedback,
     errorMessage,
     showHint,
+    boardFen,
+    positionVersion,
+    requiresResetToRetry,
   ];
 }
 

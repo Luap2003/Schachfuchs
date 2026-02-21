@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:schach_app/config/di.dart';
+import 'package:schach_app/config/feature_flags.dart';
 import 'package:schach_app/core/content/content_loader.dart';
 import 'package:schach_app/core/engine/chess_engine.dart';
 import 'package:schach_app/core/storage/repositories/auth_repository.dart';
@@ -61,40 +62,55 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     'Aufgabe ${state.puzzleIndex + 1}/${state.pack!.puzzles.length}',
                   ),
                   const SizedBox(height: 12),
-                  Expanded(child: PuzzleBoard(fen: puzzle.fen)),
-                  const SizedBox(height: 12),
-                  DropdownButtonFormField<String>(
-                    key: ValueKey<String?>(state.selectedMove),
-                    initialValue: state.selectedMove,
-                    items: state.legalMoves
-                        .map(
-                          (move) => DropdownMenuItem<String>(
-                            value: move,
-                            child: Text(move),
-                          ),
-                        )
-                        .toList(growable: false),
-                    onChanged: (String? value) {
-                      if (value != null) {
-                        bloc.selectMove(value);
-                      }
-                    },
-                    decoration: const InputDecoration(
-                      labelText: 'Dein Zug',
-                      border: OutlineInputBorder(),
+                  Expanded(
+                    child: PuzzleBoard(
+                      fen: state.boardFen ?? puzzle.fen,
+                      positionVersion: state.positionVersion,
+                      onUserMoveUci: bloc.onUserMove,
                     ),
                   ),
+                  const SizedBox(height: 12),
+                  const Text(
+                    'Ziehe eine Figur per Drag-and-Drop auf das Zielfeld.',
+                  ),
                   const SizedBox(height: 8),
+                  if (FeatureFlags.manualMoveDebugEnabled) ...<Widget>[
+                    DropdownButtonFormField<String>(
+                      key: ValueKey<String?>(state.selectedMove),
+                      initialValue: state.selectedMove,
+                      items: state.legalMoves
+                          .map(
+                            (move) => DropdownMenuItem<String>(
+                              value: move,
+                              child: Text(move),
+                            ),
+                          )
+                          .toList(growable: false),
+                      onChanged: (String? value) {
+                        if (value != null) {
+                          bloc.selectMove(value);
+                        }
+                      },
+                      decoration: const InputDecoration(
+                        labelText: 'Dein Zug (Debug)',
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    ElevatedButton(
+                      onPressed: bloc.submitMove,
+                      child: const Text('Debug: Pruefen'),
+                    ),
+                    const SizedBox(height: 8),
+                  ],
                   Row(
                     children: <Widget>[
-                      Expanded(
-                        child: ElevatedButton(
-                          onPressed: bloc.submitMove,
-                          child: const Text('Pruefen'),
-                        ),
-                      ),
-                      const SizedBox(width: 8),
                       HintButton(onPressed: bloc.showHint),
+                      const SizedBox(width: 8),
+                      OutlinedButton(
+                        onPressed: bloc.resetCurrentPuzzlePosition,
+                        child: const Text('Startposition'),
+                      ),
                     ],
                   ),
                   if (state.feedback != null) ...<Widget>[

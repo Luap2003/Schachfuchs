@@ -8,6 +8,7 @@ import 'package:schach_app/core/storage/repositories/game_history_repository.dar
 import 'package:schach_app/features/play/bloc/game_bloc.dart';
 import 'package:schach_app/features/play/widgets/game_board.dart';
 import 'package:schach_app/features/play/widgets/game_controls.dart';
+import 'package:schach_app/features/play/widgets/game_move_input_section.dart';
 
 class GameScreen extends StatelessWidget {
   const GameScreen({required this.skillLevel, super.key});
@@ -45,28 +46,24 @@ class GameScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 12),
-                  Expanded(child: GameBoard(fen: fen)),
-                  const SizedBox(height: 12),
-                  DropdownButtonFormField<String>(
-                    hint: const Text('Waehle deinen Zug'),
-                    items: state.legalMoves
-                        .map(
-                          (move) => DropdownMenuItem<String>(
-                            value: move,
-                            child: Text(move),
-                          ),
-                        )
-                        .toList(growable: false),
-                    onChanged: state.isOpponentThinking
-                        ? null
-                        : (String? value) {
-                            if (value != null) {
-                              bloc.playMove(value);
-                            }
-                          },
-                    decoration: const InputDecoration(
-                      border: OutlineInputBorder(),
+                  Expanded(
+                    child: GameBoard(
+                      fen: fen,
+                      isInputLocked:
+                          state.isOpponentThinking ||
+                          state.status == GameStatus.finished,
+                      onUserMoveUci: bloc.playMove,
                     ),
+                  ),
+                  const SizedBox(height: 12),
+                  const Text('Ziehe eine Figur auf das Zielfeld.'),
+                  const SizedBox(height: 8),
+                  GameMoveInputSection(
+                    legalMoves: state.legalMoves,
+                    isInputLocked:
+                        state.isOpponentThinking ||
+                        state.status == GameStatus.finished,
+                    onMove: bloc.playMove,
                   ),
                   if (state.isOpponentThinking) ...<Widget>[
                     const SizedBox(height: 8),

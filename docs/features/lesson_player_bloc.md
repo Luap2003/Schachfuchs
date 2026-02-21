@@ -1,18 +1,21 @@
 # LessonPlayerBloc
 
 ## Responsibility
-Control lesson step flow, move validation, hints, and lesson progress persistence.
+Control lesson step flow with drag-first move input, hints, retry/reset behavior, and progress persistence.
 
 ## Inputs/Outputs
-- Input: lesson id, move selections, hint/next actions.
-- Output: state updates for UI and persisted lesson progress.
+- Input: lesson id, `onUserMove(uci)`, hint/next/reset actions.
+- Output: updated lesson state and persisted lesson progress.
 
 ## State Model
-- status, current lesson, step index, legal moves, selected move, feedback, hint flag.
+- `status`, `lesson`, `stepIndex`, `legalMoves`, `feedback`, `showHint`.
+- Drag-sync fields: `boardFen`, `positionVersion`.
+- Retry marker: `requiresResetToRetry` when a legal-but-wrong move is made.
 
 ## Failure Handling
-- invalid content -> error state.
-- illegal move -> feedback message and no step advance.
+- Invalid content -> `error` state.
+- Illegal move -> feedback, no progression.
+- Wrong legal move -> keep moved board visible, set reset-required hint.
 
 ## Dependencies
 - `ContentLoader`
@@ -21,9 +24,10 @@ Control lesson step flow, move validation, hints, and lesson progress persistenc
 - `AuthRepository`
 
 ## Test Strategy
-- step transitions for explanation/guided/free play.
-- correct vs incorrect move handling.
+- Correct drag move advances step.
+- Wrong legal drag keeps moved board and enables reset path.
+- Hint visibility and reset behavior.
 
 ## Extension Points
-- add scoring/time bonuses.
-- add multiple-choice/watch full support.
+- Add richer pedagogical feedback over wrong-move positions.
+- Add timed/star scoring adjustments.

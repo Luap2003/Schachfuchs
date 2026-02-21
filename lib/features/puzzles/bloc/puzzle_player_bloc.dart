@@ -43,6 +43,8 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
           feedback: null,
           hintsUsed: 0,
           solved: false,
+          boardFen: _engine.boardState.fen,
+          positionVersion: state.positionVersion + 1,
         ),
       );
     } catch (error) {
@@ -72,19 +74,42 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
     );
   }
 
+  Future<void> onUserMove(String move) async {
+    await _evaluateMove(move);
+  }
+
   Future<void> submitMove() async {
+    if (state.selectedMove == null) {
+      emit(state.copyWith(feedback: 'Bitte waehle zuerst einen Zug aus.'));
+      return;
+    }
+    await _evaluateMove(state.selectedMove!);
+  }
+
+  Future<void> _evaluateMove(String selectedMove) async {
     final puzzle = state.currentPuzzle;
     final pack = state.pack;
-    final selectedMove = state.selectedMove;
-    if (puzzle == null || pack == null || selectedMove == null) {
+    if (puzzle == null || pack == null) {
       return;
     }
 
     final moveResult = _engine.makeMove(selectedMove);
     if (!moveResult.isLegal) {
-      emit(state.copyWith(feedback: 'Dieser Zug ist nicht legal.'));
+      emit(
+        state.copyWith(
+          feedback: 'Dieser Zug ist nicht legal.',
+          selectedMove: null,
+        ),
+      );
       return;
     }
+
+    emit(
+      state.copyWith(
+        boardFen: _engine.boardState.fen,
+        legalMoves: _engine.allLegalMoves(),
+      ),
+    );
 
     final expectedMove = puzzle.solutionMoves.first;
     if (selectedMove != expectedMove) {
@@ -92,12 +117,11 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
       emit(
         state.copyWith(
           solved: false,
-          feedback: 'Nicht ganz. Versuche es erneut.',
+          feedback:
+              'Nicht ganz. Versuche es erneut oder setze die Position zurueck.',
           selectedMove: null,
         ),
       );
-      _engine.loadFen(puzzle.fen);
-      emit(state.copyWith(legalMoves: _engine.allLegalMoves()));
       return;
     }
 
@@ -128,6 +152,25 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         selectedMove: null,
         feedback: null,
         solved: false,
+        boardFen: _engine.boardState.fen,
+        positionVersion: state.positionVersion + 1,
+      ),
+    );
+  }
+
+  void resetCurrentPuzzlePosition() {
+    final puzzle = state.currentPuzzle;
+    if (puzzle == null) {
+      return;
+    }
+    _engine.loadFen(puzzle.fen);
+    emit(
+      state.copyWith(
+        boardFen: _engine.boardState.fen,
+        legalMoves: _engine.allLegalMoves(),
+        positionVersion: state.positionVersion + 1,
+        selectedMove: null,
+        feedback: null,
       ),
     );
   }

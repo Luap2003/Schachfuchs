@@ -1,24 +1,29 @@
 # ChessBoardWidget
 
 ## Responsibility
-Render chess position from FEN and optional guidance overlays (highlights/arrows).
+Render chess position from FEN, support guidance overlays, and emit user drag moves as UCI.
 
 ## Inputs/Outputs
-- Input: FEN, highlighted squares, arrow descriptors.
-- Output: visual board widget for lesson/puzzle/game screens.
+- Input: `fen`, `positionVersion`, `enableUserMoves`, `isInputLocked`, highlights, arrows.
+- Output: board UI and `onUserMoveUci` callbacks after successful drag moves.
 
 ## State Model
-- internal `ChessBoardController` synced via `didUpdateWidget`.
+- Internal `ChessBoardController`.
+- Controller is recreated when `fen` or `positionVersion` changes.
+- `isInputLocked` disables drag interactions without removing board state.
 
 ## Failure Handling
-- invalid FEN should be rejected before reaching widget (loader/engine level).
+- Invalid FEN should be filtered before widget usage (engine/content layer).
+- If move history cannot be mapped to UCI, callback is skipped.
 
 ## Dependencies
 - `flutter_chess_board`
+- `UciMoveMapper`
 
 ## Test Strategy
-- widget smoke test for FEN update and overlay rendering.
+- Unit tests for `UciMoveMapper` (normal/capture/castling/promotion).
+- Widget tests for drag-input visibility and fallback behavior.
 
 ## Extension Points
-- add tap callbacks for custom move input.
-- animate move paths and celebrations.
+- Add animation hooks for wrong/correct-move feedback.
+- Add deterministic fallback mapper if history parsing is insufficient.
