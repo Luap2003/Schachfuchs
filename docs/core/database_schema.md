@@ -28,3 +28,14 @@ Persist offline profile, progress, game history, resumable AI games, achievement
 ## Extension Points
 - Add sync cursor and conflict resolution metadata.
 - Add index tuning when datasets grow.
+- Add persisted per-pack aggregates if puzzle-pack scale grows beyond on-read aggregation.
+
+## Puzzle Progress Aggregation Notes
+- No schema migration is required for pack progress UI.
+- Pack summaries are derived from `puzzle_progresses` rows:
+  - solved: `is_solved = true`
+  - attempted-unsolved: `is_solved = false` (row exists)
+  - open: puzzles without a row
+- Repository supports pack-level reads:
+  - `listPuzzleProgressByPack(ownerUserId, packId)`
+  - `listPuzzleProgressByPacks(ownerUserId, packIds)`

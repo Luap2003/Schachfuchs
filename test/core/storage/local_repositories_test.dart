@@ -60,6 +60,28 @@ void main() {
           updatedAt: DateTime.now(),
         ),
       );
+      await repo.upsertPuzzleProgress(
+        PuzzleProgress(
+          ownerUserId: profile.localUserId,
+          puzzleId: 'lichess_test_002',
+          packId: 'gen_fork_600_999',
+          isSolved: false,
+          attempts: 2,
+          hintsUsed: 1,
+          updatedAt: DateTime.now(),
+        ),
+      );
+      await repo.upsertPuzzleProgress(
+        PuzzleProgress(
+          ownerUserId: profile.localUserId,
+          puzzleId: 'lichess_test_003',
+          packId: 'gen_pin_600_999',
+          isSolved: true,
+          attempts: 1,
+          solvedAt: DateTime.now(),
+          updatedAt: DateTime.now(),
+        ),
+      );
 
       final lesson = await repo.getLessonProgress(
         ownerUserId: profile.localUserId,
@@ -72,6 +94,18 @@ void main() {
 
       expect(lesson?.currentStepIndex, 2);
       expect(puzzle?.isSolved, isTrue);
+
+      final byPack = await repo.listPuzzleProgressByPack(
+        ownerUserId: profile.localUserId,
+        packId: 'gen_fork_600_999',
+      );
+      expect(byPack, hasLength(2));
+
+      final byPacks = await repo.listPuzzleProgressByPacks(
+        ownerUserId: profile.localUserId,
+        packIds: const <String>['gen_fork_600_999', 'gen_pin_600_999'],
+      );
+      expect(byPacks, hasLength(3));
     });
 
     test('game history repository stores records', () async {
