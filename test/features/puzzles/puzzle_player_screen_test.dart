@@ -93,6 +93,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Aufgabe 1/3'), findsOneWidget);
+    expect(find.text('Du spielst: Weiss'), findsOneWidget);
 
     await tester.tap(find.byIcon(Icons.list_alt));
     await tester.pumpAndSettle();

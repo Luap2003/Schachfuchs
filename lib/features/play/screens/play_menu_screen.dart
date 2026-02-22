@@ -41,6 +41,25 @@ class _PlayMenuScreenState extends State<PlayMenuScreen> {
     _refreshSavedGames();
   }
 
+  Future<void> _deleteSavedGame(SavedAiGame savedGame) async {
+    final gameId = savedGame.id;
+    if (gameId == null) {
+      return;
+    }
+    final userId = await getIt<AuthRepository>().getCurrentLocalUserId();
+    await getIt<SavedAiGameRepository>().deleteById(
+      ownerUserId: userId,
+      id: gameId,
+    );
+    if (!mounted) {
+      return;
+    }
+    _refreshSavedGames();
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('Gespeichertes Spiel gelöscht.')),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -82,7 +101,17 @@ class _PlayMenuScreenState extends State<PlayMenuScreen> {
                       subtitle: Text(
                         'Zuletzt gespielt: ${_formatDateTime(savedGame.updatedAt)}',
                       ),
-                      trailing: const Icon(Icons.play_arrow),
+                      trailing: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          const Icon(Icons.play_arrow),
+                          IconButton(
+                            icon: const Icon(Icons.delete_outline),
+                            tooltip: 'Spiel löschen',
+                            onPressed: () => _deleteSavedGame(savedGame),
+                          ),
+                        ],
+                      ),
                       onTap: () => _openRoute(
                         '/play/game/${savedGame.skillLevel}/resume/${savedGame.id}',
                       ),

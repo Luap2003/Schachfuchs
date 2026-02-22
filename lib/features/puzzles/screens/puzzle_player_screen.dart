@@ -60,6 +60,7 @@ class PuzzlePlayerScreen extends StatelessWidget {
               return const Center(child: Text('Keine Puzzle gefunden.'));
             }
             final currentPuzzleStatus = state.currentPuzzleStatus;
+            final isWhiteToMove = _isWhiteToMove(puzzle.fen);
             final currentMoveDisplay = state.solved
                 ? puzzle.playerMoves.length
                 : state.currentPlayerMoveIndex + 1;
@@ -89,6 +90,8 @@ class PuzzlePlayerScreen extends StatelessWidget {
                     '${state.solvedCount}/${state.totalPuzzles} gelöst · ${state.attemptedCount} versucht · ${state.openCount} offen',
                   ),
                   const SizedBox(height: 8),
+                  Text('Du spielst: ${isWhiteToMove ? 'Weiss' : 'Schwarz'}'),
+                  const SizedBox(height: 4),
                   Wrap(
                     spacing: 8,
                     runSpacing: 4,
@@ -468,4 +471,12 @@ String _statusLabel(PuzzleStatus status) {
     case PuzzleStatus.solved:
       return 'Gelöst';
   }
+}
+
+bool _isWhiteToMove(String fen) {
+  final parts = fen.split(' ');
+  if (parts.length < 2) {
+    return true;
+  }
+  return parts[1] == 'w';
 }
