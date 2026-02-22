@@ -10,13 +10,15 @@ void main() {
 
       final manifest = await loader.loadManifest();
       final lesson = await loader.loadLessonById('lesson_pawn');
-      final pack = await loader.loadPuzzlePackById('forks_beginner');
-      final secondPack = await loader.loadPuzzlePackById('tactics_beginner_2');
+      final pack = await loader.loadPuzzlePackById('gen_fork_600_999');
+      final secondPack = await loader.loadPuzzlePackById(
+        'gen_starter_mix_600_999',
+      );
 
       expect(manifest.version, isNotEmpty);
       expect(lesson.steps, isNotEmpty);
-      expect(pack.puzzles.length, greaterThanOrEqualTo(3));
-      expect(secondPack.puzzles.length, greaterThanOrEqualTo(3));
+      expect(pack.puzzles.length, equals(200));
+      expect(secondPack.puzzles.length, equals(200));
     });
 
     test('verifies integrity without throwing', () async {

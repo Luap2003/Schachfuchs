@@ -15,7 +15,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$ContentIndexEntry {
 
- String get id; String get file; int get version; int? get count;
+ String get id; String get file; int get version; int? get count; String? get title; String? get category; int? get difficulty; List<String> get tags;
 /// Create a copy of ContentIndexEntry
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -28,16 +28,16 @@ $ContentIndexEntryCopyWith<ContentIndexEntry> get copyWith => _$ContentIndexEntr
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is ContentIndexEntry&&(identical(other.id, id) || other.id == id)&&(identical(other.file, file) || other.file == file)&&(identical(other.version, version) || other.version == version)&&(identical(other.count, count) || other.count == count));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is ContentIndexEntry&&(identical(other.id, id) || other.id == id)&&(identical(other.file, file) || other.file == file)&&(identical(other.version, version) || other.version == version)&&(identical(other.count, count) || other.count == count)&&(identical(other.title, title) || other.title == title)&&(identical(other.category, category) || other.category == category)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&const DeepCollectionEquality().equals(other.tags, tags));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,file,version,count);
+int get hashCode => Object.hash(runtimeType,id,file,version,count,title,category,difficulty,const DeepCollectionEquality().hash(tags));
 
 @override
 String toString() {
-  return 'ContentIndexEntry(id: $id, file: $file, version: $version, count: $count)';
+  return 'ContentIndexEntry(id: $id, file: $file, version: $version, count: $count, title: $title, category: $category, difficulty: $difficulty, tags: $tags)';
 }
 
 
@@ -48,7 +48,7 @@ abstract mixin class $ContentIndexEntryCopyWith<$Res>  {
   factory $ContentIndexEntryCopyWith(ContentIndexEntry value, $Res Function(ContentIndexEntry) _then) = _$ContentIndexEntryCopyWithImpl;
 @useResult
 $Res call({
- String id, String file, int version, int? count
+ String id, String file, int version, int? count, String? title, String? category, int? difficulty, List<String> tags
 });
 
 
@@ -65,13 +65,17 @@ class _$ContentIndexEntryCopyWithImpl<$Res>
 
 /// Create a copy of ContentIndexEntry
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? file = null,Object? version = null,Object? count = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? file = null,Object? version = null,Object? count = freezed,Object? title = freezed,Object? category = freezed,Object? difficulty = freezed,Object? tags = null,}) {
   return _then(_self.copyWith(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,file: null == file ? _self.file : file // ignore: cast_nullable_to_non_nullable
 as String,version: null == version ? _self.version : version // ignore: cast_nullable_to_non_nullable
 as int,count: freezed == count ? _self.count : count // ignore: cast_nullable_to_non_nullable
-as int?,
+as int?,title: freezed == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
+as String?,category: freezed == category ? _self.category : category // ignore: cast_nullable_to_non_nullable
+as String?,difficulty: freezed == difficulty ? _self.difficulty : difficulty // ignore: cast_nullable_to_non_nullable
+as int?,tags: null == tags ? _self.tags : tags // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 
@@ -156,10 +160,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String file,  int version,  int? count)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String file,  int version,  int? count,  String? title,  String? category,  int? difficulty,  List<String> tags)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _ContentIndexEntry() when $default != null:
-return $default(_that.id,_that.file,_that.version,_that.count);case _:
+return $default(_that.id,_that.file,_that.version,_that.count,_that.title,_that.category,_that.difficulty,_that.tags);case _:
   return orElse();
 
 }
@@ -177,10 +181,10 @@ return $default(_that.id,_that.file,_that.version,_that.count);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String file,  int version,  int? count)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String file,  int version,  int? count,  String? title,  String? category,  int? difficulty,  List<String> tags)  $default,) {final _that = this;
 switch (_that) {
 case _ContentIndexEntry():
-return $default(_that.id,_that.file,_that.version,_that.count);case _:
+return $default(_that.id,_that.file,_that.version,_that.count,_that.title,_that.category,_that.difficulty,_that.tags);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -197,10 +201,10 @@ return $default(_that.id,_that.file,_that.version,_that.count);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String file,  int version,  int? count)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String file,  int version,  int? count,  String? title,  String? category,  int? difficulty,  List<String> tags)?  $default,) {final _that = this;
 switch (_that) {
 case _ContentIndexEntry() when $default != null:
-return $default(_that.id,_that.file,_that.version,_that.count);case _:
+return $default(_that.id,_that.file,_that.version,_that.count,_that.title,_that.category,_that.difficulty,_that.tags);case _:
   return null;
 
 }
@@ -209,16 +213,26 @@ return $default(_that.id,_that.file,_that.version,_that.count);case _:
 }
 
 /// @nodoc
-@JsonSerializable()
 
+@JsonSerializable(includeIfNull: false)
 class _ContentIndexEntry implements ContentIndexEntry {
-  const _ContentIndexEntry({required this.id, required this.file, required this.version, this.count});
+  const _ContentIndexEntry({required this.id, required this.file, required this.version, this.count, this.title, this.category, this.difficulty, final  List<String> tags = const <String>[]}): _tags = tags;
   factory _ContentIndexEntry.fromJson(Map<String, dynamic> json) => _$ContentIndexEntryFromJson(json);
 
 @override final  String id;
 @override final  String file;
 @override final  int version;
 @override final  int? count;
+@override final  String? title;
+@override final  String? category;
+@override final  int? difficulty;
+ final  List<String> _tags;
+@override@JsonKey() List<String> get tags {
+  if (_tags is EqualUnmodifiableListView) return _tags;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_tags);
+}
+
 
 /// Create a copy of ContentIndexEntry
 /// with the given fields replaced by the non-null parameter values.
@@ -233,16 +247,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _ContentIndexEntry&&(identical(other.id, id) || other.id == id)&&(identical(other.file, file) || other.file == file)&&(identical(other.version, version) || other.version == version)&&(identical(other.count, count) || other.count == count));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _ContentIndexEntry&&(identical(other.id, id) || other.id == id)&&(identical(other.file, file) || other.file == file)&&(identical(other.version, version) || other.version == version)&&(identical(other.count, count) || other.count == count)&&(identical(other.title, title) || other.title == title)&&(identical(other.category, category) || other.category == category)&&(identical(other.difficulty, difficulty) || other.difficulty == difficulty)&&const DeepCollectionEquality().equals(other._tags, _tags));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,file,version,count);
+int get hashCode => Object.hash(runtimeType,id,file,version,count,title,category,difficulty,const DeepCollectionEquality().hash(_tags));
 
 @override
 String toString() {
-  return 'ContentIndexEntry(id: $id, file: $file, version: $version, count: $count)';
+  return 'ContentIndexEntry(id: $id, file: $file, version: $version, count: $count, title: $title, category: $category, difficulty: $difficulty, tags: $tags)';
 }
 
 
@@ -253,7 +267,7 @@ abstract mixin class _$ContentIndexEntryCopyWith<$Res> implements $ContentIndexE
   factory _$ContentIndexEntryCopyWith(_ContentIndexEntry value, $Res Function(_ContentIndexEntry) _then) = __$ContentIndexEntryCopyWithImpl;
 @override @useResult
 $Res call({
- String id, String file, int version, int? count
+ String id, String file, int version, int? count, String? title, String? category, int? difficulty, List<String> tags
 });
 
 
@@ -270,13 +284,17 @@ class __$ContentIndexEntryCopyWithImpl<$Res>
 
 /// Create a copy of ContentIndexEntry
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? file = null,Object? version = null,Object? count = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? file = null,Object? version = null,Object? count = freezed,Object? title = freezed,Object? category = freezed,Object? difficulty = freezed,Object? tags = null,}) {
   return _then(_ContentIndexEntry(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,file: null == file ? _self.file : file // ignore: cast_nullable_to_non_nullable
 as String,version: null == version ? _self.version : version // ignore: cast_nullable_to_non_nullable
 as int,count: freezed == count ? _self.count : count // ignore: cast_nullable_to_non_nullable
-as int?,
+as int?,title: freezed == title ? _self.title : title // ignore: cast_nullable_to_non_nullable
+as String?,category: freezed == category ? _self.category : category // ignore: cast_nullable_to_non_nullable
+as String?,difficulty: freezed == difficulty ? _self.difficulty : difficulty // ignore: cast_nullable_to_non_nullable
+as int?,tags: null == tags ? _self._tags : tags // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 

@@ -4,7 +4,7 @@ Offline-first Flutter app to help children learn chess with lessons, puzzles, an
 
 ## Implemented MVP Vertical Slice
 - Lessons: one complete pawn lesson flow (`explanation`, `guided_move`, `free_play`)
-- Puzzles: one puzzle pack with progress + hints
+- Puzzles: generated offline puzzle catalog (`gen_*` packs) with line-based solving
 - Play: game vs Stockfish AI (3 skill presets)
 - Local-first persistence with Drift/SQLite
 - Future-ready user model (`local_user_id`, nullable `remote_user_id`, `owner_user_id`, `sync_state`)
@@ -35,6 +35,12 @@ flutter run
 dart format .
 flutter analyze
 flutter test
+```
+
+## Puzzle Pack Generation
+Generate curated puzzle packs from `lichess_db_puzzle.csv.zst`:
+```bash
+dart run tool/puzzles/generate_lichess_packs.dart
 ```
 
 ## Android Setup Note

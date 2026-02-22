@@ -5,11 +5,16 @@ part 'content_manifest.g.dart';
 
 @freezed
 abstract class ContentIndexEntry with _$ContentIndexEntry {
+  @JsonSerializable(includeIfNull: false)
   const factory ContentIndexEntry({
     required String id,
     required String file,
     required int version,
     int? count,
+    String? title,
+    String? category,
+    int? difficulty,
+    @Default(<String>[]) List<String> tags,
   }) = _ContentIndexEntry;
 
   factory ContentIndexEntry.fromJson(Map<String, dynamic> json) =>

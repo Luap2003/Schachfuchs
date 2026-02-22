@@ -15,7 +15,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$Puzzle {
 
- String get id; String get fen; List<String> get solutionMoves; String get firstMoveBy; String? get hint; String get theme; int get rating;
+ String get id; String get fen; List<String> get playerMoves; List<String> get opponentMoves; List<String> get solutionSan; List<String> get themes; int get rating; String? get hint; String? get source; List<String> get alternateWinningMoves;
 /// Create a copy of Puzzle
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -28,16 +28,16 @@ $PuzzleCopyWith<Puzzle> get copyWith => _$PuzzleCopyWithImpl<Puzzle>(this as Puz
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Puzzle&&(identical(other.id, id) || other.id == id)&&(identical(other.fen, fen) || other.fen == fen)&&const DeepCollectionEquality().equals(other.solutionMoves, solutionMoves)&&(identical(other.firstMoveBy, firstMoveBy) || other.firstMoveBy == firstMoveBy)&&(identical(other.hint, hint) || other.hint == hint)&&(identical(other.theme, theme) || other.theme == theme)&&(identical(other.rating, rating) || other.rating == rating));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Puzzle&&(identical(other.id, id) || other.id == id)&&(identical(other.fen, fen) || other.fen == fen)&&const DeepCollectionEquality().equals(other.playerMoves, playerMoves)&&const DeepCollectionEquality().equals(other.opponentMoves, opponentMoves)&&const DeepCollectionEquality().equals(other.solutionSan, solutionSan)&&const DeepCollectionEquality().equals(other.themes, themes)&&(identical(other.rating, rating) || other.rating == rating)&&(identical(other.hint, hint) || other.hint == hint)&&(identical(other.source, source) || other.source == source)&&const DeepCollectionEquality().equals(other.alternateWinningMoves, alternateWinningMoves));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,fen,const DeepCollectionEquality().hash(solutionMoves),firstMoveBy,hint,theme,rating);
+int get hashCode => Object.hash(runtimeType,id,fen,const DeepCollectionEquality().hash(playerMoves),const DeepCollectionEquality().hash(opponentMoves),const DeepCollectionEquality().hash(solutionSan),const DeepCollectionEquality().hash(themes),rating,hint,source,const DeepCollectionEquality().hash(alternateWinningMoves));
 
 @override
 String toString() {
-  return 'Puzzle(id: $id, fen: $fen, solutionMoves: $solutionMoves, firstMoveBy: $firstMoveBy, hint: $hint, theme: $theme, rating: $rating)';
+  return 'Puzzle(id: $id, fen: $fen, playerMoves: $playerMoves, opponentMoves: $opponentMoves, solutionSan: $solutionSan, themes: $themes, rating: $rating, hint: $hint, source: $source, alternateWinningMoves: $alternateWinningMoves)';
 }
 
 
@@ -48,7 +48,7 @@ abstract mixin class $PuzzleCopyWith<$Res>  {
   factory $PuzzleCopyWith(Puzzle value, $Res Function(Puzzle) _then) = _$PuzzleCopyWithImpl;
 @useResult
 $Res call({
- String id, String fen, List<String> solutionMoves, String firstMoveBy, String? hint, String theme, int rating
+ String id, String fen, List<String> playerMoves, List<String> opponentMoves, List<String> solutionSan, List<String> themes, int rating, String? hint, String? source, List<String> alternateWinningMoves
 });
 
 
@@ -65,16 +65,19 @@ class _$PuzzleCopyWithImpl<$Res>
 
 /// Create a copy of Puzzle
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? fen = null,Object? solutionMoves = null,Object? firstMoveBy = null,Object? hint = freezed,Object? theme = null,Object? rating = null,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = null,Object? fen = null,Object? playerMoves = null,Object? opponentMoves = null,Object? solutionSan = null,Object? themes = null,Object? rating = null,Object? hint = freezed,Object? source = freezed,Object? alternateWinningMoves = null,}) {
   return _then(_self.copyWith(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,fen: null == fen ? _self.fen : fen // ignore: cast_nullable_to_non_nullable
-as String,solutionMoves: null == solutionMoves ? _self.solutionMoves : solutionMoves // ignore: cast_nullable_to_non_nullable
-as List<String>,firstMoveBy: null == firstMoveBy ? _self.firstMoveBy : firstMoveBy // ignore: cast_nullable_to_non_nullable
-as String,hint: freezed == hint ? _self.hint : hint // ignore: cast_nullable_to_non_nullable
-as String?,theme: null == theme ? _self.theme : theme // ignore: cast_nullable_to_non_nullable
-as String,rating: null == rating ? _self.rating : rating // ignore: cast_nullable_to_non_nullable
-as int,
+as String,playerMoves: null == playerMoves ? _self.playerMoves : playerMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,opponentMoves: null == opponentMoves ? _self.opponentMoves : opponentMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,solutionSan: null == solutionSan ? _self.solutionSan : solutionSan // ignore: cast_nullable_to_non_nullable
+as List<String>,themes: null == themes ? _self.themes : themes // ignore: cast_nullable_to_non_nullable
+as List<String>,rating: null == rating ? _self.rating : rating // ignore: cast_nullable_to_non_nullable
+as int,hint: freezed == hint ? _self.hint : hint // ignore: cast_nullable_to_non_nullable
+as String?,source: freezed == source ? _self.source : source // ignore: cast_nullable_to_non_nullable
+as String?,alternateWinningMoves: null == alternateWinningMoves ? _self.alternateWinningMoves : alternateWinningMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 
@@ -159,10 +162,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String fen,  List<String> solutionMoves,  String firstMoveBy,  String? hint,  String theme,  int rating)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String id,  String fen,  List<String> playerMoves,  List<String> opponentMoves,  List<String> solutionSan,  List<String> themes,  int rating,  String? hint,  String? source,  List<String> alternateWinningMoves)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _Puzzle() when $default != null:
-return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.hint,_that.theme,_that.rating);case _:
+return $default(_that.id,_that.fen,_that.playerMoves,_that.opponentMoves,_that.solutionSan,_that.themes,_that.rating,_that.hint,_that.source,_that.alternateWinningMoves);case _:
   return orElse();
 
 }
@@ -180,10 +183,10 @@ return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.h
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String fen,  List<String> solutionMoves,  String firstMoveBy,  String? hint,  String theme,  int rating)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String id,  String fen,  List<String> playerMoves,  List<String> opponentMoves,  List<String> solutionSan,  List<String> themes,  int rating,  String? hint,  String? source,  List<String> alternateWinningMoves)  $default,) {final _that = this;
 switch (_that) {
 case _Puzzle():
-return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.hint,_that.theme,_that.rating);case _:
+return $default(_that.id,_that.fen,_that.playerMoves,_that.opponentMoves,_that.solutionSan,_that.themes,_that.rating,_that.hint,_that.source,_that.alternateWinningMoves);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -200,10 +203,10 @@ return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.h
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String fen,  List<String> solutionMoves,  String firstMoveBy,  String? hint,  String theme,  int rating)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String id,  String fen,  List<String> playerMoves,  List<String> opponentMoves,  List<String> solutionSan,  List<String> themes,  int rating,  String? hint,  String? source,  List<String> alternateWinningMoves)?  $default,) {final _that = this;
 switch (_that) {
 case _Puzzle() when $default != null:
-return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.hint,_that.theme,_that.rating);case _:
+return $default(_that.id,_that.fen,_that.playerMoves,_that.opponentMoves,_that.solutionSan,_that.themes,_that.rating,_that.hint,_that.source,_that.alternateWinningMoves);case _:
   return null;
 
 }
@@ -215,22 +218,49 @@ return $default(_that.id,_that.fen,_that.solutionMoves,_that.firstMoveBy,_that.h
 @JsonSerializable()
 
 class _Puzzle implements Puzzle {
-  const _Puzzle({required this.id, required this.fen, required final  List<String> solutionMoves, required this.firstMoveBy, this.hint, this.theme = 'tactic', this.rating = 600}): _solutionMoves = solutionMoves;
+  const _Puzzle({required this.id, required this.fen, required final  List<String> playerMoves, required final  List<String> opponentMoves, required final  List<String> solutionSan, required final  List<String> themes, required this.rating, this.hint, this.source, final  List<String> alternateWinningMoves = const <String>[]}): _playerMoves = playerMoves,_opponentMoves = opponentMoves,_solutionSan = solutionSan,_themes = themes,_alternateWinningMoves = alternateWinningMoves;
   factory _Puzzle.fromJson(Map<String, dynamic> json) => _$PuzzleFromJson(json);
 
 @override final  String id;
 @override final  String fen;
- final  List<String> _solutionMoves;
-@override List<String> get solutionMoves {
-  if (_solutionMoves is EqualUnmodifiableListView) return _solutionMoves;
+ final  List<String> _playerMoves;
+@override List<String> get playerMoves {
+  if (_playerMoves is EqualUnmodifiableListView) return _playerMoves;
   // ignore: implicit_dynamic_type
-  return EqualUnmodifiableListView(_solutionMoves);
+  return EqualUnmodifiableListView(_playerMoves);
 }
 
-@override final  String firstMoveBy;
+ final  List<String> _opponentMoves;
+@override List<String> get opponentMoves {
+  if (_opponentMoves is EqualUnmodifiableListView) return _opponentMoves;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_opponentMoves);
+}
+
+ final  List<String> _solutionSan;
+@override List<String> get solutionSan {
+  if (_solutionSan is EqualUnmodifiableListView) return _solutionSan;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_solutionSan);
+}
+
+ final  List<String> _themes;
+@override List<String> get themes {
+  if (_themes is EqualUnmodifiableListView) return _themes;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_themes);
+}
+
+@override final  int rating;
 @override final  String? hint;
-@override@JsonKey() final  String theme;
-@override@JsonKey() final  int rating;
+@override final  String? source;
+ final  List<String> _alternateWinningMoves;
+@override@JsonKey() List<String> get alternateWinningMoves {
+  if (_alternateWinningMoves is EqualUnmodifiableListView) return _alternateWinningMoves;
+  // ignore: implicit_dynamic_type
+  return EqualUnmodifiableListView(_alternateWinningMoves);
+}
+
 
 /// Create a copy of Puzzle
 /// with the given fields replaced by the non-null parameter values.
@@ -245,16 +275,16 @@ Map<String, dynamic> toJson() {
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Puzzle&&(identical(other.id, id) || other.id == id)&&(identical(other.fen, fen) || other.fen == fen)&&const DeepCollectionEquality().equals(other._solutionMoves, _solutionMoves)&&(identical(other.firstMoveBy, firstMoveBy) || other.firstMoveBy == firstMoveBy)&&(identical(other.hint, hint) || other.hint == hint)&&(identical(other.theme, theme) || other.theme == theme)&&(identical(other.rating, rating) || other.rating == rating));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Puzzle&&(identical(other.id, id) || other.id == id)&&(identical(other.fen, fen) || other.fen == fen)&&const DeepCollectionEquality().equals(other._playerMoves, _playerMoves)&&const DeepCollectionEquality().equals(other._opponentMoves, _opponentMoves)&&const DeepCollectionEquality().equals(other._solutionSan, _solutionSan)&&const DeepCollectionEquality().equals(other._themes, _themes)&&(identical(other.rating, rating) || other.rating == rating)&&(identical(other.hint, hint) || other.hint == hint)&&(identical(other.source, source) || other.source == source)&&const DeepCollectionEquality().equals(other._alternateWinningMoves, _alternateWinningMoves));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,fen,const DeepCollectionEquality().hash(_solutionMoves),firstMoveBy,hint,theme,rating);
+int get hashCode => Object.hash(runtimeType,id,fen,const DeepCollectionEquality().hash(_playerMoves),const DeepCollectionEquality().hash(_opponentMoves),const DeepCollectionEquality().hash(_solutionSan),const DeepCollectionEquality().hash(_themes),rating,hint,source,const DeepCollectionEquality().hash(_alternateWinningMoves));
 
 @override
 String toString() {
-  return 'Puzzle(id: $id, fen: $fen, solutionMoves: $solutionMoves, firstMoveBy: $firstMoveBy, hint: $hint, theme: $theme, rating: $rating)';
+  return 'Puzzle(id: $id, fen: $fen, playerMoves: $playerMoves, opponentMoves: $opponentMoves, solutionSan: $solutionSan, themes: $themes, rating: $rating, hint: $hint, source: $source, alternateWinningMoves: $alternateWinningMoves)';
 }
 
 
@@ -265,7 +295,7 @@ abstract mixin class _$PuzzleCopyWith<$Res> implements $PuzzleCopyWith<$Res> {
   factory _$PuzzleCopyWith(_Puzzle value, $Res Function(_Puzzle) _then) = __$PuzzleCopyWithImpl;
 @override @useResult
 $Res call({
- String id, String fen, List<String> solutionMoves, String firstMoveBy, String? hint, String theme, int rating
+ String id, String fen, List<String> playerMoves, List<String> opponentMoves, List<String> solutionSan, List<String> themes, int rating, String? hint, String? source, List<String> alternateWinningMoves
 });
 
 
@@ -282,16 +312,19 @@ class __$PuzzleCopyWithImpl<$Res>
 
 /// Create a copy of Puzzle
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? fen = null,Object? solutionMoves = null,Object? firstMoveBy = null,Object? hint = freezed,Object? theme = null,Object? rating = null,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = null,Object? fen = null,Object? playerMoves = null,Object? opponentMoves = null,Object? solutionSan = null,Object? themes = null,Object? rating = null,Object? hint = freezed,Object? source = freezed,Object? alternateWinningMoves = null,}) {
   return _then(_Puzzle(
 id: null == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
 as String,fen: null == fen ? _self.fen : fen // ignore: cast_nullable_to_non_nullable
-as String,solutionMoves: null == solutionMoves ? _self._solutionMoves : solutionMoves // ignore: cast_nullable_to_non_nullable
-as List<String>,firstMoveBy: null == firstMoveBy ? _self.firstMoveBy : firstMoveBy // ignore: cast_nullable_to_non_nullable
-as String,hint: freezed == hint ? _self.hint : hint // ignore: cast_nullable_to_non_nullable
-as String?,theme: null == theme ? _self.theme : theme // ignore: cast_nullable_to_non_nullable
-as String,rating: null == rating ? _self.rating : rating // ignore: cast_nullable_to_non_nullable
-as int,
+as String,playerMoves: null == playerMoves ? _self._playerMoves : playerMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,opponentMoves: null == opponentMoves ? _self._opponentMoves : opponentMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,solutionSan: null == solutionSan ? _self._solutionSan : solutionSan // ignore: cast_nullable_to_non_nullable
+as List<String>,themes: null == themes ? _self._themes : themes // ignore: cast_nullable_to_non_nullable
+as List<String>,rating: null == rating ? _self.rating : rating // ignore: cast_nullable_to_non_nullable
+as int,hint: freezed == hint ? _self.hint : hint // ignore: cast_nullable_to_non_nullable
+as String?,source: freezed == source ? _self.source : source // ignore: cast_nullable_to_non_nullable
+as String?,alternateWinningMoves: null == alternateWinningMoves ? _self._alternateWinningMoves : alternateWinningMoves // ignore: cast_nullable_to_non_nullable
+as List<String>,
   ));
 }
 

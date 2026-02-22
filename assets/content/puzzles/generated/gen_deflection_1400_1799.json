@@ -1,0 +1,5617 @@
+{
+  "packId": "gen_deflection_1400_1799",
+  "title": "Deflection · Advanced",
+  "description": "Theme training: Deflection (1400-1799).",
+  "category": "theme_training",
+  "tags": [
+    "deflection",
+    "1400_1799"
+  ],
+  "difficulty": 3,
+  "puzzles": [
+    {
+      "id": "lichess_9UFsv",
+      "fen": "8/1b6/1p4pp/p3k3/3p1nPP/3B1PK1/PP1N4/8 w - - 10 41",
+      "playerMoves": [
+        "d2c4",
+        "g3f4"
+      ],
+      "opponentMoves": [
+        "e5f6"
+      ],
+      "solutionSan": [
+        "Nc4+",
+        "Kxf4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1454,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ZPYc2qe6/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jf8o9",
+      "fen": "r1q2r2/ppk5/5p1p/2n5/2Q2p2/8/PPP2PPP/2K4R w - - 0 26",
+      "playerMoves": [
+        "c4c5",
+        "c5d6",
+        "d6f8"
+      ],
+      "opponentMoves": [
+        "c7b8",
+        "c8c7"
+      ],
+      "solutionSan": [
+        "Qxc5+",
+        "Qd6+",
+        "Qxf8+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1454,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/V8OeKCcC/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Nq02I",
+      "fen": "8/4bpk1/4p3/1p2P1N1/p2P2Pn/P1B1Q1K1/1Pq5/8 b - - 0 52",
+      "playerMoves": [
+        "c2g2",
+        "g2h2",
+        "e7g5",
+        "h2h3"
+      ],
+      "opponentMoves": [
+        "g3h4",
+        "e3h3",
+        "h4g5"
+      ],
+      "solutionSan": [
+        "Qg2+",
+        "Qh2+",
+        "Bxg5+",
+        "Qxh3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1406,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/efdiR7Yb#103",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yw4eE",
+      "fen": "r2r1k2/p2q1p1Q/1p2p1p1/4P1N1/8/1B6/PP3PPP/2KR4 b - - 0 20",
+      "playerMoves": [
+        "a8c8",
+        "d7d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "c1b1",
+        "b3d1"
+      ],
+      "solutionSan": [
+        "Rac8+",
+        "Qxd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "deflection",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack"
+      ],
+      "rating": 1541,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/nzUWo4tn#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dnf0M",
+      "fen": "2r2r1k/3b1pp1/3q1n2/8/1Q1P4/3B1N2/5PPP/RR4K1 b - - 0 39",
+      "playerMoves": [
+        "c8c1",
+        "d6b4"
+      ],
+      "opponentMoves": [
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qxb4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1416,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/4FlkvnPW#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SqLTu",
+      "fen": "r3kb1r/1pq2p1p/p3bp2/3p4/3N4/8/PPP1PPPP/R2QKB1R b KQkq - 3 10",
+      "playerMoves": [
+        "f8b4",
+        "b4c3",
+        "c7c3",
+        "c3a1"
+      ],
+      "opponentMoves": [
+        "c2c3",
+        "b2c3",
+        "d1d2"
+      ],
+      "solutionSan": [
+        "Bb4+",
+        "Bxc3+",
+        "Qxc3+",
+        "Qxa1+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1652,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/EzlgqJlF#19",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i5XhW",
+      "fen": "6Q1/5qb1/6kp/1p4p1/2p2P2/2Pb1BP1/1P6/7K w - - 1 46",
+      "playerMoves": [
+        "f3h5",
+        "g8f7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Bh5+",
+        "Qxf7+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1538,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/wjTL3uB4/black#90",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_j4bOx",
+      "fen": "r1bq1rk1/6p1/2p1p2p/3pP1bP/8/3Q2B1/1pB2PP1/1K1RR3 w - - 1 25",
+      "playerMoves": [
+        "d3h7",
+        "c2g6",
+        "h7g7",
+        "g7f7"
+      ],
+      "opponentMoves": [
+        "g8f7",
+        "f7e7",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Bg6+",
+        "Qxg7+",
+        "Qxf7#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1436,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ydyXtT1u/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_H35L2",
+      "fen": "5r2/7k/3pB2b/2pP1P1Q/pnP5/2q4P/8/6RK w - - 4 38",
+      "playerMoves": [
+        "h5g6",
+        "g6h6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qg6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1454,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/4rzUsJQ0/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QDwwD",
+      "fen": "8/2r5/3k4/6P1/PK1P4/1B3r2/5P2/R4R2 b - - 3 54",
+      "playerMoves": [
+        "c7b7",
+        "f3b3"
+      ],
+      "opponentMoves": [
+        "b4a5"
+      ],
+      "solutionSan": [
+        "Rb7+",
+        "Rfxb3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1415,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IUr159st#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tgk5j",
+      "fen": "rn1qkb1r/pp2pppp/2p5/4Pb2/2B5/2n2N2/PPP2PPP/R1BQK2R w KQkq - 0 8",
+      "playerMoves": [
+        "c4f7",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "e8f7"
+      ],
+      "solutionSan": [
+        "Bxf7+",
+        "Qxd8"
+      ],
+      "themes": [
+        "attackingF2F7",
+        "crushing",
+        "deflection",
+        "opening",
+        "short"
+      ],
+      "rating": 1574,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Jg8dby9x/black#14",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sU9Gs",
+      "fen": "3rr1k1/5pp1/p2R1q1p/8/6P1/1PPQ4/P4PP1/3R2K1 b - - 0 27",
+      "playerMoves": [
+        "d8d6",
+        "e8e1",
+        "f6d6"
+      ],
+      "opponentMoves": [
+        "d3d6",
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Rxd6",
+        "Re1+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1482,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/FkZHQob6#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YFCRx",
+      "fen": "1k1r1r2/1pp5/p7/4q1pp/1P1R4/P6P/2PQ2P1/3R3K b - - 0 27",
+      "playerMoves": [
+        "d8d4",
+        "f8f1",
+        "e5d4"
+      ],
+      "opponentMoves": [
+        "d2d4",
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Rxd4",
+        "Rf1+",
+        "Qxd4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1479,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/f3lqRrQM#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e55XF",
+      "fen": "r2r4/pp2kp2/3Np2p/1Q1pP1p1/8/5P2/PPP2qPP/R6K w - - 4 22",
+      "playerMoves": [
+        "b5b7",
+        "b7a8",
+        "e5d6"
+      ],
+      "opponentMoves": [
+        "d8d7",
+        "d7d6"
+      ],
+      "solutionSan": [
+        "Qxb7+",
+        "Qxa8",
+        "exd6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1458,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/iC0NHHz2/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_htGGr",
+      "fen": "r1b3k1/q2n1pp1/7p/2Np4/1p1P4/3B1P2/1PQ3PP/4R1K1 w - - 0 23",
+      "playerMoves": [
+        "e1e8",
+        "d3h7",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "d7f8",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Bh7+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1440,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/wWjVv7mz/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2y11K",
+      "fen": "5k2/pppK4/4P3/3p2P1/4b3/2P1P3/PP3r2/8 w - - 5 58",
+      "playerMoves": [
+        "e6e7",
+        "e7e8q",
+        "d7e6"
+      ],
+      "opponentMoves": [
+        "f8g7",
+        "f2f7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "e8=Q",
+        "Ke6"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "promotion"
+      ],
+      "rating": 1533,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/AXhxMA3F/black#114",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IHxIk",
+      "fen": "8/5p1k/2p5/1p2P1Rp/3r3P/KP2Q3/P1P5/q7 b - - 0 35",
+      "playerMoves": [
+        "b5b4",
+        "a1a2"
+      ],
+      "opponentMoves": [
+        "a3a4"
+      ],
+      "solutionSan": [
+        "b4+",
+        "Qxa2#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1403,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/WnEhgXUA#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tigEm",
+      "fen": "3Q4/p4pp1/1p4k1/5b1p/7P/3n1P2/P1q3P1/3R3K w - - 1 37",
+      "playerMoves": [
+        "d8g5",
+        "g5f5"
+      ],
+      "opponentMoves": [
+        "g6h7"
+      ],
+      "solutionSan": [
+        "Qg5+",
+        "Qxf5+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1421,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/BGuhtIWs/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hr0pU",
+      "fen": "7r/4k1K1/5R1p/7P/8/8/8/8 b - - 4 59",
+      "playerMoves": [
+        "h8g8",
+        "e7f6",
+        "f6g5",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "g7g8",
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Kxf6",
+        "Kg5",
+        "Kxh5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "veryLong"
+      ],
+      "rating": 1421,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/LRGmeBLy#117",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_E9Hod",
+      "fen": "2k5/2p5/p3R3/1pN5/1P1r4/P4Bq1/4K3/8 w - - 0 48",
+      "playerMoves": [
+        "e6e8",
+        "f3b7",
+        "e8d8",
+        "d8a8",
+        "a8a6"
+      ],
+      "opponentMoves": [
+        "d4d8",
+        "c8b8",
+        "b8a7",
+        "a7b6"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Bb7+",
+        "Rxd8+",
+        "Ra8+",
+        "Rxa6#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "hookMate",
+        "mate",
+        "mateIn5",
+        "operaMate",
+        "veryLong"
+      ],
+      "rating": 1600,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/FX3WECIQ/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Q9Rue",
+      "fen": "1R6/2k5/Pb6/8/2KP4/2P5/r7/8 w - - 5 49",
+      "playerMoves": [
+        "b8b7",
+        "d4d5",
+        "b7b6"
+      ],
+      "opponentMoves": [
+        "c7c6",
+        "c6d6"
+      ],
+      "solutionSan": [
+        "Rb7+",
+        "d5+",
+        "Rxb6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1458,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/JeyetquA/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_msl7p",
+      "fen": "5rk1/pb4pp/1p2p2q/3pN3/3P4/2PB2PP/PP2Qn1K/5R2 b - - 2 24",
+      "playerMoves": [
+        "h6h3",
+        "h3g3"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg3#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1511,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/b0m2k0hw#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nszuI",
+      "fen": "5r2/1kpn4/1p6/1P5p/3Pp1p1/1N2P1K1/5RPP/8 b - - 6 29",
+      "playerMoves": [
+        "h5h4",
+        "f8f2"
+      ],
+      "opponentMoves": [
+        "g3g4"
+      ],
+      "solutionSan": [
+        "h4+",
+        "Rxf2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1576,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/44t8GMbB#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_n92Pu",
+      "fen": "k2r4/p1p3p1/P6p/4p3/1P2P3/8/1B1qQKPP/R7 b - - 2 29",
+      "playerMoves": [
+        "d8f8",
+        "d2e2"
+      ],
+      "opponentMoves": [
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Qxe2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/UwwKJ7ge#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Larmu",
+      "fen": "1k6/pp3ppp/4p3/6NP/1q1p2P1/5P1N/PQK5/8 b - - 1 31",
+      "playerMoves": [
+        "d4d3",
+        "b4b2"
+      ],
+      "opponentMoves": [
+        "c2d3"
+      ],
+      "solutionSan": [
+        "d3+",
+        "Qxb2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1465,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/EAIYc2m5#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qmTVL",
+      "fen": "r2q1r2/p1p4k/1p2p1bp/1B1pp2Q/3Pn3/2P1P3/P1P2PP1/1R2K2R w K - 0 18",
+      "playerMoves": [
+        "h5h6",
+        "h6g6"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg6#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/hgKPRsim/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2ETnC",
+      "fen": "8/6pk/5p2/4P3/R5PK/1r5P/8/8 b - - 0 36",
+      "playerMoves": [
+        "g7g5",
+        "b3h3"
+      ],
+      "opponentMoves": [
+        "h4h5"
+      ],
+      "solutionSan": [
+        "g5+",
+        "Rxh3#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1425,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/z0i1mc7e#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_t2mmB",
+      "fen": "5r1k/2p3p1/P3p2p/1Pb5/8/r3PB2/4KP1P/1R5R b - - 0 31",
+      "playerMoves": [
+        "a3a2",
+        "f8f3"
+      ],
+      "opponentMoves": [
+        "e2d3"
+      ],
+      "solutionSan": [
+        "Ra2+",
+        "Rxf3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1401,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/YsdUCNCF#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EF9Wj",
+      "fen": "2Q5/5k1p/4np2/p7/4Nq2/1P5P/6P1/6K1 w - - 5 48",
+      "playerMoves": [
+        "c8d7",
+        "d7e6"
+      ],
+      "opponentMoves": [
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qxe6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1486,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/mSSfzoh0/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Dn3fX",
+      "fen": "8/8/8/6Bp/4p3/5kPb/5r1P/4R1K1 w - - 0 51",
+      "playerMoves": [
+        "e1e3",
+        "g1f2"
+      ],
+      "opponentMoves": [
+        "f3g4"
+      ],
+      "solutionSan": [
+        "Re3+",
+        "Kxf2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1469,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/o7fBkQRW/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YcJgV",
+      "fen": "4r3/pp3kp1/2p2n1Q/6R1/3P4/2P2P1K/2q4P/8 w - - 3 36",
+      "playerMoves": [
+        "h6g7",
+        "g5e5",
+        "g7f6"
+      ],
+      "opponentMoves": [
+        "f7e6",
+        "e6d6"
+      ],
+      "solutionSan": [
+        "Qxg7+",
+        "Re5+",
+        "Qxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1656,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/RS5kWHTi/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ciOK6",
+      "fen": "8/4bppp/4p3/1k2P3/p1nPN3/P2K2P1/1B5P/8 w - - 1 35",
+      "playerMoves": [
+        "e4c3",
+        "d3c4"
+      ],
+      "opponentMoves": [
+        "b5c6"
+      ],
+      "solutionSan": [
+        "Nc3+",
+        "Kxc4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1510,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/SoVb8u7N/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iFyKt",
+      "fen": "8/8/8/5Rp1/4k1K1/pr4P1/6P1/8 b - - 0 42",
+      "playerMoves": [
+        "b3g3",
+        "e4f5"
+      ],
+      "opponentMoves": [
+        "g4g3"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Kxf5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1482,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ZOfLe0xP#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dNcyj",
+      "fen": "5brk/1p6/p1nN2Qn/P1p4p/3p1p1q/3P1P2/1PPB3N/6RK w - - 1 33",
+      "playerMoves": [
+        "d6f7",
+        "g6g8"
+      ],
+      "opponentMoves": [
+        "h6f7"
+      ],
+      "solutionSan": [
+        "Nf7+",
+        "Qxg8#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1407,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IUapMJko/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C11NL",
+      "fen": "r6r/p3R2p/1kp3p1/1pq3Q1/2P5/P2b4/6PP/4R2K w - - 0 30",
+      "playerMoves": [
+        "e7b7",
+        "g5c5"
+      ],
+      "opponentMoves": [
+        "b6b7"
+      ],
+      "solutionSan": [
+        "Rb7+",
+        "Qxc5"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1413,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/V45cXzeS/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cm3bo",
+      "fen": "r7/7R/1p1krp2/3pp2Q/3pp3/4q3/P5PP/5R1K w - - 6 35",
+      "playerMoves": [
+        "h5f7",
+        "f7d7",
+        "d7e6"
+      ],
+      "opponentMoves": [
+        "e3c3",
+        "d6c5"
+      ],
+      "solutionSan": [
+        "Qf7",
+        "Qd7+",
+        "Qxe6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1775,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Jtt46hOJ/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_H0Vc5",
+      "fen": "1R6/5pkp/7b/2BQPq2/3P4/5pPP/5P1K/r7 b - - 0 37",
+      "playerMoves": [
+        "a1h1",
+        "f5h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h2h1",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qxh3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1567,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ZazKWaG9#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B4tAg",
+      "fen": "6k1/5p1p/6p1/p3R3/P7/1PQ4P/5qPK/3r4 b - - 0 35",
+      "playerMoves": [
+        "f2f4",
+        "d1h1",
+        "f4g3"
+      ],
+      "opponentMoves": [
+        "c3g3",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Qf4+",
+        "Rh1+",
+        "Qxg3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1558,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/It8HCnLO#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WH01H",
+      "fen": "r4r1k/p2p1q1p/1p2bp2/5N2/7Q/7R/PB3PP1/6K1 w - - 2 33",
+      "playerMoves": [
+        "b2f6",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "f7f6"
+      ],
+      "solutionSan": [
+        "Bxf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1636,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/BgYg2ery/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lIdaS",
+      "fen": "2r5/p2k3p/8/2R1P3/1p5P/1Pp5/P4p2/5K2 w - - 10 41",
+      "playerMoves": [
+        "e5e6",
+        "e6e7",
+        "c5c8"
+      ],
+      "opponentMoves": [
+        "d7d8",
+        "d8e7"
+      ],
+      "solutionSan": [
+        "e6+",
+        "e7+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long",
+        "master",
+        "rookEndgame"
+      ],
+      "rating": 1507,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Au6mcimn/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ojvg9",
+      "fen": "6r1/1p3k1p/2p2p2/4pB1P/2PbP3/pP3P2/P1K3R1/8 w - - 1 33",
+      "playerMoves": [
+        "f5e6",
+        "g2g8"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Be6+",
+        "Rxg8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1400,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/TLQcGiiI/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vMjyA",
+      "fen": "5r1k/6p1/p4r1p/2q5/2Np2Q1/1P5P/PBP3P1/3R3K b - - 0 29",
+      "playerMoves": [
+        "f6f1",
+        "f8f1",
+        "c5c7",
+        "f1h1",
+        "c7g3"
+      ],
+      "opponentMoves": [
+        "d1f1",
+        "h1h2",
+        "g4g3",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf1+",
+        "Qc7+",
+        "Rh1+",
+        "Qxg3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1424,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/u0rBCiGd#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AACuE",
+      "fen": "8/pp5k/7p/2p1B1b1/4P3/5Q2/qPP5/3K1R2 b - - 1 44",
+      "playerMoves": [
+        "a2b1",
+        "b1c2",
+        "c2d2"
+      ],
+      "opponentMoves": [
+        "d1e2",
+        "e2e1"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Qxc2+",
+        "Qd2#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1459,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/1j87JXBO#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YiBI2",
+      "fen": "r6r/pp1R1pp1/2p1k1np/4P3/7P/2P1nN2/PKP3P1/3R4 w - - 0 22",
+      "playerMoves": [
+        "d1d6",
+        "d7f7"
+      ],
+      "opponentMoves": [
+        "e6f5"
+      ],
+      "solutionSan": [
+        "R1d6+",
+        "Rxf7+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1459,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/hDkxoXWE/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k001B",
+      "fen": "r3k1r1/pp1q1pbp/2nppQp1/1N6/4P3/2N1P3/PPP3PP/R4RK1 w q - 4 14",
+      "playerMoves": [
+        "b5d6",
+        "f6f7"
+      ],
+      "opponentMoves": [
+        "d7d6"
+      ],
+      "solutionSan": [
+        "Nxd6+",
+        "Qxf7+"
+      ],
+      "themes": [
+        "attackingF2F7",
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1429,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/sWHa6KTC/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TCOS5",
+      "fen": "8/p6p/1bp1k1p1/2Bp4/PK2pPP1/2P1P2P/8/8 b - - 5 33",
+      "playerMoves": [
+        "a7a5",
+        "b6c5"
+      ],
+      "opponentMoves": [
+        "b4b3"
+      ],
+      "solutionSan": [
+        "a5+",
+        "Bxc5"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1461,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/KPYICuTU#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pPL1M",
+      "fen": "8/1pr5/p3r3/2k2p2/PR5P/1KP2n2/2P5/3R4 w - - 0 39",
+      "playerMoves": [
+        "b4c4",
+        "a4a5",
+        "c4c7"
+      ],
+      "opponentMoves": [
+        "c5b6",
+        "b6a5"
+      ],
+      "solutionSan": [
+        "Rc4+",
+        "a5+",
+        "Rxc7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1512,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/yhbkuh8d/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sgJuq",
+      "fen": "8/8/3PK3/2pP4/2k5/1p6/8/8 b - - 1 61",
+      "playerMoves": [
+        "b3b2",
+        "b2b1q",
+        "b1e4",
+        "e4d5"
+      ],
+      "opponentMoves": [
+        "d6d7",
+        "d7d8q",
+        "e6d7"
+      ],
+      "solutionSan": [
+        "b2",
+        "b1=Q",
+        "Qe4+",
+        "Qxd5+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "pawnEndgame",
+        "promotion",
+        "veryLong"
+      ],
+      "rating": 1542,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ag35WLPv#121",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L5icS",
+      "fen": "7r/6k1/5p2/8/QP2p3/2P1P1rq/5RP1/4RK2 b - - 4 41",
+      "playerMoves": [
+        "h3h1",
+        "g3e3",
+        "h1e1"
+      ],
+      "opponentMoves": [
+        "f1e2",
+        "e2e3"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Rxe3+",
+        "Qxe1+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1624,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/3t5MZSuu#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5cEnl",
+      "fen": "8/5pk1/2p2p1p/2q1p3/4P3/1P2QP2/2PRK1PP/r7 b - - 3 37",
+      "playerMoves": [
+        "a1e1",
+        "c5e3"
+      ],
+      "opponentMoves": [
+        "e2e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxe3+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1465,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Wnb2NCc8#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_w1OUe",
+      "fen": "3rk2r/ppQ1bppp/5q2/2p5/8/2PB1P2/PP3P1P/R3R1K1 w k - 3 18",
+      "playerMoves": [
+        "d3b5",
+        "c7d8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "e8f8",
+        "e7d8"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Qxd8+",
+        "Re8#"
+      ],
+      "themes": [
+        "deflection",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1664,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/rRG9TtLA/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_G86i8",
+      "fen": "2R2rk1/3r2p1/4p1P1/p3p3/Pp6/8/1P3PP1/4K2R w K - 2 31",
+      "playerMoves": [
+        "h1h8",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1468,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/XUUnGDuI/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oYabA",
+      "fen": "2r2r1k/2b1R1pp/1p3q2/p7/3P2Q1/2P4P/PP4P1/4RNK1 b - - 6 30",
+      "playerMoves": [
+        "f6f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qxf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate"
+      ],
+      "rating": 1436,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/JBcjlzHv#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MYccz",
+      "fen": "4k3/2Pb2b1/6N1/4p2p/2B1P1n1/2N3P1/1p6/6K1 w - - 1 38",
+      "playerMoves": [
+        "c4b5",
+        "c7c8q"
+      ],
+      "opponentMoves": [
+        "d7b5"
+      ],
+      "solutionSan": [
+        "Bb5",
+        "c8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "promotion",
+        "short"
+      ],
+      "rating": 1632,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/AubuIrXx/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zfk6e",
+      "fen": "6k1/R5p1/1p6/1P4Pp/2P5/5pK1/4qQ2/8 b - - 1 43",
+      "playerMoves": [
+        "h5h4",
+        "e2f2"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "h4+",
+        "Qxf2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1470,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/6cHIBE3c#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zhXMw",
+      "fen": "2b2rk1/p4ppp/1pNN4/2p5/4P3/1Q2n1P1/PP4PP/2q2BK1 w - - 1 27",
+      "playerMoves": [
+        "c6e7",
+        "d6f7",
+        "b3f7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Nxf7+",
+        "Qxf7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1577,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/96FDhzBq/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5Shg8",
+      "fen": "r1r3k1/5pbp/p3p1p1/8/Q7/4BN1P/2q2PP1/3R2K1 w - - 7 36",
+      "playerMoves": [
+        "d1d8",
+        "a4c2"
+      ],
+      "opponentMoves": [
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Qxc2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1450,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/GoC1DJq9/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_W2CdK",
+      "fen": "8/2pk4/3pR1p1/3P1p1p/2PK1P2/5rP1/7P/8 b - - 13 46",
+      "playerMoves": [
+        "c7c5",
+        "d7e6",
+        "e6d7"
+      ],
+      "opponentMoves": [
+        "d5c6",
+        "c6c7"
+      ],
+      "solutionSan": [
+        "c5+",
+        "Kxe6",
+        "Kd7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1510,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/73A2msyq#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qDY4m",
+      "fen": "6k1/6r1/p2qbp2/4p2Q/1P1p4/6nN/3B2PK/5R2 w - - 6 36",
+      "playerMoves": [
+        "h5e8",
+        "e8e6"
+      ],
+      "opponentMoves": [
+        "d6f8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Qxe6+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1576,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/CylkpNvh/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yRVNG",
+      "fen": "3r4/8/1R1pk3/Q3n3/2P3Pp/1P4nP/4pKP1/8 b - - 0 41",
+      "playerMoves": [
+        "e5d3",
+        "e2e1q",
+        "d3e1"
+      ],
+      "opponentMoves": [
+        "f2e3",
+        "a5e1"
+      ],
+      "solutionSan": [
+        "Nd3+",
+        "e1=Q+",
+        "Nxe1"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "promotion"
+      ],
+      "rating": 1438,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/j4zri3MT#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wlMJl",
+      "fen": "6k1/5p2/3q2pp/p2P4/8/p1PQ2P1/1r3PKP/4R3 w - - 0 31",
+      "playerMoves": [
+        "e1e8",
+        "d3d4",
+        "e8g8",
+        "d4f6",
+        "f6d8",
+        "d8a5"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "d6f6",
+        "g7g8",
+        "a3a2",
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qd4+",
+        "Rg8+",
+        "Qxf6",
+        "Qd8+",
+        "Qxa5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "veryLong"
+      ],
+      "rating": 1448,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/eXM9OcNP/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XxTlC",
+      "fen": "1kb5/1p1q4/R6p/P4p2/1Q3p2/KP2p3/7P/8 w - - 0 51",
+      "playerMoves": [
+        "b4f4",
+        "a6a8",
+        "f4c7"
+      ],
+      "opponentMoves": [
+        "d7c7",
+        "b8a8"
+      ],
+      "solutionSan": [
+        "Qxf4+",
+        "Ra8+",
+        "Qxc7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1556,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/x6kxbGrq/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q3wxK",
+      "fen": "5b2/R7/1p1r3k/2p2q2/5Pp1/6P1/P5K1/3Q4 w - - 6 44",
+      "playerMoves": [
+        "d1h1",
+        "a7h7",
+        "h1h5"
+      ],
+      "opponentMoves": [
+        "f5h5",
+        "h6h7"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Rh7+",
+        "Qxh5+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1428,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/9doAUqb5/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LXpHz",
+      "fen": "8/p5kp/1p4p1/3B4/1B1p2q1/P2Pb2b/1PQ4P/7K w - - 6 35",
+      "playerMoves": [
+        "c2c7",
+        "b4f8",
+        "c7h7"
+      ],
+      "opponentMoves": [
+        "g7h6",
+        "h6h5"
+      ],
+      "solutionSan": [
+        "Qc7+",
+        "Bf8+",
+        "Qxh7+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1612,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ErJq5SXv/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_au51B",
+      "fen": "8/8/pR1pkb1R/2n1pp2/2K5/8/8/8 w - - 2 39",
+      "playerMoves": [
+        "h6f6",
+        "b6d6",
+        "c4c5"
+      ],
+      "opponentMoves": [
+        "e6f6",
+        "f6g5"
+      ],
+      "solutionSan": [
+        "Rxf6+",
+        "Rxd6+",
+        "Kxc5"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1400,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/va2PpERc/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pIrmE",
+      "fen": "3r2k1/p4p1p/6p1/2Q2q2/8/P6P/1P3PP1/2R3K1 b - - 0 28",
+      "playerMoves": [
+        "d8d1",
+        "f5c5"
+      ],
+      "opponentMoves": [
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxc5"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1435,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/pgJBdLI6#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CCJv1",
+      "fen": "k2r4/p4pp1/Pp2p1p1/3p3r/1Pq2B2/R5P1/2PQ2P1/5RK1 b - - 5 26",
+      "playerMoves": [
+        "h5h1",
+        "c4f1",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qxf1+",
+        "Rh8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1528,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IW9gw41o#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NvugM",
+      "fen": "5q1k/2R3p1/1n5p/8/1PP3Q1/2r3PP/5P2/6K1 b - - 0 35",
+      "playerMoves": [
+        "c3c1",
+        "f8a8",
+        "c1g1",
+        "a8f3"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "g4f3",
+        "g2g1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qa8+",
+        "Rg1+",
+        "Qxf3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1542,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/QyMxhjG7#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_o6Km8",
+      "fen": "R7/4K3/4Nrk1/1p1P3p/p6P/8/4r3/8 w - - 4 53",
+      "playerMoves": [
+        "a8g8",
+        "g8g5",
+        "e7f6"
+      ],
+      "opponentMoves": [
+        "g6f5",
+        "f5e4"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rg5+",
+        "Kxf6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "master"
+      ],
+      "rating": 1503,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/SLBlPzX3/black#104",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gC710",
+      "fen": "r5k1/2p2pPp/2p5/4N3/3Bb1P1/1qN5/1R5P/2KR4 b - - 2 31",
+      "playerMoves": [
+        "a8a1",
+        "b3b2"
+      ],
+      "opponentMoves": [
+        "c1d2"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Qxb2+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1468,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/SEnFHnux#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qAlzQ",
+      "fen": "8/p6p/3q1kp1/3pRp2/2p2Q2/7P/P5PK/3r4 w - - 8 42",
+      "playerMoves": [
+        "e5f5",
+        "f5f7",
+        "f4d6"
+      ],
+      "opponentMoves": [
+        "f6e7",
+        "e7e8"
+      ],
+      "solutionSan": [
+        "Rxf5+",
+        "Rf7+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1479,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/dLrNny8V/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_c8jv9",
+      "fen": "3bqrk1/pp3p1p/2p2Qp1/8/8/1B4P1/P1P2P1P/3R2K1 w - - 2 23",
+      "playerMoves": [
+        "d1d8",
+        "b3f7",
+        "f6d8"
+      ],
+      "opponentMoves": [
+        "e8d8",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Rxd8",
+        "Bxf7+",
+        "Qxd8+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1573,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/xJTgIpgo/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ugmxc",
+      "fen": "4r1k1/1bpQ2pp/p7/1nB2q2/p7/5P2/P5PP/2RR2K1 b - - 1 28",
+      "playerMoves": [
+        "e8e1",
+        "f5d7"
+      ],
+      "opponentMoves": [
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxd7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1624,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/dRoTwk9p#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aadV6",
+      "fen": "r2r2k1/5pb1/pRp3p1/P2P4/3PN1qp/B4QN1/5PK1/3R4 b - - 2 29",
+      "playerMoves": [
+        "h4h3",
+        "g4f3"
+      ],
+      "opponentMoves": [
+        "g2h2"
+      ],
+      "solutionSan": [
+        "h3+",
+        "Qxf3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1419,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/QrGU6oS3#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oQtMG",
+      "fen": "5rkb/pp6/2p5/3b1BPN/3P3P/2PQ4/P4R1K/q7 b - - 2 32",
+      "playerMoves": [
+        "a1h1",
+        "h1g1",
+        "g1f2"
+      ],
+      "opponentMoves": [
+        "h2g3",
+        "g3h3"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Qg1+",
+        "Qxf2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "exposedKing",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1433,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/gFxfoY9e#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KLYaL",
+      "fen": "1r6/5p2/6k1/1r3Npp/p4bP1/2B5/KP3P2/7R w - - 0 43",
+      "playerMoves": [
+        "f5e7",
+        "h1h5"
+      ],
+      "opponentMoves": [
+        "g6h7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 1682,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/VVI8Df0C/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YSHRP",
+      "fen": "4r1k1/pb1n1Rrp/1p1q3p/3Pp3/2P1Q3/4P3/PBP3PP/5RK1 w - - 5 28",
+      "playerMoves": [
+        "f7g7",
+        "e4g4",
+        "g4d7"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "d6g6"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qg4+",
+        "Qxd7+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1618,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/NMDekZVV/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uUtMd",
+      "fen": "5r1k/1p2p1bp/p3B1p1/6q1/1P6/1Q5P/P2r2P1/2R2R1K w - - 3 27",
+      "playerMoves": [
+        "f1f8",
+        "b3c3",
+        "c3d2"
+      ],
+      "opponentMoves": [
+        "g7f8",
+        "g5f6"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qc3+",
+        "Qxd2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1487,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/K0BrD6Fe/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UHdYN",
+      "fen": "8/8/8/4qppk/2Q4p/4PK1P/6P1/8 b - - 13 58",
+      "playerMoves": [
+        "e5g3",
+        "g3g2"
+      ],
+      "opponentMoves": [
+        "f3e2"
+      ],
+      "solutionSan": [
+        "Qg3+",
+        "Qxg2+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "queenEndgame",
+        "short"
+      ],
+      "rating": 1551,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/K4fY4KrJ#115",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tquEH",
+      "fen": "5rk1/4Kp2/7P/5P2/8/8/8/8 w - - 4 59",
+      "playerMoves": [
+        "h6h7",
+        "f5f6",
+        "e7f8",
+        "f8e7",
+        "e7f7"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g7h7",
+        "h7g6",
+        "g6g5"
+      ],
+      "solutionSan": [
+        "h7+",
+        "f6+",
+        "Kxf8",
+        "Ke7",
+        "Kxf7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "veryLong",
+        "zugzwang"
+      ],
+      "rating": 1516,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ZQdBByWx/black#116",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UvvCs",
+      "fen": "r4k2/1p4b1/3pBr1p/2pP4/2PpK1P1/1q4Q1/3P1P2/3R3R b - - 1 27",
+      "playerMoves": [
+        "b3c2",
+        "f6f4",
+        "c2d3"
+      ],
+      "opponentMoves": [
+        "g3d3",
+        "e4f4"
+      ],
+      "solutionSan": [
+        "Qc2+",
+        "Rf4+",
+        "Qxd3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1720,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/j9eqfTw7#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KM0aq",
+      "fen": "4r1k1/1p3qp1/pr6/3p2P1/2pPn3/2N1PQ2/PP2K3/1R5R w - - 1 39",
+      "playerMoves": [
+        "h1h8",
+        "f3f7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qxf7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1574,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/vGKMjkkY/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OVyms",
+      "fen": "4r1k1/3b1ppp/3P4/2Q2q2/1p6/1B5P/P4PP1/2R3K1 b - - 2 29",
+      "playerMoves": [
+        "e8e1",
+        "f5c5"
+      ],
+      "opponentMoves": [
+        "c1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxc5"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1746,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/nCy0yjDz#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_H43z9",
+      "fen": "6Q1/1kp2p2/4p3/5n1P/8/P4P2/P4PK1/3r4 b - - 2 35",
+      "playerMoves": [
+        "f5h4",
+        "h4f3",
+        "d1h1",
+        "h1g1"
+      ],
+      "opponentMoves": [
+        "g2h2",
+        "h2h3",
+        "h3g4"
+      ],
+      "solutionSan": [
+        "Nh4+",
+        "Nxf3+",
+        "Rh1+",
+        "Rg1+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1438,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/TT0h0oZv#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pCYEN",
+      "fen": "3r4/4Np1k/6pP/pp4K1/8/4PR2/1r6/8 w - - 2 39",
+      "playerMoves": [
+        "f3f7",
+        "e7g6",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "h7h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxf7+",
+        "Nxg6+",
+        "Rg7#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "vukovicMate"
+      ],
+      "rating": 1450,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/52uExgMg/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dXZ54",
+      "fen": "8/4Q2p/p1p2qp1/P1Pbp1k1/8/6P1/7P/6K1 w - - 2 43",
+      "playerMoves": [
+        "h2h4",
+        "g3g4",
+        "e7f6"
+      ],
+      "opponentMoves": [
+        "g5f5",
+        "f5f4"
+      ],
+      "solutionSan": [
+        "h4+",
+        "g4+",
+        "Qxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1458,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/z0L3BPlq/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iNk1H",
+      "fen": "7k/p1p1R3/1p4Qp/3P4/2P5/1P5P/P5PK/2q2r2 b - - 0 35",
+      "playerMoves": [
+        "c1f4",
+        "f1h1",
+        "f4g3"
+      ],
+      "opponentMoves": [
+        "g6g3",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Qf4+",
+        "Rh1+",
+        "Qxg3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1516,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/FCZYAcFR#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GTa9A",
+      "fen": "2k4r/pp6/8/8/6n1/2P5/P5P1/1RBr1RK1 b - - 2 24",
+      "playerMoves": [
+        "h8h1",
+        "d1f1"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1547,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/uVaQwiq7#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KiyHT",
+      "fen": "1k4r1/2q2Q2/1p1p1p1p/6r1/2P1P3/6P1/5P1P/R5K1 w - - 4 30",
+      "playerMoves": [
+        "a1a8",
+        "a8a7",
+        "f7c7"
+      ],
+      "opponentMoves": [
+        "b8b7",
+        "b7a7"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Ra7+",
+        "Qxc7+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1597,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/gtQFX7JI/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BlawB",
+      "fen": "4r3/p6k/1p4pp/2p5/2P2R2/5QP1/P3q3/6K1 w - - 2 38",
+      "playerMoves": [
+        "f4f7",
+        "f7f8",
+        "f3e2"
+      ],
+      "opponentMoves": [
+        "h7g8",
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Rf7+",
+        "Rf8+",
+        "Qxe2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1415,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/A8zgewKg/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xM5S2",
+      "fen": "7R/P7/3Q4/8/6p1/5p2/r5k1/4K3 b - - 3 53",
+      "playerMoves": [
+        "f3f2",
+        "f2f1q"
+      ],
+      "opponentMoves": [
+        "e1d1"
+      ],
+      "solutionSan": [
+        "f2+",
+        "f1=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "promotion",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 1598,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/cAVQrW80#105",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7ZD3M",
+      "fen": "2kr2r1/pp1n4/3q1n2/3p3p/3P1N1P/2PQ1PB1/P6K/R4R2 b - - 5 25",
+      "playerMoves": [
+        "g8g3",
+        "d8g8",
+        "d6f4"
+      ],
+      "opponentMoves": [
+        "h2g3",
+        "g3h3"
+      ],
+      "solutionSan": [
+        "Rxg3",
+        "Rg8+",
+        "Qxf4"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "exposedKing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1507,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/KXPjpD0h#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cyedK",
+      "fen": "3r2k1/8/4R3/p3B3/P1PPp1n1/6Q1/6Pr/2q2RK1 b - - 2 34",
+      "playerMoves": [
+        "h2h1",
+        "c1f1"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qxf1#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1509,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/nu1QCD0t#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oNceZ",
+      "fen": "8/2P5/3r1k2/3r1pp1/3R4/7P/6P1/5K2 w - - 0 39",
+      "playerMoves": [
+        "d4d5",
+        "d5d6",
+        "c7c8q"
+      ],
+      "opponentMoves": [
+        "d6c6",
+        "c6d6"
+      ],
+      "solutionSan": [
+        "Rxd5",
+        "Rd6+",
+        "c8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "promotion",
+        "rookEndgame"
+      ],
+      "rating": 1417,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/1PCuHDE1/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_a6qNE",
+      "fen": "5r2/1p4kp/pq1pQ3/4n1P1/4P3/1P6/P7/K4R2 w - - 4 35",
+      "playerMoves": [
+        "e6h6",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "killBoxMate",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1530,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/BLwrzdsW/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IWyCU",
+      "fen": "2k4r/1b3p2/p1n2P2/P1pp4/2p5/5Nq1/1P3QP1/R3R1K1 b - - 1 27",
+      "playerMoves": [
+        "h8h1",
+        "g3f2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qxf2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1414,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Oo9jrFQs#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aPRaT",
+      "fen": "5r1k/1pp3p1/1b1p3p/p3q3/2B1P3/P1P3P1/1P2Q2P/5R1K b - - 7 25",
+      "playerMoves": [
+        "f8f1",
+        "e5e4",
+        "e4c4"
+      ],
+      "opponentMoves": [
+        "e2f1",
+        "f1g2"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Qxe4+",
+        "Qxc4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "kingsideAttack",
+        "long"
+      ],
+      "rating": 1437,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/V1AFJ1lv#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PIQy7",
+      "fen": "4rk2/2R2p2/p7/P5R1/4p2P/4Pq2/2Q2P1r/5K2 b - - 4 39",
+      "playerMoves": [
+        "h2h1",
+        "f3h3",
+        "h1g1"
+      ],
+      "opponentMoves": [
+        "g5g1",
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qh3+",
+        "Rxg1+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1591,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/yavx9OWX#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k3NSE",
+      "fen": "3r3k/3qQ1p1/p7/1p2P2p/2p5/8/P5PP/5RK1 w - - 1 37",
+      "playerMoves": [
+        "f1f8",
+        "e7d7"
+      ],
+      "opponentMoves": [
+        "d8f8"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Qxd7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1467,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/NQD29RRr/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UTCwL",
+      "fen": "8/P1R4p/r4k2/6pK/2P5/8/8/8 w - - 1 50",
+      "playerMoves": [
+        "c7c6",
+        "a7a8q"
+      ],
+      "opponentMoves": [
+        "a6c6"
+      ],
+      "solutionSan": [
+        "Rc6+",
+        "a8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "promotion",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1623,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/u6HCQHZJ/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wb9dk",
+      "fen": "2r5/ppq4p/3b2k1/1b4P1/3B4/8/P2N4/3K2QR w - - 0 33",
+      "playerMoves": [
+        "h1h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "g6f7"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxh7+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1570,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/9pyoyz2b/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EvyIK",
+      "fen": "r2r4/2Q1q1pk/1p4np/4p3/1P2Pp2/P4N1P/5PP1/R1R3K1 b - - 2 24",
+      "playerMoves": [
+        "d8d1",
+        "e7c7"
+      ],
+      "opponentMoves": [
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxc7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1542,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/7W19PknE#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Js2e3",
+      "fen": "8/8/2Q2qpp/4pk2/3p4/7P/5PP1/6K1 w - - 1 47",
+      "playerMoves": [
+        "g2g4",
+        "c6f6"
+      ],
+      "opponentMoves": [
+        "f5f4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "Qxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "queenEndgame",
+        "short"
+      ],
+      "rating": 1457,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/FKn38KwC/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9AeC6",
+      "fen": "r2q1rk1/1p4pp/4N3/2Q5/4p3/pP2P3/Pn1RKPPP/2R5 b - - 1 25",
+      "playerMoves": [
+        "f8f2",
+        "d8d2"
+      ],
+      "opponentMoves": [
+        "e2f2"
+      ],
+      "solutionSan": [
+        "Rxf2+",
+        "Qxd2+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1465,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IqTljEYa#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8a4Tj",
+      "fen": "r4bk1/q4pp1/P2p3p/2nQp3/8/5R1P/5PP1/R5K1 w - - 5 42",
+      "playerMoves": [
+        "f3f7",
+        "d5a8"
+      ],
+      "opponentMoves": [
+        "a7f7"
+      ],
+      "solutionSan": [
+        "Rxf7",
+        "Qxa8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1564,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ZL6QAmhM/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_63R4I",
+      "fen": "Q7/4Npbk/6pp/5p2/8/8/Pr1q1PPP/5RK1 b - - 3 29",
+      "playerMoves": [
+        "d2f2",
+        "b2b1",
+        "g7d4",
+        "b1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1",
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rb1+",
+        "Bd4+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1469,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/4qFnrlpi#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ixAXL",
+      "fen": "3Q4/pR1b2pk/3p3q/2pP1p2/2P1pNn1/4P1p1/P5B1/B5K1 b - - 0 33",
+      "playerMoves": [
+        "h6h2",
+        "g4e3",
+        "e3g2",
+        "h2g2"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1e2",
+        "f4g2"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Nxe3+",
+        "Nxg2",
+        "Qxg2+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "exposedKing",
+        "kingsideAttack",
+        "master",
+        "masterVsMaster",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1412,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/iPppn6Tl#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_htjsJ",
+      "fen": "k7/pR6/2KN4/8/5p2/1P6/3r4/8 b - - 4 47",
+      "playerMoves": [
+        "d2d6",
+        "a8b7",
+        "f4f3",
+        "f3f2"
+      ],
+      "opponentMoves": [
+        "c6d6",
+        "d6e5",
+        "e5e4"
+      ],
+      "solutionSan": [
+        "Rxd6+",
+        "Kxb7",
+        "f3",
+        "f2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1683,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/8ie0oF2w#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PM8d3",
+      "fen": "1n3rk1/p6p/1p1bp3/6Qq/2pP1P2/4P3/PP4PP/R1B2RK1 b - - 0 19",
+      "playerMoves": [
+        "h5g5",
+        "d6h2",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "f4g5",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qxg5",
+        "Bxh2+",
+        "Rxf1"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1520,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/xjLuEEk0#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5byYp",
+      "fen": "8/R7/8/8/P3n1p1/1P3pk1/8/5K2 b - - 0 68",
+      "playerMoves": [
+        "e4d2",
+        "f3f2",
+        "f2f1q"
+      ],
+      "opponentMoves": [
+        "f1e1",
+        "e1d2"
+      ],
+      "solutionSan": [
+        "Nd2+",
+        "f2+",
+        "f1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long",
+        "promotion"
+      ],
+      "rating": 1466,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/dI96i2V6#135",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1lMVh",
+      "fen": "5k1r/R1p5/3p4/1p1Pp1N1/6B1/2P3Pp/1P3r2/6K1 b - - 1 36",
+      "playerMoves": [
+        "h3h2",
+        "h2h1q"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "h2+",
+        "h1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "deflection",
+        "endgame",
+        "promotion",
+        "short"
+      ],
+      "rating": 1477,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/UKPxuNHF#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qCfnq",
+      "fen": "r7/1q3p2/p2p1k1p/1pp1n1bQ/6P1/2P4P/PP3P1K/3RR3 w - - 0 33",
+      "playerMoves": [
+        "d1d6",
+        "e1e5"
+      ],
+      "opponentMoves": [
+        "f6g7"
+      ],
+      "solutionSan": [
+        "Rxd6+",
+        "Rxe5"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1405,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/NAsl6Pq7/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Rr7wt",
+      "fen": "5k2/pp6/2p2n2/2P2B2/2NP2p1/1P2K1P1/P4Q2/6q1 b - - 19 39",
+      "playerMoves": [
+        "f6d5",
+        "d5c3",
+        "g1f2"
+      ],
+      "opponentMoves": [
+        "e3e2",
+        "e2d3"
+      ],
+      "solutionSan": [
+        "Nd5+",
+        "Nc3+",
+        "Qxf2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1543,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/S1Ac3SAo#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Vd1mt",
+      "fen": "8/5ppk/p1p1b3/4P3/PRpB3p/r1N4P/5KP1/8 b - - 5 34",
+      "playerMoves": [
+        "c6c5",
+        "a3c3"
+      ],
+      "opponentMoves": [
+        "d4c5"
+      ],
+      "solutionSan": [
+        "c5",
+        "Rxc3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1493,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/7OZ7YFBG#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hv90R",
+      "fen": "2k5/pp3b2/2rQ1N2/5P2/P2p4/1q1Pb2P/1r4P1/R2R3K w - - 5 36",
+      "playerMoves": [
+        "d6d7",
+        "d7d8",
+        "f6d7",
+        "d8c8"
+      ],
+      "opponentMoves": [
+        "c8b8",
+        "c6c8",
+        "b8a8"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qd8+",
+        "Nd7+",
+        "Qxc8#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "queensideAttack",
+        "veryLong"
+      ],
+      "rating": 1532,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/LTT1gtRd/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xFoS9",
+      "fen": "rn3rk1/ppp2ppp/8/2bP4/3P2q1/2N1K3/PPP5/R1BQ1BNR b - - 0 14",
+      "playerMoves": [
+        "f8e8",
+        "c5d4",
+        "g4d4"
+      ],
+      "opponentMoves": [
+        "e3f2",
+        "d1d4"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Bxd4+",
+        "Qxd4+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "long",
+        "opening"
+      ],
+      "rating": 1428,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/aJ4HNdSn#27",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PQ82Z",
+      "fen": "4r2k/6pp/p1qQ2b1/1p6/8/2P5/P4PPP/R2R2K1 b - - 0 26",
+      "playerMoves": [
+        "e8e1",
+        "c6d6"
+      ],
+      "opponentMoves": [
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1458,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/qBeOtgrX#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6HqsO",
+      "fen": "8/5pk1/p4rp1/2p4p/8/3QP2K/5q1P/5RR1 b - - 1 30",
+      "playerMoves": [
+        "f6f3",
+        "f2f1",
+        "f3f1"
+      ],
+      "opponentMoves": [
+        "g1g3",
+        "d3f1"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "Qxf1+",
+        "Rxf1"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1548,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/xOwOLjGc#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tsU5H",
+      "fen": "2k1r2r/ppp2pp1/5n2/2q5/5Q2/5BP1/PPP3KP/R4R2 b - - 1 21",
+      "playerMoves": [
+        "c5c2",
+        "h8h2",
+        "c2f2"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "g2h2"
+      ],
+      "solutionSan": [
+        "Qxc2+",
+        "Rxh2+",
+        "Qxf2+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1466,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IxVRBUwh#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oRzqS",
+      "fen": "8/P7/1n6/2N4p/8/2k3K1/8/8 w - - 2 49",
+      "playerMoves": [
+        "c5a4",
+        "a7a8q"
+      ],
+      "opponentMoves": [
+        "b6a4"
+      ],
+      "solutionSan": [
+        "Na4+",
+        "a8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "knightEndgame",
+        "promotion",
+        "short"
+      ],
+      "rating": 1600,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/sdxpIhjc/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4chm6",
+      "fen": "2r3k1/5rpb/1p2p2P/3pQ3/3P4/P3NPR1/1P1q4/4RK2 b - - 4 44",
+      "playerMoves": [
+        "h7d3",
+        "d2e1"
+      ],
+      "opponentMoves": [
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Bd3+",
+        "Qxe1+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/J7JByihS#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_o5uHw",
+      "fen": "2r2rk1/1p1b1ppp/4p3/3p2P1/1Q1q1P2/N6N/P3P1BR/1R2K3 b - - 0 19",
+      "playerMoves": [
+        "c8c1",
+        "d4b4"
+      ],
+      "opponentMoves": [
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qxb4+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1575,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/qTdVpqCY#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bdN38",
+      "fen": "1k1r4/8/1p3n2/1qp2P2/8/3p1QPp/7P/R5K1 w - - 0 42",
+      "playerMoves": [
+        "f3a8",
+        "a1a7",
+        "a8d8"
+      ],
+      "opponentMoves": [
+        "b8c7",
+        "c7d6"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Ra7+",
+        "Qxd8+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1433,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ms1g0ojT/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yM76R",
+      "fen": "5rk1/1b4p1/2p1p1Qp/1p2p3/2p5/4q1P1/6BP/5R1K w - - 4 35",
+      "playerMoves": [
+        "g6e6",
+        "f1f8",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g8h7",
+        "e3c1"
+      ],
+      "solutionSan": [
+        "Qxe6+",
+        "Rxf8",
+        "Rf1"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1581,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/znb1xZQD/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tBzrW",
+      "fen": "r7/5bp1/pp1Bk3/4P1Kp/3P2p1/8/1P3R1P/8 w - - 7 35",
+      "playerMoves": [
+        "d4d5",
+        "f2f7"
+      ],
+      "opponentMoves": [
+        "e6d5"
+      ],
+      "solutionSan": [
+        "d5+",
+        "Rxf7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1462,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/xcOf3nay/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YIHoF",
+      "fen": "3r4/p1RB2pp/kp1B4/3pP3/1PnPp3/5bP1/8/4K3 w - - 1 40",
+      "playerMoves": [
+        "b4b5",
+        "c7a7"
+      ],
+      "opponentMoves": [
+        "a6a5"
+      ],
+      "solutionSan": [
+        "b5+",
+        "Rxa7#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/fNWLAMsK/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UwqBC",
+      "fen": "4Q3/1nk5/5p1p/2p1pP1P/2PpP1K1/3PqB2/2P5/8 b - - 20 56",
+      "playerMoves": [
+        "e3f4",
+        "f4f3"
+      ],
+      "opponentMoves": [
+        "g4h3"
+      ],
+      "solutionSan": [
+        "Qf4+",
+        "Qxf3+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1420,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/6SrlF4Wf#111",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_weepG",
+      "fen": "3r3k/p2r2qp/1pQ3p1/8/8/2p2R1P/PP4P1/3R2K1 w - - 0 40",
+      "playerMoves": [
+        "d1d7",
+        "f3f8",
+        "c6d7"
+      ],
+      "opponentMoves": [
+        "g7d7",
+        "d8f8"
+      ],
+      "solutionSan": [
+        "Rxd7",
+        "Rf8+",
+        "Qxd7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1535,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/gEMy1d4u/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_W5Jec",
+      "fen": "b1R2rk1/p5pp/1p6/3rQ3/q3p3/2P5/5PPP/5RK1 w - - 2 28",
+      "playerMoves": [
+        "e5e6",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qe6+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1427,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/eJ51fWWH/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uNvTq",
+      "fen": "rnQ1qk1r/6pp/3p4/pp4N1/5B2/P7/1PP2PPP/6K1 w - - 0 23",
+      "playerMoves": [
+        "f4d6",
+        "c8e8"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Bxd6+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1576,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/z0kCVsIR/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_73OUB",
+      "fen": "2r5/7k/4Qp1p/3p1p2/1p1q1PbR/3Bn1P1/PP4P1/1K6 w - - 0 33",
+      "playerMoves": [
+        "e6f7",
+        "h4h6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1517,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/adHkNV1k/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_A0ROq",
+      "fen": "5rk1/4Qpp1/7P/1np3N1/5qP1/8/r4P2/4R1K1 w - - 0 33",
+      "playerMoves": [
+        "h6h7",
+        "e7f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "h7+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1498,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/W34smFLp/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OS3WG",
+      "fen": "8/8/1P1k3p/2n3p1/2PKP1P1/3p3P/1p6/1N6 b - - 2 42",
+      "playerMoves": [
+        "d3d2",
+        "c5b3",
+        "b2b1q"
+      ],
+      "opponentMoves": [
+        "b1d2",
+        "d2b3"
+      ],
+      "solutionSan": [
+        "d2",
+        "Nb3+",
+        "b1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "knightEndgame",
+        "long",
+        "promotion"
+      ],
+      "rating": 1782,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/B6e20CV0#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cV2ZE",
+      "fen": "8/5pk1/5r1p/3p3P/3Pq1p1/4P1P1/5P1K/1Q3R2 b - - 1 44",
+      "playerMoves": [
+        "f6f2",
+        "e4b1"
+      ],
+      "opponentMoves": [
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Rxf2+",
+        "Qxb1"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1479,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IBTcTbXx#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tnm0p",
+      "fen": "2r2rk1/pbq2ppp/1p2pn2/6R1/8/3B1N2/PPPQ1PPP/2KR4 w - - 6 16",
+      "playerMoves": [
+        "g5g7",
+        "d2g5",
+        "g5f6"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qg5+",
+        "Qxf6+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1571,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/VQ3Ga3cB/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JtiKd",
+      "fen": "8/5k2/1p3PNp/p1p2K2/2P2P2/PPB4r/8/8 b - - 1 57",
+      "playerMoves": [
+        "h3h5",
+        "f7g6"
+      ],
+      "opponentMoves": [
+        "f5e4"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Kxg6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1531,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/XsGP50zl#113",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lif6U",
+      "fen": "r7/1bp1R3/pp1p1kq1/7r/3P4/2P3Q1/PP3PPP/R5K1 w - - 2 24",
+      "playerMoves": [
+        "e7e6",
+        "g3g6"
+      ],
+      "opponentMoves": [
+        "f6e6"
+      ],
+      "solutionSan": [
+        "Re6+",
+        "Qxg6+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Obi3ctgo/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TZmiE",
+      "fen": "8/8/2k1p2P/p3P1K1/Pr6/3p4/1p6/1R6 w - - 0 57",
+      "playerMoves": [
+        "h6h7",
+        "b1b2",
+        "h7h8q"
+      ],
+      "opponentMoves": [
+        "b4b8",
+        "b8b2"
+      ],
+      "solutionSan": [
+        "h7",
+        "Rxb2",
+        "h8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "promotion",
+        "rookEndgame"
+      ],
+      "rating": 1441,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/yCCOMOyI/black#112",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i3JbL",
+      "fen": "5rk1/pb4p1/1p2p2p/3pP1q1/2pP4/3BP3/PP2Q1PP/5RK1 w - - 0 23",
+      "playerMoves": [
+        "d3h7",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Bh7+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "kingsideAttack",
+        "short"
+      ],
+      "rating": 1712,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/OhJZljuY/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Lfeji",
+      "fen": "8/p4R2/1kq1r3/1p6/2pp2Pp/P6P/1P3Q2/6K1 w - - 0 47",
+      "playerMoves": [
+        "f2d4",
+        "f7b7",
+        "b7c7",
+        "d4c5"
+      ],
+      "opponentMoves": [
+        "c6c5",
+        "b6c6",
+        "c6c7"
+      ],
+      "solutionSan": [
+        "Qxd4+",
+        "Rb7+",
+        "Rc7+",
+        "Qxc5+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1408,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/09EJFmKA/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Bbg2H",
+      "fen": "2k1r3/ppp3pp/2nb2n1/3p1p2/P2P4/2PB1Q1q/1P3P1N/R1B2NK1 b - - 1 19",
+      "playerMoves": [
+        "d6h2",
+        "e8e1",
+        "e1f1",
+        "h3f3"
+      ],
+      "opponentMoves": [
+        "f1h2",
+        "d3f1",
+        "h2f1"
+      ],
+      "solutionSan": [
+        "Bxh2+",
+        "Re1+",
+        "Rxf1+",
+        "Qxf3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "kingsideAttack",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1546,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/SABATXnl#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VcUi3",
+      "fen": "1Rbn4/2k3pp/pNr1p3/4p3/4P1BP/6P1/1P2K3/8 w - - 9 36",
+      "playerMoves": [
+        "b8c8",
+        "c8d8"
+      ],
+      "opponentMoves": [
+        "c7b6"
+      ],
+      "solutionSan": [
+        "Rxc8+",
+        "Rxd8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/ewXaIn0y/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qpWIz",
+      "fen": "6k1/2Q2p2/6p1/1r4qp/8/7P/Pn2RPP1/6K1 w - - 4 41",
+      "playerMoves": [
+        "e2e8",
+        "c7c3",
+        "e8g8",
+        "c3f6"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g5f6",
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qc3+",
+        "Rg8+",
+        "Qxf6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1430,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/QH7MfpHf/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_D5Lez",
+      "fen": "7k/1p3R2/p1p3Q1/7p/2Pq4/1P5P/r5P1/7K b - - 0 31",
+      "playerMoves": [
+        "a2a1",
+        "d4e5",
+        "a1h1",
+        "e5g3"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "g6g3",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Qe5+",
+        "Rh1+",
+        "Qxg3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1588,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/c0t6vNxB#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jJSte",
+      "fen": "7r/2p1kp1p/pp2q3/8/6Q1/4P3/P5PP/3R2K1 w - - 4 25",
+      "playerMoves": [
+        "g4g5",
+        "d1d7",
+        "g5f6"
+      ],
+      "opponentMoves": [
+        "e6f6",
+        "e7d7"
+      ],
+      "solutionSan": [
+        "Qg5+",
+        "Rd7+",
+        "Qxf6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1542,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/9XB6uX2L/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_68uGB",
+      "fen": "r7/2pk1P2/3p4/6Qp/qN6/2P5/1R6/1K1R4 b - - 0 36",
+      "playerMoves": [
+        "a4d1",
+        "a8a1",
+        "d1c1"
+      ],
+      "opponentMoves": [
+        "g5c1",
+        "b1a1"
+      ],
+      "solutionSan": [
+        "Qxd1+",
+        "Ra1+",
+        "Qxc1+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "hangingPiece",
+        "long"
+      ],
+      "rating": 1615,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/HZpTsmKc#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FTj9V",
+      "fen": "r1b2knr/p4ppp/2pN1q2/b7/8/2P3B1/PP3PPP/R2QKB1R b KQ - 1 13",
+      "playerMoves": [
+        "a5c3",
+        "f6c3",
+        "c3a1"
+      ],
+      "opponentMoves": [
+        "b2c3",
+        "d1d2"
+      ],
+      "solutionSan": [
+        "Bxc3+",
+        "Qxc3+",
+        "Qxa1+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "long",
+        "opening"
+      ],
+      "rating": 1513,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/0BNtXTID#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yNOFN",
+      "fen": "3r2k1/5ppp/1Q2p3/3p4/3q4/5B2/P1r2PPP/RR4K1 b - - 2 25",
+      "playerMoves": [
+        "c2c1",
+        "d4b6"
+      ],
+      "opponentMoves": [
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qxb6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1725,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/q1VwnsnL#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wOYHo",
+      "fen": "5rk1/4R1p1/1p3p1p/pB2n3/P7/7P/3r2P1/5R1K w - - 0 36",
+      "playerMoves": [
+        "e7e5",
+        "b5c4",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f6e5",
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Rxe5",
+        "Bc4+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1563,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Gq7z8O0m/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vjefn",
+      "fen": "r3kbnr/pp3ppp/1q2p3/3pPb2/3n1P2/4B3/PP1N2PP/R2QKBNR w KQkq - 0 9",
+      "playerMoves": [
+        "d1a4",
+        "a4d4"
+      ],
+      "opponentMoves": [
+        "b6c6"
+      ],
+      "solutionSan": [
+        "Qa4+",
+        "Qxd4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "opening",
+        "short"
+      ],
+      "rating": 1569,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/SbY9vIEv/black#16",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QJ00R",
+      "fen": "8/8/rQp2q2/p1nk1P2/4p3/P3P3/6PP/5RK1 w - - 1 39",
+      "playerMoves": [
+        "f1d1",
+        "b6a6"
+      ],
+      "opponentMoves": [
+        "c5d3"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxa6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1552,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/z5gQl9cm/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mesbf",
+      "fen": "4r1k1/2q2ppp/p7/1p2bN2/1P2n1Q1/P6P/B4PP1/5RK1 b - - 2 31",
+      "playerMoves": [
+        "e5h2",
+        "e4f2",
+        "e8e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Bh2+",
+        "Nxf2+",
+        "Re1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "clearance",
+        "deflection",
+        "kingsideAttack",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1481,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/tNnfnpoT#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fMADX",
+      "fen": "8/p1b2k2/4RP1p/5K1P/8/6r1/4R3/8 b - - 4 55",
+      "playerMoves": [
+        "g3g5",
+        "f7e6"
+      ],
+      "opponentMoves": [
+        "f5e4"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Kxe6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "interference",
+        "master",
+        "short"
+      ],
+      "rating": 1559,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Wvp0z8Qq#109",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_igPOq",
+      "fen": "4rr2/p4p1k/1ppp1Q1p/4q3/1P6/P5R1/5PPP/2R3K1 w - - 1 24",
+      "playerMoves": [
+        "g3g7",
+        "f6h6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1453,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/cEht3JSH/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qgoIF",
+      "fen": "8/8/8/pp3pk1/2P1p3/PP2P1PK/5P2/8 b - - 0 46",
+      "playerMoves": [
+        "a5a4",
+        "b5c4"
+      ],
+      "opponentMoves": [
+        "b3a4"
+      ],
+      "solutionSan": [
+        "a4",
+        "bxc4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "pawnEndgame",
+        "short"
+      ],
+      "rating": 1686,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/3UVuJrmZ#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6Ihdr",
+      "fen": "k3r3/1p5p/6p1/3p4/1P6/q1PQ1P2/3K2PP/3R4 b - - 10 37",
+      "playerMoves": [
+        "a3b2",
+        "e8e2",
+        "b2c2"
+      ],
+      "opponentMoves": [
+        "d3c2",
+        "d2e2"
+      ],
+      "solutionSan": [
+        "Qb2+",
+        "Re2+",
+        "Qxc2+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1460,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/xE6Esdng#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PLpbE",
+      "fen": "4r1k1/p5b1/6pp/1pp2p2/5B2/1PPQ1qP1/P4P1P/3R2K1 b - - 3 30",
+      "playerMoves": [
+        "e8e1",
+        "f3d3"
+      ],
+      "opponentMoves": [
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxd3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1407,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/d8VXlTJ7#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fmrsC",
+      "fen": "8/1p6/1p3r1R/2pkp3/4n3/1PPKB3/P7/8 w - - 3 47",
+      "playerMoves": [
+        "c3c4",
+        "d3e4",
+        "e3h6"
+      ],
+      "opponentMoves": [
+        "d5c6",
+        "f6h6"
+      ],
+      "solutionSan": [
+        "c4+",
+        "Kxe4",
+        "Bxh6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1508,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/78pjBENZ/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_d83u8",
+      "fen": "8/3R3p/p3B1pk/2b1P3/5PP1/P6P/5q2/7K w - - 0 39",
+      "playerMoves": [
+        "g4g5",
+        "d7h7"
+      ],
+      "opponentMoves": [
+        "h6h5"
+      ],
+      "solutionSan": [
+        "g5+",
+        "Rxh7#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/vFF65Xoa/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lVEcV",
+      "fen": "2kn2R1/pp5r/4p2r/3p2p1/2pP2B1/P4QqP/1PN3P1/R6K b - - 2 25",
+      "playerMoves": [
+        "h6h3",
+        "h7h3",
+        "g3f3"
+      ],
+      "opponentMoves": [
+        "g2h3",
+        "g4h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Rxh3+",
+        "Qxf3+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1404,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/8VzjMnjy#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_522Ec",
+      "fen": "R7/8/4k3/3p4/2nB4/1KP5/P5r1/8 b - - 11 57",
+      "playerMoves": [
+        "g2b2",
+        "b2a2"
+      ],
+      "opponentMoves": [
+        "b3a4"
+      ],
+      "solutionSan": [
+        "Rb2+",
+        "Rxa2+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1460,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/f3azYWhU#113",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wymqx",
+      "fen": "r7/1p1r1p2/p1n4p/2P2kp1/2P1n3/P2p1N1P/3B1PP1/R3R1K1 w - - 2 22",
+      "playerMoves": [
+        "g2g4",
+        "e1e4"
+      ],
+      "opponentMoves": [
+        "f5g6"
+      ],
+      "solutionSan": [
+        "g4+",
+        "Rxe4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1452,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/qEpkh17o/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZF3EI",
+      "fen": "4rr1k/2p3pp/p4q2/1p6/8/1Q6/PP2RPPP/4R1K1 b - - 6 25",
+      "playerMoves": [
+        "f6f2",
+        "e8e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "e2f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rxe1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1484,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/rohnCCaI#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Bhxvw",
+      "fen": "8/6p1/5p2/5K2/4B1PP/1p2k1P1/4P3/8 b - - 0 50",
+      "playerMoves": [
+        "g7g6",
+        "e3e4"
+      ],
+      "opponentMoves": [
+        "f5e6"
+      ],
+      "solutionSan": [
+        "g6+",
+        "Kxe4"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1572,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/awL6ULVt#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sJL7R",
+      "fen": "4Qnk1/3R1p2/4p1p1/8/8/2q2PK1/8/8 w - - 3 48",
+      "playerMoves": [
+        "e8f7",
+        "f7f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1593,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/bgJ6ueuX/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rIwUa",
+      "fen": "8/8/3pQb1k/2pP1P1p/4n2B/R6K/1P2q3/8 b - - 12 39",
+      "playerMoves": [
+        "e2g4",
+        "g4h4"
+      ],
+      "opponentMoves": [
+        "h3h2"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qxh4+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1586,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/gum71Cdi#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dWsl8",
+      "fen": "5rk1/p1q2ppp/1p2p3/3bP1N1/1Q1P2R1/3Bn2P/5rPK/8 w - - 2 30",
+      "playerMoves": [
+        "d3h7",
+        "b4f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Bxh7+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/JI4UT30j/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NNZNB",
+      "fen": "6k1/p1p3r1/1p1p1q2/3P1p1Q/2b1nP2/P3P2R/6PP/5RK1 w - - 0 28",
+      "playerMoves": [
+        "h5e8",
+        "h3h8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "f6f8",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Rh8+",
+        "Qxf8+"
+      ],
+      "themes": [
+        "attraction",
+        "clearance",
+        "crushing",
+        "deflection",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1623,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/qexMvUcO/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Uw8Sq",
+      "fen": "5q1k/6pp/1P6/4P1r1/4Q3/5P2/P1p2K1P/5R2 b - - 3 41",
+      "playerMoves": [
+        "f8c5",
+        "g5g2",
+        "c5e3"
+      ],
+      "opponentMoves": [
+        "e4e3",
+        "f2g2"
+      ],
+      "solutionSan": [
+        "Qc5+",
+        "Rg2+",
+        "Qxe3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1481,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/3xpDcGlp#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mwqxk",
+      "fen": "1q6/k7/p1R3p1/3P1b2/8/PQ6/KP2r3/8 w - - 1 42",
+      "playerMoves": [
+        "c6a6",
+        "b3b8"
+      ],
+      "opponentMoves": [
+        "a7a6"
+      ],
+      "solutionSan": [
+        "Rxa6+",
+        "Qxb8"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1596,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/AIJ8jdqV/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XeR3B",
+      "fen": "1r3rk1/2p4p/3p2pR/8/8/2PR2Q1/P1P2q2/2K5 w - - 0 25",
+      "playerMoves": [
+        "h6g6",
+        "g6g8",
+        "g3f2"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Rg8+",
+        "Qxf2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1575,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/iOmwoZzo/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KXX2O",
+      "fen": "2rr2k1/4q1p1/2p3p1/ppR2p2/3P3R/7P/PP3PK1/3Q4 w - - 2 30",
+      "playerMoves": [
+        "d1b3",
+        "h4h8",
+        "b3f7"
+      ],
+      "opponentMoves": [
+        "e7f7",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qb3+",
+        "Rh8+",
+        "Qxf7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1495,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/LQjHrxkt/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_K9bLa",
+      "fen": "2R5/5p1k/4pPpp/pp2r3/1q6/7P/P5P1/2Q4K w - - 2 37",
+      "playerMoves": [
+        "c8h8",
+        "c1h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h7h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qxh6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1522,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/wR2Xmy3h/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DC305",
+      "fen": "6B1/1R6/5rk1/1p2K3/8/4n3/8/8 w - - 0 57",
+      "playerMoves": [
+        "g8h7",
+        "e5f6"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Bh7+",
+        "Kxf6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1475,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/TAyjdFc2/black#112",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wxHnh",
+      "fen": "8/2R3pp/6k1/P3pp2/6P1/r4PK1/r7/1R6 w - - 0 41",
+      "playerMoves": [
+        "b1b6",
+        "c7g7"
+      ],
+      "opponentMoves": [
+        "g6g5"
+      ],
+      "solutionSan": [
+        "Rb6+",
+        "Rxg7#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1461,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/uTncQ36s/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C1WnW",
+      "fen": "7r/4Qrk1/pq1p3p/np4pR/2p3P1/P1P5/BPP1K1P1/7R w - - 3 29",
+      "playerMoves": [
+        "h5g5",
+        "e7g5",
+        "h1h8"
+      ],
+      "opponentMoves": [
+        "h6g5",
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Qxg5+",
+        "Rxh8#"
+      ],
+      "themes": [
+        "deflection",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1491,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/IgyMw011/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yfAHP",
+      "fen": "8/1p1k4/1p3p2/3P1P2/1P1R2KP/P1P5/3pr3/8 b - - 1 38",
+      "playerMoves": [
+        "e2e4",
+        "d2d1q"
+      ],
+      "opponentMoves": [
+        "d4e4"
+      ],
+      "solutionSan": [
+        "Re4+",
+        "d1=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "deflection",
+        "endgame",
+        "promotion",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1578,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/8pQ2EJpU#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lql51",
+      "fen": "3R4/2k3p1/ppq2p1p/3Q4/8/8/Pr3PPP/6K1 w - - 9 48",
+      "playerMoves": [
+        "d8c8",
+        "d5c6"
+      ],
+      "opponentMoves": [
+        "c7c8"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Qxc6+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1476,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/pkTNVExx/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OjLWV",
+      "fen": "5r2/4k3/p7/r2Pp2p/1p1nB3/4R1P1/1P3R1K/8 w - - 4 43",
+      "playerMoves": [
+        "d5d6",
+        "f2f8"
+      ],
+      "opponentMoves": [
+        "e7d6"
+      ],
+      "solutionSan": [
+        "d6+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "short"
+      ],
+      "rating": 1420,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/CMvIXhqE/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZQCHx",
+      "fen": "r7/1q2kpQ1/4p1p1/4P3/8/p6R/6PP/6K1 w - - 0 32",
+      "playerMoves": [
+        "g7f6",
+        "h3h8",
+        "f6f7"
+      ],
+      "opponentMoves": [
+        "e7e8",
+        "e8d7"
+      ],
+      "solutionSan": [
+        "Qf6+",
+        "Rh8+",
+        "Qxf7+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "interference",
+        "long"
+      ],
+      "rating": 1481,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Ao2cqzu0/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uDv1y",
+      "fen": "8/p4k1p/4b2p/8/1Q1P4/8/PP6/1KR2q2 b - - 2 33",
+      "playerMoves": [
+        "e6f5",
+        "f1c1"
+      ],
+      "opponentMoves": [
+        "b1a1"
+      ],
+      "solutionSan": [
+        "Bf5+",
+        "Qxc1#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1404,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Ds3BH16j#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6eqhx",
+      "fen": "1kr2R2/1p4r1/1P6/4p3/4n1pp/1N2P3/6PP/R5K1 w - - 2 34",
+      "playerMoves": [
+        "a1a8",
+        "f8c8"
+      ],
+      "opponentMoves": [
+        "b8a8"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Rxc8#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1420,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/bBv5Xm0L/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B2cgb",
+      "fen": "1r3nrk/1pR5/p3qn1p/3p1p2/1P1PpP2/P3P2Q/1B2BP1P/7K w - - 0 29",
+      "playerMoves": [
+        "h3h6",
+        "c7h7",
+        "h6e6"
+      ],
+      "opponentMoves": [
+        "f6h7",
+        "f8h7"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Rxh7+",
+        "Qxe6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1487,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/KgCqtcw8/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mgqFW",
+      "fen": "2k2b2/p1q3rp/1pQ5/8/1P6/P1P5/7P/3R3K w - - 10 39",
+      "playerMoves": [
+        "c6a8",
+        "d1d8",
+        "a8b8"
+      ],
+      "opponentMoves": [
+        "c7b8",
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Rd8+",
+        "Qxb8+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1662,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/0UuOsI2A/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3kOXe",
+      "fen": "8/1p5r/p7/4k3/2p1PRKP/2P5/PP6/8 b - - 7 52",
+      "playerMoves": [
+        "h7h4",
+        "e5f4",
+        "f4e5"
+      ],
+      "opponentMoves": [
+        "g4h4",
+        "e4e5"
+      ],
+      "solutionSan": [
+        "Rxh4+",
+        "Kxf4",
+        "Kxe5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1422,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/PBS5VtQ1#103",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KfwYy",
+      "fen": "8/p3npk1/3p2pp/1p4q1/4P1NQ/8/PPr3PP/5RK1 w - - 4 26",
+      "playerMoves": [
+        "f1f7",
+        "g4h6",
+        "h4h6"
+      ],
+      "opponentMoves": [
+        "g7f7",
+        "g5h6"
+      ],
+      "solutionSan": [
+        "Rxf7+",
+        "Nxh6+",
+        "Qxh6"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1566,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/NGYCNyC0/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OCWvK",
+      "fen": "8/8/2p5/1k1p4/R7/1KP5/1P5r/8 b - - 10 48",
+      "playerMoves": [
+        "h2b2",
+        "b2a2",
+        "b5a4"
+      ],
+      "opponentMoves": [
+        "b3a3",
+        "a3a2"
+      ],
+      "solutionSan": [
+        "Rxb2+",
+        "Ra2+",
+        "Kxa4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1438,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/Nzo06vew#95",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kB4IH",
+      "fen": "4r3/ppkb2p1/2p2r1p/2bP4/8/1BN2P1P/PPP3P1/R3RK2 b - - 0 19",
+      "playerMoves": [
+        "f6f3",
+        "d7h3"
+      ],
+      "opponentMoves": [
+        "g2f3"
+      ],
+      "solutionSan": [
+        "Rxf3+",
+        "Bxh3#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1771,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/9HMksISy#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FMOeL",
+      "fen": "4R3/p5pk/r6p/5P2/1KQ2q2/B6P/P7/R7 b - - 1 40",
+      "playerMoves": [
+        "a6a4",
+        "f4c4"
+      ],
+      "opponentMoves": [
+        "b4a4"
+      ],
+      "solutionSan": [
+        "Ra4+",
+        "Qxc4+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1445,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/bCVXyYxF#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rHixm",
+      "fen": "6k1/p7/1p5p/1Q1qB1p1/2nPr3/2P3P1/P4P2/1R4K1 b - - 1 31",
+      "playerMoves": [
+        "e4e1",
+        "d5b5"
+      ],
+      "opponentMoves": [
+        "b1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxb5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1512,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/uUPkCm1J#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_n1OXe",
+      "fen": "r6r/ppqn1pk1/2p2n2/3p4/3P1b1Q/P1NB1P1P/1PP2P2/R3R2K w - - 5 18",
+      "playerMoves": [
+        "e1g1",
+        "h4h8"
+      ],
+      "opponentMoves": [
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Rg1+",
+        "Qxh8+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1419,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/rzC0AzKV/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Qyqcj",
+      "fen": "6r1/5pkp/8/p4R2/5B2/5PK1/r6P/8 w - - 2 38",
+      "playerMoves": [
+        "f5g5",
+        "f4d6",
+        "g5g8"
+      ],
+      "opponentMoves": [
+        "g7f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Bd6+",
+        "Rxg8+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1426,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/YrLqFmG7/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Or2sJ",
+      "fen": "8/p1p2kpp/2p2rp1/4K3/2P3P1/1P1PRP1P/P7/8 b - - 9 36",
+      "playerMoves": [
+        "f6e6",
+        "c6c5",
+        "e6e3"
+      ],
+      "opponentMoves": [
+        "e5d4",
+        "d4c5"
+      ],
+      "solutionSan": [
+        "Re6+",
+        "c5+",
+        "Rxe3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1489,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/vXTF11LX#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mmcw2",
+      "fen": "8/5kpQ/p3p1p1/3p1pP1/3n1P2/2r2N2/P4RK1/3q4 w - - 0 37",
+      "playerMoves": [
+        "f3e5",
+        "h7h8",
+        "h8g7",
+        "g7d7"
+      ],
+      "opponentMoves": [
+        "f7f8",
+        "f8e7",
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Ne5+",
+        "Qh8+",
+        "Qxg7+",
+        "Qd7+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1505,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/zeMi9HTf/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4P8bk",
+      "fen": "2k4r/1b3R2/p1qPp3/6Q1/3p2p1/3P2P1/PP2R2P/6K1 b - - 0 30",
+      "playerMoves": [
+        "c6h1",
+        "h8h2"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Rxh2#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1586,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/p9v6CkML#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iro94",
+      "fen": "r1b1k2r/pp1p2p1/1qn1p3/2b1PpN1/N1B5/8/PP2QBP1/R2R2K1 b kq - 2 16",
+      "playerMoves": [
+        "c5f2",
+        "h8h1",
+        "b6f2"
+      ],
+      "opponentMoves": [
+        "e2f2",
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Bxf2+",
+        "Rh1+",
+        "Qxf2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1443,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/t6jgzrEH#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PMwoc",
+      "fen": "2b4r/2p3k1/6p1/p1p1PP2/5K2/1P1P4/P1P4R/8 w - - 0 37",
+      "playerMoves": [
+        "f5f6",
+        "f6f7",
+        "h2h8"
+      ],
+      "opponentMoves": [
+        "g7g8",
+        "g8f7"
+      ],
+      "solutionSan": [
+        "f6+",
+        "f7+",
+        "Rxh8"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "endgame",
+        "long"
+      ],
+      "rating": 1448,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/7qJ49gBh/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Nqclu",
+      "fen": "3r3r/pp1nk1pp/2pqp3/6PP/6n1/8/PP1Q2B1/2K1RR2 w - - 0 22",
+      "playerMoves": [
+        "f1f7",
+        "d2d6"
+      ],
+      "opponentMoves": [
+        "e7f7"
+      ],
+      "solutionSan": [
+        "Rf7+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1514,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/A9Q5Xvij/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wk6nF",
+      "fen": "7r/1R1rkp1p/R3p2p/3p1P2/8/6P1/7P/6K1 w - - 0 32",
+      "playerMoves": [
+        "f5f6",
+        "b7d7"
+      ],
+      "opponentMoves": [
+        "e7f6"
+      ],
+      "solutionSan": [
+        "f6+",
+        "Rxd7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1465,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/uVwy2CVr/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PCnie",
+      "fen": "8/8/4nk2/p3p1p1/3bB1Pp/1P1K4/P2B3P/8 b - - 18 71",
+      "playerMoves": [
+        "e6c5",
+        "c5e4"
+      ],
+      "opponentMoves": [
+        "d3e2"
+      ],
+      "solutionSan": [
+        "Nc5+",
+        "Nxe4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short"
+      ],
+      "rating": 1416,
+      "hint": "A move that distracts an opponent piece from another duty that it performs, such as guarding a key square. Sometimes also called \"overloading\".",
+      "source": "https://lichess.org/3j0nVBX0#141",
+      "alternateWinningMoves": []
+    }
+  ]
+}

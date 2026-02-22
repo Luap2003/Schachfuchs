@@ -1,0 +1,5327 @@
+{
+  "packId": "gen_skewer_600_999",
+  "title": "Skewer · Beginner",
+  "description": "Theme training: Skewer (600-999).",
+  "category": "theme_training",
+  "tags": [
+    "skewer",
+    "600_999"
+  ],
+  "difficulty": 1,
+  "puzzles": [
+    {
+      "id": "lichess_KNH1u",
+      "fen": "1rk4r/2p1p3/2p1qppR/Q1Pp4/5P2/2P1P3/P3K1P1/R7 w - - 0 29",
+      "playerMoves": [
+        "h6h8",
+        "h8b8"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Rxh8+",
+        "Rxb8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 947,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/ZWRTq8gU/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e8oRD",
+      "fen": "1r6/p4p2/3N1k1p/6p1/2P1p1P1/4P3/4KPP1/7R b - - 2 31",
+      "playerMoves": [
+        "b8b2",
+        "b2b1",
+        "b1h1"
+      ],
+      "opponentMoves": [
+        "e2d1",
+        "d1c2"
+      ],
+      "solutionSan": [
+        "Rb2+",
+        "Rb1+",
+        "Rxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 903,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/jIi6oaN2#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NTIrG",
+      "fen": "6k1/5p2/5rp1/7p/4K2P/4Q1P1/8/8 b - - 13 61",
+      "playerMoves": [
+        "f6e6",
+        "e6e3"
+      ],
+      "opponentMoves": [
+        "e4f4"
+      ],
+      "solutionSan": [
+        "Re6+",
+        "Rxe3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "queenRookEndgame",
+        "short",
+        "skewer",
+        "superGM"
+      ],
+      "rating": 887,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/PzPuji6o#121",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_078kF",
+      "fen": "r7/5ppp/8/1pk5/2b5/5P2/PK1R2PP/2R5 b - - 3 32",
+      "playerMoves": [
+        "a8a2",
+        "a2d2"
+      ],
+      "opponentMoves": [
+        "b2b1"
+      ],
+      "solutionSan": [
+        "Rxa2+",
+        "Rxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 775,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/0mfaNFVP#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yMxLd",
+      "fen": "6r1/5p2/5P2/3B1K1k/6p1/6Rp/8/8 b - - 3 50",
+      "playerMoves": [
+        "g8g5",
+        "g5d5"
+      ],
+      "opponentMoves": [
+        "f5f4"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Rxd5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 969,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/TwBTOXQZ#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LnyuL",
+      "fen": "4Q3/8/8/4Kp2/3P1P2/5P2/q7/2k5 b - - 2 85",
+      "playerMoves": [
+        "a2e2",
+        "e2e8"
+      ],
+      "opponentMoves": [
+        "e5d6"
+      ],
+      "solutionSan": [
+        "Qe2+",
+        "Qxe8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 996,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/m6XqeQQW#169",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_o8HpC",
+      "fen": "4k3/r7/p5RK/1p6/1P6/8/8/8 w - - 2 68",
+      "playerMoves": [
+        "g6g8",
+        "g8g7",
+        "g7a7"
+      ],
+      "opponentMoves": [
+        "e8e7",
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rg7+",
+        "Rxa7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 997,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1xs8MBr9/black#134",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ppvk0",
+      "fen": "1R6/8/3p1k2/5rp1/8/3PR3/1P4K1/1r6 w - - 11 46",
+      "playerMoves": [
+        "b8f8",
+        "f8f5"
+      ],
+      "opponentMoves": [
+        "f6g7"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxf5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 941,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/6661sapS/black#90",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zinlL",
+      "fen": "6r1/3k1p2/R1p1p2p/2P1P3/1PP2b2/5P2/5P1P/7K w - - 1 31",
+      "playerMoves": [
+        "a6a7",
+        "a7a8",
+        "a8g8"
+      ],
+      "opponentMoves": [
+        "d7d8",
+        "d8c7"
+      ],
+      "solutionSan": [
+        "Ra7+",
+        "Ra8+",
+        "Rxg8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 897,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/NALPj4we/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_G1MMD",
+      "fen": "2r5/p7/5p2/1pp2k1B/3P4/2P2K2/PP6/8 w - - 0 32",
+      "playerMoves": [
+        "h5g4",
+        "g4c8"
+      ],
+      "opponentMoves": [
+        "f5g5"
+      ],
+      "solutionSan": [
+        "Bg4+",
+        "Bxc8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 946,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/on8l4aYL/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_j91KB",
+      "fen": "3r4/8/p2k1pp1/3r3p/3R4/6P1/P4PP1/4R1K1 w - - 2 41",
+      "playerMoves": [
+        "d4d5",
+        "e1d1",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "d6d5",
+        "d5e6"
+      ],
+      "solutionSan": [
+        "Rxd5+",
+        "Rd1+",
+        "Rxd8"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 945,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/zh1bVJQ0/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_s3rSN",
+      "fen": "6k1/8/2R3P1/8/1pK5/8/8/1r6 b - - 1 58",
+      "playerMoves": [
+        "b1c1",
+        "c1c6"
+      ],
+      "opponentMoves": [
+        "c4b3"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 897,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/qY76JjcJ#115",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VLeBZ",
+      "fen": "7k/1pR4p/8/p3Pp2/4b3/1PK4P/P2R4/4r3 b - - 0 39",
+      "playerMoves": [
+        "e1c1",
+        "c1c7"
+      ],
+      "opponentMoves": [
+        "c3d4"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 927,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Jvtfyy5j#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DBa3l",
+      "fen": "R7/8/8/6rk/5K2/8/8/8 w - - 14 58",
+      "playerMoves": [
+        "a8h8",
+        "h8g8",
+        "g8g5"
+      ],
+      "opponentMoves": [
+        "h5g6",
+        "g6f7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rg8+",
+        "Rxg5"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 906,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/w14zkY8H/black#114",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ULAJO",
+      "fen": "5R2/pp5p/2k2pp1/8/8/4K1P1/2r5/8 w - - 0 36",
+      "playerMoves": [
+        "f8c8",
+        "c8c2"
+      ],
+      "opponentMoves": [
+        "c6d6"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 930,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/UYimQyqp/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gHpeQ",
+      "fen": "5r2/1b6/p6p/1p1pPk2/8/2P1K3/PP6/6R1 w - - 0 41",
+      "playerMoves": [
+        "g1f1",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f5e5"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 998,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/jQnNid21/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PcHr1",
+      "fen": "8/5R2/4p3/3p2k1/3P2P1/3BPK2/r7/3n4 b - - 0 38",
+      "playerMoves": [
+        "a2f2",
+        "f2f7"
+      ],
+      "opponentMoves": [
+        "f3g3"
+      ],
+      "solutionSan": [
+        "Rf2+",
+        "Rxf7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 886,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/JZxUoapI#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bpNME",
+      "fen": "8/8/8/r7/4k3/8/4K2R/8 w - - 5 71",
+      "playerMoves": [
+        "h2h4",
+        "h4h5",
+        "h5a5"
+      ],
+      "opponentMoves": [
+        "e4d5",
+        "d5c6"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Rh5+",
+        "Rxa5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 902,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/VmBWOm2u/black#140",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uTfoT",
+      "fen": "7R/8/6k1/5p2/5K1p/8/6r1/8 w - - 0 68",
+      "playerMoves": [
+        "h8g8",
+        "g8g2"
+      ],
+      "opponentMoves": [
+        "g6f6"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rxg2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 906,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/3RkGFt5r/black#134",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zJqQ2",
+      "fen": "4r3/8/8/2KN1pk1/8/8/2R5/8 b - - 11 63",
+      "playerMoves": [
+        "e8c8",
+        "c8c2"
+      ],
+      "opponentMoves": [
+        "c5b4"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 914,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/UueouZXp#125",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YCbuV",
+      "fen": "1k5r/1pp2p2/p2p4/3PpR2/1P2P1N1/q1P3Pr/P1Q2K2/R7 b - - 4 30",
+      "playerMoves": [
+        "h3h2",
+        "h8h2",
+        "h2c2"
+      ],
+      "opponentMoves": [
+        "g4h2",
+        "f2g1"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Rxh2+",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "sacrifice",
+        "skewer"
+      ],
+      "rating": 893,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/DHlnA6CR#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2FeK5",
+      "fen": "4R3/8/5k2/4p3/8/5b2/6p1/6K1 w - - 10 53",
+      "playerMoves": [
+        "e8f8",
+        "f8f3"
+      ],
+      "opponentMoves": [
+        "f6e6"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxf3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 826,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/bxbpu3r9/black#104",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ESKY1",
+      "fen": "6k1/p1R5/4R3/8/8/1P2KP2/r4P1P/3r4 b - - 3 40",
+      "playerMoves": [
+        "d1e1",
+        "e1e6"
+      ],
+      "opponentMoves": [
+        "e3f4"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Rxe6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 983,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/M9JAjV3K#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AyEIC",
+      "fen": "8/8/8/1Pk5/KR6/8/8/2r5 b - - 15 67",
+      "playerMoves": [
+        "c1a1",
+        "a1b1",
+        "b1b4"
+      ],
+      "opponentMoves": [
+        "a4b3",
+        "b3c2"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Rb1+",
+        "Rxb4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 961,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/R5lFDp4B#133",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kpvDo",
+      "fen": "8/2p4p/2p1k2r/2R4P/2K2p2/PP6/8/8 w - - 0 42",
+      "playerMoves": [
+        "c5c6",
+        "c6h6"
+      ],
+      "opponentMoves": [
+        "e6f7"
+      ],
+      "solutionSan": [
+        "Rxc6+",
+        "Rxh6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 925,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/D1hblXPO/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_w2mET",
+      "fen": "3k2r1/Rr3pP1/3p1p1B/1Bn1p3/2P5/8/8/5K2 w - - 6 41",
+      "playerMoves": [
+        "a7a8",
+        "a8g8"
+      ],
+      "opponentMoves": [
+        "d8c7"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Rxg8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 869,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/WfJDzP4V/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_K5nBs",
+      "fen": "4k2r/rR2nppp/p1P1p3/2b5/4p3/2P3P1/P4P1P/4KBNR w Kk - 2 19",
+      "playerMoves": [
+        "b7b8",
+        "b8c8",
+        "c8h8"
+      ],
+      "opponentMoves": [
+        "e7c8",
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Rb8+",
+        "Rxc8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "skewer"
+      ],
+      "rating": 981,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/F38mWW9Q/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YyVmn",
+      "fen": "8/2R4p/P4pk1/6p1/8/2K3P1/7P/1r6 b - - 0 40",
+      "playerMoves": [
+        "b1c1",
+        "c1c7"
+      ],
+      "opponentMoves": [
+        "c3b4"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 812,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/0wiZ0FDX#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hN2sO",
+      "fen": "8/8/p2b1p2/4kPpp/P3P3/5K1P/5B2/8 w - - 1 45",
+      "playerMoves": [
+        "f2g3",
+        "g3d6"
+      ],
+      "opponentMoves": [
+        "e5d4"
+      ],
+      "solutionSan": [
+        "Bg3+",
+        "Bxd6"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 988,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/WHfxeGpG/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Z8QNk",
+      "fen": "5R2/8/6K1/p5B1/q3k3/3p4/8/8 w - - 2 66",
+      "playerMoves": [
+        "f8f4",
+        "f4a4"
+      ],
+      "opponentMoves": [
+        "e4d5"
+      ],
+      "solutionSan": [
+        "Rf4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 961,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/ZAymH6cc/black#130",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kIHfF",
+      "fen": "8/2R4p/1p1k4/4p1p1/1P4B1/3bp2P/P4r2/4K3 w - - 12 39",
+      "playerMoves": [
+        "c7d7",
+        "d7d3"
+      ],
+      "opponentMoves": [
+        "d6c6"
+      ],
+      "solutionSan": [
+        "Rd7+",
+        "Rxd3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 977,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/qXRFWtjE/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5PdRp",
+      "fen": "2R2K2/5P2/8/8/1k6/2p5/8/7r b - - 0 62",
+      "playerMoves": [
+        "h1h8",
+        "h8c8",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "f8e7",
+        "f7f8q"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxc8",
+        "Rxf8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "master",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 848,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/tIAaiaal#123",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PKaAc",
+      "fen": "1r4k1/3q1pp1/7p/8/4Q3/1b1BP1P1/1P1K4/4R3 w - - 13 36",
+      "playerMoves": [
+        "e4h7",
+        "h7h8",
+        "h8b8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8+",
+        "Qxb8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 841,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/2Y4Rgldz/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0NeaS",
+      "fen": "6R1/p7/1pR5/8/4k1P1/4b3/PP5r/1K6 b - - 2 34",
+      "playerMoves": [
+        "h2h1",
+        "h1c1",
+        "c1c6"
+      ],
+      "opponentMoves": [
+        "b1c2",
+        "c2b3"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rc1+",
+        "Rxc6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 909,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/rIaogTHI#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8JnT5",
+      "fen": "8/8/6R1/8/2k1p2P/4BbK1/1r6/8 b - - 4 52",
+      "playerMoves": [
+        "b2g2",
+        "g2g6"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Rg2+",
+        "Rxg6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 815,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/O3jEb1wm#103",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1JQm4",
+      "fen": "1b6/8/p2k1B2/1p3p1p/1P1K1PpP/P5P1/8/8 w - - 13 47",
+      "playerMoves": [
+        "f6e5",
+        "e5b8"
+      ],
+      "opponentMoves": [
+        "d6d7"
+      ],
+      "solutionSan": [
+        "Be5+",
+        "Bxb8"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 818,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/BLgGgq20/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_myrSZ",
+      "fen": "2kr1b1r/Qp3pp1/1Bpp2qp/2n5/4P3/8/P4PPP/R5K1 w - - 2 23",
+      "playerMoves": [
+        "a7a8",
+        "a8d8"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxd8+"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "queensideAttack",
+        "short",
+        "skewer"
+      ],
+      "rating": 940,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/O4neauEG/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wlVwa",
+      "fen": "2R5/4k3/8/8/8/2K5/8/7r b - - 12 54",
+      "playerMoves": [
+        "h1c1",
+        "c1c8"
+      ],
+      "opponentMoves": [
+        "c3d4"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 929,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/SMtlwgDn#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3OTMp",
+      "fen": "2k5/5R2/p2R2p1/6b1/6P1/3K3P/7r/8 b - - 4 36",
+      "playerMoves": [
+        "h2d2",
+        "d2d6"
+      ],
+      "opponentMoves": [
+        "d3c4"
+      ],
+      "solutionSan": [
+        "Rd2+",
+        "Rxd6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 915,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/rYLY2GPN#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Uqu5e",
+      "fen": "8/2p1q1p1/1pQp1kn1/3P1p1p/3P3P/6P1/3B1P2/6K1 w - - 0 32",
+      "playerMoves": [
+        "d2g5",
+        "g5e7"
+      ],
+      "opponentMoves": [
+        "f6f7"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Bxe7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 936,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/C0g8nPnV/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dHkwm",
+      "fen": "R7/8/5p2/5p1k/5P2/8/pK6/6r1 w - - 4 52",
+      "playerMoves": [
+        "a8h8",
+        "h8g8",
+        "g8g1"
+      ],
+      "opponentMoves": [
+        "h5g4",
+        "g4f4"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rg8+",
+        "Rxg1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 914,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/rWswXBbQ/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VKhKZ",
+      "fen": "8/2k5/2P5/7r/8/2R2K2/8/8 b - - 0 58",
+      "playerMoves": [
+        "h5h3",
+        "h3c3"
+      ],
+      "opponentMoves": [
+        "f3e4"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 887,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/o00FGCuF#115",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_s5Agj",
+      "fen": "5rk1/4pp1p/pB1p2p1/1p1P4/2q1Q3/P4P2/1P3P1P/4K2R b K - 1 22",
+      "playerMoves": [
+        "c4c1",
+        "c1h1"
+      ],
+      "opponentMoves": [
+        "e1e2"
+      ],
+      "solutionSan": [
+        "Qc1+",
+        "Qxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 881,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/GksJ9g9A#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0vtQF",
+      "fen": "8/1N3ppk/P1b5/7p/8/1Q2K2P/5r2/8 b - - 2 41",
+      "playerMoves": [
+        "f2f3",
+        "f3b3"
+      ],
+      "opponentMoves": [
+        "e3d4"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "Rxb3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 945,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/YGWtWghQ#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kMoAG",
+      "fen": "8/3R4/6p1/1pk1Pp1p/5Pn1/5KP1/PPr5/8 w - f6 0 38",
+      "playerMoves": [
+        "d7c7",
+        "c7c2"
+      ],
+      "opponentMoves": [
+        "c5d5"
+      ],
+      "solutionSan": [
+        "Rc7+",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 954,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/hnbwaqJF/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Av0Mp",
+      "fen": "8/p2R2pk/5p2/P4P1p/3K3P/8/2r3P1/8 b - - 6 39",
+      "playerMoves": [
+        "c2d2",
+        "d2d7"
+      ],
+      "opponentMoves": [
+        "d4e3"
+      ],
+      "solutionSan": [
+        "Rd2+",
+        "Rxd7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 852,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/pM2iaVX4#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e8lF7",
+      "fen": "8/7R/4p3/3k1p2/4p3/6P1/3r1PKP/8 w - - 1 42",
+      "playerMoves": [
+        "h7d7",
+        "d7d2"
+      ],
+      "opponentMoves": [
+        "d5e5"
+      ],
+      "solutionSan": [
+        "Rd7+",
+        "Rxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 780,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/R2wT2w12/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_I1zuo",
+      "fen": "3r4/1p4p1/5k2/4b3/4p1K1/P1PpBp1P/1P3P2/3R4 w - - 8 35",
+      "playerMoves": [
+        "e3g5",
+        "g5d8"
+      ],
+      "opponentMoves": [
+        "f6e6"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Bxd8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 786,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/kVTTXqaf/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C3xHF",
+      "fen": "8/8/r3k3/8/P6R/8/6Kp/8 w - - 2 61",
+      "playerMoves": [
+        "h4h6",
+        "h6a6",
+        "g2h1"
+      ],
+      "opponentMoves": [
+        "e6d5",
+        "h2h1q"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxa6",
+        "Kxh1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 956,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/PRohgukW/black#120",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GJzZS",
+      "fen": "2k4r/Qpp3pp/1q1b1p2/7b/7P/1P3P2/PBP3P1/2K1R3 w - - 0 20",
+      "playerMoves": [
+        "a7a8",
+        "a8h8"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxh8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 978,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/lX6KELJo/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IGupj",
+      "fen": "8/2b2k2/7R/1pB3pP/1Pp1r3/8/1P1K4/8 w - - 0 42",
+      "playerMoves": [
+        "h6h7",
+        "h7c7"
+      ],
+      "opponentMoves": [
+        "f7g8"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 915,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/bWjMa442/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4MYQ3",
+      "fen": "3q2k1/4n1r1/3p1r2/p2P1p1Q/1p1N1b2/8/PP4B1/R3K2R w KQ - 2 29",
+      "playerMoves": [
+        "h5h8",
+        "h8d8"
+      ],
+      "opponentMoves": [
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Qh8+",
+        "Qxd8"
+      ],
+      "themes": [
+        "crushing",
+        "master",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 959,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/2z9d3QQV/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5C8cJ",
+      "fen": "r2q4/ppp1k1pr/2n3b1/2bpp3/6P1/2NP3P/PPP2P2/R1BQK2R w KQ - 0 13",
+      "playerMoves": [
+        "c1g5",
+        "g5d8"
+      ],
+      "opponentMoves": [
+        "e7d7"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Bxd8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 984,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/uXAkJqZp/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9klr3",
+      "fen": "8/7R/8/2p5/2P1p1k1/7p/4K3/6b1 w - - 2 60",
+      "playerMoves": [
+        "h7g7",
+        "g7g1"
+      ],
+      "opponentMoves": [
+        "g4f4"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rxg1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 816,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/vBMHYvgu/black#118",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ODXlS",
+      "fen": "8/1R3p2/4kPp1/1p5p/3n4/P6P/1P3PPK/4r3 w - - 7 32",
+      "playerMoves": [
+        "b7e7",
+        "e7e1"
+      ],
+      "opponentMoves": [
+        "e6f6"
+      ],
+      "solutionSan": [
+        "Re7+",
+        "Rxe1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 987,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/DpzJjbEf/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jIDjy",
+      "fen": "8/8/6rk/1Q3K2/8/8/8/8 b - - 9 70",
+      "playerMoves": [
+        "g6g5",
+        "g5b5"
+      ],
+      "opponentMoves": [
+        "f5e4"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Rxb5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 816,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/lzYaMLm9#139",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HjbJl",
+      "fen": "2R2r2/p7/1p3k1p/6p1/2Kp4/1P3bP1/P3n2P/8 w - - 0 49",
+      "playerMoves": [
+        "c8f8",
+        "f8f3"
+      ],
+      "opponentMoves": [
+        "f6e5"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Rxf3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 724,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/WIP3o7D9/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7i9fE",
+      "fen": "6rk/pp5P/4R3/8/8/2bB4/P1P2P2/3K4 b - - 0 34",
+      "playerMoves": [
+        "g8g1",
+        "g1e1",
+        "e1e6"
+      ],
+      "opponentMoves": [
+        "d1e2",
+        "e2f3"
+      ],
+      "solutionSan": [
+        "Rg1+",
+        "Re1+",
+        "Rxe6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 806,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Sqokk2ax#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AhtGh",
+      "fen": "r5k1/5rp1/1p2pq1p/2pp4/1P6/2P1PP2/2Q3PP/1BR2K2 w - - 0 28",
+      "playerMoves": [
+        "c2h7",
+        "h7h8",
+        "h8a8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8+",
+        "Qxa8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 745,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/MHffUgsT/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zuf5E",
+      "fen": "2r3k1/pp3pp1/1r2p3/6q1/7R/2bQ2P1/PP3P1P/5RK1 w - - 2 27",
+      "playerMoves": [
+        "d3h7",
+        "h7h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8+",
+        "Qxc8"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "skewer"
+      ],
+      "rating": 978,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1ncW4tXc/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GMNkh",
+      "fen": "2r2Nk1/pp3ppp/2n1pb2/3p4/3P4/1P2P3/P2qBPPP/1Q3RK1 w - - 0 18",
+      "playerMoves": [
+        "b1h7",
+        "h7h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Qh8+",
+        "Qxc8"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice",
+        "skewer"
+      ],
+      "rating": 865,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/mvswzZCr/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0BAk9",
+      "fen": "2r5/5pk1/4pqp1/p2p3R/3P1PQ1/1rP4R/6P1/6K1 w - - 0 34",
+      "playerMoves": [
+        "h5h7",
+        "h7h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "g7f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rh8+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "master",
+        "skewer"
+      ],
+      "rating": 956,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/9uXlNx2v/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GXDMP",
+      "fen": "2R5/6p1/3k3p/8/5KPP/8/2br4/8 w - - 0 44",
+      "playerMoves": [
+        "c8d8",
+        "d8d2"
+      ],
+      "opponentMoves": [
+        "d6e6"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxd2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 866,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/63iDFMAR/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yXLRk",
+      "fen": "8/8/p7/8/7k/R2K4/P4r2/8 b - - 1 46",
+      "playerMoves": [
+        "f2f3",
+        "f3a3"
+      ],
+      "opponentMoves": [
+        "d3c4"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "Rxa3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 960,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/4ux018AG#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CEgg4",
+      "fen": "7R/8/1pkpp3/6B1/r6P/2r5/5K2/8 w - - 0 35",
+      "playerMoves": [
+        "h8c8",
+        "c8c3"
+      ],
+      "opponentMoves": [
+        "c6d5"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rxc3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 784,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/IaNKlBAo/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2QJN3",
+      "fen": "8/3K2R1/rk2p3/3pP2P/4p3/4P3/8/8 b - - 0 51",
+      "playerMoves": [
+        "a6a7",
+        "a7g7"
+      ],
+      "opponentMoves": [
+        "d7e6"
+      ],
+      "solutionSan": [
+        "Ra7+",
+        "Rxg7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 691,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/puf5eM2h#101",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VcDUk",
+      "fen": "5k2/ppR2ppp/8/5b2/1P6/2K5/PP4rP/3R4 b - - 1 25",
+      "playerMoves": [
+        "g2c2",
+        "c2c7"
+      ],
+      "opponentMoves": [
+        "c3d4"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxc7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 993,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/R1rq1atf#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_l82xB",
+      "fen": "r6k/2pR2p1/2P3Pp/r6P/4Np2/4bP2/1P6/1K5R b - - 2 42",
+      "playerMoves": [
+        "a5a1",
+        "a1h1"
+      ],
+      "opponentMoves": [
+        "b1c2"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Rxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 814,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Kt0jysB6#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KxRgg",
+      "fen": "8/3r4/3p2k1/3P4/2r1PKPp/7R/R7/8 b - - 1 39",
+      "playerMoves": [
+        "d7f7",
+        "c4c3",
+        "c3h3"
+      ],
+      "opponentMoves": [
+        "f4e3",
+        "e3d4"
+      ],
+      "solutionSan": [
+        "Rf7+",
+        "Rc3+",
+        "Rxh3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 980,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/FQo69gnd#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_USb4D",
+      "fen": "5BQ1/1p1q1p2/p1p1kb2/8/P2p4/1P6/2P4P/6K1 w - - 8 37",
+      "playerMoves": [
+        "g8g4",
+        "g4d7"
+      ],
+      "opponentMoves": [
+        "e6e5"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qxd7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 939,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/o4FnMWzx/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_isQj7",
+      "fen": "3Q4/1k6/4r3/1p6/pR6/P2K4/1P3P2/7r b - - 15 45",
+      "playerMoves": [
+        "h1d1",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "d3c2"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 971,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/CZmEg5rw#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XehZA",
+      "fen": "8/8/r4k2/8/1p2K3/8/7R/8 w - - 0 50",
+      "playerMoves": [
+        "h2h6",
+        "h6a6"
+      ],
+      "opponentMoves": [
+        "f6e7"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxa6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 782,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/golAU5hq/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wJIFV",
+      "fen": "1k5r/p6P/8/2R1p3/8/P1N1p3/2r5/4K2R b K - 1 31",
+      "playerMoves": [
+        "c2c1",
+        "c1h1"
+      ],
+      "opponentMoves": [
+        "e1e2"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 936,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/tzIj2rcr#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_y1LlY",
+      "fen": "3R4/8/6p1/2k4p/7P/1p3KP1/5P2/2r5 w - - 9 47",
+      "playerMoves": [
+        "d8c8",
+        "c8c1"
+      ],
+      "opponentMoves": [
+        "c5d4"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rxc1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 829,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/dbExuNAN/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nMhiY",
+      "fen": "1Q6/6K1/6P1/8/p7/P7/3r4/3k3q w - - 2 60",
+      "playerMoves": [
+        "b8b1",
+        "b1h1"
+      ],
+      "opponentMoves": [
+        "d1e2"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Qxh1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 865,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/zNEsXn9u/black#118",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_55HkR",
+      "fen": "3R4/5p1p/4k1p1/1K1p4/5P1P/4r1P1/8/8 w - - 0 53",
+      "playerMoves": [
+        "d8e8",
+        "e8e3"
+      ],
+      "opponentMoves": [
+        "e6f5"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rxe3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 887,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/M2t1k3nV/black#104",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4yQkp",
+      "fen": "3r4/3B1pp1/2P1p3/pn1p4/3P2P1/1k2K2P/8/7R w - - 1 52",
+      "playerMoves": [
+        "h1b1",
+        "b1b5"
+      ],
+      "opponentMoves": [
+        "b3c2"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Rxb5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 920,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/meUnvWZX/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hvx9U",
+      "fen": "1n2k2r/p1p2ppp/8/4p3/8/3P2P1/PR1K1P1P/6Nb w k - 0 18",
+      "playerMoves": [
+        "b2b8",
+        "b8h8"
+      ],
+      "opponentMoves": [
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Rxb8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "short",
+        "skewer"
+      ],
+      "rating": 666,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/GI2gashJ/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gYAFc",
+      "fen": "8/5k2/8/3K3R/1p5P/8/rP4P1/8 b - - 0 46",
+      "playerMoves": [
+        "a2a5",
+        "a5h5"
+      ],
+      "opponentMoves": [
+        "d5c4"
+      ],
+      "solutionSan": [
+        "Ra5+",
+        "Rxh5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 990,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Y65hrgYE#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lfmMY",
+      "fen": "3R4/8/p7/4pk2/8/2PK4/5P2/5r2 b - - 7 61",
+      "playerMoves": [
+        "f1d1",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "d3c4"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 914,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/BgWz81iU#121",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_m88wE",
+      "fen": "8/1p6/1Pkp4/2p1b2p/3pP2r/3P1R2/5P2/R4K2 b - - 1 41",
+      "playerMoves": [
+        "h4h1",
+        "h1a1"
+      ],
+      "opponentMoves": [
+        "f1g2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxa1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 945,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/CldSaFZi#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BrISc",
+      "fen": "8/5r2/8/6p1/5k2/8/7R/5K2 w - - 12 70",
+      "playerMoves": [
+        "h2f2",
+        "f2f7"
+      ],
+      "opponentMoves": [
+        "f4e5"
+      ],
+      "solutionSan": [
+        "Rf2+",
+        "Rxf7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 865,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1Ek3mubh/black#138",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Dc0F4",
+      "fen": "6R1/8/1p5p/bPp1Np1k/r6P/8/2P2PP1/5K2 b - - 3 30",
+      "playerMoves": [
+        "a4a1",
+        "a1e1",
+        "e1e5"
+      ],
+      "opponentMoves": [
+        "f1e2",
+        "e2f3"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Re1+",
+        "Rxe5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 938,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/93PBj5mH#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i7iNk",
+      "fen": "5k2/8/7r/1R3K2/8/8/8/8 b - - 22 75",
+      "playerMoves": [
+        "h6h5",
+        "h5b5"
+      ],
+      "opponentMoves": [
+        "f5e4"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Rxb5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 817,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/3wIkkW6R#149",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ovGyT",
+      "fen": "3R4/8/4k1p1/7p/3p3P/3K4/8/4b3 w - - 8 53",
+      "playerMoves": [
+        "d8e8",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "e6f5"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rxe1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 985,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/qaRJhbbb/black#104",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_18IFy",
+      "fen": "8/1p5r/p1pBk3/2P1p1p1/1R4K1/1P6/8/8 b - - 3 48",
+      "playerMoves": [
+        "h7h4",
+        "h4b4"
+      ],
+      "opponentMoves": [
+        "g4g5"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Rxb4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 871,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/jPWtHBy6#95",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dRFoT",
+      "fen": "6k1/R4p2/8/p2r1p1R/1p3P2/1P4PK/P7/2r5 b - - 0 37",
+      "playerMoves": [
+        "c1h1",
+        "h1h5"
+      ],
+      "opponentMoves": [
+        "h3g2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxh5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 996,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/T7xQ5Iwi#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jpoX1",
+      "fen": "5k2/1R3n1p/6p1/5p2/2B2P2/1K4PP/8/6r1 b - - 2 32",
+      "playerMoves": [
+        "g1b1",
+        "b1b7"
+      ],
+      "opponentMoves": [
+        "b3c2"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Rxb7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 917,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/xYVTsqJu#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_40f2S",
+      "fen": "8/2q2k2/4p1p1/3p4/3P4/4PK2/2p5/7R w - - 2 41",
+      "playerMoves": [
+        "h1h7",
+        "h7c7",
+        "c7c1"
+      ],
+      "opponentMoves": [
+        "f7f6",
+        "c2c1q"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxc7",
+        "Rxc1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "queenRookEndgame",
+        "skewer"
+      ],
+      "rating": 755,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Z3NhZQAK/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jzNDG",
+      "fen": "r5k1/2qb1ppp/3bp3/1pp5/4NP2/1P1PBN2/1P1Q2PP/4K2R b K - 1 19",
+      "playerMoves": [
+        "a8a1",
+        "a1h1"
+      ],
+      "opponentMoves": [
+        "e1f2"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Rxh1"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 935,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/K1tF8ufY#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4P209",
+      "fen": "5r2/7b/8/1p5P/1P6/5kP1/3K4/7R w - - 3 59",
+      "playerMoves": [
+        "h1f1",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f3g4"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 939,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/PrOjFRTV/black#116",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_apXHq",
+      "fen": "7k/p5r1/7p/2p1Q1p1/2P1K1P1/2P2PP1/6r1/8 b - - 3 44",
+      "playerMoves": [
+        "g2e2",
+        "e2e5"
+      ],
+      "opponentMoves": [
+        "e4d5"
+      ],
+      "solutionSan": [
+        "Re2+",
+        "Rxe5+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 700,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/42flMXgP#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jpHqx",
+      "fen": "6k1/6p1/2R5/P4r2/1P6/5rP1/5PK1/7R b - - 0 40",
+      "playerMoves": [
+        "f3f2",
+        "f5h5",
+        "h5h1"
+      ],
+      "opponentMoves": [
+        "g2h3",
+        "h3g4"
+      ],
+      "solutionSan": [
+        "Rxf2+",
+        "Rh5+",
+        "Rxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 915,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/FAI5gmh3#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fvy6P",
+      "fen": "6r1/8/8/2k5/3R4/3K4/8/8 b - - 0 69",
+      "playerMoves": [
+        "g8g3",
+        "g3g4",
+        "g4d4"
+      ],
+      "opponentMoves": [
+        "d3e4",
+        "e4f5"
+      ],
+      "solutionSan": [
+        "Rg3+",
+        "Rg4+",
+        "Rxd4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 994,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/6KawQDxC#137",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MFDZB",
+      "fen": "3rk2r/2B1n1pp/p1p1pp2/1pb5/P1p1P3/2N2P2/1P3P1P/2KR4 w k - 0 18",
+      "playerMoves": [
+        "d1d8",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "e8f7"
+      ],
+      "solutionSan": [
+        "Rxd8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 919,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/H1Hl2EoH/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dXhN8",
+      "fen": "8/4r3/8/8/5RK1/4k3/8/8 b - - 8 68",
+      "playerMoves": [
+        "e7g7",
+        "g7f7",
+        "f7f4"
+      ],
+      "opponentMoves": [
+        "g4f5",
+        "f5e6"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rf7+",
+        "Rxf4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 999,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/0wEaznIq#135",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QooTt",
+      "fen": "8/4k3/4p2p/p6P/6P1/1P5r/P1R2K2/8 b - - 0 42",
+      "playerMoves": [
+        "h3h2",
+        "h2c2"
+      ],
+      "opponentMoves": [
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 858,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/32kDQcRT#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wmCER",
+      "fen": "2r4k/p4Q1p/7r/3Np3/2P5/4N1Pq/P4P1P/1R4K1 b - - 0 26",
+      "playerMoves": [
+        "h3h2",
+        "h2h1",
+        "h1b1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1e2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Qh1+",
+        "Qxb1"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "skewer"
+      ],
+      "rating": 874,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Mu5pLn8Q#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MjBw0",
+      "fen": "4r1k1/p5pp/1p1K4/2p5/2P3P1/8/PP4P1/3R4 b - - 2 29",
+      "playerMoves": [
+        "e8d8",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "d6c6"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxd1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 906,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/J1kkb4bl#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oLtO6",
+      "fen": "5k2/2R2p2/4p3/1P4p1/2KP2P1/8/8/1r6 b - - 4 54",
+      "playerMoves": [
+        "b1c1",
+        "c1c7"
+      ],
+      "opponentMoves": [
+        "c4b4"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 848,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/tYvgYGkB#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2gM72",
+      "fen": "8/3k3r/p3pB2/1p1P4/3P4/P5P1/5P2/R3K3 b Q - 0 24",
+      "playerMoves": [
+        "h7h1",
+        "h1a1",
+        "d7e6"
+      ],
+      "opponentMoves": [
+        "e1d2",
+        "d5e6"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxa1",
+        "Kxe6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 827,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/eRl0BMev#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_reLHw",
+      "fen": "4k3/7r/1R2P3/5p2/7p/7K/8/8 w - - 1 64",
+      "playerMoves": [
+        "b6b8",
+        "b8b7",
+        "b7h7"
+      ],
+      "opponentMoves": [
+        "e8e7",
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Rb8+",
+        "Rb7+",
+        "Rxh7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 973,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/lxPUUSbL/black#126",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FsZpm",
+      "fen": "8/8/5k2/4pp1R/8/4P2K/5P2/6r1 b - - 0 46",
+      "playerMoves": [
+        "g1h1",
+        "h1h5"
+      ],
+      "opponentMoves": [
+        "h3g2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxh5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 914,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/iyimr2ml#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qEzi1",
+      "fen": "3R4/pBp2p2/5kp1/7p/1BP3b1/1P6/P2K3P/2r5 b - - 1 30",
+      "playerMoves": [
+        "c1d1",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "d2c3"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxd8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 906,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/5FCEMnC9#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cbKPW",
+      "fen": "8/8/2pk1p2/6p1/3PP1P1/R4K2/7r/8 b - - 0 50",
+      "playerMoves": [
+        "h2h3",
+        "h3a3"
+      ],
+      "opponentMoves": [
+        "f3e2"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxa3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 936,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/nDQLnsHZ#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ebhKc",
+      "fen": "R7/8/P7/r1PK2k1/8/8/8/6b1 w - - 1 61",
+      "playerMoves": [
+        "a8g8",
+        "g8g1"
+      ],
+      "opponentMoves": [
+        "g5f6"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rxg1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 926,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/ppZGE95Z/black#120",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HvBSJ",
+      "fen": "8/8/4K2R/7P/2r4k/8/8/8 b - - 0 47",
+      "playerMoves": [
+        "c4c6",
+        "c6h6"
+      ],
+      "opponentMoves": [
+        "e6e5"
+      ],
+      "solutionSan": [
+        "Rc6+",
+        "Rxh6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 842,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/fn9l0t9f#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IIyM1",
+      "fen": "8/7R/1p1k4/pBp2p1P/P3b3/1P6/1KPr4/8 w - - 1 39",
+      "playerMoves": [
+        "h7d7",
+        "d7d2"
+      ],
+      "opponentMoves": [
+        "d6e6"
+      ],
+      "solutionSan": [
+        "Rd7+",
+        "Rxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 985,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/kU6wBzyu/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6OlXY",
+      "fen": "8/8/8/r7/8/8/5RK1/4k3 b - - 29 77",
+      "playerMoves": [
+        "a5g5",
+        "g5f5",
+        "f5f2"
+      ],
+      "opponentMoves": [
+        "g2f3",
+        "f3e4"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Rf5+",
+        "Rxf2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 976,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/DYDjRQgK#153",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dQXYX",
+      "fen": "8/8/8/1p6/7p/3k3r/1KR4P/8 w - - 7 64",
+      "playerMoves": [
+        "c2c3",
+        "c3h3"
+      ],
+      "opponentMoves": [
+        "d3d4"
+      ],
+      "solutionSan": [
+        "Rc3+",
+        "Rxh3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 880,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/pFiQpSpD/black#126",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R14MI",
+      "fen": "r5k1/8/2K2QP1/8/5P2/7P/8/8 b - - 0 53",
+      "playerMoves": [
+        "a8a6",
+        "a6f6"
+      ],
+      "opponentMoves": [
+        "c6d5"
+      ],
+      "solutionSan": [
+        "Ra6+",
+        "Rxf6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 972,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/h4w2xeNJ#105",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4tGJK",
+      "fen": "5r2/6p1/8/2k5/3bB1P1/3P3P/2K5/2B5 w - - 1 42",
+      "playerMoves": [
+        "c1a3",
+        "a3f8"
+      ],
+      "opponentMoves": [
+        "c5b6"
+      ],
+      "solutionSan": [
+        "Ba3+",
+        "Bxf8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 951,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/7QxOIWQ2/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lzMms",
+      "fen": "8/8/R7/3k1p1p/5P2/3K2Pb/P7/8 b - - 0 39",
+      "playerMoves": [
+        "h3f1",
+        "f1a6"
+      ],
+      "opponentMoves": [
+        "d3e3"
+      ],
+      "solutionSan": [
+        "Bf1+",
+        "Bxa6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 745,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/2sWNjJpR#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KgV7y",
+      "fen": "6r1/5P2/1kp5/8/6K1/6P1/1p6/8 w - - 0 40",
+      "playerMoves": [
+        "f7g8q",
+        "g8b8",
+        "b8b1"
+      ],
+      "opponentMoves": [
+        "b2b1q",
+        "b6c5"
+      ],
+      "solutionSan": [
+        "fxg8=Q",
+        "Qb8+",
+        "Qxb1"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "long",
+        "promotion",
+        "skewer"
+      ],
+      "rating": 978,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/nhOahp2j/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L1jH0",
+      "fen": "8/1k6/8/1p6/7r/R2K4/P7/8 b - - 4 54",
+      "playerMoves": [
+        "h4h3",
+        "h3a3"
+      ],
+      "opponentMoves": [
+        "d3d4"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxa3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 893,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/F4lfJGxF#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_krJvv",
+      "fen": "8/6Kp/6p1/R5P1/4k2r/8/8/8 w - - 3 61",
+      "playerMoves": [
+        "a5a4",
+        "a4h4"
+      ],
+      "opponentMoves": [
+        "e4f5"
+      ],
+      "solutionSan": [
+        "Ra4+",
+        "Rxh4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 920,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/HdfZkmdj/black#120",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AcZJE",
+      "fen": "4R3/8/8/8/5k2/8/2K5/5r2 w - - 92 104",
+      "playerMoves": [
+        "e8f8",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "f4e5"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxf1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 810,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/d0oIdVuN/black#206",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sxGyK",
+      "fen": "5r2/5k2/6p1/7p/4Rp1P/8/5PP1/6K1 w - - 1 50",
+      "playerMoves": [
+        "e4f4",
+        "f4f8"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Rxf4+",
+        "Rxf8"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 785,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/5mKIeBn7/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0Nv9M",
+      "fen": "rn3k1r/ppp3pp/8/2b5/4npb1/1B3N2/PPP3PP/RNBR3K w - - 0 14",
+      "playerMoves": [
+        "d1d8",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "advantage",
+        "opening",
+        "short",
+        "skewer"
+      ],
+      "rating": 804,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/kERmd4wD/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YAuIp",
+      "fen": "2k2r1r/pp2p3/2p5/B1Pq4/6p1/P5P1/5Q1P/5RK1 w - - 5 35",
+      "playerMoves": [
+        "f2f8",
+        "f1f8",
+        "f8d8",
+        "d8d5"
+      ],
+      "opponentMoves": [
+        "h8f8",
+        "c8d7",
+        "d7e6"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rxf8+",
+        "Rd8+",
+        "Rxd5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "skewer",
+        "veryLong"
+      ],
+      "rating": 817,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1vSivUYJ/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6A33h",
+      "fen": "2r4r/5p2/1p2k2p/P3Np2/P2Pp3/Bb2P3/3K2R1/7R b - - 0 34",
+      "playerMoves": [
+        "c8c2",
+        "c2g2"
+      ],
+      "opponentMoves": [
+        "d2e1"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxg2"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 998,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/RTRwX2pq#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3nVmy",
+      "fen": "8/1p6/p7/7R/r3k3/5p2/5K2/8 w - - 0 59",
+      "playerMoves": [
+        "h5h4",
+        "h4a4"
+      ],
+      "opponentMoves": [
+        "e4d5"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 867,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/72aFmixH/black#116",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kAbM5",
+      "fen": "5R2/8/6kp/8/4K3/5P2/8/6r1 w - - 6 54",
+      "playerMoves": [
+        "f8g8",
+        "g8g1"
+      ],
+      "opponentMoves": [
+        "g6f6"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rxg1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 779,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/hxTvPBiV/black#106",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TnhAp",
+      "fen": "8/8/5R2/2pk3p/8/2PN1KPP/8/1r4b1 b - - 0 45",
+      "playerMoves": [
+        "b1f1",
+        "f1f6"
+      ],
+      "opponentMoves": [
+        "f3g2"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 968,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/uUrX4BUP#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e4ymw",
+      "fen": "8/8/P6R/r4k2/3pp1p1/8/1K5P/8 w - - 4 54",
+      "playerMoves": [
+        "h6h5",
+        "h5a5"
+      ],
+      "opponentMoves": [
+        "f5g6"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Rxa5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 990,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/tX3S0H1O/black#106",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eOhlg",
+      "fen": "8/8/pB5p/P2pkp2/5b2/5P1K/8/8 w - - 1 44",
+      "playerMoves": [
+        "b6c7",
+        "c7f4"
+      ],
+      "opponentMoves": [
+        "e5d4"
+      ],
+      "solutionSan": [
+        "Bc7+",
+        "Bxf4"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "deflection",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 951,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/83fHxi7y/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_strrx",
+      "fen": "8/r3k3/5p2/5K2/8/8/8/6R1 w - - 0 77",
+      "playerMoves": [
+        "g1g7",
+        "g7a7"
+      ],
+      "opponentMoves": [
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rxa7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 992,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/gPj8xHV1/black#152",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R6o2O",
+      "fen": "2r5/7k/p5p1/1b1pBp2/1P1Pp3/P1p1P1K1/5P2/1R6 w - - 0 43",
+      "playerMoves": [
+        "b1h1",
+        "h1h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "h7g8",
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rh8+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 908,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/ofz7k2cd/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VA4Cr",
+      "fen": "1Q6/3R4/2k5/6p1/1K6/7p/8/6r1 b - - 0 52",
+      "playerMoves": [
+        "g1b1",
+        "b1b8"
+      ],
+      "opponentMoves": [
+        "b4c4"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Rxb8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 980,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/0MboxQ5n#103",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mu1LW",
+      "fen": "8/2r2k2/7R/5p2/4pK2/8/6P1/8 w - - 2 50",
+      "playerMoves": [
+        "h6h7",
+        "h7c7"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 787,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/lBcGnURG/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GOn1v",
+      "fen": "6Q1/1p6/2b5/p7/k7/3R2KP/r5P1/8 b - - 2 45",
+      "playerMoves": [
+        "a2g2",
+        "g2g8"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rxg8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 855,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/7PetHjA4#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e7C7g",
+      "fen": "4r1k1/1p4p1/1R1p1p2/p2P1P1P/2P4r/2R2K2/P7/8 b - - 0 29",
+      "playerMoves": [
+        "h4h3",
+        "h3c3"
+      ],
+      "opponentMoves": [
+        "f3f2"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 908,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/4PP2Dqnd#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0t5c3",
+      "fen": "8/8/8/p5R1/r3k3/2P3K1/8/8 w - - 0 42",
+      "playerMoves": [
+        "g5g4",
+        "g4a4"
+      ],
+      "opponentMoves": [
+        "e4d3"
+      ],
+      "solutionSan": [
+        "Rg4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 911,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/tSpoKGgq/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tuei0",
+      "fen": "8/5pp1/1r1k3p/RPr5/3K4/7P/6P1/3R4 b - - 10 35",
+      "playerMoves": [
+        "c5d5",
+        "d5d1"
+      ],
+      "opponentMoves": [
+        "d4e3"
+      ],
+      "solutionSan": [
+        "Rd5+",
+        "Rxd1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 970,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/QSzfGPRj#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_p9n8P",
+      "fen": "8/8/r4k2/6p1/P6R/5K2/8/8 w - - 0 45",
+      "playerMoves": [
+        "h4h6",
+        "h6a6"
+      ],
+      "opponentMoves": [
+        "f6e5"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxa6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 794,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Ia20URG3/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wb7Zr",
+      "fen": "8/3b4/3p2p1/2pP1kp1/2P1p3/4K2P/4B1P1/8 w - - 13 60",
+      "playerMoves": [
+        "e2g4",
+        "g4d7"
+      ],
+      "opponentMoves": [
+        "f5e5"
+      ],
+      "solutionSan": [
+        "Bg4+",
+        "Bxd7"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 785,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/rW6ao2CD/black#118",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zj85o",
+      "fen": "8/r4k2/p6R/1p1p2p1/1Pn5/5P2/P5PP/6K1 w - - 1 34",
+      "playerMoves": [
+        "h6h7",
+        "h7a7"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxa7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 766,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1lzgXMRK/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CqX33",
+      "fen": "8/8/8/8/p3K3/8/6R1/r2k4 w - - 1 77",
+      "playerMoves": [
+        "g2g1",
+        "g1a1"
+      ],
+      "opponentMoves": [
+        "d1c2"
+      ],
+      "solutionSan": [
+        "Rg1+",
+        "Rxa1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 909,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/wSvC5sSZ/black#152",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DOD2j",
+      "fen": "8/8/7p/p7/r3k3/8/5K2/7R w - - 0 57",
+      "playerMoves": [
+        "h1h4",
+        "h4a4"
+      ],
+      "opponentMoves": [
+        "e4f5"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 884,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Ful4CYgv/black#112",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MoChu",
+      "fen": "5r2/p3r3/1p6/3p1kP1/P1p5/P3B1R1/5K2/8 w - - 0 47",
+      "playerMoves": [
+        "g3f3",
+        "f3f8"
+      ],
+      "opponentMoves": [
+        "f5e5"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 829,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Z8pIWIbT/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5wJD8",
+      "fen": "5R2/8/3P2pk/2p1p2p/2P5/3P1KP1/8/1r6 b - - 0 50",
+      "playerMoves": [
+        "b1f1",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f3e4"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 846,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/A1jYcYqE#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_t1FyR",
+      "fen": "r7/7p/3p2pP/2p2p2/1kP2P2/3K1P2/8/7R w - - 5 37",
+      "playerMoves": [
+        "h1b1",
+        "b1a1",
+        "a1a8"
+      ],
+      "opponentMoves": [
+        "b4a5",
+        "a5b6"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Ra1+",
+        "Rxa8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 927,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/UysiZI7e/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Xpqx9",
+      "fen": "8/8/6P1/8/8/2k3K1/8/r5R1 b - - 4 65",
+      "playerMoves": [
+        "a1g1",
+        "g1g6"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Rxg1+",
+        "Rxg6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 767,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/5DVJI8G1#129",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_exkdX",
+      "fen": "2R5/2K5/8/k7/8/8/8/1r6 w - - 8 87",
+      "playerMoves": [
+        "c8a8",
+        "a8b8",
+        "b8b1"
+      ],
+      "opponentMoves": [
+        "a5b4",
+        "b4c3"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Rb8+",
+        "Rxb1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 889,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/HDGp8xSd/black#172",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AawND",
+      "fen": "1r4k1/4b1p1/3p3p/1qpPp3/4QBPP/P1P2P2/2R5/2K4R b - - 0 31",
+      "playerMoves": [
+        "b5b1",
+        "b1h1"
+      ],
+      "opponentMoves": [
+        "c1d2"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Qxh1"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 944,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/oiN6nIRY#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4gTyh",
+      "fen": "2kr4/2p1R3/p7/2p5/2P3Np/1P3PbP/P5P1/5K2 b - - 2 32",
+      "playerMoves": [
+        "d8d1",
+        "d1e1",
+        "e1e7"
+      ],
+      "opponentMoves": [
+        "f1e2",
+        "e2d3"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Re1+",
+        "Rxe7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 981,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/m9SmZxlT#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_04xSr",
+      "fen": "8/4k3/4r3/3K4/8/8/8/7R w - - 21 65",
+      "playerMoves": [
+        "h1h7",
+        "h7h6",
+        "h6e6"
+      ],
+      "opponentMoves": [
+        "e7f6",
+        "f6g5"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rh6+",
+        "Rxe6"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 970,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/wxWVQA0E/black#128",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_U1Q27",
+      "fen": "6n1/p2R1p1k/7p/2P2Np1/4P3/3K1PP1/7P/2r5 b - - 4 34",
+      "playerMoves": [
+        "c1d1",
+        "d1d7"
+      ],
+      "opponentMoves": [
+        "d3c4"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxd7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 947,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/aOXkQZmd#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_psoK6",
+      "fen": "1R6/5p1k/5Pp1/8/3P4/1K6/5P2/5r2 b - - 0 42",
+      "playerMoves": [
+        "f1b1",
+        "b1b8"
+      ],
+      "opponentMoves": [
+        "b3c4"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Rxb8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 816,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/kiKXQfuo#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MGRrM",
+      "fen": "8/p2R3p/1p3kp1/8/3K1P1P/8/PPr3P1/8 b - - 2 35",
+      "playerMoves": [
+        "c2d2",
+        "d2d7"
+      ],
+      "opponentMoves": [
+        "d4e4"
+      ],
+      "solutionSan": [
+        "Rd2+",
+        "Rxd7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 908,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/1MREVo86#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iB2X2",
+      "fen": "8/1r2k3/6R1/5K2/8/8/8/8 w - - 0 51",
+      "playerMoves": [
+        "g6g7",
+        "g7b7"
+      ],
+      "opponentMoves": [
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rxb7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 827,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/fLJEgEAE/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iB0Bk",
+      "fen": "8/2k3pp/4Pb2/2K2P2/p7/B6P/8/8 b - - 4 47",
+      "playerMoves": [
+        "f6e7",
+        "e7a3"
+      ],
+      "opponentMoves": [
+        "c5b5"
+      ],
+      "solutionSan": [
+        "Be7+",
+        "Bxa3"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 980,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/JJsstdvo#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_V0Lmv",
+      "fen": "8/8/7p/p6R/8/3k2K1/P2q1B1P/8 w - - 2 58",
+      "playerMoves": [
+        "h5d5",
+        "d5d2"
+      ],
+      "opponentMoves": [
+        "d3c2"
+      ],
+      "solutionSan": [
+        "Rd5+",
+        "Rxd2+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 784,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/qy3R3DLI/black#114",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DBviP",
+      "fen": "6R1/8/P2p4/2p1p3/2P2k2/KP4p1/8/5r2 w - - 7 68",
+      "playerMoves": [
+        "g8f8",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "f4e3"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxf1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 788,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/nrTD6Y9x/black#134",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zGvYe",
+      "fen": "8/8/1r3k2/8/1p6/1K5R/1P6/8 w - - 1 59",
+      "playerMoves": [
+        "h3h6",
+        "h6b6"
+      ],
+      "opponentMoves": [
+        "f6f5"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxb6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 815,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/pqOKdjR5/black#116",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BUPAI",
+      "fen": "8/1r3k2/2p3pQ/p5P1/3p4/P1r5/8/3K4 w - - 0 41",
+      "playerMoves": [
+        "h6h7",
+        "h7b7"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qxb7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 892,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/xXWLr3iT/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TSdgN",
+      "fen": "8/2R3pp/5p2/5k1P/2K5/4P3/r4PP1/8 b - - 4 45",
+      "playerMoves": [
+        "a2c2",
+        "c2c7"
+      ],
+      "opponentMoves": [
+        "c4d3"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 974,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/dx6lFZOn#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aCHQr",
+      "fen": "n1b3k1/1p3ppp/1pp5/3pBPP1/4P3/2Pq4/1P2Q2P/4K2R b K - 1 23",
+      "playerMoves": [
+        "d3b1",
+        "b1h1"
+      ],
+      "opponentMoves": [
+        "e1f2"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Qxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 987,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Z3mmms9C#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bhuOZ",
+      "fen": "2r2k2/p4p2/4p2R/7n/2P4r/1P3R2/P7/6K1 w - - 0 37",
+      "playerMoves": [
+        "h6h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 949,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/XTLoLcTg/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VfMnh",
+      "fen": "5k2/6R1/6K1/4P3/5r2/8/8/8 b - - 0 56",
+      "playerMoves": [
+        "f4g4",
+        "g4g7"
+      ],
+      "opponentMoves": [
+        "g6f5"
+      ],
+      "solutionSan": [
+        "Rg4+",
+        "Rxg7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 866,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/dwv8uR3A#111",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_m0D1s",
+      "fen": "6r1/8/8/8/1P1P2k1/2Pb3p/1P2pK2/4R3 w - - 0 57",
+      "playerMoves": [
+        "e1g1",
+        "g1g8"
+      ],
+      "opponentMoves": [
+        "g4f4"
+      ],
+      "solutionSan": [
+        "Rg1+",
+        "Rxg8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 833,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/vN9LGWQo/black#112",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kU9Jw",
+      "fen": "1R6/1p6/p1pPk3/2P3pp/2K5/2P1rp2/8/8 w - - 0 54",
+      "playerMoves": [
+        "b8e8",
+        "e8e3"
+      ],
+      "opponentMoves": [
+        "e6d7"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rxe3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 872,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/95v9Vfza/black#106",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PI6F8",
+      "fen": "7R/p1K2p2/r4k2/8/3P4/8/8/8 w - - 4 51",
+      "playerMoves": [
+        "h8h6",
+        "h6a6"
+      ],
+      "opponentMoves": [
+        "f6f5"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxa6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 976,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/UEHwRW58/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_acvCp",
+      "fen": "8/8/5kp1/8/6rP/R3K3/8/8 b - - 0 42",
+      "playerMoves": [
+        "g4g3",
+        "g3a3"
+      ],
+      "opponentMoves": [
+        "e3e2"
+      ],
+      "solutionSan": [
+        "Rg3+",
+        "Rxa3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 900,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/5vG8ZWUv#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EFmZA",
+      "fen": "2r3k1/6pp/p7/6P1/1p1K3P/1P6/P7/3R4 b - - 0 36",
+      "playerMoves": [
+        "c8d8",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "d4c5"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxd1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 989,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/4YDxZe7x#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dDWnH",
+      "fen": "8/7r/R3K3/p2B4/2P4p/1P4bP/P5Pk/8 b - - 1 57",
+      "playerMoves": [
+        "h7h6",
+        "h6a6"
+      ],
+      "opponentMoves": [
+        "e6f5"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxa6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 939,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/NHrHu1XL#113",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QtCwP",
+      "fen": "8/3p4/p3p1kp/1b2P3/6Pp/5K2/8/7Q b - - 3 55",
+      "playerMoves": [
+        "b5c6",
+        "c6h1"
+      ],
+      "opponentMoves": [
+        "f3f2"
+      ],
+      "solutionSan": [
+        "Bc6+",
+        "Bxh1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 978,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Ma9wj1Po#109",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pT1K1",
+      "fen": "8/5Q2/8/5Kp1/7k/7r/8/8 b - - 16 62",
+      "playerMoves": [
+        "h3f3",
+        "f3f7"
+      ],
+      "opponentMoves": [
+        "f5g6"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "Rxf7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "queenRookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 649,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/JIR6f82z#123",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4Ei3U",
+      "fen": "r1b2k1r/1pp3p1/8/p4p2/2P1Np2/4b1P1/PPB2RP1/3R2K1 w - - 2 24",
+      "playerMoves": [
+        "d1d8",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "short",
+        "skewer"
+      ],
+      "rating": 856,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/85lA7Zfu/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hc3Zj",
+      "fen": "5k2/2r2P1R/p5p1/8/3K4/2P5/8/8 w - - 1 45",
+      "playerMoves": [
+        "h7h8",
+        "h8h7",
+        "h7c7"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rh7+",
+        "Rxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 994,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/RrKBmSqn/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yXzVo",
+      "fen": "8/4rk2/3K4/8/8/8/7R/8 w - - 1 55",
+      "playerMoves": [
+        "h2h7",
+        "h7e7"
+      ],
+      "opponentMoves": [
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxe7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 731,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/R0fA8fka/black#108",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RuvcB",
+      "fen": "6r1/8/p1p5/1p1p2kp/4p3/P1P1K1b1/1P6/3B2R1 w - - 0 38",
+      "playerMoves": [
+        "g1g3",
+        "g3g8"
+      ],
+      "opponentMoves": [
+        "g5f6"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Rxg8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "short",
+        "skewer"
+      ],
+      "rating": 773,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/9jBbMtiO/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mk6VV",
+      "fen": "8/8/8/4K3/4R3/3k4/8/7r b - - 17 76",
+      "playerMoves": [
+        "h1h5",
+        "h5h4",
+        "h4e4"
+      ],
+      "opponentMoves": [
+        "e5f4",
+        "f4g5"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Rh4+",
+        "Rxe4"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "long",
+        "rookEndgame",
+        "skewer"
+      ],
+      "rating": 935,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/fGdrTqO9#151",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Vjrlj",
+      "fen": "5k2/R2K2p1/5p2/3P3P/8/4r3/8/8 b - - 3 49",
+      "playerMoves": [
+        "e3e7",
+        "e7a7"
+      ],
+      "opponentMoves": [
+        "d7c6"
+      ],
+      "solutionSan": [
+        "Re7+",
+        "Rxa7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 767,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/PBEgnHBb#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kbWus",
+      "fen": "4rk2/pQp2p2/3p1r2/8/3P4/2PB2q1/PPK4R/8 w - - 1 35",
+      "playerMoves": [
+        "h2h8",
+        "h8e8"
+      ],
+      "opponentMoves": [
+        "f8g7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxe8"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 994,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/TJjj2cmP/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dHOXq",
+      "fen": "5rk1/p4p2/1pR5/3pq1pp/6n1/P3PQ1P/5PP1/1R4K1 b - - 0 24",
+      "playerMoves": [
+        "e5h2",
+        "h2h1",
+        "h1b1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1e2"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1+",
+        "Qxb1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 879,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/zt3tMgdn#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hrjnx",
+      "fen": "8/8/p1N1k3/8/P1K1P3/1P6/7r/8 b - - 2 46",
+      "playerMoves": [
+        "h2c2",
+        "c2c6"
+      ],
+      "opponentMoves": [
+        "c4b4"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxc6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 796,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/DcnOEkne#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ekTFH",
+      "fen": "8/2R1B3/8/k3p3/1p6/1Pb5/r7/2K5 w - - 0 49",
+      "playerMoves": [
+        "c7a7",
+        "a7a2"
+      ],
+      "opponentMoves": [
+        "a5b5"
+      ],
+      "solutionSan": [
+        "Ra7+",
+        "Rxa2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 931,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/xiLJuK5O/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rWKA3",
+      "fen": "8/pp4k1/2p2b1p/3pr3/3N2P1/P3P2P/1P3K2/4R3 b - - 0 34",
+      "playerMoves": [
+        "f6h4",
+        "h4e1"
+      ],
+      "opponentMoves": [
+        "f2e2"
+      ],
+      "solutionSan": [
+        "Bh4+",
+        "Bxe1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 970,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/JBdI6xoF#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yqYN5",
+      "fen": "3r1k2/4p1q1/Q2p2p1/8/4P1P1/1P1B1P2/b1P5/2K4R b - - 0 26",
+      "playerMoves": [
+        "g7a1",
+        "a1h1"
+      ],
+      "opponentMoves": [
+        "c1d2"
+      ],
+      "solutionSan": [
+        "Qa1+",
+        "Qxh1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 950,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/E2RsXr7G#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XsCcU",
+      "fen": "6k1/5p1p/6p1/P3p3/4Pn2/1R3K2/7r/R7 b - - 0 32",
+      "playerMoves": [
+        "h2h3",
+        "h3b3"
+      ],
+      "opponentMoves": [
+        "f3f2"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxb3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 960,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/y9yUT7U8#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SAEDY",
+      "fen": "1r3k2/8/3p3R/2prn1p1/6P1/1P3P2/1R4KP/8 w - - 1 35",
+      "playerMoves": [
+        "h6h8",
+        "h8b8"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxb8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 907,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/50dSEH5F/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e6G6J",
+      "fen": "8/8/R6p/1kP5/3P2K1/4b2P/1r6/8 w - - 2 48",
+      "playerMoves": [
+        "a6b6",
+        "b6b2"
+      ],
+      "opponentMoves": [
+        "b5c4"
+      ],
+      "solutionSan": [
+        "Rb6+",
+        "Rxb2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 951,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/Q62hBhsT/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_33ggH",
+      "fen": "8/8/5k1r/1PP5/4P3/2R2K2/8/8 b - - 4 49",
+      "playerMoves": [
+        "h6h3",
+        "h3c3"
+      ],
+      "opponentMoves": [
+        "f3g4"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 656,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/fbD9Vcog#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3DJYw",
+      "fen": "6r1/3k4/5p2/2K1p3/1P2P1P1/2N5/6P1/8 b - - 2 44",
+      "playerMoves": [
+        "g8c8",
+        "c8c3"
+      ],
+      "opponentMoves": [
+        "c5d5"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 872,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/frrOGtLq#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dlLqS",
+      "fen": "8/8/8/8/r4k2/p6R/P5K1/8 w - - 7 70",
+      "playerMoves": [
+        "h3h4",
+        "h4a4"
+      ],
+      "opponentMoves": [
+        "f4e5"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 900,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/3pPjhdk5/black#138",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KDBhG",
+      "fen": "4kbR1/pp6/2p1K2B/PP6/2P5/4p1P1/3r4/8 b - - 4 44",
+      "playerMoves": [
+        "d2d6",
+        "d6h6"
+      ],
+      "opponentMoves": [
+        "e6f5"
+      ],
+      "solutionSan": [
+        "Rd6+",
+        "Rxh6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 853,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/EVdMwkNZ#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5ZsPO",
+      "fen": "1R6/7p/1p3k2/p7/8/1P6/P2p1r2/3K4 w - - 0 46",
+      "playerMoves": [
+        "b8f8",
+        "f8f2"
+      ],
+      "opponentMoves": [
+        "f6g5"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxf2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 863,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/zq2YV09N/black#90",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hO5ic",
+      "fen": "2R5/5p2/6pk/8/5P2/2pK2P1/7r/8 w - - 0 51",
+      "playerMoves": [
+        "c8h8",
+        "h8h2"
+      ],
+      "opponentMoves": [
+        "h6g7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxh2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 812,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/ezc1odjh/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TzC9v",
+      "fen": "7R/8/8/Pk6/6K1/1r5p/8/8 w - - 4 87",
+      "playerMoves": [
+        "h8b8",
+        "b8b3"
+      ],
+      "opponentMoves": [
+        "b5a6"
+      ],
+      "solutionSan": [
+        "Rb8+",
+        "Rxb3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 984,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/YmOayXvN/black#172",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ftlmA",
+      "fen": "Q7/8/1k3p2/2pK2p1/Bp4P1/7b/8/8 b - - 0 56",
+      "playerMoves": [
+        "h3g2",
+        "g2a8"
+      ],
+      "opponentMoves": [
+        "d5e6"
+      ],
+      "solutionSan": [
+        "Bg2+",
+        "Bxa8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 921,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/q9NGhWhK#111",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5b3OR",
+      "fen": "7r/4Bpk1/4p1p1/1p1bP1Pp/1PpP3P/P7/1K6/R7 w - - 0 41",
+      "playerMoves": [
+        "e7f6",
+        "f6h8"
+      ],
+      "opponentMoves": [
+        "g7h7"
+      ],
+      "solutionSan": [
+        "Bf6+",
+        "Bxh8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 762,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/IMz7o6oa/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3w3jE",
+      "fen": "2r2k2/5pp1/4p1p1/pP1p4/P1p1q3/8/2K1Q3/7R w - - 4 35",
+      "playerMoves": [
+        "e2e4",
+        "h1h8",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "d5e4",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qxe4",
+        "Rh8+",
+        "Rxc8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "skewer"
+      ],
+      "rating": 965,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/wQYeVh9g/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RYsfN",
+      "fen": "8/3k2pp/p4p2/3p4/3P1B2/bP2KP2/P5PP/8 b - - 3 29",
+      "playerMoves": [
+        "a3c1",
+        "c1f4"
+      ],
+      "opponentMoves": [
+        "e3d3"
+      ],
+      "solutionSan": [
+        "Bc1+",
+        "Bxf4"
+      ],
+      "themes": [
+        "advantage",
+        "bishopEndgame",
+        "deflection",
+        "endgame",
+        "master",
+        "short",
+        "skewer"
+      ],
+      "rating": 781,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/s97LbL29#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RjDXI",
+      "fen": "2r5/8/8/8/2k5/5K2/2pR1P2/1rB5 w - - 6 61",
+      "playerMoves": [
+        "d2c2",
+        "c2c8"
+      ],
+      "opponentMoves": [
+        "c4d5"
+      ],
+      "solutionSan": [
+        "Rxc2+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 767,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/VIpbOngl/black#120",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EvSxc",
+      "fen": "8/8/4k3/p1P2rp1/R2K4/7P/8/8 b - - 0 54",
+      "playerMoves": [
+        "f5f4",
+        "f4a4"
+      ],
+      "opponentMoves": [
+        "d4c3"
+      ],
+      "solutionSan": [
+        "Rf4+",
+        "Rxa4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 876,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/YsOp8xIv#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9CIkq",
+      "fen": "7r/1p3p2/3p1kp1/pPbR4/P3P1Pr/5PN1/6P1/1R3K2 b - - 5 35",
+      "playerMoves": [
+        "h4h1",
+        "h8h1",
+        "h1b1"
+      ],
+      "opponentMoves": [
+        "g3h1",
+        "f1e2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxh1+",
+        "Rxb1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "sacrifice",
+        "skewer"
+      ],
+      "rating": 775,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/6uevm5oE#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JbqZK",
+      "fen": "8/R4p2/6p1/2p5/2k2rPP/P7/6K1/8 w - - 1 39",
+      "playerMoves": [
+        "a7a4",
+        "a4f4"
+      ],
+      "opponentMoves": [
+        "c4d5"
+      ],
+      "solutionSan": [
+        "Ra4+",
+        "Rxf4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 851,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/nNTIPXYZ/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_au1dB",
+      "fen": "8/p3R3/1p4k1/6pp/2P5/2K2R1P/r7/8 b - - 0 49",
+      "playerMoves": [
+        "a2a3",
+        "a3f3"
+      ],
+      "opponentMoves": [
+        "c3d2"
+      ],
+      "solutionSan": [
+        "Ra3+",
+        "Rxf3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "rookEndgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 874,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/vL5mp2pp#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HwtpS",
+      "fen": "3r4/1p4p1/1p3k2/2p2P2/6pP/PbP1B3/1P3K2/4R3 w - - 0 31",
+      "playerMoves": [
+        "e3g5",
+        "g5d8"
+      ],
+      "opponentMoves": [
+        "f6f5"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Bxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "short",
+        "skewer"
+      ],
+      "rating": 976,
+      "hint": "A motif involving a high value piece being attacked, moving out the way, and allowing a lower value piece behind it to be captured or attacked, the inverse of a pin.",
+      "source": "https://lichess.org/6MmkL7mS/black#60",
+      "alternateWinningMoves": []
+    }
+  ]
+}

@@ -1,0 +1,5723 @@
+{
+  "packId": "gen_sacrifice_1000_1399",
+  "title": "Sacrifice · Intermediate",
+  "description": "Theme training: Sacrifice (1000-1399).",
+  "category": "theme_training",
+  "tags": [
+    "sacrifice",
+    "1000_1399"
+  ],
+  "difficulty": 2,
+  "puzzles": [
+    {
+      "id": "lichess_Gjrhw",
+      "fen": "r2q1rk1/p1p2pb1/1p2p1p1/5nNN/3P4/4P2Q/PPP4P/R3K2R w KQ - 1 18",
+      "playerMoves": [
+        "h5f6",
+        "h3h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1029,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/peAEjyYM/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pkRtj",
+      "fen": "6k1/3Pbp1p/ppB3p1/1P2Pb2/8/8/2rp3P/1R1R2K1 w - - 0 34",
+      "playerMoves": [
+        "b5a6",
+        "a6a7"
+      ],
+      "opponentMoves": [
+        "c2c6"
+      ],
+      "solutionSan": [
+        "bxa6",
+        "a7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1287,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/xI8fjMRa/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sjOQQ",
+      "fen": "rnbq1rk1/ppp2p1p/4p1N1/3n2b1/3P3Q/3B4/PPP3PP/RN3RK1 w - - 0 12",
+      "playerMoves": [
+        "g6e7",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "d5e7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "opening",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1380,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/h31GjfkG/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0AhhO",
+      "fen": "5rk1/5ppp/1q6/8/1p6/4RQ2/2r3PP/5R1K w - - 0 25",
+      "playerMoves": [
+        "f3f7",
+        "e3e8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1397,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/4q9wFu6G/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4yVXv",
+      "fen": "5r1k/p5p1/b3B2p/2QP4/4Pq2/8/PP4PP/2R3K1 b - - 4 30",
+      "playerMoves": [
+        "f4f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "c1f1"
+      ],
+      "solutionSan": [
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1191,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/cwzWvbXe#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EPog0",
+      "fen": "8/1pp2pk1/pb4p1/3p2N1/1PnPp2Q/2q1P1P1/K4PP1/3B4 w - - 2 33",
+      "playerMoves": [
+        "h4h7",
+        "h7f7",
+        "f7f4"
+      ],
+      "opponentMoves": [
+        "g7f6",
+        "f6g5"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qxf7+",
+        "Qf4#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1346,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/rLezIGVO/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ka4xp",
+      "fen": "2r1r3/3q1p1k/1p1p2p1/p1pP2Rp/3QP2P/P4P2/1P6/2K3R1 w - c6 0 26",
+      "playerMoves": [
+        "g5h5",
+        "d4g7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1341,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ws0asH9j/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WzNXU",
+      "fen": "4rr1k/2p2pp1/2p2Nnp/p3P2Q/8/3P3R/Pq4PP/4R1K1 w - - 2 21",
+      "playerMoves": [
+        "h5h6",
+        "h3h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "g7h6",
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Rxh6+",
+        "Rh7#"
+      ],
+      "themes": [
+        "hookMate",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1295,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IeyRDT6V/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CvTt5",
+      "fen": "B3kb1r/pQp1npp1/4b3/4q1p1/7n/2N5/PPP2PPP/3R1RK1 b k - 1 15",
+      "playerMoves": [
+        "h4f3",
+        "e5h2"
+      ],
+      "opponentMoves": [
+        "g2f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qxh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1201,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/lJT4u7kD#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1HcuU",
+      "fen": "r5rk/p1R3pp/4p3/8/3P1N2/6QP/Pn3PPK/4q3 w - - 0 29",
+      "playerMoves": [
+        "f4g6",
+        "g3h4"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qh4#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1355,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/gsSTJf5x/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MZZdi",
+      "fen": "2r5/2r2p1k/p1q2Qp1/4R1Rp/7P/5P2/5P2/5K2 w - - 0 33",
+      "playerMoves": [
+        "g5h5",
+        "e5h5",
+        "h5h8"
+      ],
+      "opponentMoves": [
+        "g6h5",
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Rxh5+",
+        "Rh8#"
+      ],
+      "themes": [
+        "endgame",
+        "killBoxMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1394,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/AWN5XJHh/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XwR4D",
+      "fen": "2Rr4/pp2kp1p/3qp3/5p2/8/1Q4P1/PPP2P1P/2K4R b - - 0 22",
+      "playerMoves": [
+        "d6d2",
+        "d2d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "c1b1",
+        "h1d1"
+      ],
+      "solutionSan": [
+        "Qd2+",
+        "Qd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1312,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/HnKgFc6o#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IaRjY",
+      "fen": "r3R3/1pp2rpk/p2p3p/3P1q2/3B1P1b/2P3QP/PP5K/6R1 w - - 6 28",
+      "playerMoves": [
+        "g3g7",
+        "g1g7"
+      ],
+      "opponentMoves": [
+        "f7g7"
+      ],
+      "solutionSan": [
+        "Qxg7+",
+        "Rxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1360,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/c6IG4U8i/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BFx0h",
+      "fen": "R2r2k1/5ppp/2Q5/6q1/3P4/P6P/r4P2/5n1K w - - 0 27",
+      "playerMoves": [
+        "c6e8",
+        "a8e8"
+      ],
+      "opponentMoves": [
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short",
+        "xRayAttack"
+      ],
+      "rating": 1395,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/RRD7toqM/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cpx8t",
+      "fen": "r3rb2/4q1k1/p1p3pp/1pP1ppN1/1P5P/1Q2P3/P4PPB/5RK1 w - - 0 28",
+      "playerMoves": [
+        "h2e5",
+        "b3f7",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "e7e5",
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Bxe5+",
+        "Qf7+",
+        "Qh7#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1354,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/InQi086E/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TEiLf",
+      "fen": "6k1/p1p2p2/3p1Pp1/7Q/2PP3P/1rrB2RK/5q2/8 w - - 2 34",
+      "playerMoves": [
+        "g3g6",
+        "h5g6",
+        "g6g7",
+        "g7e7"
+      ],
+      "opponentMoves": [
+        "f7g6",
+        "g8f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxg6+",
+        "Qg7+",
+        "Qe7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1369,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/5c0XlXc9/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Rw3Ro",
+      "fen": "r5qr/2p2Npk/p1n1b1np/bp1pP3/3P4/2P3B1/PP1N2PP/R2Q1RK1 w - - 4 18",
+      "playerMoves": [
+        "f7g5",
+        "d1h5"
+      ],
+      "opponentMoves": [
+        "h6g5"
+      ],
+      "solutionSan": [
+        "Ng5+",
+        "Qh5#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1075,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Pjx5gIMO/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hFcvu",
+      "fen": "1r4k1/5ppp/p4b2/8/8/1BpR2P1/P3PP1P/6K1 b - - 2 29",
+      "playerMoves": [
+        "b8b3",
+        "c3c2"
+      ],
+      "opponentMoves": [
+        "a2b3"
+      ],
+      "solutionSan": [
+        "Rxb3",
+        "c2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1275,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/HJUM9rr0#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uoWif",
+      "fen": "5rk1/2R2ppp/2p5/8/1pP5/1P3Q2/r1q3PP/5RK1 w - - 2 23",
+      "playerMoves": [
+        "f3f7",
+        "c7c8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Rc8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1374,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/6ZvH32lj/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RsLzU",
+      "fen": "3r1kB1/p1p3pp/8/5n2/6b1/1QP5/PP1q1bPP/R4R1K b - - 1 24",
+      "playerMoves": [
+        "f5g3",
+        "d2h6"
+      ],
+      "opponentMoves": [
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Qh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1271,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/qodllglv#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_U5jnS",
+      "fen": "bk6/8/2p3p1/1p1p1pPp/pP1P1P1P/P3KB2/8/8 w - - 57 94",
+      "playerMoves": [
+        "f3h5",
+        "g5g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g6h5",
+        "a8b7"
+      ],
+      "solutionSan": [
+        "Bxh5",
+        "g6",
+        "g7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1313,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/qXENfWsV/black#186",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_coWKv",
+      "fen": "5r2/p6k/1ppp1Pp1/4r1Qp/2P5/1P3RP1/P3qPK1/7R w - - 2 28",
+      "playerMoves": [
+        "h1h5",
+        "g5g7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1348,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/O36qR0EK/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5QRFR",
+      "fen": "6r1/p2kb2R/1p2p3/3pP3/3R1r2/2P2NpP/PP4K1/8 b - - 1 28",
+      "playerMoves": [
+        "f4f3",
+        "g3g2"
+      ],
+      "opponentMoves": [
+        "g2f3"
+      ],
+      "solutionSan": [
+        "Rxf3",
+        "g2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "master",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1178,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/tvDclg38#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eg06E",
+      "fen": "3R4/1B3pk1/2P1p1p1/p6p/P1rn4/7P/5PP1/6K1 w - - 7 49",
+      "playerMoves": [
+        "d8d4",
+        "c6c7"
+      ],
+      "opponentMoves": [
+        "c4d4"
+      ],
+      "solutionSan": [
+        "Rxd4",
+        "c7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "master",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1299,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ugLkmn0c/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ea9XY",
+      "fen": "4rrk1/p4q1p/R5p1/3p4/3P4/7Q/PPP2PPP/5RK1 b - - 0 20",
+      "playerMoves": [
+        "f7f2",
+        "e8e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Re1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1299,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/pHs6Emyl#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jUdbI",
+      "fen": "5r1k/7p/3b2p1/4q3/8/3P3Q/P2B2P1/4R2K b - - 4 31",
+      "playerMoves": [
+        "e5e1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "d2e1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Rf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1366,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/P003bQHR#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aPprZ",
+      "fen": "4r3/6pk/3Rn1p1/p1PQ1p2/P4P1P/6PK/4r3/8 b - - 2 33",
+      "playerMoves": [
+        "e6f4",
+        "e8e3",
+        "e3f3"
+      ],
+      "opponentMoves": [
+        "g3f4",
+        "d5f3"
+      ],
+      "solutionSan": [
+        "Nxf4+",
+        "R8e3+",
+        "Rxf3#"
+      ],
+      "themes": [
+        "clearance",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1247,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/uvvZOvd3#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zNEnV",
+      "fen": "6k1/5r1p/6p1/2Q2q2/4N3/4n3/P3N1PP/4R1K1 b - - 0 31",
+      "playerMoves": [
+        "f5f1",
+        "f7f1"
+      ],
+      "opponentMoves": [
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1276,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IrfQ3sUE#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cUEU8",
+      "fen": "5r1k/p6p/5q2/2p1r1p1/8/1QR5/PP3PPP/5RK1 b - - 3 25",
+      "playerMoves": [
+        "f6f2",
+        "e5e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Re1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1238,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/3TraRBIn#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GW855",
+      "fen": "3k3r/ppp2pp1/3p4/2b3pn/8/2N3P1/PPP1QPBq/R3RK2 b - - 3 19",
+      "playerMoves": [
+        "h5g3",
+        "h2g1"
+      ],
+      "opponentMoves": [
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Nxg3+",
+        "Qg1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1294,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/0RkF3AGS#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DapsZ",
+      "fen": "2r2r1k/p1p4q/2Rp4/1P1Pp3/P3PbQ1/6p1/2R3P1/5NK1 b - - 0 30",
+      "playerMoves": [
+        "f4e3",
+        "h7h2"
+      ],
+      "opponentMoves": [
+        "f1e3"
+      ],
+      "solutionSan": [
+        "Be3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1299,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/SCylsQBZ#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CkjCf",
+      "fen": "2k4r/ppp2pq1/7p/3Q2p1/6P1/8/PPP3PP/3Rn1K1 w - - 0 26",
+      "playerMoves": [
+        "d5d7",
+        "d7d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c8b8",
+        "h8d8"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1332,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/rzGe5NAG/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0GrCZ",
+      "fen": "r5k1/6Bp/p1p3p1/2Nb2q1/2pQ4/5r2/PP4PP/R3R1K1 b - - 0 23",
+      "playerMoves": [
+        "f3f1",
+        "g5g2"
+      ],
+      "opponentMoves": [
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "master",
+        "masterVsMaster",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1222,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/MEoSwc1p#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PXEn5",
+      "fen": "rn3k1r/pp1b1pp1/2p5/2bP4/2BN2pq/6N1/PPP1QPP1/R1B1R1K1 b - - 3 14",
+      "playerMoves": [
+        "h4h2",
+        "h2h1",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "g3h1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1+",
+        "Rxh1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "opening",
+        "sacrifice"
+      ],
+      "rating": 1372,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/xQMJWW2s#27",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_30ikE",
+      "fen": "5rk1/1pp2qp1/1p2b2p/8/6B1/P1Q5/1B3PPP/3R2K1 b - - 0 27",
+      "playerMoves": [
+        "f7f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1138,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/xs79hLWN#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QJw3y",
+      "fen": "6k1/6pp/3p3r/ppp1pP2/3p4/3PbPqP/PPP3P1/1R2QR1K b - - 2 28",
+      "playerMoves": [
+        "h6h3",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1150,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PWOWKimL#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9n2G9",
+      "fen": "4r1k1/p5p1/1p1p2Q1/2pPr3/5q1P/8/PPP5/1K3R1R b - - 2 27",
+      "playerMoves": [
+        "f4f1",
+        "e5e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "h1f1",
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Re1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1331,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/sIehAEka#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R6fhb",
+      "fen": "5r2/1Q4pp/4prk1/4B3/7q/8/PP4PP/2RR2K1 b - - 0 30",
+      "playerMoves": [
+        "h4f2",
+        "f2f1",
+        "f6f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1",
+        "c1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1335,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/YonZwLop#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Uc1Ym",
+      "fen": "5rk1/pp2p3/4p2p/2q1Rrp1/P7/2PQ4/5PPP/1B2R1K1 b - - 0 26",
+      "playerMoves": [
+        "c5f2",
+        "f2f1",
+        "f5f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1",
+        "d3f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qf1+",
+        "Rxf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1332,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/nBWmmTKJ#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_J0meT",
+      "fen": "r4k1r/pb2npp1/5n2/4q2p/2B5/2NQP3/PPP3PP/3R1RK1 w - - 0 16",
+      "playerMoves": [
+        "d3d8",
+        "d1d8",
+        "f1f7"
+      ],
+      "opponentMoves": [
+        "a8d8",
+        "f6e8"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Rxd8+",
+        "Rxf7+"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1070,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/yhYtfjC6/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vN1yV",
+      "fen": "r1b3rk/2pq1p1p/p2p1p1B/1pb1p3/4PP1N/1P1P3P/PP4PK/R2Q1R2 b - - 0 16",
+      "playerMoves": [
+        "g8g2",
+        "d7h3"
+      ],
+      "opponentMoves": [
+        "h4g2"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1397,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/VjXnjj7W#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4Iq5r",
+      "fen": "4r1k1/q6p/p1n1p1pB/1pPp4/8/5Q2/PP4PP/5R1K w - - 1 30",
+      "playerMoves": [
+        "f3f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1095,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/OBN8YqY9/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FN92n",
+      "fen": "3r2rk/6pp/n2P4/p1q1p3/6QN/8/P4PPP/4R1K1 w - - 0 33",
+      "playerMoves": [
+        "h4g6",
+        "g4h3"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qh3#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1078,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/0OFmic3O/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4n6Nf",
+      "fen": "R3Q3/2p3pk/3p2rp/4p1q1/4P3/3P1rPP/1PP2P2/5RK1 b - - 4 26",
+      "playerMoves": [
+        "f3g3",
+        "g5g3",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "f2g3",
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Qxg3+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1358,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/K3CBBeKZ#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xAul8",
+      "fen": "6k1/1r3p2/3B2pp/2pP3n/1P1bPPq1/r7/2QN2PP/4RR1K b - - 0 27",
+      "playerMoves": [
+        "h5g3",
+        "g4h5"
+      ],
+      "opponentMoves": [
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Qh5#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1286,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/DQx3hyHt#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qoBMN",
+      "fen": "2r1k2r/1q2ppb1/p5p1/Bpn4p/1N3P2/2PQ4/PP4PP/2KRR3 w k - 3 21",
+      "playerMoves": [
+        "d3d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1237,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/j4Ia92vZ/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2S6YV",
+      "fen": "4r3/1R3pk1/6pp/q3p3/4B3/3P2Pb/2Q1PP1P/rR4K1 b - - 7 27",
+      "playerMoves": [
+        "a5e1",
+        "a1e1"
+      ],
+      "opponentMoves": [
+        "b1e1"
+      ],
+      "solutionSan": [
+        "Qe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short",
+        "xRayAttack"
+      ],
+      "rating": 1352,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/GQddMiyO#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lgYbb",
+      "fen": "4r3/4q3/pk3p2/1p6/3n4/5BQ1/PP3PPP/2R3K1 b - - 0 27",
+      "playerMoves": [
+        "e7e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "c1e1"
+      ],
+      "solutionSan": [
+        "Qe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1223,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Mxhe5aiI#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IFFdy",
+      "fen": "1k4r1/pp1Q1p1p/3p1P1p/3q2r1/1P6/P4RP1/3p2KP/2R5 w - - 0 32",
+      "playerMoves": [
+        "d7c7",
+        "c7c8",
+        "c1c8"
+      ],
+      "opponentMoves": [
+        "b8a8",
+        "g8c8"
+      ],
+      "solutionSan": [
+        "Qc7+",
+        "Qc8+",
+        "Rxc8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1289,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/nLAV4oH7/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yALd0",
+      "fen": "6rk/6p1/7p/pp4Q1/4PP1R/q6P/7K/8 w - - 0 42",
+      "playerMoves": [
+        "h4h6",
+        "g5h6"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1018,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/jBHtzaWS/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_s3U5G",
+      "fen": "r3k2r/pppq1pp1/1b6/3P4/2p1PP2/2N2QpP/PPP3P1/R4R1K b kq - 1 18",
+      "playerMoves": [
+        "h8h3",
+        "d7h3"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1046,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/fAIFzioi#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kOejt",
+      "fen": "r4rk1/pp3pbN/2p3p1/3p4/4q1b1/1B2P2Q/P4P1R/2R2K2 w - - 0 24",
+      "playerMoves": [
+        "h7f6",
+        "h3h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1261,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/uDGthRza/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZkmQe",
+      "fen": "2r3k1/1pB2ppp/1Pb1p3/1n1pP3/5P2/5B2/6PP/2R4K w - - 9 23",
+      "playerMoves": [
+        "c1c6",
+        "b6b7",
+        "b7b8q",
+        "c7b8"
+      ],
+      "opponentMoves": [
+        "b7c6",
+        "c8e8",
+        "e8b8"
+      ],
+      "solutionSan": [
+        "Rxc6",
+        "b7",
+        "b8=Q",
+        "Bxb8"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "promotion",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1333,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/SFdQ7Snj/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KuSKs",
+      "fen": "8/3N1pk1/2p1p3/R3Pbb1/Pp6/1B4Kp/8/8 b - - 1 47",
+      "playerMoves": [
+        "g5f4",
+        "h3h2",
+        "h2h1q"
+      ],
+      "opponentMoves": [
+        "g3f4",
+        "d7f6"
+      ],
+      "solutionSan": [
+        "Bf4+",
+        "h2",
+        "h1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "long",
+        "master",
+        "promotion",
+        "sacrifice"
+      ],
+      "rating": 1118,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/aVoX5dAP#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_b3HGp",
+      "fen": "6k1/ppp3p1/4P3/3Q4/3P4/1P4rP/q4rP1/3R2RK b - - 2 33",
+      "playerMoves": [
+        "g3h3",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Rh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1349,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Figg8BGf#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vZfBd",
+      "fen": "2r2rk1/pp3p2/3p2p1/7R/6R1/3Q3P/PP3q2/7K w - - 0 29",
+      "playerMoves": [
+        "g4g6",
+        "d3g6"
+      ],
+      "opponentMoves": [
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxg6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1261,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/E6vU72ja/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iAZEM",
+      "fen": "4r1rk/6p1/p2pb1pp/1pp5/3qP3/P3Q3/1PP5/1K3R1R w - - 0 35",
+      "playerMoves": [
+        "h1h6",
+        "e3h6"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1068,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/olb6YrVz/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cs8UF",
+      "fen": "5rk1/ppp2ppp/8/8/3n2P1/1P3Q1P/P1q4r/4RRK1 w - - 1 24",
+      "playerMoves": [
+        "f3f7",
+        "e1e8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1243,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/jxOLs9cP/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_23peG",
+      "fen": "2k4r/pppr2p1/3b4/4N1B1/8/1QP3pP/PP3qB1/R3R2K b - - 2 21",
+      "playerMoves": [
+        "h8h3",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1346,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/hfVHDN6Q#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_f7Xbe",
+      "fen": "5r1k/pB4pp/1p4n1/2pQ4/8/1P2q3/PB4PP/2R4K b - - 0 25",
+      "playerMoves": [
+        "e3c1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "b2c1"
+      ],
+      "solutionSan": [
+        "Qxc1+",
+        "Rf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1242,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/cSHqtrOJ#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VcneN",
+      "fen": "2br1r1k/pp4pp/2n2p2/4pP2/1PB4N/2PR4/PB3bPP/R6K w - - 5 20",
+      "playerMoves": [
+        "h4g6",
+        "d3h3",
+        "h3h4"
+      ],
+      "opponentMoves": [
+        "h7g6",
+        "f2h4"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Rh3+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1228,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/TRKDL8KV/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iTRWc",
+      "fen": "r4rk1/pp4p1/5q1p/8/3PQ3/1P4R1/1P4PP/3R2K1 b - - 0 23",
+      "playerMoves": [
+        "f6f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1139,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/DQLIF8xR#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0xU5f",
+      "fen": "8/8/1Q4pk/2p1b2p/5qn1/P1P4P/1P4P1/4R1BK b - - 0 36",
+      "playerMoves": [
+        "g4f2",
+        "f4h2"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Nf2+",
+        "Qh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1399,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/yW0jukHf#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2juGP",
+      "fen": "r4r1k/1p3pp1/2pR3p/p3P1N1/5qPQ/P2P4/1PK5/8 w - - 0 28",
+      "playerMoves": [
+        "d6h6",
+        "h4h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "g7h6",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qxh6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1293,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/gAWaKR7B/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_07KFG",
+      "fen": "1k5r/ppp3p1/3bQ3/3pB2r/3P4/2P2RP1/P1P1q1B1/5RK1 b - - 1 22",
+      "playerMoves": [
+        "h5h1",
+        "e2h2"
+      ],
+      "opponentMoves": [
+        "g2h1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1366,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/qrEPuKVR#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dpxXn",
+      "fen": "1r3r1k/pbp3pp/3p4/2pQ1P2/5R1N/3P2P1/P1q4P/5RK1 w - - 3 20",
+      "playerMoves": [
+        "h4g6",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Rh4#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1119,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/5K47mqH5/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Z0RMX",
+      "fen": "3q1rrk/1p4p1/p5Rp/2b1pP1Q/4Pp2/1BP4P/PP3P2/2K5 w - - 1 28",
+      "playerMoves": [
+        "g6h6",
+        "h5h6"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1396,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Bq118L65/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_47nhj",
+      "fen": "r3r3/pp6/2np3p/5Rpk/4q2P/P5Q1/6P1/5R1K w - - 0 32",
+      "playerMoves": [
+        "f5g5",
+        "g3g5"
+      ],
+      "opponentMoves": [
+        "h6g5"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Qxg5#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1248,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/u3BQOrsr/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1M0sB",
+      "fen": "4r1k1/Q4pp1/4q2p/5b2/5B2/2P5/P1r2PPP/R1R3K1 b - - 2 20",
+      "playerMoves": [
+        "c2c1",
+        "e6e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "a1c1",
+        "c1e1"
+      ],
+      "solutionSan": [
+        "Rxc1+",
+        "Qe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1182,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PbK2pLjv#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DiSdW",
+      "fen": "r1b2rk1/pp3ppp/q7/8/5Q2/1N6/P5PP/3R1RK1 w - - 2 19",
+      "playerMoves": [
+        "f4f7",
+        "d1d8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Rd8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1372,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/KCALabXv/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Srngp",
+      "fen": "3r1rk1/ppQ1n1pp/4pq2/8/4P3/1P6/PP3PPP/R1B2RK1 b - - 2 16",
+      "playerMoves": [
+        "f6f2",
+        "d8d1",
+        "d1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rd1+",
+        "Rdxf1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1381,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/lgUY1QiT#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Zaj34",
+      "fen": "8/8/6K1/2N1p1nP/6k1/8/8/8 w - - 0 60",
+      "playerMoves": [
+        "h5h6",
+        "c5e4",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "e5e4",
+        "g5e4"
+      ],
+      "solutionSan": [
+        "h6",
+        "Nxe4",
+        "h7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "knightEndgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1342,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/4TpSDD1I/black#118",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4wCAo",
+      "fen": "1k1r2n1/p5Q1/Ppq5/3r2pp/1P3p2/7P/5PPB/R1R3K1 b - - 0 33",
+      "playerMoves": [
+        "c6c1",
+        "d5d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "a1c1",
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Qxc1+",
+        "Rd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1385,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/tYftfzQ7#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Kk9no",
+      "fen": "3Q4/3P1rk1/p5p1/1p5p/8/P2R4/4q1PP/3R2K1 b - - 2 39",
+      "playerMoves": [
+        "e2f2",
+        "f2f1",
+        "f7f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1115,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ObR3kimE#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GlEnz",
+      "fen": "r1r4k/6pp/p3Qp2/3Rn3/KP2P3/8/P5q1/3R4 w - - 0 33",
+      "playerMoves": [
+        "e6c8",
+        "d5d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "a8c8",
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Qxc8+",
+        "Rd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1350,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/n3NPXBdF/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BcZv8",
+      "fen": "N1k4r/pp4p1/2p1p1p1/4q3/4B3/b2Q2P1/P6P/1K1R4 w - - 11 32",
+      "playerMoves": [
+        "d3d7",
+        "d7d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c8b8",
+        "h8d8"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1394,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/6CzPeH2t/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WTrXY",
+      "fen": "6rk/1b3Rp1/p1p3Pp/Pp1pq2Q/1P6/6RP/6PK/4r3 w - - 2 39",
+      "playerMoves": [
+        "h5h6",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Rh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1396,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/74zf6zcz/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EjlGH",
+      "fen": "r1b3k1/pp3r1p/4p1pQ/8/3B1q2/2P2BR1/P4K2/8 w - - 4 27",
+      "playerMoves": [
+        "g3g6",
+        "h6h8"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qh8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1252,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PxSL4oO4/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SgTiq",
+      "fen": "1k1r1r2/p1p3pp/1P6/1R6/1Q1P3q/1P2P3/2P3PP/4R1K1 b - - 0 26",
+      "playerMoves": [
+        "h4f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1310,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/C8kBAnUs#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lwEao",
+      "fen": "6rk/5Rn1/p5P1/2R4p/8/r7/P7/6K1 w - - 1 38",
+      "playerMoves": [
+        "c5h5",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g7h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Rh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1162,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/eddcskud/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yD3ZD",
+      "fen": "6rk/8/2PQ3p/5p2/1P3P2/4r1qP/P3p1P1/4N1RK b - - 0 34",
+      "playerMoves": [
+        "g3h3",
+        "e3h3"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Rxh3#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1363,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/f1Vd3zYB#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Fcpzn",
+      "fen": "6k1/6pp/1q2p3/3pP1Q1/1r2b1B1/7P/1P3R1K/8 w - - 0 33",
+      "playerMoves": [
+        "g4e6",
+        "g5d8",
+        "d8e8"
+      ],
+      "opponentMoves": [
+        "b6e6",
+        "e6e8"
+      ],
+      "solutionSan": [
+        "Bxe6+",
+        "Qd8+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1162,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/kWTG6NV4/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nGjaK",
+      "fen": "r3r1k1/6p1/2pq1b1p/3pNb1P/p2P1P2/1p4Q1/PPP3R1/1K1N2R1 w - - 0 26",
+      "playerMoves": [
+        "g3g7",
+        "g2g7",
+        "e5f7"
+      ],
+      "opponentMoves": [
+        "f6g7",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxg7+",
+        "Rxg7+",
+        "Nf7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1291,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PRP8uaq2/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KHwKl",
+      "fen": "8/5pk1/pR5p/Pb6/1P3P2/8/2n2K1P/8 w - - 1 35",
+      "playerMoves": [
+        "b6b5",
+        "a5a6",
+        "a6a7",
+        "a7a8q"
+      ],
+      "opponentMoves": [
+        "a6b5",
+        "c2b4",
+        "b4d5"
+      ],
+      "solutionSan": [
+        "Rxb5",
+        "a6",
+        "a7",
+        "a8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "promotion",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1299,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/nlyJnMMQ/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_16nMj",
+      "fen": "r4rk1/p2R3p/1p4p1/4Q3/8/8/PPq3PP/3R2K1 b - - 1 25",
+      "playerMoves": [
+        "c2f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1098,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/aMXXBHiz#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KRWA9",
+      "fen": "1r4k1/p4p2/4p1PP/3pq3/5r2/1P4R1/K1PQ3R/8 b - - 0 32",
+      "playerMoves": [
+        "f4a4",
+        "e5b2"
+      ],
+      "opponentMoves": [
+        "b3a4"
+      ],
+      "solutionSan": [
+        "Ra4+",
+        "Qb2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1104,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/l0MRCuMp#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pEaN0",
+      "fen": "r1b3k1/r5pp/4p3/5p2/p1PPp3/1N2P3/R4PPP/R5K1 b - - 3 24",
+      "playerMoves": [
+        "a4b3",
+        "a8a7",
+        "b3b2"
+      ],
+      "opponentMoves": [
+        "a2a7",
+        "a1a7"
+      ],
+      "solutionSan": [
+        "axb3",
+        "Rxa7",
+        "b2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "hangingPiece",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1358,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/fznmGyOh#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5HCJI",
+      "fen": "2k2rr1/pp5p/2b5/4P3/2P4Q/1P1R4/P5PP/6RK b - - 0 33",
+      "playerMoves": [
+        "c6g2",
+        "f8f1",
+        "f1g1"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "g2g1"
+      ],
+      "solutionSan": [
+        "Bxg2+",
+        "Rf1+",
+        "Rfxg1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1313,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Jqccks7f#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2ctvT",
+      "fen": "1r4k1/5p1p/3p1QpP/3Pq3/8/5RP1/6BK/q7 w - - 0 33",
+      "playerMoves": [
+        "f6f7",
+        "f7f8",
+        "f3f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "b8f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1370,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/iOXSuLJW/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9OOfy",
+      "fen": "3r1k2/R1Q5/4p2p/4Pqp1/1P3p2/2N5/5PPP/6K1 b - - 2 34",
+      "playerMoves": [
+        "f5b1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "c3b1"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Rd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1352,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/DmWkYHwx#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6i5gQ",
+      "fen": "2rqnr2/5k2/p3pp2/3p1p1N/5P1P/1B6/PPP3R1/2K3R1 w - - 0 27",
+      "playerMoves": [
+        "g2g7",
+        "g1g7",
+        "b3a4"
+      ],
+      "opponentMoves": [
+        "e8g7",
+        "f7e8"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rxg7+",
+        "Ba4+"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1274,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/QsX3LJH6/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MU5Ze",
+      "fen": "1k1rr3/ppp2ppp/2n5/2B5/Q5P1/8/PPPq1PBP/R4K1R b - - 2 17",
+      "playerMoves": [
+        "d2d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "a1d1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1350,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/iKRYXk0L#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jVy4o",
+      "fen": "4r1k1/6pp/2p2p2/2Qp1b2/3P3B/1NP5/Pq3PPP/R5K1 b - - 2 20",
+      "playerMoves": [
+        "b2a1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "b3a1"
+      ],
+      "solutionSan": [
+        "Qxa1+",
+        "Re1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1272,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/9QZ1Cxrk#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_czlph",
+      "fen": "2r5/p2k1p2/3P2pp/2P5/8/P2N3P/5PP1/5K2 w - - 2 34",
+      "playerMoves": [
+        "d3e5",
+        "d6d7",
+        "c5c6",
+        "c6c7"
+      ],
+      "opponentMoves": [
+        "d7e6",
+        "c8d8",
+        "e6e5"
+      ],
+      "solutionSan": [
+        "Ne5+",
+        "d7",
+        "c6",
+        "c7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1359,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/JNmTnMZQ/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tPF7g",
+      "fen": "2k4r/ppp2p2/6p1/3p2p1/3Q2bq/P1P3N1/1P3PP1/R3R1K1 b - - 11 26",
+      "playerMoves": [
+        "h4h2",
+        "h2h1",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "g3h1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1+",
+        "Rxh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1234,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/CyVotlY3#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SunjY",
+      "fen": "5rk1/6p1/1p3r1p/p1pRP3/P7/3Q4/1q4PP/1B1R2K1 b - - 0 29",
+      "playerMoves": [
+        "b2f2",
+        "f2f1",
+        "f6f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "d1f1",
+        "d3f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1146,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/UVCY3Iw8#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eT5Vc",
+      "fen": "1rr4k/4N1pp/5p2/8/3RqP2/Q5P1/PPP4P/1K1R4 b - - 0 25",
+      "playerMoves": [
+        "e4c2",
+        "c2c1",
+        "c8c1"
+      ],
+      "opponentMoves": [
+        "b1a1",
+        "d1c1"
+      ],
+      "solutionSan": [
+        "Qxc2+",
+        "Qc1+",
+        "Rxc1#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1202,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IuGoddBi#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_naNmT",
+      "fen": "5r1k/1p1QR1pp/5q2/1p6/8/2r1P3/5PPP/5RK1 b - - 7 29",
+      "playerMoves": [
+        "f6f2",
+        "c3c1",
+        "c1d1",
+        "d1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "d7d1",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rc1+",
+        "Rxd1+",
+        "Rdxf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1329,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/p8qMDWiG#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jtdjs",
+      "fen": "4r1k1/2B3pp/1Q6/8/4b3/8/P1q3PP/6RK b - - 0 29",
+      "playerMoves": [
+        "e4g2",
+        "e8e1",
+        "e1g1"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "b6g1"
+      ],
+      "solutionSan": [
+        "Bxg2+",
+        "Re1+",
+        "Rxg1+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1321,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/X7MIrXVO#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wv2PA",
+      "fen": "8/6b1/p1k5/8/2P2B2/1P2K2p/P7/8 b - - 1 46",
+      "playerMoves": [
+        "g7h6",
+        "h3h2",
+        "h2h1q"
+      ],
+      "opponentMoves": [
+        "f4h6",
+        "h6f4"
+      ],
+      "solutionSan": [
+        "Bh6",
+        "h2",
+        "h1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "long",
+        "promotion",
+        "sacrifice"
+      ],
+      "rating": 1397,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/VrPHMX2S#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nbPeS",
+      "fen": "2r4k/pp3Q1p/6pP/8/4P3/1P4Pb/1q6/5R1K w - - 1 32",
+      "playerMoves": [
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "c8f8"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1328,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/p1HxrKZ0/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3oJWS",
+      "fen": "8/1p1q2pk/p5Rn/2p3Q1/2Pp3N/3P4/PP2rrP1/6RK b - - 3 27",
+      "playerMoves": [
+        "d7h3",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Rh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1280,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/2ak3vblq#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AlBkP",
+      "fen": "5rk1/P5pp/1Q2p2q/3pNp2/3P1Pn1/2r4P/2P2PP1/R4R1K b - - 0 31",
+      "playerMoves": [
+        "c3h3",
+        "h6h3",
+        "h3h2"
+      ],
+      "opponentMoves": [
+        "g2h3",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qxh3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1283,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/AuG5z60O#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hhh90",
+      "fen": "r3r1k1/ppb2pP1/2p1p3/4q1p1/5nQ1/1NP1R2P/PPB2PP1/5RK1 b - - 10 22",
+      "playerMoves": [
+        "f4e2",
+        "e5h2"
+      ],
+      "opponentMoves": [
+        "e3e2"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Qh2#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1165,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/lJRBwrZw#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_x7cLP",
+      "fen": "r4rk1/1b3ppp/p1qnp3/1p4Q1/3P4/2N2R2/P1B3PP/R5BK b - - 2 21",
+      "playerMoves": [
+        "c6f3",
+        "b7f3",
+        "f3g2"
+      ],
+      "opponentMoves": [
+        "g2f3",
+        "g5g2"
+      ],
+      "solutionSan": [
+        "Qxf3",
+        "Bxf3+",
+        "Bxg2+"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1399,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/203u1WdC#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hkKXQ",
+      "fen": "8/1k6/1P2P3/3N2b1/2K4p/8/8/8 b - - 0 61",
+      "playerMoves": [
+        "h4h3",
+        "g5e7",
+        "h3h2"
+      ],
+      "opponentMoves": [
+        "e6e7",
+        "d5e7"
+      ],
+      "solutionSan": [
+        "h3",
+        "Bxe7",
+        "h2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1218,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/7ChXwA81#121",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PAZtm",
+      "fen": "3Q4/8/1r6/kpqR1p2/p1p1p3/PrP1P1P1/1P3P2/KR6 b - - 7 49",
+      "playerMoves": [
+        "b3a3",
+        "c5a3"
+      ],
+      "opponentMoves": [
+        "b2a3"
+      ],
+      "solutionSan": [
+        "Rxa3+",
+        "Qxa3#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1231,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/5wKGzshV#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ucsls",
+      "fen": "bBk5/P1P1Kp2/4p3/5p1p/5P1P/8/8/8 b - - 6 64",
+      "playerMoves": [
+        "e6e5",
+        "f5f4",
+        "f4f3",
+        "f3f2",
+        "f2f1q"
+      ],
+      "opponentMoves": [
+        "f4e5",
+        "e7f7",
+        "e5e6",
+        "e6e7"
+      ],
+      "solutionSan": [
+        "e5",
+        "f4",
+        "f3",
+        "f2",
+        "f1=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "master",
+        "promotion",
+        "quietMove",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1339,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Y62qFaet#127",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WIuH1",
+      "fen": "2k3r1/4b1q1/2p2pn1/Bp2p2Q/p2pP2P/P2P2PK/1PP2P1N/R3R3 b - - 0 26",
+      "playerMoves": [
+        "g6f4",
+        "g7g2"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Nf4+",
+        "Qg2#"
+      ],
+      "themes": [
+        "clearance",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1177,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/36H675s1#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_txls0",
+      "fen": "6k1/5ppp/p1prq3/1p4Q1/4p3/8/PPP2PPP/3R2K1 w - - 0 24",
+      "playerMoves": [
+        "g5d8",
+        "d1d8",
+        "d8e8"
+      ],
+      "opponentMoves": [
+        "d6d8",
+        "e6e8"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Rxd8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice",
+        "xRayAttack"
+      ],
+      "rating": 1146,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1jTQ2saL/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ISlPp",
+      "fen": "3r3r/1kpqnpp1/1p1p4/3PnP1p/3QP3/4B3/P5PP/1R3RK1 w - - 2 21",
+      "playerMoves": [
+        "b1b6",
+        "d4b6",
+        "f1c1"
+      ],
+      "opponentMoves": [
+        "c7b6",
+        "b7c8"
+      ],
+      "solutionSan": [
+        "Rxb6+",
+        "Qxb6+",
+        "Rc1+"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1358,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ym810jEb/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oWFGO",
+      "fen": "1r4k1/p4ppp/6r1/8/2p1n3/2B1qP2/PPQ3PP/R4R1K b - - 1 25",
+      "playerMoves": [
+        "e4g3",
+        "g6h6"
+      ],
+      "opponentMoves": [
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Rh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1324,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/sXBE99my#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_keK4s",
+      "fen": "3k4/8/2pKP3/1p3p2/p1B2np1/8/8/8 w - - 0 43",
+      "playerMoves": [
+        "e6e7",
+        "c4f7",
+        "d6d7"
+      ],
+      "opponentMoves": [
+        "d8e8",
+        "e8f7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "Bf7+",
+        "Kd7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "endgame",
+        "exposedKing",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1284,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/i3IR9O5D/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2w1YU",
+      "fen": "r2q2k1/p3Qn2/2p3p1/3p1r2/1p1B2p1/1B1P4/PPP5/2K4R w - - 3 27",
+      "playerMoves": [
+        "h1h8",
+        "e7g7"
+      ],
+      "opponentMoves": [
+        "f7h8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1335,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/o7ITNrfA/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0Fl0Q",
+      "fen": "4Q3/pp2b1r1/4p1Bk/8/1nPP3P/q7/3R4/5K2 w - - 2 42",
+      "playerMoves": [
+        "e8h8",
+        "d2g2"
+      ],
+      "opponentMoves": [
+        "h6g6"
+      ],
+      "solutionSan": [
+        "Qh8+",
+        "Rg2+"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1169,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/tbKVof7I/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pQYUi",
+      "fen": "2r2r2/pb3p1k/4pBp1/1P4Rp/4q2Q/8/5PPP/5RK1 w - - 8 33",
+      "playerMoves": [
+        "g5h5",
+        "h4h5",
+        "h5h8"
+      ],
+      "opponentMoves": [
+        "g6h5",
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qxh5+",
+        "Qh8#"
+      ],
+      "themes": [
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1347,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1BrQkBFd/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Swycb",
+      "fen": "r4rk1/3q1ppp/p3b3/1pbp1N1Q/5n2/3BP3/PPP2PPP/R4RK1 w - - 0 16",
+      "playerMoves": [
+        "f5e7",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "c5e7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1384,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1kFtVrQs/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nX0qz",
+      "fen": "3r2k1/1p3p1p/p7/q3Q3/4b3/5N2/PPP2PPP/1K2R3 b - - 0 21",
+      "playerMoves": [
+        "a5e1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "f3e1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Rd1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "queensideAttack",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1288,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/aEpo4c1T#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lZzNe",
+      "fen": "3q1rk1/1p2ppb1/1n5p/p5p1/4N1b1/P2Q1N2/5PPP/1BR3K1 w - - 0 26",
+      "playerMoves": [
+        "e4f6",
+        "d3h7"
+      ],
+      "opponentMoves": [
+        "e7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1245,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1KjPenI4/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xqF5r",
+      "fen": "4r1k1/pp2qp2/8/3B1b2/2P2Qpp/1P4P1/P4P1P/3R2K1 b - - 1 29",
+      "playerMoves": [
+        "e7e1",
+        "e8e1",
+        "h4h3"
+      ],
+      "opponentMoves": [
+        "d1e1",
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Qe1+",
+        "Rxe1+",
+        "h3#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1350,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/AJjaJg74#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1vahG",
+      "fen": "2k5/pb1N1r1p/8/1p1pP3/3P4/P1B4Q/1Pq3PP/R5K1 b - - 0 27",
+      "playerMoves": [
+        "c2f2",
+        "f2f1",
+        "f7f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "a1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1191,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/m9Rt15s7#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8Wm4s",
+      "fen": "1r4rk/R5R1/5n1p/1p2pB2/pP2P1Pp/P7/3n1P2/6K1 w - - 2 40",
+      "playerMoves": [
+        "g7h7",
+        "a7h7"
+      ],
+      "opponentMoves": [
+        "f6h7"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxh7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1130,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/EkPhU0Qx/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BiHYO",
+      "fen": "r4r1k/p2bN1pp/2p2p2/1p2p3/2B1P1P1/1PKPB1q1/1PP2R2/R7 w - - 1 21",
+      "playerMoves": [
+        "e7g6",
+        "a1h1",
+        "h1h2"
+      ],
+      "opponentMoves": [
+        "h7g6",
+        "g3h2"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Rh1+",
+        "Rhxh2#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1214,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/VT50XuWV/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Dsu7H",
+      "fen": "r2r3k/pp2Nppp/8/8/4p1Q1/2P1P3/q3NPPP/2R1K2R b K - 4 18",
+      "playerMoves": [
+        "a2d2",
+        "d2d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "e1f1",
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Qd2+",
+        "Qd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1302,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/B0OLnOZ6#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dVOir",
+      "fen": "2r5/p4p1k/1p2p1p1/3nBqQp/7R/5P2/6PK/8 w - - 8 37",
+      "playerMoves": [
+        "h4h5",
+        "g5g7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1319,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/GI8s1CSV/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7v9Ya",
+      "fen": "r3bnk1/ppq1b1p1/2p1p1P1/6PQ/3P4/3p4/PPPB3P/R4RK1 w - - 1 25",
+      "playerMoves": [
+        "f1f8",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "e7f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1299,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/nkaZQOGg/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KW1ef",
+      "fen": "8/pp2r1k1/2p3b1/3p2p1/3P3p/P3B1nP/1P1R2PK/4R3 b - - 6 37",
+      "playerMoves": [
+        "e7e3",
+        "g3f1"
+      ],
+      "opponentMoves": [
+        "e1e3"
+      ],
+      "solutionSan": [
+        "Rxe3",
+        "Nf1+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1383,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/zqVXzR1B#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZVCFG",
+      "fen": "r3N2k/5Qbp/3p2p1/1pp1q3/p3P3/4P3/PPP3P1/2K2R2 w - - 6 29",
+      "playerMoves": [
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1363,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/dVu283rB/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6CH1g",
+      "fen": "1r1qb2k/6p1/p2pB1Pp/2pPp3/1pP1P2b/4Q3/1P3P2/1K2N1R1 w - - 0 32",
+      "playerMoves": [
+        "e3h6",
+        "g6g7",
+        "g7g8q"
+      ],
+      "opponentMoves": [
+        "g7h6",
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "g7+",
+        "g8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "kingsideAttack",
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "promotion",
+        "sacrifice"
+      ],
+      "rating": 1251,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/wT3Lt4i5/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mKGkt",
+      "fen": "5rk1/1R5p/4p1p1/3pPq2/4r3/1P5Q/1PP2PPP/5RK1 b - - 1 21",
+      "playerMoves": [
+        "f5f2",
+        "e4e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Re1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1332,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/XBNetbcv#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xn8G1",
+      "fen": "3r2k1/1Q4pp/2r1p3/8/P3p3/2P1P1bP/1P2K1Pq/R4R2 w - - 0 32",
+      "playerMoves": [
+        "b7f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "d8f8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1072,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IQr0ZtTa/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OLBet",
+      "fen": "2r2r1k/p2Q4/5qp1/3p3p/8/3B4/PPP3P1/1K5R w - - 0 32",
+      "playerMoves": [
+        "h1h5",
+        "d7h7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1221,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/S1siHr6M/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_c2EDo",
+      "fen": "2r3k1/3Q1ppp/4p3/1n6/1P6/2r2NP1/4PqBP/3R3K w - - 3 29",
+      "playerMoves": [
+        "d7d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1171,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/9coLiDz9/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OmILz",
+      "fen": "2r1N1k1/p4p1p/1p4p1/7n/1P3nq1/P2P1NP1/7P/R2Q1R1K b - - 2 25",
+      "playerMoves": [
+        "h5g3",
+        "g4h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h2g3",
+        "f3h2"
+      ],
+      "solutionSan": [
+        "Nxg3+",
+        "Qh3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1305,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/VZrtfrr0#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q4MT3",
+      "fen": "r5k1/pp3ppp/2nr4/8/4bQ2/3P2P1/Pq4BP/5R1K w - - 0 22",
+      "playerMoves": [
+        "f4f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1071,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/b81LQfQv/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3qCcZ",
+      "fen": "r5k1/p3n2p/6PQ/1pqp4/3p4/Pr5B/1P1BN3/KR5R b - - 0 26",
+      "playerMoves": [
+        "b3a3",
+        "c5a3"
+      ],
+      "opponentMoves": [
+        "b2a3"
+      ],
+      "solutionSan": [
+        "Rxa3+",
+        "Qxa3#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1319,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/6tgDjIHq#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uv2u9",
+      "fen": "5rk1/1p3qpp/pQ2R3/8/3r4/P2P4/1P3PPP/4R1K1 b - - 2 22",
+      "playerMoves": [
+        "f7f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1103,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/5Gt5BSN7#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tO1Fd",
+      "fen": "4r1k1/6pp/b1p5/p1ppq3/P4QP1/1P1PP3/2P4P/5RK1 w - - 0 30",
+      "playerMoves": [
+        "f4f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1136,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/C3G6CHOA/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lpIpp",
+      "fen": "4rrk1/1p3qpp/3p3B/p1p4N/P2N2Q1/8/2P2PPP/5RK1 b - - 0 26",
+      "playerMoves": [
+        "f7f2",
+        "e8e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Re1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1358,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1ivumRTP#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HBgkL",
+      "fen": "3r4/R3prk1/2p2qp1/7p/2P1Q1p1/1P6/P4PPP/5RK1 b - - 0 22",
+      "playerMoves": [
+        "f6f2",
+        "d8d1",
+        "d1e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "e4e1",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rd1+",
+        "Rxe1+",
+        "Rexf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1383,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/e8bKYfxW#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_07qu3",
+      "fen": "R7/4pQb1/3p3k/1ppPnBqp/5rP1/1PP5/6P1/6K1 w - - 4 37",
+      "playerMoves": [
+        "a8h8",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1328,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/mqXhwL03/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UuCVN",
+      "fen": "8/6PK/8/p7/1kPbP3/8/7P/8 b - - 0 47",
+      "playerMoves": [
+        "d4g7",
+        "a5a4",
+        "a4a3",
+        "a3a2",
+        "a2a1q"
+      ],
+      "opponentMoves": [
+        "h7g7",
+        "g7f7",
+        "e4e5",
+        "e5e6"
+      ],
+      "solutionSan": [
+        "Bxg7",
+        "a4",
+        "a3",
+        "a2",
+        "a1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "master",
+        "promotion",
+        "quietMove",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1254,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/fGscJMPJ#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Dl5og",
+      "fen": "4rr1k/5p1p/p2p1p2/4qP2/1ppQ4/8/PPP2PPP/3R1K1R b - - 0 23",
+      "playerMoves": [
+        "e5e2",
+        "e2e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "f1g1",
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Qe2+",
+        "Qe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1208,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/14TbjUMY#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qAZJ1",
+      "fen": "5rk1/p1pnQqp1/1p1p4/8/2PP2n1/2N5/PP3PPP/R1B1R1K1 b - - 0 20",
+      "playerMoves": [
+        "f7f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1205,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IvYnMcky#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PqUWb",
+      "fen": "2k2r2/2p2Np1/1pP2p1p/pP3q2/1b1P4/4Q1P1/4RPKP/8 w - - 2 32",
+      "playerMoves": [
+        "e3e8",
+        "e2e8"
+      ],
+      "opponentMoves": [
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "queensideAttack",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1197,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/OUCoebrU/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uLPsV",
+      "fen": "5r1k/p1p3pp/3b4/8/4Q3/6qP/PP4P1/3R1N1K b - - 20 34",
+      "playerMoves": [
+        "f8f1",
+        "g3h2"
+      ],
+      "opponentMoves": [
+        "d1f1"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Qh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1193,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/QnPgVw6d#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ewLVF",
+      "fen": "r4r1k/ppb2qp1/4p2B/8/6Q1/3P3R/PP4PP/R5K1 b - - 0 27",
+      "playerMoves": [
+        "f7f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "a1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1391,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/y67hgDey#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZiyyJ",
+      "fen": "r6k/3p2pp/2b5/1p2p3/3n1NP1/1B1R4/1PPK4/8 w - - 1 33",
+      "playerMoves": [
+        "f4g6",
+        "d3h3"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Rh3#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1038,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/hhftTWQG/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZOscH",
+      "fen": "5rk1/5ppp/p6r/1p2q3/8/P1P2Q2/1P3RPP/3R3K w - - 0 29",
+      "playerMoves": [
+        "f3f7",
+        "d1d8",
+        "d8e8",
+        "f2f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "e5e8",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Rd8+",
+        "Rxe8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1360,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ycdiW3Hx/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3Wcry",
+      "fen": "2r4k/5Qp1/4p3/3p3p/3Pn3/P1BKP3/2R3q1/2R5 b - - 3 33",
+      "playerMoves": [
+        "c8c3",
+        "g2d2"
+      ],
+      "opponentMoves": [
+        "c2c3"
+      ],
+      "solutionSan": [
+        "Rxc3+",
+        "Qd2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1397,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/I6azZOAp#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CYFGR",
+      "fen": "2k4r/p4pp1/2prp1p1/Q3Nq2/1pPP4/4B2P/P3nPP1/R4R1K b - - 2 23",
+      "playerMoves": [
+        "h8h3",
+        "f5h3"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1379,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ueb0qd9j#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YPzp3",
+      "fen": "5rk1/3Q1ppp/1p2r3/4P3/2b5/4q3/2P2RP1/R5K1 w - - 2 35",
+      "playerMoves": [
+        "d7f7",
+        "a1a8",
+        "a8e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "e6e8",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Ra8+",
+        "Rxe8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1343,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/QxELKwld/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uFzXh",
+      "fen": "6k1/p4ppp/1pQq3r/1P6/3P3r/P3P2P/5PP1/2R2R1K b - - 0 34",
+      "playerMoves": [
+        "h4h3",
+        "h6h3",
+        "d6h2"
+      ],
+      "opponentMoves": [
+        "g2h3",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Rxh3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1123,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/7molPZQV#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_T7mrc",
+      "fen": "5rk1/5ppp/8/3p4/P1r2Q2/6P1/2q3PP/4RR1K w - - 1 25",
+      "playerMoves": [
+        "f4f7",
+        "e1e8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1237,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/2uB0TjLL/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_humuD",
+      "fen": "8/1q4rk/p5rp/2Q5/Pp6/1P1P2P1/2P4P/3RR1K1 b - - 2 34",
+      "playerMoves": [
+        "g6g3",
+        "g7g3",
+        "b7g2"
+      ],
+      "opponentMoves": [
+        "h2g3",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Rxg3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1154,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/UPZrOuPU#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_50a73",
+      "fen": "3r2k1/5ppp/p1q1pn2/1p6/4P3/1P3PPb/PB2NQ1P/2R3K1 b - - 2 24",
+      "playerMoves": [
+        "c6c1",
+        "d8d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e2c1",
+        "f2e1"
+      ],
+      "solutionSan": [
+        "Qxc1+",
+        "Rd1+",
+        "Rxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1188,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/LXN5UBqR#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L5cOR",
+      "fen": "3r1rk1/p2qbppp/1p6/2p2Q2/3PN3/2P5/6PP/1B3R1K w - - 1 24",
+      "playerMoves": [
+        "e4f6",
+        "f5h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1240,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/eif0DYhc/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3viPc",
+      "fen": "2rr3k/p4Qpp/1p6/1q6/1P6/P5P1/7P/3R1RK1 w - - 1 26",
+      "playerMoves": [
+        "d1d8",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "c8d8",
+        "d8f8"
+      ],
+      "solutionSan": [
+        "Rxd8+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1106,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/iWUzQoAJ/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ncome",
+      "fen": "2bq1r1k/r6p/p2p2P1/1p3p1Q/1b2B3/7R/P1P2PPP/R5K1 w - - 0 23",
+      "playerMoves": [
+        "h5h7",
+        "h3h7",
+        "e4d5"
+      ],
+      "opponentMoves": [
+        "a7h7",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rxh7+",
+        "Bd5+"
+      ],
+      "themes": [
+        "crushing",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1174,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/JNUQs9PV/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_d7R2m",
+      "fen": "R3Q3/3r2kp/1p1q1pp1/8/P1p3P1/2P2P2/KPb4P/4R3 b - - 2 33",
+      "playerMoves": [
+        "c2b3",
+        "d6d1",
+        "d7d1"
+      ],
+      "opponentMoves": [
+        "a2a1",
+        "e1d1"
+      ],
+      "solutionSan": [
+        "Bb3+",
+        "Qd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1180,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/TqeWFv87#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SaWs0",
+      "fen": "5rk1/pp3p2/2p1p1pp/4P2Q/3r1q2/P5R1/1PP2PP1/1K5R w - - 0 33",
+      "playerMoves": [
+        "g3g6",
+        "h5g6"
+      ],
+      "opponentMoves": [
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxg6+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "kingsideAttack",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1196,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/n35j1zEO/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xupo1",
+      "fen": "6k1/5ppp/2R1b3/pp1r4/4R3/6P1/PP4nP/6K1 w - - 0 30",
+      "playerMoves": [
+        "c6c8",
+        "e4e8"
+      ],
+      "opponentMoves": [
+        "e6c8"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Re8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1141,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/UH1oZWpm/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2Y3E9",
+      "fen": "3q1r2/2nn1p1k/4r1p1/2pp1R1p/Pp6/1P1P2Q1/1B1R2BP/6K1 w - - 0 30",
+      "playerMoves": [
+        "f5h5",
+        "g3g7"
+      ],
+      "opponentMoves": [
+        "g6h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "Qg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1270,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/0oTqJiRf/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_b2Bne",
+      "fen": "1kr4r/p3b3/1pBp3p/4p3/Q7/2q3PP/P1P1R1K1/1R6 w - - 1 26",
+      "playerMoves": [
+        "b1b6",
+        "a4a8",
+        "a8b7",
+        "b7d7"
+      ],
+      "opponentMoves": [
+        "a7b6",
+        "b8c7",
+        "c7d8"
+      ],
+      "solutionSan": [
+        "Rxb6+",
+        "Qa8+",
+        "Qb7+",
+        "Qd7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1232,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/ubtzLwgk/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zzQwB",
+      "fen": "r4r1k/ppp2pp1/5N1p/b5Q1/3q4/7R/5PPK/8 w - - 0 27",
+      "playerMoves": [
+        "h3h6",
+        "g5h6"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1129,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/BFW3ETni/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9vm2W",
+      "fen": "6k1/5ppp/4q3/4P3/Q7/7P/1Pr2rP1/1R4RK b - - 0 34",
+      "playerMoves": [
+        "e6h3",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Rh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1358,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/BjHeWvvQ#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_g8uSr",
+      "fen": "5rk1/2p1Rp1p/2Pp2pQ/8/2B5/rp5P/1q3PP1/6K1 w - - 2 31",
+      "playerMoves": [
+        "c4f7",
+        "e7e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Bxf7+",
+        "Re8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "killBoxMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1362,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/EueUeyyy/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6GucM",
+      "fen": "1k3r2/1p1Q2p1/pP1N3p/4p3/2P5/3PP3/4q1PP/R5K1 b - - 2 27",
+      "playerMoves": [
+        "e2f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "a1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1300,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Cqi6RDx4#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MFSEd",
+      "fen": "2r5/3R1pk1/7p/p1q1pQ2/1p3bP1/8/PP6/1K5R b - - 0 30",
+      "playerMoves": [
+        "c5c1",
+        "c8c1"
+      ],
+      "opponentMoves": [
+        "h1c1"
+      ],
+      "solutionSan": [
+        "Qc1+",
+        "Rxc1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1380,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PNJdaUhk#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HuyoG",
+      "fen": "1r5k/pp4pp/2p3r1/3pN3/3PbP2/1Q2P1Pq/PP3R1P/2R3K1 b - - 6 26",
+      "playerMoves": [
+        "g6g3",
+        "h3h1"
+      ],
+      "opponentMoves": [
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Qh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1303,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/GSFF9OCk#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fznT0",
+      "fen": "1k1r4/6R1/pp2Q3/2q1p3/7p/2N1n2P/PPP5/2K5 b - - 1 29",
+      "playerMoves": [
+        "d8d1",
+        "c5c2"
+      ],
+      "opponentMoves": [
+        "c3d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxc2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1097,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/LgJ52h5w#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6XmlS",
+      "fen": "r3k2r/pp4pp/2b1pq2/2bpNn2/5P2/2N5/PPP3PP/R1BQ1R1K b kq - 1 13",
+      "playerMoves": [
+        "f5g3",
+        "f6h6",
+        "h6h5"
+      ],
+      "opponentMoves": [
+        "h2g3",
+        "d1h5"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Qh6+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1282,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/NrNjIhDW#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ix1R4",
+      "fen": "1r2k3/4prbp/6p1/1p6/1P2PP2/P1qQ2P1/7P/3R1RK1 w - - 1 33",
+      "playerMoves": [
+        "d3d7",
+        "d7d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "e8f8",
+        "b8d8"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1177,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/1f3A3OjY/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lYOhk",
+      "fen": "1k1r1r2/1p5p/p7/P2q2Q1/8/b1R1B3/6PP/1R4K1 b - - 0 26",
+      "playerMoves": [
+        "d5d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "b1d1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1048,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/kLl5uIp0#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_57fwz",
+      "fen": "r1r4k/1p3Q1p/1q2N1p1/3pP2n/8/2P5/Pp3R1P/5R1K w - - 0 31",
+      "playerMoves": [
+        "f7f8",
+        "f2f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "c8f8",
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Rxf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1173,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/164K21Y2/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SbUUe",
+      "fen": "r4r1k/1pp5/p2p1qpp/4n1P1/4Q3/2P5/PPB3PP/R1B1R1K1 b - - 0 21",
+      "playerMoves": [
+        "f6f2",
+        "f2f1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1178,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/9uTJwDtb#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8xANX",
+      "fen": "1r4k1/5nPp/pq1p1b2/2r2P2/4QP2/1P6/N1P5/1KBR3R b - - 0 31",
+      "playerMoves": [
+        "b6b3",
+        "b8b3",
+        "b3b2"
+      ],
+      "opponentMoves": [
+        "c2b3",
+        "c1b2"
+      ],
+      "solutionSan": [
+        "Qxb3+",
+        "Rxb3+",
+        "Rxb2+"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1331,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/NbJst2Oa#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mQfvN",
+      "fen": "r5k1/4Q1pp/4p3/p7/1p2P3/8/1q4PP/5R1K w - - 0 33",
+      "playerMoves": [
+        "e7f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1349,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/thKLg1Eo/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lLjwi",
+      "fen": "2r1k2r/4nppp/p3p3/1p2P3/2pQ4/7P/4qPP1/2RR2K1 w k - 2 21",
+      "playerMoves": [
+        "d4d7",
+        "d7d8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "e8f8",
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Qd7+",
+        "Qd8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1291,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/xB8UfeQa/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vQPy0",
+      "fen": "3r4/k7/p2P4/r1nN3P/2pQ2P1/Pp6/1Pq5/K1R1R3 b - - 7 40",
+      "playerMoves": [
+        "a5a3",
+        "c2a2"
+      ],
+      "opponentMoves": [
+        "b2a3"
+      ],
+      "solutionSan": [
+        "Rxa3+",
+        "Qa2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1113,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/HfttewC2#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ls9FX",
+      "fen": "1r1q1r1k/2n3bp/2bp1p2/2p2Pp1/2B1PNP1/1P3Q2/P1P4P/4R1RK w - - 0 25",
+      "playerMoves": [
+        "f4g6",
+        "f3h3",
+        "h3h6"
+      ],
+      "opponentMoves": [
+        "h7g6",
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qh3+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1199,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/SpFEdrWh/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_km4nl",
+      "fen": "3r2k1/1pp2ppp/p2b4/4n3/2P2q2/P2P3P/1P1QBPP1/3R1RK1 b - - 3 21",
+      "playerMoves": [
+        "e5f3",
+        "f4h2"
+      ],
+      "opponentMoves": [
+        "g2f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1055,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/CyzPWXEx#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9sHHL",
+      "fen": "8/8/8/4pP2/1K3kp1/1P4N1/1b6/8 w - - 1 43",
+      "playerMoves": [
+        "f5f6",
+        "f6f7",
+        "f7f8q"
+      ],
+      "opponentMoves": [
+        "f4g3",
+        "g3h4"
+      ],
+      "solutionSan": [
+        "f6",
+        "f7",
+        "f8=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "long",
+        "promotion",
+        "sacrifice"
+      ],
+      "rating": 1225,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/fhWwejIN/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pToEh",
+      "fen": "5r1k/pp4pp/2p1R3/2b5/8/1B3P2/P1P3PP/3qQK2 b - - 3 27",
+      "playerMoves": [
+        "f8f3",
+        "d1f3",
+        "f3f2"
+      ],
+      "opponentMoves": [
+        "g2f3",
+        "e1f2"
+      ],
+      "solutionSan": [
+        "Rxf3+",
+        "Qxf3+",
+        "Qxf2#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1326,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/SuvuRun1#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CcQoi",
+      "fen": "r5k1/p3Q1pp/2p4q/1p1p4/8/1P6/6P1/5RK1 w - - 0 31",
+      "playerMoves": [
+        "e7f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1188,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/gI0vxfux/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yPRR5",
+      "fen": "1k1r4/p6p/2Q3p1/8/5P2/2N5/PqP3PP/1R5K b - - 2 27",
+      "playerMoves": [
+        "b2b1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "c3b1"
+      ],
+      "solutionSan": [
+        "Qxb1+",
+        "Rd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1265,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/LY5gQotq#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VYgeP",
+      "fen": "2rr2k1/pQ3R1p/1p6/8/4P3/5P2/PPP3qP/1KR5 b - - 0 24",
+      "playerMoves": [
+        "g2c2",
+        "d8d1",
+        "d1c1"
+      ],
+      "opponentMoves": [
+        "c1c2",
+        "c2c1"
+      ],
+      "solutionSan": [
+        "Qxc2+",
+        "Rd1+",
+        "Rdxc1#"
+      ],
+      "themes": [
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1346,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/WEgKhkER#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Iz4x0",
+      "fen": "4rk2/5p2/p6N/1p1pn3/7P/q5P1/2PK1Q2/5R2 w - - 2 41",
+      "playerMoves": [
+        "f2f7",
+        "f1f7"
+      ],
+      "opponentMoves": [
+        "e5f7"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Rxf7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1173,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/7rRUpkX3/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hdsm1",
+      "fen": "r4r1k/ppqb2pp/2n5/3Bp3/P2p1p1N/RP4Q1/2P2PPP/4R1K1 w - - 0 19",
+      "playerMoves": [
+        "h4g6",
+        "g3h4"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qh4#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1286,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/LGEVdD5j/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OWOcr",
+      "fen": "6k1/pp3q1p/4R1pP/1Pp2r2/P1R2P2/2Q5/5K2/3r4 w - - 2 41",
+      "playerMoves": [
+        "e6e8",
+        "c3g7"
+      ],
+      "opponentMoves": [
+        "f7e8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1274,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/GPRr7YYb/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_09CEu",
+      "fen": "2kr4/5p1p/6pP/1qp2pP1/8/p1P1Q3/P7/K2NR3 b - - 1 42",
+      "playerMoves": [
+        "d8d1",
+        "b5b2"
+      ],
+      "opponentMoves": [
+        "e1d1"
+      ],
+      "solutionSan": [
+        "Rxd1+",
+        "Qb2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1189,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/LvLdJj4R#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zz4OW",
+      "fen": "1k5r/1p3Rp1/1bp1q3/p3p1Q1/P3P3/3P3P/1PP3P1/5R1K b - - 2 26",
+      "playerMoves": [
+        "h8h3",
+        "e6h3"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qxh3#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1061,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/u3v1Q5K2#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9cf1W",
+      "fen": "r2q1rk1/p2n1p2/1p3bpp/2pp4/2PP2R1/2N2P2/PPQKBP1P/6R1 w - - 0 19",
+      "playerMoves": [
+        "g4g6",
+        "c2g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "f7g6",
+        "f6g7"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxg6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1314,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/Z1rkHZCE/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wWygN",
+      "fen": "4r1k1/1b3ppp/p1q5/1pprpQb1/8/PP2B1PP/1P4P1/R4RK1 w - - 0 23",
+      "playerMoves": [
+        "f5f7",
+        "f7f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1181,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/IPUOAKlt/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_25PxR",
+      "fen": "2r3k1/1q4p1/7p/1P2QN2/p5PP/P3P2n/2r2P1K/R2R4 b - - 4 39",
+      "playerMoves": [
+        "c2f2",
+        "b7g2"
+      ],
+      "opponentMoves": [
+        "h2h3"
+      ],
+      "solutionSan": [
+        "Rxf2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1143,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/PrnZi0rw#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_u7ccZ",
+      "fen": "r4r1k/ppQ3Rp/4ppbB/3p4/3q4/7P/P4PPK/8 w - - 0 23",
+      "playerMoves": [
+        "g7h7",
+        "c7g7"
+      ],
+      "opponentMoves": [
+        "g6h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "clearance",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1288,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/kR4sB7aP/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ipg0Y",
+      "fen": "2r1rqk1/pp3p1p/2p1pBp1/3n3R/3P3Q/P1P2P1P/1P4P1/R5K1 w - - 5 25",
+      "playerMoves": [
+        "h5h7",
+        "h7h8",
+        "h4h6"
+      ],
+      "opponentMoves": [
+        "d5f6",
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Rxh7",
+        "Rh8+",
+        "Qh6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1292,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/a2LZlCRM/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZB8fN",
+      "fen": "B2r3k/p4r1p/1p2pq2/8/6R1/P6Q/5PPP/5RK1 b - - 0 29",
+      "playerMoves": [
+        "f6f2",
+        "d8d1",
+        "d1f1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Rd1+",
+        "Rdxf1#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1389,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/0IOgY2Dl#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6MSPn",
+      "fen": "1k2r2r/p3n1p1/1p1p1p2/3P4/1P2PQbq/4B1N1/5PP1/R3R1K1 b - - 1 25",
+      "playerMoves": [
+        "h4h2",
+        "h2h1",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "g3h1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1+",
+        "Rxh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1213,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/TWk4r35l#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BzH67",
+      "fen": "8/8/8/2B5/P3p3/3k2n1/8/4K3 w - - 3 54",
+      "playerMoves": [
+        "a4a5",
+        "a5a6",
+        "a6a7"
+      ],
+      "opponentMoves": [
+        "d3c4",
+        "c4c5"
+      ],
+      "solutionSan": [
+        "a5",
+        "a6",
+        "a7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "long",
+        "quietMove",
+        "sacrifice"
+      ],
+      "rating": 1371,
+      "hint": "A tactic involving giving up material in the short-term, to gain an advantage again after a forced sequence of moves.",
+      "source": "https://lichess.org/abnxkf9e/black#106",
+      "alternateWinningMoves": []
+    }
+  ]
+}

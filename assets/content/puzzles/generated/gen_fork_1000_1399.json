@@ -1,0 +1,5413 @@
+{
+  "packId": "gen_fork_1000_1399",
+  "title": "Fork · Intermediate",
+  "description": "Theme training: Fork (1000-1399).",
+  "category": "theme_training",
+  "tags": [
+    "fork",
+    "1000_1399"
+  ],
+  "difficulty": 2,
+  "puzzles": [
+    {
+      "id": "lichess_62iQf",
+      "fen": "r4r2/pp2ppkp/2p3p1/8/N1P3n1/1P2PKP1/P4P1q/R2Q1R2 w - - 0 17",
+      "playerMoves": [
+        "d1d4",
+        "d4g4"
+      ],
+      "opponentMoves": [
+        "e7e5"
+      ],
+      "solutionSan": [
+        "Qd4+",
+        "Qxg4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1169,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/BNSZVrEA/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KMCUb",
+      "fen": "r3r1k1/p4pb1/2pp2pp/1p1Pp3/1PP1P1nq/P1N1BQ2/5P2/RB2RK2 b - - 6 22",
+      "playerMoves": [
+        "g4h2",
+        "h2f3"
+      ],
+      "opponentMoves": [
+        "f1g2"
+      ],
+      "solutionSan": [
+        "Nh2+",
+        "Nxf3"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1156,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/laGWUMYU#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bW54g",
+      "fen": "q3k2r/1bp2p1p/2n1pp2/1Nbp4/Q7/4PN2/3P1PPP/4KB1R w Kk - 1 15",
+      "playerMoves": [
+        "b5c7",
+        "c7a8"
+      ],
+      "opponentMoves": [
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Nxc7+",
+        "Nxa8"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1114,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/uAagjiN3/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rRpT1",
+      "fen": "2K4B/7p/3P2p1/pk6/7R/1p6/8/5r2 b - - 1 49",
+      "playerMoves": [
+        "f1f8",
+        "f8h8"
+      ],
+      "opponentMoves": [
+        "c8c7"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxh8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1104,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/VZLweMwu#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FTAtt",
+      "fen": "rn1qk2r/pp3ppp/2p1p3/4Nb2/1Q1PP3/4nP2/PP1B2PP/RN2KB1R b KQkq - 0 10",
+      "playerMoves": [
+        "e3c2",
+        "c2b4"
+      ],
+      "opponentMoves": [
+        "e1e2"
+      ],
+      "solutionSan": [
+        "Nc2+",
+        "Nxb4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1087,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xcUTK4jZ#19",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KEPe0",
+      "fen": "5r1k/5Rb1/p2P2Pp/1p5n/2p5/P4B1P/1pP5/5R1K b - - 2 32",
+      "playerMoves": [
+        "h5g3",
+        "g3f1"
+      ],
+      "opponentMoves": [
+        "h1g2"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Nxf1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1072,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/4ViaNcFf#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fWuNy",
+      "fen": "2Q5/5ppk/1q2p2p/1P6/5P2/6P1/1R4KP/3r4 w - - 3 32",
+      "playerMoves": [
+        "c8c2",
+        "c2d1"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qc2+",
+        "Qxd1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1049,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/lczfMgqC/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Zm7Ng",
+      "fen": "6rk/7p/1p1pN2P/3P1P2/p1Q1P3/Pn4q1/1PB5/1K5R b - - 0 35",
+      "playerMoves": [
+        "b3d2",
+        "d2c4"
+      ],
+      "opponentMoves": [
+        "b1a2"
+      ],
+      "solutionSan": [
+        "Nd2+",
+        "Nxc4"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1090,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/PkzJtoHx#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Z2PVU",
+      "fen": "3r4/6p1/1p4R1/4k3/1P2N2r/P4P1n/5PKP/7R b - - 0 32",
+      "playerMoves": [
+        "h3f4",
+        "f4g6"
+      ],
+      "opponentMoves": [
+        "g2g3"
+      ],
+      "solutionSan": [
+        "Nf4+",
+        "Nxg6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1101,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xRu2M7Rr#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zpfTo",
+      "fen": "8/2q3k1/6pp/3p4/3PnNQ1/4PNP1/r7/5K2 w - - 8 41",
+      "playerMoves": [
+        "f4e6",
+        "e6c7"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Ne6+",
+        "Nxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1134,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/9dQ5UIBy/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GuRp8",
+      "fen": "b7/3N2p1/7p/Pppkp3/6P1/4K3/2P4P/8 w - - 0 42",
+      "playerMoves": [
+        "d7b6",
+        "b6a8",
+        "a8b6"
+      ],
+      "opponentMoves": [
+        "d5c6",
+        "c6b7"
+      ],
+      "solutionSan": [
+        "Nb6+",
+        "Nxa8",
+        "Nb6"
+      ],
+      "themes": [
+        "crushing",
+        "defensiveMove",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1152,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/6EKmFEwu/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2M9AE",
+      "fen": "1q2r2k/6p1/1r3p1p/1PN5/3P4/1Q5P/5PP1/1R4K1 w - - 0 33",
+      "playerMoves": [
+        "c5d7",
+        "d7b8",
+        "b1b3"
+      ],
+      "opponentMoves": [
+        "b6b5",
+        "b5b3"
+      ],
+      "solutionSan": [
+        "Nd7",
+        "Nxb8",
+        "Rxb3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1074,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/O6SvWKsR/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jpJG9",
+      "fen": "2r2k1b/1q6/p2rpnB1/1p3p2/1PpP1N2/6P1/7Q/5RK1 w - - 0 34",
+      "playerMoves": [
+        "h2h8",
+        "h8g7"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qxh8+",
+        "Qg7+"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1346,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/e573x5rC/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pmkxP",
+      "fen": "8/1Q6/pqp2pB1/2kp1P1P/2n2b2/1R6/PPP5/1K1N4 b - - 1 37",
+      "playerMoves": [
+        "c4d2",
+        "d2b3",
+        "b6b7"
+      ],
+      "opponentMoves": [
+        "b1a1",
+        "a2b3"
+      ],
+      "solutionSan": [
+        "Nd2+",
+        "Nxb3+",
+        "Qxb7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1293,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/LFlI3zep#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_D5B7X",
+      "fen": "2q3k1/5ppp/4b3/6N1/2r5/3Q3P/1P3PP1/R5K1 b - - 6 27",
+      "playerMoves": [
+        "c4c1",
+        "c8c1",
+        "c1g5"
+      ],
+      "opponentMoves": [
+        "a1c1",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qxc1+",
+        "Qxg5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1105,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/179uN0W9#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_A0VpJ",
+      "fen": "8/p1Q4p/6pk/2p5/3bB2P/8/q1P2PP1/6K1 b - - 0 29",
+      "playerMoves": [
+        "a2a1",
+        "d4e5",
+        "a1e5"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "c7e5"
+      ],
+      "solutionSan": [
+        "Qa1+",
+        "Be5+",
+        "Qxe5+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1143,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/aZt0J4OO#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2r8qm",
+      "fen": "8/5q1r/R4pk1/5p1p/5Q1P/6P1/5PK1/8 b - - 0 38",
+      "playerMoves": [
+        "f7b7",
+        "b7a6"
+      ],
+      "opponentMoves": [
+        "g2h2"
+      ],
+      "solutionSan": [
+        "Qb7+",
+        "Qxa6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1365,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/lTFmcNw1#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Kpeyi",
+      "fen": "r4r1k/1b2pPbp/p5p1/1pp5/3q2nQ/P1NP1P2/BPP3KP/R1B2R2 b - - 2 17",
+      "playerMoves": [
+        "g4e3",
+        "d4h4"
+      ],
+      "opponentMoves": [
+        "c1e3"
+      ],
+      "solutionSan": [
+        "Ne3+",
+        "Qxh4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1314,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/bD3mXStn#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iVUSx",
+      "fen": "1Q1R4/p5pk/2p4p/3n4/8/1N5P/5rPK/1q6 w - - 0 29",
+      "playerMoves": [
+        "d8h8",
+        "b8g3",
+        "g3f2"
+      ],
+      "opponentMoves": [
+        "h7g6",
+        "g6f7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qg3+",
+        "Qxf2+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1389,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/kmtt3QOx/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xJy68",
+      "fen": "6n1/p1p2k2/1p3Pp1/4p1P1/2n1P3/2PrNR2/PP5P/6K1 w - - 2 32",
+      "playerMoves": [
+        "e3c4",
+        "c4e5",
+        "e5f3"
+      ],
+      "opponentMoves": [
+        "d3f3",
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Nxc4",
+        "Nxe5+",
+        "Nxf3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "master"
+      ],
+      "rating": 1115,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/to7IeeNu/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yZd65",
+      "fen": "4r3/5k2/6Rp/5np1/1P1B4/7P/6K1/8 w - - 5 52",
+      "playerMoves": [
+        "g6f6",
+        "f6f5"
+      ],
+      "opponentMoves": [
+        "f7g8"
+      ],
+      "solutionSan": [
+        "Rf6+",
+        "Rxf5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1145,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/4l634fzx/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nXyPN",
+      "fen": "r4rk1/pp2qppp/6b1/2p5/3n1BP1/3P3P/PPP2PB1/R2Q1RK1 b - - 2 15",
+      "playerMoves": [
+        "d4e2",
+        "e2f4"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Nxf4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1009,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/sDqhBPrq#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_whHJf",
+      "fen": "r7/ppq2nkp/4r1p1/3N4/8/P6P/1P3PP1/3RR1K1 w - - 0 24",
+      "playerMoves": [
+        "d5c7",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e6e1"
+      ],
+      "solutionSan": [
+        "Nxc7",
+        "Rxe1"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "hangingPiece",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1088,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/BFTrJ0h0/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_orvSS",
+      "fen": "4N1k1/1pR5/8/p3p1r1/P4n1p/1P6/8/5K2 w - - 0 44",
+      "playerMoves": [
+        "e8f6",
+        "f6h7",
+        "h7g5"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Nh7+",
+        "Nxg5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1364,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/P8A4AxQ1/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KmuJr",
+      "fen": "8/7p/p2n1pp1/1pkP4/2P3PP/PP1K1P2/8/8 w - - 0 38",
+      "playerMoves": [
+        "b3b4",
+        "c4c5",
+        "c5d6"
+      ],
+      "opponentMoves": [
+        "c5b6",
+        "b6c7"
+      ],
+      "solutionSan": [
+        "b4+",
+        "c5+",
+        "cxd6+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "knightEndgame",
+        "long"
+      ],
+      "rating": 1213,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/7u7nb93v/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SX6Fx",
+      "fen": "3rk2r/pRp2p1p/2n3pb/8/8/B1p3Q1/P1P2PPP/1K2N3 b k - 0 18",
+      "playerMoves": [
+        "d8d1",
+        "d1c1"
+      ],
+      "opponentMoves": [
+        "a3c1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxc1#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "short"
+      ],
+      "rating": 1250,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/1BDWLlHX#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YMoWA",
+      "fen": "2r1r1k1/1p4pp/p4p2/3N4/1P4P1/P5KP/8/2R5 w - - 1 33",
+      "playerMoves": [
+        "c1c8",
+        "d5e7",
+        "e7c8"
+      ],
+      "opponentMoves": [
+        "e8c8",
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Rxc8",
+        "Ne7+",
+        "Nxc8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1327,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/LTWRxD9z/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ow9GX",
+      "fen": "3r3B/pk1q4/1Pnp3n/5p1p/6p1/P3Q2P/3N1PP1/R3K2R b KQ - 0 21",
+      "playerMoves": [
+        "d8e8",
+        "e8e3"
+      ],
+      "opponentMoves": [
+        "e1c1"
+      ],
+      "solutionSan": [
+        "Re8",
+        "Rxe3"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1310,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/rXtOSkJR#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zhBJP",
+      "fen": "5r1k/2p1q1p1/1b5p/1p6/4r1Q1/7P/P4PP1/B1R2RK1 w - - 4 33",
+      "playerMoves": [
+        "a1g7",
+        "g4e4"
+      ],
+      "opponentMoves": [
+        "e7g7"
+      ],
+      "solutionSan": [
+        "Bxg7+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1370,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/SqXwJgna/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FqWib",
+      "fen": "2r5/4R1pp/8/p1p2k2/P2bN3/7P/5PP1/6K1 w - - 0 34",
+      "playerMoves": [
+        "e4d6",
+        "d6c8"
+      ],
+      "opponentMoves": [
+        "f5f6"
+      ],
+      "solutionSan": [
+        "Nd6+",
+        "Nxc8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1186,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/EzYCkoTO/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4OXSo",
+      "fen": "3b4/1p4pk/p1bpR3/5p1q/2Q4P/6P1/PPPB1P2/6K1 b - - 0 35",
+      "playerMoves": [
+        "h5d1",
+        "d1d2"
+      ],
+      "opponentMoves": [
+        "c4f1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Qxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1147,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Nm2TPEJ5#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WPUyb",
+      "fen": "2r5/1p3pkp/6p1/PB1n4/1P1P4/7P/3R1PP1/5K2 b - - 0 32",
+      "playerMoves": [
+        "c8c1",
+        "d5c3",
+        "c3b5"
+      ],
+      "opponentMoves": [
+        "f1e2",
+        "e2d3"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Nc3+",
+        "Nxb5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long",
+        "master"
+      ],
+      "rating": 1032,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/uT6yBV9r#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NIhOc",
+      "fen": "3r2k1/pb4pp/4p1r1/2PpNpq1/P7/2P1PP2/1PQ3PP/3R1RK1 b - - 1 20",
+      "playerMoves": [
+        "g5e3",
+        "e3e5"
+      ],
+      "opponentMoves": [
+        "c2f2"
+      ],
+      "solutionSan": [
+        "Qxe3+",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1397,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/YQqgiGOA#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8SmOR",
+      "fen": "8/8/3RN3/1p2nPK1/1k6/8/8/5r2 b - - 0 62",
+      "playerMoves": [
+        "e5f7",
+        "f7d6"
+      ],
+      "opponentMoves": [
+        "g5f6"
+      ],
+      "solutionSan": [
+        "Nf7+",
+        "Nxd6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1234,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/XgZrkv6B#123",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iZzFx",
+      "fen": "r2r2k1/ppp2ppp/2n3b1/4P3/2P5/4P3/PB2BPPP/R4RK1 b - - 1 16",
+      "playerMoves": [
+        "d8d2",
+        "d2b2"
+      ],
+      "opponentMoves": [
+        "e2f3"
+      ],
+      "solutionSan": [
+        "Rd2",
+        "Rxb2"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1335,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/3Y872cvE#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vGm8k",
+      "fen": "4B2k/8/7b/7p/3P1p1K/2P2P1Q/P3q2P/5R2 b - - 0 31",
+      "playerMoves": [
+        "e2e7",
+        "e7g5"
+      ],
+      "opponentMoves": [
+        "h4h5"
+      ],
+      "solutionSan": [
+        "Qe7+",
+        "Qg5#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1315,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/6w5hasa5#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kSVYG",
+      "fen": "6k1/p1R4p/1p4pb/8/2N5/rP5P/5PP1/6K1 b - - 2 32",
+      "playerMoves": [
+        "a3a1",
+        "h6f4",
+        "f4c7"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "g2g3"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Bf4+",
+        "Bxc7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1027,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ISZlw5Xo#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_acJ2Z",
+      "fen": "5k2/p2r4/5p2/4pPp1/4PnP1/1PR5/7K/5N2 b - - 1 38",
+      "playerMoves": [
+        "d7h7",
+        "f4e2",
+        "e2c3"
+      ],
+      "opponentMoves": [
+        "h2g1",
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Ne2+",
+        "Nxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1343,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/cL6z14VK#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lFgO9",
+      "fen": "8/6pk/p5rp/2P3qn/3BQp2/5P1P/P2R2P1/7K b - - 0 41",
+      "playerMoves": [
+        "h5g3",
+        "g3e4"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Nxe4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "masterVsMaster",
+        "short"
+      ],
+      "rating": 1090,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/OgVtSk8l#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pHSNO",
+      "fen": "r5k1/pp5p/3pRb2/1Pp2n1b/2P5/3P1NBP/P4PK1/1R6 b - - 2 29",
+      "playerMoves": [
+        "h5f3",
+        "f5d4",
+        "d4e6"
+      ],
+      "opponentMoves": [
+        "g2f3",
+        "f3e4"
+      ],
+      "solutionSan": [
+        "Bxf3+",
+        "Nd4+",
+        "Nxe6"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1396,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/MAliEllX#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_535Tn",
+      "fen": "2q3k1/5ppp/5p2/pNnP4/1b1Q2P1/5P2/1RbB3P/K7 b - - 1 27",
+      "playerMoves": [
+        "c5b3",
+        "c2b3"
+      ],
+      "opponentMoves": [
+        "b2b3"
+      ],
+      "solutionSan": [
+        "Nb3+",
+        "Bxb3"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1143,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/YFTfqOnA#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4PLJc",
+      "fen": "4r3/4q1k1/5pp1/4P2p/5Q2/7P/6P1/4R1K1 w - - 0 39",
+      "playerMoves": [
+        "e5f6",
+        "f4f6",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "e7f6",
+        "g7f6"
+      ],
+      "solutionSan": [
+        "exf6+",
+        "Qxf6+",
+        "Rxe8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1297,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/PeEXuNQZ/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1PsHI",
+      "fen": "3r1r2/ppq1pnkp/3p1np1/6N1/7Q/2N5/PP3PPP/2K4R w - - 0 20",
+      "playerMoves": [
+        "g5e6",
+        "e6c7"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Ne6+",
+        "Nxc7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1223,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/k7AuxXel/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ehr9P",
+      "fen": "Bn5k/p5pp/6q1/2p1Bb2/2P2r2/1P6/P4P1P/R4Q1K b - - 0 22",
+      "playerMoves": [
+        "f5e4",
+        "g6e4",
+        "e4e5"
+      ],
+      "opponentMoves": [
+        "a8e4",
+        "f1g2"
+      ],
+      "solutionSan": [
+        "Be4+",
+        "Qxe4+",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1274,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/RnlxGBYs#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8Q3bm",
+      "fen": "8/p4k2/8/1p6/1B2R3/P2rP1P1/KR5p/7r b - - 0 46",
+      "playerMoves": [
+        "h1a1",
+        "h2h1q",
+        "h1e4"
+      ],
+      "opponentMoves": [
+        "a2a1",
+        "a1a2"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "h1=Q+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "promotion"
+      ],
+      "rating": 1296,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/vJXxmsuc#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fPvVK",
+      "fen": "6k1/5pp1/2Q1p2p/P7/1P3q2/7P/3r2P1/4R1K1 b - - 0 40",
+      "playerMoves": [
+        "f4f2",
+        "f2e1"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qxe1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1323,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/eZgY3qDi#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PH1R0",
+      "fen": "8/7p/6p1/1p2r1k1/1R6/8/5P1P/5K2 w - - 2 39",
+      "playerMoves": [
+        "f2f4",
+        "f4e5"
+      ],
+      "opponentMoves": [
+        "g5f6"
+      ],
+      "solutionSan": [
+        "f4+",
+        "fxe5+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1324,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/DkvVcgo5/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2DJWB",
+      "fen": "q5k1/1b1Q3p/p3pbp1/2p5/2n5/3R1P2/PP4PP/6K1 w - - 0 29",
+      "playerMoves": [
+        "d7e6",
+        "e6f6"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxe6+",
+        "Qxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1319,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/HQ60pZOJ/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9KrqU",
+      "fen": "k7/p7/4r1p1/8/3n3P/2R3B1/P4PP1/6K1 b - - 2 38",
+      "playerMoves": [
+        "d4e2",
+        "e2c3"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Nxc3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1295,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/nI2lT10T#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RJpKc",
+      "fen": "8/6k1/2R5/5pBp/3n1P1P/r7/5K2/8 w - - 13 43",
+      "playerMoves": [
+        "g5f6",
+        "f6d4"
+      ],
+      "opponentMoves": [
+        "g7f7"
+      ],
+      "solutionSan": [
+        "Bf6+",
+        "Bxd4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1373,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/jpvxbTRY/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_j28jV",
+      "fen": "8/rk2b3/8/4Np1p/6p1/4P1P1/3K3P/R7 w - - 0 42",
+      "playerMoves": [
+        "a1a7",
+        "e5c6",
+        "c6e7"
+      ],
+      "opponentMoves": [
+        "b7a7",
+        "a7b6"
+      ],
+      "solutionSan": [
+        "Rxa7+",
+        "Nc6+",
+        "Nxe7"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1310,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/01mAVMvU/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2imP2",
+      "fen": "1R3n2/p1r2kp1/2b4p/2Np4/3B4/P5P1/5PP1/6K1 w - - 7 41",
+      "playerMoves": [
+        "b8f8",
+        "c5e6",
+        "e6c7"
+      ],
+      "opponentMoves": [
+        "f7f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Ne6+",
+        "Nxc7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "fork",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1273,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/N8tQH049/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DTFwH",
+      "fen": "r1b1n3/pp1nbrpk/1qp1p3/3p2P1/3P1B2/4P3/PPPN1P1P/1R1QK2R w K - 0 13",
+      "playerMoves": [
+        "d1h5",
+        "g5g6",
+        "g6f7"
+      ],
+      "opponentMoves": [
+        "h7g8",
+        "d7f6"
+      ],
+      "solutionSan": [
+        "Qh5+",
+        "g6",
+        "gxf7+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1333,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/0f3gcVUl/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4PSk6",
+      "fen": "7r/2r1k1p1/p3p3/4R3/3q4/1Qp4P/PP3PP1/6K1 w - - 0 28",
+      "playerMoves": [
+        "b3e6",
+        "e5d5",
+        "e6d5"
+      ],
+      "opponentMoves": [
+        "e7d8",
+        "d4d5"
+      ],
+      "solutionSan": [
+        "Qxe6+",
+        "Rd5+",
+        "Qxd5+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1393,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ieS9Td9X/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Xx2cW",
+      "fen": "8/p1R5/1p1nkpp1/7p/r2NP3/3K1PPP/P7/8 b - - 1 38",
+      "playerMoves": [
+        "a4d4",
+        "d6b5",
+        "b5c7"
+      ],
+      "opponentMoves": [
+        "d3d4",
+        "d4e3"
+      ],
+      "solutionSan": [
+        "Rxd4+",
+        "Nb5+",
+        "Nxc7"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1312,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/TmvPLOYN#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HNhqQ",
+      "fen": "r2q1r1k/pbp1bp1P/1p3n2/8/2B1p3/2N4Q/PPP3PP/R1B2RK1 b - - 2 15",
+      "playerMoves": [
+        "d8d4",
+        "d4c4"
+      ],
+      "opponentMoves": [
+        "c1e3"
+      ],
+      "solutionSan": [
+        "Qd4+",
+        "Qxc4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "opening",
+        "short"
+      ],
+      "rating": 1280,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/iBsZMFGm#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1P10K",
+      "fen": "4r3/p4p2/1pp1r1kp/4R3/3P1P2/2P3P1/P7/4R1K1 w - - 1 33",
+      "playerMoves": [
+        "f4f5",
+        "f5e6"
+      ],
+      "opponentMoves": [
+        "g6f6"
+      ],
+      "solutionSan": [
+        "f5+",
+        "fxe6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1377,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/jqXCMcvv/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HIowm",
+      "fen": "6k1/5rpp/8/1p5q/4QB2/6P1/PP4P1/4n1K1 w - - 0 32",
+      "playerMoves": [
+        "e4e8",
+        "e8h5"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Qxh5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1187,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Iz7swuRp/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EtIHJ",
+      "fen": "3r3k/p4p2/2pr1q1p/4pp2/4P2P/P5QK/PBPn1PR1/8 w - - 0 40",
+      "playerMoves": [
+        "b2e5",
+        "g3e5"
+      ],
+      "opponentMoves": [
+        "f6e5"
+      ],
+      "solutionSan": [
+        "Bxe5",
+        "Qxe5+"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1258,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/GT4oCc4A/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_p8pPR",
+      "fen": "6k1/4ppbp/6p1/3p4/1P1Pn3/4PN1P/4Q1PK/r7 b - - 0 25",
+      "playerMoves": [
+        "a1h1",
+        "e4g3",
+        "g3e2"
+      ],
+      "opponentMoves": [
+        "h2h1",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Ng3+",
+        "Nxe2+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "fork",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1355,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ZnUe3Mvh#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sYJMH",
+      "fen": "8/6p1/8/6k1/1p1N2B1/1K5P/7r/8 w - - 7 51",
+      "playerMoves": [
+        "d4f3",
+        "f3h2"
+      ],
+      "opponentMoves": [
+        "g5f4"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Nxh2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1167,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ONwPWCfG/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_keyFH",
+      "fen": "r2k2nr/ppp4p/2nbR1p1/7q/8/1BNP1Q2/PPP2PPP/R1B3K1 b - - 0 12",
+      "playerMoves": [
+        "h5h2",
+        "h2h1",
+        "c6d4",
+        "d4f3"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1e2",
+        "e2e3"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Qh1+",
+        "Nd4+",
+        "Nxf3"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1296,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Ji5t1BA9#23",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8feKb",
+      "fen": "2r3k1/4qp1p/p4p2/3p4/P4Q2/6P1/2pRPP1P/1rR3K1 w - - 2 25",
+      "playerMoves": [
+        "f4g4",
+        "g4c8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qxc8+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1312,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/y9UsArUA/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UPfj4",
+      "fen": "6k1/pQ2np1p/3b2pB/8/5P1P/6P1/PPr2q2/4R2K w - - 2 30",
+      "playerMoves": [
+        "b7a8",
+        "a8c8",
+        "e1e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "c2c8",
+        "e7c8",
+        "d6f8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxc8+",
+        "Re8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1389,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/6n9JVYvn/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5x369",
+      "fen": "6k1/3b1pp1/1R1p3p/8/8/2q3PP/2P1N1B1/3K3R b - - 1 34",
+      "playerMoves": [
+        "c3a1",
+        "a1a5",
+        "a5b6"
+      ],
+      "opponentMoves": [
+        "d1d2",
+        "c2c3"
+      ],
+      "solutionSan": [
+        "Qa1+",
+        "Qa5+",
+        "Qxb6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1312,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/GBsRYCmW#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bboBc",
+      "fen": "3r2k1/2RPrppp/p4q2/8/8/P2Q1P1P/6P1/3R2K1 b - - 2 27",
+      "playerMoves": [
+        "f6b6",
+        "b6c7"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qb6+",
+        "Qxc7+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1360,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Y0DyAgvF#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aV8g8",
+      "fen": "2k5/pbpnr2p/qp2p3/8/3Q4/2N5/2P2PPP/3R2K1 w - - 3 21",
+      "playerMoves": [
+        "d4h8",
+        "h8f8",
+        "f8e8"
+      ],
+      "opponentMoves": [
+        "d7f8",
+        "e7e8"
+      ],
+      "solutionSan": [
+        "Qh8+",
+        "Qxf8+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "fork",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1039,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/uu1xTzA9/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k7fwC",
+      "fen": "8/4nk2/2r5/2R3P1/2N1K3/1p6/8/8 w - - 0 54",
+      "playerMoves": [
+        "c4e5",
+        "e5c6",
+        "c5b5"
+      ],
+      "opponentMoves": [
+        "f7e8",
+        "b3b2"
+      ],
+      "solutionSan": [
+        "Ne5+",
+        "Nxc6",
+        "Rb5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "master",
+        "masterVsMaster"
+      ],
+      "rating": 1358,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/2xFFWFdz/black#106",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ww0Vw",
+      "fen": "2kr3r/Qpp1pp1p/2qp1np1/3N4/2P5/P2n1P2/1P3PPP/R4RK1 w - - 0 16",
+      "playerMoves": [
+        "d5e7",
+        "e7c6"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Nxe7+",
+        "Nxc6"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1286,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/VHKDRMZY/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_07zcj",
+      "fen": "2R5/5rkp/6p1/p6P/5P2/1P4PK/P5Q1/1q6 b - - 0 37",
+      "playerMoves": [
+        "b1f5",
+        "f5c8"
+      ],
+      "opponentMoves": [
+        "g3g4"
+      ],
+      "solutionSan": [
+        "Qf5+",
+        "Qxc8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "masterVsMaster",
+        "short"
+      ],
+      "rating": 1368,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/K5JCpV3n#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZGJP1",
+      "fen": "8/8/3p1ppk/8/3pBPKP/8/8/8 b - - 3 52",
+      "playerMoves": [
+        "f6f5",
+        "f5e4",
+        "h6h5"
+      ],
+      "opponentMoves": [
+        "g4f3",
+        "f3e4"
+      ],
+      "solutionSan": [
+        "f5+",
+        "fxe4+",
+        "Kh5"
+      ],
+      "themes": [
+        "bishopEndgame",
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "master"
+      ],
+      "rating": 1297,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Vz0MjVuo#103",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0IA1R",
+      "fen": "8/5k2/p4p2/1pq5/2P5/7b/5Q1P/2R3K1 b - - 3 35",
+      "playerMoves": [
+        "c5g5",
+        "g5c1"
+      ],
+      "opponentMoves": [
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Qg5+",
+        "Qxc1+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1180,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/tal8g9G4#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0pwjJ",
+      "fen": "r4r2/pQ1q3k/2nb1n2/2p1p1Bb/2PpP1N1/3P3P/PP3PB1/R3K1R1 w Q - 1 21",
+      "playerMoves": [
+        "g4f6",
+        "b7d7"
+      ],
+      "opponentMoves": [
+        "f8f6"
+      ],
+      "solutionSan": [
+        "Nxf6+",
+        "Qxd7+"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1273,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/f4OMDio3/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Gty4J",
+      "fen": "r2qk2r/pp1n1ppp/3b4/1B1p4/3P2Q1/8/PP3PPP/R1B1K2R b KQkq - 1 12",
+      "playerMoves": [
+        "d8a5",
+        "a5b5"
+      ],
+      "opponentMoves": [
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qa5+",
+        "Qxb5+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1335,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/1TbjMUwi#23",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SVN9E",
+      "fen": "R4rk1/1B3p1p/5qp1/2p5/3p4/1P3P2/2P5/4QK2 b - - 1 30",
+      "playerMoves": [
+        "f8a8",
+        "f6a6",
+        "a6a8"
+      ],
+      "opponentMoves": [
+        "b7a8",
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Rxa8",
+        "Qa6+",
+        "Qxa8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1398,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/qK36Dwru#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xHxom",
+      "fen": "2r5/1R6/4kp2/8/4K3/Pn3P2/6PP/8 b - - 1 43",
+      "playerMoves": [
+        "b3c5",
+        "c5b7"
+      ],
+      "opponentMoves": [
+        "e4d4"
+      ],
+      "solutionSan": [
+        "Nc5+",
+        "Nxb7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1325,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/7Y3E7Pet#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iASVi",
+      "fen": "6k1/1p1n2pp/8/1p1N1rP1/3b1P1P/P7/1P5K/4R3 w - - 0 30",
+      "playerMoves": [
+        "d5e7",
+        "e7f5"
+      ],
+      "opponentMoves": [
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Nxf5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1144,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/3BUGFsRS/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2Rhgy",
+      "fen": "3R4/5ppk/4p2p/1p6/1P6/4PQ1P/r1q2PP1/6K1 b - - 4 27",
+      "playerMoves": [
+        "a2a1",
+        "c2c7",
+        "c7d8"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "f3f4"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Qc7+",
+        "Qxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1317,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/DLTFDrjv#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TNPc7",
+      "fen": "3r3k/b4Bpp/p7/1p3p2/3n4/5PRP/PPP2P2/2KR4 b - - 0 21",
+      "playerMoves": [
+        "d4e2",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "c1b1"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1215,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/mN1l35la#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wqfdj",
+      "fen": "2q3k1/R4p2/4pQp1/3p3p/P1rP4/7P/5PP1/6K1 b - - 1 30",
+      "playerMoves": [
+        "c4c1",
+        "c8b8",
+        "b8a7"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "f6e5"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Qb8+",
+        "Qxa7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1361,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/0OrQT7gP#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uyf8f",
+      "fen": "3r4/1q3pk1/p1p3p1/P6p/1P2P3/2Pn1Q1P/6P1/5R1K w - - 0 41",
+      "playerMoves": [
+        "f3f6",
+        "f6d8"
+      ],
+      "opponentMoves": [
+        "g7h7"
+      ],
+      "solutionSan": [
+        "Qf6+",
+        "Qxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1329,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/2vUlwSDf/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5nNMD",
+      "fen": "r2qkbnr/pp3ppp/2n5/1BP5/3pN1b1/5N2/PPP2PPP/R1BQK2R b KQkq - 5 8",
+      "playerMoves": [
+        "d8a5",
+        "a5b5"
+      ],
+      "opponentMoves": [
+        "c2c3"
+      ],
+      "solutionSan": [
+        "Qa5+",
+        "Qxb5"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "opening",
+        "short"
+      ],
+      "rating": 1333,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/R85LdDzv#15",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yWjJW",
+      "fen": "8/5rkp/6p1/1p6/1P1RQ3/P3PP1P/2q5/2n2RK1 b - - 2 38",
+      "playerMoves": [
+        "c1e2",
+        "e2d4",
+        "d4c2"
+      ],
+      "opponentMoves": [
+        "g1f2",
+        "e4c2"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Nxd4+",
+        "Nxc2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1090,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/tKkgJonN#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mv5vy",
+      "fen": "2b2rk1/6pp/2Q5/3pN3/3P3q/5P2/1PB1K2P/6R1 b - - 0 38",
+      "playerMoves": [
+        "h4h2",
+        "h2g1"
+      ],
+      "opponentMoves": [
+        "e2e1"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Qxg1+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1254,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/PBA8ZL5M#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EEwkr",
+      "fen": "r4r2/pp5k/4n1pp/3pPQ2/2p4P/q1P3R1/2P2PP1/6K1 w - - 0 26",
+      "playerMoves": [
+        "f5g6",
+        "g6h6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "deflection",
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1318,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/6ZqAQEX6/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TVlmf",
+      "fen": "b1n2b2/4k2r/ppnp3p/4p1p1/4P3/2N3B1/PPP3PP/3R1RK1 w - - 2 24",
+      "playerMoves": [
+        "c3d5",
+        "d5f6",
+        "f6h7"
+      ],
+      "opponentMoves": [
+        "e7e8",
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Nd5+",
+        "Nf6+",
+        "Nxh7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1160,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/q7rKyIWi/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OuJ28",
+      "fen": "8/1R3pk1/3Pb1p1/6P1/7P/1p4K1/1r4B1/8 b - - 3 41",
+      "playerMoves": [
+        "b2g2",
+        "e6d5",
+        "d5b7",
+        "b3b2",
+        "b2b1q"
+      ],
+      "opponentMoves": [
+        "g3g2",
+        "g2f2",
+        "d6d7",
+        "d7d8q"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Bd5+",
+        "Bxb7",
+        "b2",
+        "b1=Q"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "promotion",
+        "veryLong"
+      ],
+      "rating": 1352,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/KzGXltlG#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wk9Se",
+      "fen": "r3kb1r/ppp2ppp/4p3/4q3/6b1/6P1/PP2PP1P/R1BQKB1R w KQkq - 0 10",
+      "playerMoves": [
+        "d1a4",
+        "a4g4"
+      ],
+      "opponentMoves": [
+        "c7c6"
+      ],
+      "solutionSan": [
+        "Qa4+",
+        "Qxg4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1106,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/fuWF0JJK/black#18",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i5MMP",
+      "fen": "r1b1r1k1/ppp1npp1/4Pn1p/8/2P5/B2q1N2/P4PPP/R3QRK1 w - - 0 16",
+      "playerMoves": [
+        "e6f7",
+        "f3e5",
+        "e5d3"
+      ],
+      "opponentMoves": [
+        "g8f7",
+        "f7g8"
+      ],
+      "solutionSan": [
+        "exf7+",
+        "Ne5+",
+        "Nxd3"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "attraction",
+        "fork",
+        "long",
+        "opening"
+      ],
+      "rating": 1377,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/UZCT6Hj2/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jk78a",
+      "fen": "r3k2r/1ppq1p2/p2p3p/3PnQ2/3p4/1P1P3P/1PP2PP1/R3R1K1 w kq - 4 17",
+      "playerMoves": [
+        "e1e5",
+        "f5e5",
+        "e5h8"
+      ],
+      "opponentMoves": [
+        "d6e5",
+        "d7e7"
+      ],
+      "solutionSan": [
+        "Rxe5+",
+        "Qxe5+",
+        "Qxh8+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1218,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/M8hM5CPm/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xgOGY",
+      "fen": "8/R4pkp/4p3/5PP1/3P3P/4r2r/4N1K1/8 w - - 3 38",
+      "playerMoves": [
+        "f5f6",
+        "e2f4",
+        "f4h3"
+      ],
+      "opponentMoves": [
+        "g7g6",
+        "g6f5"
+      ],
+      "solutionSan": [
+        "f6+",
+        "Nf4+",
+        "Nxh3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1135,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/KLg2U4Fp/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8tjPq",
+      "fen": "7k/6p1/p6p/1p4rP/1P1b3K/P2B4/5R2/2R5 b - - 0 40",
+      "playerMoves": [
+        "d4f2",
+        "g5g3",
+        "g3d3"
+      ],
+      "opponentMoves": [
+        "h4h3",
+        "h3h2"
+      ],
+      "solutionSan": [
+        "Bxf2+",
+        "Rg3+",
+        "Rxd3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1348,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/8bk80TYH#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WRMqi",
+      "fen": "r5k1/pb3N1p/1p2p3/8/5B2/2q3P1/P7/1K1Q1B1R b - - 0 27",
+      "playerMoves": [
+        "b7e4",
+        "e4d3",
+        "c3d3"
+      ],
+      "opponentMoves": [
+        "f1d3",
+        "d1d3"
+      ],
+      "solutionSan": [
+        "Be4+",
+        "Bxd3+",
+        "Qxd3+"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1308,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ok5x7tn4#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_18V9o",
+      "fen": "2rq2n1/p2n1rpk/1p5p/5P2/3P4/2P1PNQ1/PP3P1P/2K3R1 w - - 7 23",
+      "playerMoves": [
+        "g3g6",
+        "g6f7"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qg6+",
+        "Qxf7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1258,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/w7NTODJ1/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RFnYd",
+      "fen": "3r2k1/p1P3r1/7p/8/1QP2p2/5P1B/P4q1P/4R2K b - - 0 31",
+      "playerMoves": [
+        "f2f3",
+        "f3g2"
+      ],
+      "opponentMoves": [
+        "h3g2"
+      ],
+      "solutionSan": [
+        "Qxf3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "master",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1394,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/vob3eOIR#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_w0IeM",
+      "fen": "8/p4q1p/kp4p1/3p4/1n1Pp3/4P3/P4QPP/2R3K1 b - - 1 30",
+      "playerMoves": [
+        "f7f2",
+        "b4d3",
+        "d3c1"
+      ],
+      "opponentMoves": [
+        "g1f2",
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Nd3+",
+        "Nxc1"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1305,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/eZlxOa6a#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mewls",
+      "fen": "3n2rk/2p1R2p/6q1/p2p1p1p/3P1P2/2P5/P3Q1P1/6K1 w - - 4 31",
+      "playerMoves": [
+        "e2e5",
+        "e7e8",
+        "e5e8"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g6e8"
+      ],
+      "solutionSan": [
+        "Qe5+",
+        "Re8+",
+        "Qxe8+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1232,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/MOnl7zYJ/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BbD7c",
+      "fen": "8/p4Rpk/1p5p/6r1/8/2P1q1PK/PP5P/3Q4 b - - 6 35",
+      "playerMoves": [
+        "e3e6",
+        "e6f7"
+      ],
+      "opponentMoves": [
+        "h3g2"
+      ],
+      "solutionSan": [
+        "Qe6+",
+        "Qxf7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1329,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/wM5gfS1E#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qmW5K",
+      "fen": "r1b2rk1/6bp/p2Qp1p1/3n1p2/8/1B4P1/P1P2PKP/7R w - - 2 24",
+      "playerMoves": [
+        "b3d5",
+        "d6d5",
+        "d5e6"
+      ],
+      "opponentMoves": [
+        "e6d5",
+        "c8e6"
+      ],
+      "solutionSan": [
+        "Bxd5",
+        "Qxd5+",
+        "Qxe6+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1258,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xKvYvJc3/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7PSEN",
+      "fen": "r2qk2r/pp2ppbp/3p2p1/8/5n2/2P2N1P/PP1N1PP1/R2Q1K1R w kq - 0 13",
+      "playerMoves": [
+        "d1a4",
+        "a4f4"
+      ],
+      "opponentMoves": [
+        "d8d7"
+      ],
+      "solutionSan": [
+        "Qa4+",
+        "Qxf4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1165,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/hFrEFTsO/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AetYZ",
+      "fen": "r3r1k1/pR3ppp/8/8/5B2/2p2P2/2Q3PP/q2R1K2 b - - 2 26",
+      "playerMoves": [
+        "a1a6",
+        "a6b7"
+      ],
+      "opponentMoves": [
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Qa6+",
+        "Qxb7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1287,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/AnMPEY25#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hbrlp",
+      "fen": "3r2k1/R4ppp/4p3/1N6/8/1P5P/PB3PP1/1qQ2K2 b - - 2 28",
+      "playerMoves": [
+        "d8d1",
+        "b1d1"
+      ],
+      "opponentMoves": [
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxd1#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short",
+        "xRayAttack"
+      ],
+      "rating": 1365,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ElwhkouX#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ue0BI",
+      "fen": "r5k1/p1p3pp/3p3r/8/7q/4PP2/P1P4P/1R1Q1R1K w - - 1 22",
+      "playerMoves": [
+        "d1d5",
+        "d5a8",
+        "a8d5"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxa8+",
+        "Qd5+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1343,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/K4oISL8i/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8Vv9y",
+      "fen": "8/8/8/7P/3p4/3q2k1/6P1/5RK1 w - - 0 51",
+      "playerMoves": [
+        "f1f3",
+        "g2f3",
+        "g1f1",
+        "f1e2",
+        "e2d1"
+      ],
+      "opponentMoves": [
+        "d3f3",
+        "d4d3",
+        "d3d2",
+        "d2d1r"
+      ],
+      "solutionSan": [
+        "Rf3+",
+        "gxf3",
+        "Kf1",
+        "Ke2",
+        "Kxd1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "queenRookEndgame",
+        "veryLong"
+      ],
+      "rating": 1249,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Ijgm6lUl/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eyGTT",
+      "fen": "1k1r3r/p7/b1RN4/4Q3/3p2q1/2N3Pp/PPP4P/R6K b - - 0 23",
+      "playerMoves": [
+        "g4f3",
+        "f3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qf3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1239,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/EDepmldg#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_f9TJc",
+      "fen": "6r1/4R1bk/p5pp/1p1q4/3B4/2Q2P2/PP3P1P/6K1 b - - 3 29",
+      "playerMoves": [
+        "d5g5",
+        "g5e7"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qg5+",
+        "Qxe7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1125,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Qp3nDGTX#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AqoHr",
+      "fen": "2n5/5k2/2B2p1p/p1p2K2/2P1P2P/1P6/8/8 b - - 0 41",
+      "playerMoves": [
+        "c8e7",
+        "e7c6"
+      ],
+      "opponentMoves": [
+        "f5f4"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Nxc6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1366,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/rDx3uOq3#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ORDuq",
+      "fen": "2r2r1k/1p3Rpp/pB6/P2Pp2n/q6b/3B3P/1PP3P1/3R1Q1K b - - 0 24",
+      "playerMoves": [
+        "h5g3",
+        "g3f1"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Nxf1+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1114,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/zbIs3U4e#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NKA5J",
+      "fen": "4k1r1/ppp2p2/3p1P2/3P4/2P4Q/K7/P7/1r6 w - - 7 43",
+      "playerMoves": [
+        "h4e4",
+        "e4b1"
+      ],
+      "opponentMoves": [
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Qe4+",
+        "Qxb1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 1335,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/kmZHnVUy/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HwqDS",
+      "fen": "r4r1k/pppbq3/2nbp2p/3nNp1N/3P1PQ1/2PB4/PP4PP/R4RK1 w - - 0 16",
+      "playerMoves": [
+        "e5g6",
+        "g6e7"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Nxe7"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1236,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/1LyG1dOu/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JSRgN",
+      "fen": "r4nR1/pp2kp2/4q3/1BP5/4Q3/P3P3/1P1K1PP1/r7 w - - 11 34",
+      "playerMoves": [
+        "e4b7",
+        "b7a8"
+      ],
+      "opponentMoves": [
+        "e7f6"
+      ],
+      "solutionSan": [
+        "Qxb7+",
+        "Qxa8"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1360,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/lTJ7NiRE/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_M3QOB",
+      "fen": "r2q1rk1/3n1p2/2p3p1/p3p2n/1p1P2Rb/2P1BP1P/PPQKN3/6R1 w - - 0 23",
+      "playerMoves": [
+        "g4g6",
+        "c2g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "f7g6",
+        "h5g7"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxg6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "fork",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1325,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/HILZRdF6/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PZczl",
+      "fen": "rnk4r/1p3ppp/p7/3pp3/8/q1PQ4/2PB1nPP/1K1R1B1R w - - 0 16",
+      "playerMoves": [
+        "d3f5",
+        "f5f2"
+      ],
+      "opponentMoves": [
+        "b8d7"
+      ],
+      "solutionSan": [
+        "Qf5+",
+        "Qxf2"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1122,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/tIIry4f2/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dmBQe",
+      "fen": "r4rk1/pb3pp1/1p2pn1p/2BqN3/8/2PB1P1P/PPQ3P1/R4RK1 b - - 0 16",
+      "playerMoves": [
+        "d5c5",
+        "c5e5"
+      ],
+      "opponentMoves": [
+        "c2f2"
+      ],
+      "solutionSan": [
+        "Qxc5+",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1148,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/sir2Tv5C#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qaAWh",
+      "fen": "1k6/3n1p2/1p1p4/1N1Pp3/1PP3n1/2B3Pp/2q4P/Q5K1 w - - 6 35",
+      "playerMoves": [
+        "a1a7",
+        "a7c7"
+      ],
+      "opponentMoves": [
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Qa7+",
+        "Qc7#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1158,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/N6ALqSJs/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mbGJN",
+      "fen": "r4rk1/1pp2p2/p3p1p1/5q1p/6NQ/8/PPn2PPP/R4RK1 w - - 0 23",
+      "playerMoves": [
+        "g4h6",
+        "h6f5"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Nh6+",
+        "Nxf5+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1252,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/OAKzfm24/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WtHiT",
+      "fen": "8/6pk/7p/pp1Q4/3P2b1/2r1PB2/P4PK1/1q6 w - - 0 43",
+      "playerMoves": [
+        "f3e4",
+        "d5e4"
+      ],
+      "opponentMoves": [
+        "b1e4"
+      ],
+      "solutionSan": [
+        "Be4+",
+        "Qxe4+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1174,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/jq03Brmy/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0wSsF",
+      "fen": "q6k/7p/4Nb2/2pP4/5Qp1/6P1/6KP/8 b - - 2 39",
+      "playerMoves": [
+        "a8d5",
+        "d5e6"
+      ],
+      "opponentMoves": [
+        "g2f1"
+      ],
+      "solutionSan": [
+        "Qxd5+",
+        "Qxe6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1380,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xvCipPdf#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AqlRD",
+      "fen": "4r1k1/p2q1p2/1p3Qp1/8/2R5/P7/2P1p1KP/4R3 b - - 0 32",
+      "playerMoves": [
+        "d7d5",
+        "d5c4"
+      ],
+      "opponentMoves": [
+        "f6f3"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxc4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1296,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/hKP2WpPi#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qYkiB",
+      "fen": "8/1N1n1k2/pp1P2p1/2p5/3r4/P7/6PP/4R1K1 w - - 8 41",
+      "playerMoves": [
+        "e1e7",
+        "e7d7"
+      ],
+      "opponentMoves": [
+        "f7f6"
+      ],
+      "solutionSan": [
+        "Re7+",
+        "Rxd7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1300,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/lrJRpmz1/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B0WVe",
+      "fen": "r3k2r/p2qbppp/2p2n2/2Qp4/5P2/4R3/PPP3PP/RNB3K1 w kq - 5 13",
+      "playerMoves": [
+        "e3e7",
+        "c5c6",
+        "c6a8"
+      ],
+      "opponentMoves": [
+        "d7e7",
+        "e7d7"
+      ],
+      "solutionSan": [
+        "Rxe7+",
+        "Qxc6+",
+        "Qxa8+"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "fork",
+        "long",
+        "master",
+        "middlegame"
+      ],
+      "rating": 1377,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/r3I8TQPS/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QFq8q",
+      "fen": "2kr3r/1pp2p2/p2p4/P2PpP2/1P2Nn1q/7p/2PQBP1R/2K3R1 b - - 2 25",
+      "playerMoves": [
+        "f4e2",
+        "h4f4",
+        "f4h2"
+      ],
+      "opponentMoves": [
+        "d2e2",
+        "c1b2"
+      ],
+      "solutionSan": [
+        "Nxe2+",
+        "Qf4+",
+        "Qxh2"
+      ],
+      "themes": [
+        "advantage",
+        "clearance",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1393,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/g8KNGRWA#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Nda0F",
+      "fen": "6k1/5b2/p4Pp1/B3P3/P7/3PpBP1/2r5/2r1RK2 b - - 5 34",
+      "playerMoves": [
+        "c2f2",
+        "c1e1",
+        "f2f3"
+      ],
+      "opponentMoves": [
+        "f1g1",
+        "a5e1"
+      ],
+      "solutionSan": [
+        "Rf2+",
+        "Rxe1+",
+        "Rxf3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long",
+        "pin"
+      ],
+      "rating": 1363,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/VsnpJcXz#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RwoQm",
+      "fen": "2rq3r/pp2bk2/2n1pp1n/3pP2p/3p3P/3Q1N2/PPPN1P2/R3K1R1 w Q - 0 16",
+      "playerMoves": [
+        "d3g6",
+        "g6g7",
+        "g7h8"
+      ],
+      "opponentMoves": [
+        "f7f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Qg6+",
+        "Qg7+",
+        "Qxh8+"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1355,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/4DyjxZll/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oWr9f",
+      "fen": "3R4/5ppk/7p/1p2n3/2pQq3/P3P1PP/1P3P2/6K1 b - - 4 35",
+      "playerMoves": [
+        "e5f3",
+        "f3d4"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Nxd4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1375,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/f3R7uErh#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0kwRl",
+      "fen": "2r5/pp1qp1kp/5bp1/5p2/1Q1r1P2/P1N4P/1P2R1P1/4R1K1 w - - 6 33",
+      "playerMoves": [
+        "e2e7",
+        "e1e7",
+        "e7d7",
+        "a3b4"
+      ],
+      "opponentMoves": [
+        "f6e7",
+        "g7f8",
+        "d4b4"
+      ],
+      "solutionSan": [
+        "Rxe7+",
+        "Rxe7+",
+        "Rxd7+",
+        "axb4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "fork",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1343,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/DwHU9vas/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JCpSd",
+      "fen": "r4rk1/pp3ppp/1qpn1b2/8/3P4/1P1Q3P/P1P3B1/RN3RK1 w - - 3 20",
+      "playerMoves": [
+        "f1f6",
+        "d3g3",
+        "g3d6"
+      ],
+      "opponentMoves": [
+        "g7f6",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rxf6",
+        "Qg3+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1337,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/cEMMk6ab/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_srb0O",
+      "fen": "3q1rk1/1r2p2p/pp1p2p1/4b3/8/2N5/PPP2PP1/R2QK2R w KQ - 0 18",
+      "playerMoves": [
+        "d1d5",
+        "d5b7"
+      ],
+      "opponentMoves": [
+        "e7e6"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxb7"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1302,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/o9MjBNf1/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vmB7M",
+      "fen": "3r2k1/5p2/p7/1p1p2p1/1P5Q/P3q3/6R1/5K2 w - - 0 42",
+      "playerMoves": [
+        "g2g5",
+        "h4h8",
+        "g5e5",
+        "h8e5"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7",
+        "e3e5"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Qh8+",
+        "Re5+",
+        "Qxe5+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "veryLong"
+      ],
+      "rating": 1341,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/8dj6lXzP/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5NXUc",
+      "fen": "rnbr2k1/1p3pbp/1p4p1/3N4/2P5/5p1P/PP3PP1/2KR1B1R w - - 0 15",
+      "playerMoves": [
+        "d5e7",
+        "d1d8",
+        "d8c8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Rxd8+",
+        "Rxc8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1304,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/qttydejm/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oNisC",
+      "fen": "7k/pp2bp2/4n1rp/2p1PQ2/4N3/3P4/PP2K3/7R b - - 3 29",
+      "playerMoves": [
+        "e6d4",
+        "d4f5"
+      ],
+      "opponentMoves": [
+        "e2d2"
+      ],
+      "solutionSan": [
+        "Nd4+",
+        "Nxf5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1384,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/MrL6MEcr#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KSiBU",
+      "fen": "rn2kb1r/ppp2p1p/8/4Pq2/3PN1b1/2NK4/PPP3p1/R1BQ2R1 w kq - 5 17",
+      "playerMoves": [
+        "d1g4",
+        "e4f6",
+        "f6g4"
+      ],
+      "opponentMoves": [
+        "f5g4",
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Qxg4",
+        "Nf6+",
+        "Nxg4"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "fork",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1326,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/o6yS4oHY/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_r9bNX",
+      "fen": "3q3k/4bp2/p5p1/2p1NP1p/1p2P2P/1P3QP1/1PP5/6K1 b - - 0 28",
+      "playerMoves": [
+        "d8d4",
+        "d4e5"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qd4+",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1357,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/q6JmZi6a#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GDRXm",
+      "fen": "1r3r1k/4bQ2/p3P1pp/3p4/Nq2b1P1/1P5P/P6B/5RK1 w - - 1 36",
+      "playerMoves": [
+        "h2e5",
+        "e5f6"
+      ],
+      "opponentMoves": [
+        "e7f6"
+      ],
+      "solutionSan": [
+        "Be5+",
+        "Bxf6#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1302,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/t8w3fCeF/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kUw87",
+      "fen": "3q4/1r1kn1R1/3p2QP/4p3/1p6/1N3r2/PP6/1K6 w - - 0 32",
+      "playerMoves": [
+        "g6g4",
+        "g4f3"
+      ],
+      "opponentMoves": [
+        "d7c7"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qxf3"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1394,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/5omFNaGd/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XZ4Gs",
+      "fen": "r6k/R6p/5pp1/p2bp3/B6r/1PR4P/6P1/7K w - - 4 41",
+      "playerMoves": [
+        "a7a8",
+        "c3c8",
+        "c8a8"
+      ],
+      "opponentMoves": [
+        "d5a8",
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rxa8+",
+        "Rc8+",
+        "Rxa8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1131,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/pmGVGCSg/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2DPZp",
+      "fen": "1k6/n1p3Qp/p5q1/8/2P2P2/1P6/P2r2PP/R6K w - - 1 34",
+      "playerMoves": [
+        "g7f8",
+        "f8b4",
+        "b4d2"
+      ],
+      "opponentMoves": [
+        "b8b7",
+        "a7b5"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Qb4+",
+        "Qxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1297,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/fgUHd0Kd/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8r2Fi",
+      "fen": "r5k1/5pp1/7p/2Q5/qP2P3/8/P3R2P/1K6 b - - 9 37",
+      "playerMoves": [
+        "a4d1",
+        "d1e2"
+      ],
+      "opponentMoves": [
+        "c5c1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Qxe2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1248,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/QUekdOZ4#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zk7GQ",
+      "fen": "4kb1r/5ppp/3p1n2/N2b4/1n3B2/N1P5/PP3P1P/R3K1R1 b Qk - 0 18",
+      "playerMoves": [
+        "b4d3",
+        "d3f4"
+      ],
+      "opponentMoves": [
+        "e1d2"
+      ],
+      "solutionSan": [
+        "Nd3+",
+        "Nxf4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1207,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/bsHfQxAI#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_G2sJS",
+      "fen": "3r1r2/k1n3pp/p1p1pp2/6PP/1B1P4/n7/5PB1/1R4K1 w - - 0 30",
+      "playerMoves": [
+        "b4c5",
+        "g2c6"
+      ],
+      "opponentMoves": [
+        "a7a8"
+      ],
+      "solutionSan": [
+        "Bc5+",
+        "Bxc6#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1201,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ONmildy0/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C7TF7",
+      "fen": "8/3p1p2/4p3/1p6/p1Nnk3/P5B1/1P3PKP/1r6 w - - 0 35",
+      "playerMoves": [
+        "c4d2",
+        "d2b1"
+      ],
+      "opponentMoves": [
+        "e4d3"
+      ],
+      "solutionSan": [
+        "Nd2+",
+        "Nxb1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1080,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/HmoHwgRL/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tx2QG",
+      "fen": "5r1k/1p1q1p2/3P1np1/3r1N2/1P2pQ2/8/5RPP/4R1K1 w - - 0 30",
+      "playerMoves": [
+        "f4h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "f6h7"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1163,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/E2QgRH0s/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DK5DG",
+      "fen": "2r3k1/3b2p1/4p1qp/3pPp2/1n1P1Q2/5NPR/PP1K2P1/2R5 b - - 3 27",
+      "playerMoves": [
+        "c8c1",
+        "b4d3",
+        "d3f4"
+      ],
+      "opponentMoves": [
+        "d2c1",
+        "c1c2"
+      ],
+      "solutionSan": [
+        "Rxc1",
+        "Nd3+",
+        "Nxf4"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "exposedKing",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1371,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/P7CGjMNw#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Llqzq",
+      "fen": "4q1k1/5p1n/bp2p3/3p3N/p2P3K/P3PP2/1PQ3P1/8 w - - 1 31",
+      "playerMoves": [
+        "c2h7",
+        "h5f6",
+        "f6e8"
+      ],
+      "opponentMoves": [
+        "g8h7",
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Nf6+",
+        "Nxe8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "fork",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1391,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/1LmwzRwA/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4P4A6",
+      "fen": "r4rk1/2q2ppp/4p3/pR1pNb2/Q2P4/4P2P/P4PP1/3R2K1 b - - 4 22",
+      "playerMoves": [
+        "f5c2",
+        "c2d1"
+      ],
+      "opponentMoves": [
+        "a4a3"
+      ],
+      "solutionSan": [
+        "Bc2",
+        "Bxd1"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "interference",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1346,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/JVHhwbNI#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xHd77",
+      "fen": "5r2/R7/6k1/4R3/2pn4/3p4/PP1K4/8 b - - 0 50",
+      "playerMoves": [
+        "d4f3",
+        "f3e5"
+      ],
+      "opponentMoves": [
+        "d2c3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Nxe5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1079,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/tCkZxNBp#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uU5lF",
+      "fen": "8/kpp5/4p2b/p7/3QN3/6PP/1q6/3R2K1 b - - 1 40",
+      "playerMoves": [
+        "b2d4",
+        "h6e3",
+        "e3d4"
+      ],
+      "opponentMoves": [
+        "d1d4",
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Qxd4+",
+        "Be3+",
+        "Bxd4"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long"
+      ],
+      "rating": 1353,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/3l23arSi#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3Y1lE",
+      "fen": "7r/6k1/p2q1p2/2pppb1r/7P/2NP2P1/PP2Q1K1/2R2R2 w - - 2 26",
+      "playerMoves": [
+        "f1f5",
+        "e2g4",
+        "g4f5"
+      ],
+      "opponentMoves": [
+        "h5f5",
+        "g7f7"
+      ],
+      "solutionSan": [
+        "Rxf5",
+        "Qg4+",
+        "Qxf5"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "fork",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1342,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/8JYuLHfZ/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jqimt",
+      "fen": "r5k1/1R3pbp/2p3p1/q7/P3R3/6P1/2Q4P/5K2 b - - 0 28",
+      "playerMoves": [
+        "a5a6",
+        "a6b7"
+      ],
+      "opponentMoves": [
+        "c2e2"
+      ],
+      "solutionSan": [
+        "Qa6+",
+        "Qxb7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1201,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/2bNzBtos#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_r7edE",
+      "fen": "3k4/1pp3R1/8/p2P1P2/1q6/3B4/6K1/3R4 b - - 0 43",
+      "playerMoves": [
+        "b4b2",
+        "b2g7"
+      ],
+      "opponentMoves": [
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Qb2+",
+        "Qxg7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1018,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/kFVG7NQp#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jCpEN",
+      "fen": "r2kb1R1/2p5/pp1p1q2/1N1Pn3/4P3/1K5Q/PPP5/8 w - - 0 29",
+      "playerMoves": [
+        "g8e8",
+        "b5c7",
+        "c7a8"
+      ],
+      "opponentMoves": [
+        "d8e8",
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Nxc7+",
+        "Nxa8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1344,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/0k8hfFl2/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RgpPn",
+      "fen": "6k1/Qp3pp1/4q2p/8/8/PR3P2/KP5r/8 w - - 0 38",
+      "playerMoves": [
+        "a7b8",
+        "b8h2"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qxh2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1270,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/dkTtcRUS/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jutng",
+      "fen": "2q3k1/2p2ppp/3r4/p2Pp3/4Pn2/P4N1P/5PPB/2QR1K2 b - - 4 28",
+      "playerMoves": [
+        "c8a6",
+        "f4e2",
+        "e2c1"
+      ],
+      "opponentMoves": [
+        "f1g1",
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qa6+",
+        "Ne2+",
+        "Nxc1"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1226,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/bwTPjrXF#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FL7LE",
+      "fen": "6k1/4Q1p1/P6p/r7/4K3/4P3/5r2/8 w - - 1 43",
+      "playerMoves": [
+        "e7d8",
+        "d8a5"
+      ],
+      "opponentMoves": [
+        "f2f8"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Qxa5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 1318,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/SILd3nQj/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ujP5x",
+      "fen": "5k2/1R3n2/p4N2/5KP1/8/3r4/8/8 b - - 0 50",
+      "playerMoves": [
+        "f7d6",
+        "d6b7"
+      ],
+      "opponentMoves": [
+        "f5e5"
+      ],
+      "solutionSan": [
+        "Nd6+",
+        "Nxb7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1333,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ipGl05lD#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VP1VV",
+      "fen": "3k4/6R1/5r2/3p1p2/1BnP1Kp1/2P5/8/8 w - - 2 47",
+      "playerMoves": [
+        "b4e7",
+        "e7f6"
+      ],
+      "opponentMoves": [
+        "d8d7"
+      ],
+      "solutionSan": [
+        "Be7+",
+        "Bxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1181,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/oZ3dwkJq/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RH1jF",
+      "fen": "3r3k/1p6/pqp1bpnp/4p3/4P3/1PP2QPP/P1B2PK1/7R w - - 0 30",
+      "playerMoves": [
+        "f3f6",
+        "f6e6"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxf6+",
+        "Qxe6"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1239,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/eESZtrnr/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0bg6I",
+      "fen": "3k4/6P1/1p2p3/p1p3K1/8/8/8/r7 w - - 0 50",
+      "playerMoves": [
+        "g7g8q",
+        "g8g7",
+        "g7a1"
+      ],
+      "opponentMoves": [
+        "d8d7",
+        "d7c6"
+      ],
+      "solutionSan": [
+        "g8=Q+",
+        "Qg7+",
+        "Qxa1"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "fork",
+        "long",
+        "promotion"
+      ],
+      "rating": 1371,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/8I0dMWWt/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ou7ee",
+      "fen": "r2q4/4n2k/3p2rp/p3pNbQ/2p1P3/2P2R1P/PP4P1/5RK1 w - - 6 27",
+      "playerMoves": [
+        "f5e7",
+        "f3f7",
+        "f7e7"
+      ],
+      "opponentMoves": [
+        "d8e7",
+        "g6g7"
+      ],
+      "solutionSan": [
+        "Nxe7",
+        "Rf7+",
+        "Rxe7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "clearance",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1377,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/NeToQ1lT/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FffQL",
+      "fen": "r1b1k2r/p1p1b2p/4q1p1/3N4/4Q3/8/PPP2PPP/R3K2R w KQkq - 1 15",
+      "playerMoves": [
+        "d5c7",
+        "c7e6"
+      ],
+      "opponentMoves": [
+        "e8f7"
+      ],
+      "solutionSan": [
+        "Nxc7+",
+        "Nxe6"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1275,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/8G1izWFr/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_er40d",
+      "fen": "r4r1k/ppp1N1p1/3pp2p/8/4P2P/2P2Q2/PP1q2P1/5RK1 w - - 0 22",
+      "playerMoves": [
+        "e7g6",
+        "g6f8",
+        "f3f8"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Nxf8+",
+        "Qxf8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1238,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/VEq6YpPq/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YP6DB",
+      "fen": "3r1Q2/3q2nk/1p1b1P1p/p1p1p3/P3P3/4P2P/1P5K/6R1 w - - 0 38",
+      "playerMoves": [
+        "g1g7",
+        "f8g7"
+      ],
+      "opponentMoves": [
+        "d7g7"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1287,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/OfNruG9n/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dXjVc",
+      "fen": "8/p7/1p3R2/2pP4/P1Pr4/1PK1n3/5R2/4k3 b - - 0 44",
+      "playerMoves": [
+        "e3d1",
+        "d1f2"
+      ],
+      "opponentMoves": [
+        "c3c2"
+      ],
+      "solutionSan": [
+        "Nd1+",
+        "Nxf2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1294,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ZYtybwYX#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iDg1i",
+      "fen": "r1bq1rk1/5pp1/p1p1pn1p/8/2P5/P2B1P2/1BP3PP/R2Q1RK1 b - - 1 15",
+      "playerMoves": [
+        "d8b6",
+        "b6b2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qb6+",
+        "Qxb2"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1269,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/ijueuUAr#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5YgTt",
+      "fen": "1r5k/pB5p/P5pP/n7/4Pp2/5P2/3K2P1/2R5 b - - 3 50",
+      "playerMoves": [
+        "a5b3",
+        "b3c1"
+      ],
+      "opponentMoves": [
+        "d2c3"
+      ],
+      "solutionSan": [
+        "Nb3+",
+        "Nxc1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1395,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/X33JUnVW#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_N4UvL",
+      "fen": "8/kp3p2/p3rP2/5b2/2N5/2P5/PP3PP1/R4K2 b - - 0 25",
+      "playerMoves": [
+        "f5d3",
+        "d3c4"
+      ],
+      "opponentMoves": [
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Bd3+",
+        "Bxc4"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1005,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/qUBheKao#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_43KHt",
+      "fen": "r3k1nr/p1pp1pQp/bp6/4B3/4P3/2N1b3/PPP1BqPP/R2K1R2 b kq - 5 12",
+      "playerMoves": [
+        "a6e2",
+        "f2f1"
+      ],
+      "opponentMoves": [
+        "c3e2"
+      ],
+      "solutionSan": [
+        "Bxe2+",
+        "Qxf1#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1255,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/3QmijZ1A#23",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wqgJw",
+      "fen": "r1bqk2r/pp3ppp/4pn2/3Pp3/1b2P3/2N5/PP2BPPP/R1BQK2R w KQkq - 2 10",
+      "playerMoves": [
+        "d1a4",
+        "a4b4"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Qa4+",
+        "Qxb4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "opening",
+        "short"
+      ],
+      "rating": 1344,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/nD583pjW/black#18",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hI27P",
+      "fen": "7R/2pk3p/3p4/4p2b/2P1Pp2/3P4/2rN2P1/4K3 w - - 0 35",
+      "playerMoves": [
+        "h8h7",
+        "h7h5"
+      ],
+      "opponentMoves": [
+        "d7c6"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Rxh5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1018,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/yy0DB8j2/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vzOby",
+      "fen": "1r4k1/5p2/2p1pp1p/3q4/Rp1P4/3Q3P/1PP2PP1/6K1 w - - 2 23",
+      "playerMoves": [
+        "d3g3",
+        "g3b8"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Qg3+",
+        "Qxb8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1260,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/7nvoTQQ1/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3xHD5",
+      "fen": "r7/3N4/4P3/1p6/2k2K2/8/8/8 w - - 1 54",
+      "playerMoves": [
+        "d7b6",
+        "b6a8",
+        "f4f5"
+      ],
+      "opponentMoves": [
+        "c4c5",
+        "c5d6"
+      ],
+      "solutionSan": [
+        "Nb6+",
+        "Nxa8",
+        "Kf5"
+      ],
+      "themes": [
+        "crushing",
+        "defensiveMove",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1255,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/dpxbSUDf/black#106",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yMHhX",
+      "fen": "3r4/2p1n1kp/1p3p2/3P3q/2P2P2/2Q1P2P/7K/B7 w - - 0 40",
+      "playerMoves": [
+        "c3f6",
+        "f6g7"
+      ],
+      "opponentMoves": [
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Qxf6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1182,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/5NxTNXzy/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6WRSD",
+      "fen": "1Q6/5pqk/4b3/3p4/8/4P1PP/r4PB1/6K1 w - - 2 41",
+      "playerMoves": [
+        "b8b1",
+        "b1a2"
+      ],
+      "opponentMoves": [
+        "g7g6"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Qxa2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1134,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/hddxYG8Y/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AIDj0",
+      "fen": "4r1k1/pp2q1pp/2p4P/4nQ2/8/1PN5/1PP3P1/4R2K b - - 0 26",
+      "playerMoves": [
+        "e7h4",
+        "h4e1"
+      ],
+      "opponentMoves": [
+        "f5h3"
+      ],
+      "solutionSan": [
+        "Qh4+",
+        "Qxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1115,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/6tYwdJi6#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tAoCq",
+      "fen": "3Q1bk1/1p5p/p2p2p1/3Pp3/2P3P1/2R5/5qP1/7K b - - 2 36",
+      "playerMoves": [
+        "f2e1",
+        "e1c3"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qe1+",
+        "Qxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1265,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/IgmsucJl#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oz4xK",
+      "fen": "5r1k/6p1/p3P2p/1p1QNpq1/8/1P5P/PP4P1/7K w - - 6 29",
+      "playerMoves": [
+        "e5f7",
+        "e6f7",
+        "h1h2"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "g5c1"
+      ],
+      "solutionSan": [
+        "Nf7+",
+        "exf7",
+        "Kh2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1359,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/uqRzhDJw/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Bsz3M",
+      "fen": "8/5pkp/Rp1p2p1/6q1/1r6/5Q1P/P4PP1/6K1 w - - 0 33",
+      "playerMoves": [
+        "f3c3",
+        "c3b4"
+      ],
+      "opponentMoves": [
+        "g5e5"
+      ],
+      "solutionSan": [
+        "Qc3+",
+        "Qxb4"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1077,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Y2ZnZ3yK/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dvEQJ",
+      "fen": "r4rk1/ppb3p1/4pn1p/q3p3/2P1P3/1PP2NBP/P2Q2P1/3R1R1K b - - 0 24",
+      "playerMoves": [
+        "f6e4",
+        "e4g3",
+        "e5e4"
+      ],
+      "opponentMoves": [
+        "d2e1",
+        "e1g3"
+      ],
+      "solutionSan": [
+        "Nxe4",
+        "Nxg3+",
+        "e4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1359,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xyBErrW8#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jyB4Q",
+      "fen": "1r2q1kr/p5pp/3Q4/2p5/4P3/2Pn3P/PP1NK3/5R2 w - - 0 26",
+      "playerMoves": [
+        "d6d5",
+        "d5e6"
+      ],
+      "opponentMoves": [
+        "e8e6"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxe6#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1273,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/80AOEeKn/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZQegY",
+      "fen": "1k4q1/1p1Pb3/p1p2p2/B1P2B2/P3P1Pp/7K/5P2/3R4 b - - 3 39",
+      "playerMoves": [
+        "g8b3",
+        "b3d1"
+      ],
+      "opponentMoves": [
+        "h3h4"
+      ],
+      "solutionSan": [
+        "Qb3+",
+        "Qxd1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "master",
+        "short"
+      ],
+      "rating": 1102,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/lxmIDcfL#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rvEVj",
+      "fen": "1rr4k/pN1Pq1pp/2p5/8/P3Pn2/2Q2P2/6PP/1R1R2K1 b - - 0 28",
+      "playerMoves": [
+        "f4e2",
+        "e2c3",
+        "b8c8"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "d7c8q"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Nxc3",
+        "Rxc8"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1043,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/IMGDffhX#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yKkrx",
+      "fen": "r5k1/bpp2r2/p2B4/Q5p1/4P1qp/2P5/PP1N1P1K/R5R1 b - - 0 21",
+      "playerMoves": [
+        "f7f2",
+        "g4h3",
+        "h3h2"
+      ],
+      "opponentMoves": [
+        "h2h1",
+        "d6h2"
+      ],
+      "solutionSan": [
+        "Rxf2+",
+        "Qh3+",
+        "Qxh2#"
+      ],
+      "themes": [
+        "exposedKing",
+        "fork",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1199,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/OnpAeSbM#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5x91K",
+      "fen": "2q5/5n2/p3pb1k/2p1p2r/3pQp2/1P1P1R1P/2P4K/2B1R3 w - - 2 42",
+      "playerMoves": [
+        "c1f4",
+        "e4f4",
+        "f4f6"
+      ],
+      "opponentMoves": [
+        "e5f4",
+        "h6h7"
+      ],
+      "solutionSan": [
+        "Bxf4+",
+        "Qxf4+",
+        "Qxf6"
+      ],
+      "themes": [
+        "advantage",
+        "exposedKing",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1346,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/HJpRn6Uz/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oT2rQ",
+      "fen": "3r4/1b3pkp/p1p3p1/2R5/1pN5/1r5P/1PR2PP1/6K1 w - - 0 32",
+      "playerMoves": [
+        "c4a5",
+        "g1h2",
+        "a5b7"
+      ],
+      "opponentMoves": [
+        "d8d1",
+        "b3d3"
+      ],
+      "solutionSan": [
+        "Na5",
+        "Kh2",
+        "Nxb7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1294,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/rDgsJmAN/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qiEAz",
+      "fen": "3rk3/p6p/5Qp1/5p2/3p4/7P/P1B1K3/q4R2 b - - 8 40",
+      "playerMoves": [
+        "d4d3",
+        "a1f6"
+      ],
+      "opponentMoves": [
+        "c2d3"
+      ],
+      "solutionSan": [
+        "d3+",
+        "Qxf6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1394,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/BD34wZGT#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kj4Jp",
+      "fen": "4r1k1/pR4pp/2p5/6qP/3pb3/4p3/PPP1B3/2K2Q2 w - - 0 29",
+      "playerMoves": [
+        "f1f7",
+        "f7e8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1312,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/QUU7xRAj/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DFQVs",
+      "fen": "8/Rp2qp1k/6p1/2Pp2p1/3P4/6P1/3Q1PKP/4r3 b - - 3 34",
+      "playerMoves": [
+        "e7e4",
+        "e1e2",
+        "e4e2"
+      ],
+      "opponentMoves": [
+        "f2f3",
+        "d2e2"
+      ],
+      "solutionSan": [
+        "Qe4+",
+        "Re2+",
+        "Qxe2+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "long"
+      ],
+      "rating": 1236,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/efcTVJZT#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZzA7Q",
+      "fen": "3r2r1/ppp2p1k/6n1/2PPp1qn/1P4P1/P1NQ3R/5P2/3R2K1 w - - 1 33",
+      "playerMoves": [
+        "h3h5",
+        "g4h5"
+      ],
+      "opponentMoves": [
+        "g5h5"
+      ],
+      "solutionSan": [
+        "Rxh5+",
+        "gxh5"
+      ],
+      "themes": [
+        "crushing",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1057,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/XcF4I3wz/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KKCvH",
+      "fen": "8/8/6B1/5n2/4pk2/8/5PK1/8 b - - 4 50",
+      "playerMoves": [
+        "f5h4",
+        "h4g6"
+      ],
+      "opponentMoves": [
+        "g2g1"
+      ],
+      "solutionSan": [
+        "Nh4+",
+        "Nxg6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1103,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/3caCmo5J#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ovvvK",
+      "fen": "4q3/2R4p/6pk/3N4/4B3/P4P2/KPP5/4r3 w - - 12 37",
+      "playerMoves": [
+        "c7h7",
+        "d5f6",
+        "f6e8"
+      ],
+      "opponentMoves": [
+        "h6h7",
+        "h7g7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Nf6+",
+        "Nxe8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "fork",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1306,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Uix7cc1c/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2IygA",
+      "fen": "rr4k1/4ppb1/3p2p1/2pP3p/1q2P3/1P3R1P/P2BQ1P1/R2N2K1 b - - 1 21",
+      "playerMoves": [
+        "b4d4",
+        "d4a1"
+      ],
+      "opponentMoves": [
+        "f3f2"
+      ],
+      "solutionSan": [
+        "Qd4+",
+        "Qxa1"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1394,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/RgjjlGvU#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gHgWS",
+      "fen": "4nr1k/2r5/3p1pQp/4pP2/1p2P3/1P6/qP1K3P/2B3R1 w - - 0 36",
+      "playerMoves": [
+        "g6h6",
+        "h6f8"
+      ],
+      "opponentMoves": [
+        "c7h7"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "fork",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1316,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/UBRzguSB/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_apggX",
+      "fen": "8/p1p3kp/3p4/5Q2/5n2/5Pq1/PP2B3/5K1R b - - 7 32",
+      "playerMoves": [
+        "g3g2",
+        "g2e2"
+      ],
+      "opponentMoves": [
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Qg2+",
+        "Qxe2#"
+      ],
+      "themes": [
+        "endgame",
+        "fork",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1320,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/xQyOMeuM#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pA28x",
+      "fen": "4r1k1/1p3pp1/5b1p/8/1Bpn4/P1N4P/1PPR1PP1/6K1 b - - 3 25",
+      "playerMoves": [
+        "e8e1",
+        "f6e5",
+        "d4f3",
+        "f3d2"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "g2g3",
+        "h2g2"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Be5+",
+        "Nf3+",
+        "Nxd2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "veryLong"
+      ],
+      "rating": 1308,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/wxSp0nRI#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_r6szK",
+      "fen": "r1b1qrk1/ppp3pp/2np4/2P1p1B1/4n3/2P2N2/P3BPPP/R2Q1RK1 w - - 0 12",
+      "playerMoves": [
+        "d1d5",
+        "d5e4"
+      ],
+      "opponentMoves": [
+        "c8e6"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1394,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/hkJOWarr/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zmVIk",
+      "fen": "r3k2r/pp1nb1pp/2p1Nn2/3q4/3P4/5Q1P/PPPB1PP1/R3K2R w KQkq - 3 13",
+      "playerMoves": [
+        "e6c7",
+        "c7d5"
+      ],
+      "opponentMoves": [
+        "e8f7"
+      ],
+      "solutionSan": [
+        "Nc7+",
+        "Nxd5"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1249,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/7dtmFFlq/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gz2DM",
+      "fen": "2r3k1/p2qp1b1/1pn1p1Qn/2p3N1/P4r2/2PP3P/5PP1/R3R1K1 w - - 0 24",
+      "playerMoves": [
+        "g6h7",
+        "g5e6",
+        "e1e6"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "d7e6"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Nxe6+",
+        "Rxe6"
+      ],
+      "themes": [
+        "advantage",
+        "exposedKing",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1362,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/mnz590D7/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BPgTG",
+      "fen": "8/1pk5/4B2p/1RP2p2/3Pn2p/r3PK1P/6P1/8 b - - 0 35",
+      "playerMoves": [
+        "e4g5",
+        "g5e6"
+      ],
+      "opponentMoves": [
+        "f3e2"
+      ],
+      "solutionSan": [
+        "Ng5+",
+        "Nxe6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1392,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/NlPF4djv#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_esN0L",
+      "fen": "1Q2q2k/3b3p/pp6/2pP3n/2Pb4/7P/PP4P1/5R1K w - - 2 38",
+      "playerMoves": [
+        "f1f8",
+        "f8e8"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxe8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "fork",
+        "short"
+      ],
+      "rating": 1163,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/gEMISZJW/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_STo0X",
+      "fen": "b3r1k1/4R2p/1qp2nNQ/3p1p2/B2P3P/2P5/2P2PP1/6K1 b - - 0 27",
+      "playerMoves": [
+        "b6b1",
+        "f6g4",
+        "g4h6"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Qb1+",
+        "Ng4+",
+        "Nxh6"
+      ],
+      "themes": [
+        "advantage",
+        "fork",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1230,
+      "hint": "A move where the moved piece attacks two opponent pieces at once.",
+      "source": "https://lichess.org/Fd5DGkdW#53",
+      "alternateWinningMoves": []
+    }
+  ]
+}

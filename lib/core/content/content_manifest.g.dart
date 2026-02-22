@@ -12,6 +12,12 @@ _ContentIndexEntry _$ContentIndexEntryFromJson(Map<String, dynamic> json) =>
       file: json['file'] as String,
       version: (json['version'] as num).toInt(),
       count: (json['count'] as num?)?.toInt(),
+      title: json['title'] as String?,
+      category: json['category'] as String?,
+      difficulty: (json['difficulty'] as num?)?.toInt(),
+      tags:
+          (json['tags'] as List<dynamic>?)?.map((e) => e as String).toList() ??
+          const <String>[],
     );
 
 Map<String, dynamic> _$ContentIndexEntryToJson(_ContentIndexEntry instance) =>
@@ -19,7 +25,11 @@ Map<String, dynamic> _$ContentIndexEntryToJson(_ContentIndexEntry instance) =>
       'id': instance.id,
       'file': instance.file,
       'version': instance.version,
-      'count': instance.count,
+      'count': ?instance.count,
+      'title': ?instance.title,
+      'category': ?instance.category,
+      'difficulty': ?instance.difficulty,
+      'tags': instance.tags,
     };
 
 _ContentManifest _$ContentManifestFromJson(

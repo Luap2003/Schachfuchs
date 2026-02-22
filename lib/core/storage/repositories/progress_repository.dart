@@ -13,5 +13,15 @@ abstract class ProgressRepository {
     required String puzzleId,
   });
 
+  Future<List<PuzzleProgress>> listPuzzleProgressByPack({
+    required String ownerUserId,
+    required String packId,
+  });
+
+  Future<List<PuzzleProgress>> listPuzzleProgressByPacks({
+    required String ownerUserId,
+    required List<String> packIds,
+  });
+
   Future<void> upsertPuzzleProgress(PuzzleProgress progress);
 }

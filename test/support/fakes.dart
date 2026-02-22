@@ -42,6 +42,32 @@ class InMemoryProgressRepository implements ProgressRepository {
   }
 
   @override
+  Future<List<PuzzleProgress>> listPuzzleProgressByPack({
+    required String ownerUserId,
+    required String packId,
+  }) async {
+    return _puzzle.values
+        .where((row) => row.ownerUserId == ownerUserId && row.packId == packId)
+        .toList(growable: false);
+  }
+
+  @override
+  Future<List<PuzzleProgress>> listPuzzleProgressByPacks({
+    required String ownerUserId,
+    required List<String> packIds,
+  }) async {
+    if (packIds.isEmpty) {
+      return const <PuzzleProgress>[];
+    }
+    final ids = packIds.toSet();
+    return _puzzle.values
+        .where(
+          (row) => row.ownerUserId == ownerUserId && ids.contains(row.packId),
+        )
+        .toList(growable: false);
+  }
+
+  @override
   Future<void> upsertLessonProgress(LessonProgress progress) async {
     _lesson['${progress.ownerUserId}:${progress.lessonId}'] = progress;
   }

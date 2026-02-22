@@ -1,24 +1,338 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "lessons": [
     {
       "id": "lesson_pawn",
       "file": "lessons/pieces/01_the_pawn.json",
-      "version": 1
+      "version": 1,
+      "tags": []
     }
   ],
   "puzzlePacks": [
     {
-      "id": "forks_beginner",
-      "file": "puzzles/tactics/forks_beginner.json",
-      "version": 1,
-      "count": 3
+      "id": "gen_fork_600_999",
+      "file": "puzzles/generated/gen_fork_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Fork · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "fork",
+        "600_999"
+      ]
     },
     {
-      "id": "tactics_beginner_2",
-      "file": "puzzles/tactics/tactics_beginner2.json",
-      "version": 1,
-      "count": 3
+      "id": "gen_fork_1000_1399",
+      "file": "puzzles/generated/gen_fork_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Fork · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "fork",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_fork_1400_1799",
+      "file": "puzzles/generated/gen_fork_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Fork · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "fork",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_pin_600_999",
+      "file": "puzzles/generated/gen_pin_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Pin · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "pin",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_pin_1000_1399",
+      "file": "puzzles/generated/gen_pin_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Pin · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "pin",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_pin_1400_1799",
+      "file": "puzzles/generated/gen_pin_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Pin · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "pin",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_skewer_600_999",
+      "file": "puzzles/generated/gen_skewer_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Skewer · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "skewer",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_skewer_1000_1399",
+      "file": "puzzles/generated/gen_skewer_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Skewer · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "skewer",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_skewer_1400_1799",
+      "file": "puzzles/generated/gen_skewer_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Skewer · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "skewer",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_discoveredAttack_600_999",
+      "file": "puzzles/generated/gen_discoveredAttack_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Discovered attack · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "discoveredAttack",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_discoveredAttack_1000_1399",
+      "file": "puzzles/generated/gen_discoveredAttack_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Discovered attack · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "discoveredAttack",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_discoveredAttack_1400_1799",
+      "file": "puzzles/generated/gen_discoveredAttack_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Discovered attack · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "discoveredAttack",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_deflection_600_999",
+      "file": "puzzles/generated/gen_deflection_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Deflection · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "deflection",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_deflection_1000_1399",
+      "file": "puzzles/generated/gen_deflection_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Deflection · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "deflection",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_deflection_1400_1799",
+      "file": "puzzles/generated/gen_deflection_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Deflection · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "deflection",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_attraction_600_999",
+      "file": "puzzles/generated/gen_attraction_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Attraction · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "attraction",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_attraction_1000_1399",
+      "file": "puzzles/generated/gen_attraction_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Attraction · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "attraction",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_attraction_1400_1799",
+      "file": "puzzles/generated/gen_attraction_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Attraction · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "attraction",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_sacrifice_600_999",
+      "file": "puzzles/generated/gen_sacrifice_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Sacrifice · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "sacrifice",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_sacrifice_1000_1399",
+      "file": "puzzles/generated/gen_sacrifice_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Sacrifice · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "sacrifice",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_sacrifice_1400_1799",
+      "file": "puzzles/generated/gen_sacrifice_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Sacrifice · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "sacrifice",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_mateIn2_600_999",
+      "file": "puzzles/generated/gen_mateIn2_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Mate in 2 · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "mateIn2",
+        "600_999"
+      ]
+    },
+    {
+      "id": "gen_mateIn2_1000_1399",
+      "file": "puzzles/generated/gen_mateIn2_1000_1399.json",
+      "version": 2,
+      "count": 200,
+      "title": "Mate in 2 · Intermediate",
+      "category": "theme_training",
+      "difficulty": 2,
+      "tags": [
+        "mateIn2",
+        "1000_1399"
+      ]
+    },
+    {
+      "id": "gen_mateIn2_1400_1799",
+      "file": "puzzles/generated/gen_mateIn2_1400_1799.json",
+      "version": 2,
+      "count": 200,
+      "title": "Mate in 2 · Advanced",
+      "category": "theme_training",
+      "difficulty": 3,
+      "tags": [
+        "mateIn2",
+        "1400_1799"
+      ]
+    },
+    {
+      "id": "gen_starter_mix_600_999",
+      "file": "puzzles/generated/gen_starter_mix_600_999.json",
+      "version": 2,
+      "count": 200,
+      "title": "Starter Mix · Beginner",
+      "category": "theme_training",
+      "difficulty": 1,
+      "tags": [
+        "mix",
+        "600_999"
+      ]
     }
   ]
 }

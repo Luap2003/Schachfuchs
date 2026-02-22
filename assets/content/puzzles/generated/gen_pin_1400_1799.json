@@ -1,0 +1,5470 @@
+{
+  "packId": "gen_pin_1400_1799",
+  "title": "Pin · Advanced",
+  "description": "Theme training: Pin (1400-1799).",
+  "category": "theme_training",
+  "tags": [
+    "pin",
+    "1400_1799"
+  ],
+  "difficulty": 3,
+  "puzzles": [
+    {
+      "id": "lichess_wHEdH",
+      "fen": "3b1r1k/6p1/p2PQ3/1q2B2p/5n2/P4P2/5P1P/2R3K1 w - - 3 29",
+      "playerMoves": [
+        "e6h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "master",
+        "masterVsMaster",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1415,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/moWPRYJo/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HyN8M",
+      "fen": "3q3k/R3b2p/p4p2/3Bp1r1/4P3/2Q3Pb/5P1P/6K1 w - - 4 36",
+      "playerMoves": [
+        "a7a8",
+        "d5a8"
+      ],
+      "opponentMoves": [
+        "d8a8"
+      ],
+      "solutionSan": [
+        "Ra8",
+        "Bxa8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1570,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jwWZZSTc/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6jAxW",
+      "fen": "4Q3/p5qk/1p5p/2pnP3/8/3r2P1/PP5P/5R1K w - - 1 32",
+      "playerMoves": [
+        "f1f7",
+        "h1g2",
+        "g2h3"
+      ],
+      "opponentMoves": [
+        "d3d1",
+        "d5e3"
+      ],
+      "solutionSan": [
+        "Rf7",
+        "Kg2",
+        "Kh3"
+      ],
+      "themes": [
+        "advantage",
+        "defensiveMove",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1468,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/PM5G4bzG/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jjMxg",
+      "fen": "r4r2/1pp1pRbk/p1n1P1pp/3q4/3P4/2P4Q/P1P3PP/R1B3K1 w - - 7 18",
+      "playerMoves": [
+        "h3h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1573,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/8dBb3RFq/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gppSU",
+      "fen": "r2q1r1k/1pp1n1p1/1b1p2np/pP1P1b2/P1B5/2B5/3Q1PPP/RN2NRK1 w - - 1 18",
+      "playerMoves": [
+        "d2h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/LAF5kmxq/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ovugR",
+      "fen": "2r5/p3k3/1pb2p1p/1P4p1/P1R1B3/4P3/4KPPP/8 b - - 0 26",
+      "playerMoves": [
+        "c6b5",
+        "c8c4"
+      ],
+      "opponentMoves": [
+        "a4b5"
+      ],
+      "solutionSan": [
+        "Bxb5",
+        "Rxc4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1480,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/8jCmzjKm#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_18GEz",
+      "fen": "2r4r/8/2R5/1p1Bp1pk/4P3/2KP4/1PP4N/8 b - - 2 38",
+      "playerMoves": [
+        "c8c6",
+        "h8c8"
+      ],
+      "opponentMoves": [
+        "d5c6"
+      ],
+      "solutionSan": [
+        "Rxc6+",
+        "Rc8"
+      ],
+      "themes": [
+        "advantage",
+        "clearance",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1487,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Mf3oAFVF#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qDlwC",
+      "fen": "k2r4/1p6/p1p5/8/PP6/2P1QqP1/4RP2/6K1 b - - 8 35",
+      "playerMoves": [
+        "d8d1",
+        "f3e3",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e2e1",
+        "f2e3"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxe3",
+        "Rxe1+"
+      ],
+      "themes": [
+        "capturingDefender",
+        "crushing",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1439,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/i8j319Di#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0iVzE",
+      "fen": "2Rr2k1/pQ1r2p1/4p2p/5pq1/5n2/4N3/PP3PPP/5RK1 w - - 3 23",
+      "playerMoves": [
+        "b7d7",
+        "d7c8"
+      ],
+      "opponentMoves": [
+        "d8c8"
+      ],
+      "solutionSan": [
+        "Qxd7",
+        "Qxc8+"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Rn2wlp65/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_80zKV",
+      "fen": "4r1k1/pbp2pp1/1p1q3p/8/8/3B1P2/PP4PP/4R2K w - - 0 24",
+      "playerMoves": [
+        "e1e8",
+        "d3h7",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "d6f8",
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Bh7+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1534,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/a7sQbmnp/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ttvSr",
+      "fen": "b7/p3PQ2/6pk/Pr2p1p1/7q/7R/BP3PP1/7K b - - 5 37",
+      "playerMoves": [
+        "h4h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/OoVB1zCE#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HrDfY",
+      "fen": "5r1k/ppp3p1/2n4p/3Q4/3P1Bq1/2P3P1/P1P2P2/4R1K1 b - - 6 24",
+      "playerMoves": [
+        "f8f4",
+        "h8h7",
+        "h7g6",
+        "f4f6"
+      ],
+      "opponentMoves": [
+        "e1e8",
+        "d5g8",
+        "e8e6"
+      ],
+      "solutionSan": [
+        "Rxf4",
+        "Kh7",
+        "Kg6",
+        "Rf6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1465,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jgD7t94V#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SOUoj",
+      "fen": "5q1k/2p2p1p/2p2Np1/p2p1bQ1/2nP4/1N3P2/r1P3PP/2K1R3 w - - 6 26",
+      "playerMoves": [
+        "e1e8",
+        "f6e8",
+        "c1d1"
+      ],
+      "opponentMoves": [
+        "f8e8",
+        "a2c2"
+      ],
+      "solutionSan": [
+        "Re8",
+        "Nxe8",
+        "Kd1"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1427,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/wQ4KxMIM/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sZQFg",
+      "fen": "r1bq1r2/1p3Qpk/p1p1n2b/2PpP2R/6PP/2N5/PP5B/7K w - - 1 27",
+      "playerMoves": [
+        "h5h6",
+        "f7h5"
+      ],
+      "opponentMoves": [
+        "h7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1553,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/i6SkI4HS/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9ZPB1",
+      "fen": "4r3/1p1Rr2k/2p1P1p1/3p1pP1/p2B1P2/2P3K1/PP6/8 w - - 3 50",
+      "playerMoves": [
+        "d4f6",
+        "e6d7"
+      ],
+      "opponentMoves": [
+        "e7d7"
+      ],
+      "solutionSan": [
+        "Bf6",
+        "exd7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1617,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/HNCX7kfQ/black#98",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GncgQ",
+      "fen": "r2q1rk1/3p3p/p1n2Pp1/1pb5/4Q2P/P2B1N2/1PP2PP1/R3K2R b KQ - 0 16",
+      "playerMoves": [
+        "f8e8",
+        "e8e4"
+      ],
+      "opponentMoves": [
+        "e1c1"
+      ],
+      "solutionSan": [
+        "Re8",
+        "Rxe4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1501,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/YzoJ19GY#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hoZWE",
+      "fen": "6k1/8/4p3/4P2p/6pr/2P2q2/P1P2QRP/6RK b - - 3 39",
+      "playerMoves": [
+        "h4h2",
+        "f3h3"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/zGjWDDUS#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pBU6h",
+      "fen": "r5k1/p1p2ppp/2pr4/8/2B2bQq/2NP3P/PPP2P2/R3R1K1 b - - 6 17",
+      "playerMoves": [
+        "d6g6",
+        "h7g6"
+      ],
+      "opponentMoves": [
+        "g4g6"
+      ],
+      "solutionSan": [
+        "Rg6",
+        "hxg6"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1415,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qD0ztVl0#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_V6R99",
+      "fen": "2r2rkb/pQ5p/5q1P/3Nn1p1/5n2/1P6/PBPP3R/2KR2N1 b - - 0 22",
+      "playerMoves": [
+        "e5d3",
+        "f6b2"
+      ],
+      "opponentMoves": [
+        "c1b1"
+      ],
+      "solutionSan": [
+        "Ned3+",
+        "Qxb2#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 1438,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/dscEZbii#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qbBej",
+      "fen": "r4rk1/1n2bp1n/3qB1pP/pppp4/3P4/1PP1B1N1/2Q1PP2/R3K2R w KQ - 1 25",
+      "playerMoves": [
+        "c2g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1633,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/5wi6FPoR/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3Kwhr",
+      "fen": "3r2k1/p3Q1b1/1pb2p1p/5P2/1P3RP1/P2B2N1/1qP1K3/8 b - - 0 31",
+      "playerMoves": [
+        "d8e8",
+        "c6e8"
+      ],
+      "opponentMoves": [
+        "e7e8"
+      ],
+      "solutionSan": [
+        "Re8",
+        "Bxe8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1540,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3CweFUns#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_K40eT",
+      "fen": "4k3/3r4/7p/8/8/5BPP/6K1/8 w - - 10 59",
+      "playerMoves": [
+        "f3c6",
+        "c6d7",
+        "g2f3"
+      ],
+      "opponentMoves": [
+        "e8e7",
+        "e7d7"
+      ],
+      "solutionSan": [
+        "Bc6",
+        "Bxd7",
+        "Kf3"
+      ],
+      "themes": [
+        "crushing",
+        "defensiveMove",
+        "endgame",
+        "long",
+        "master",
+        "pin"
+      ],
+      "rating": 1472,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/IB06GqbE/black#116",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FdWAE",
+      "fen": "r2q1r1k/6p1/p2bQ2p/5p2/3B4/2P2b1P/P4PP1/5RK1 w - - 0 29",
+      "playerMoves": [
+        "e6h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1401,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/32GYE1bn/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q1baY",
+      "fen": "2kr3r/pp3p1p/4pp2/nQ5P/2q3P1/P4N2/KP6/3R2R1 w - - 0 27",
+      "playerMoves": [
+        "b5c4",
+        "d1c1"
+      ],
+      "opponentMoves": [
+        "a5c4"
+      ],
+      "solutionSan": [
+        "Qxc4+",
+        "Rc1"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BhD75PnD/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_deA6K",
+      "fen": "4rrk1/ppp2ppp/8/7q/2P1n1N1/7P/PPQ2P1K/2R3R1 w - - 4 21",
+      "playerMoves": [
+        "c2e4",
+        "g4f6",
+        "f6h5"
+      ],
+      "opponentMoves": [
+        "e8e4",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxe4",
+        "Nf6+",
+        "Nxh5"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1507,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/6RV2mD4O/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AoVfw",
+      "fen": "7k/pp4pp/3P4/1Np1n3/2P1b3/7Q/PP5P/3qRK2 b - - 2 34",
+      "playerMoves": [
+        "e4d3",
+        "d1d3"
+      ],
+      "opponentMoves": [
+        "h3d3"
+      ],
+      "solutionSan": [
+        "Bd3+",
+        "Qxd3+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1447,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/yo2DC2CS#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tgcth",
+      "fen": "8/p1R5/8/k7/1R3P2/1KP2p2/1P6/3r1q2 w - - 2 45",
+      "playerMoves": [
+        "c7a7",
+        "b4a4"
+      ],
+      "opponentMoves": [
+        "f1a6"
+      ],
+      "solutionSan": [
+        "Rxa7+",
+        "Ra4+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "pin",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 1684,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Q0ciDgGr/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ftwgD",
+      "fen": "6k1/1bq1rrpp/2n1Qp2/p2B4/7N/2PP2bP/3B2P1/4RR1K w - - 0 26",
+      "playerMoves": [
+        "e6f7",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "e7f7"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1411,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/aCzXW5RJ/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_M8BWe",
+      "fen": "6qk/p5r1/8/2p1Q2p/7N/3p4/PP3PPP/5bK1 w - - 7 31",
+      "playerMoves": [
+        "h4g6",
+        "e5h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1545,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ehSFV0nv/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q43dQ",
+      "fen": "6r1/5k2/p1q2p2/1pp5/3p4/P2PbN1R/1P2K3/5R2 w - - 6 48",
+      "playerMoves": [
+        "f3e5",
+        "e5c6"
+      ],
+      "opponentMoves": [
+        "f7e6"
+      ],
+      "solutionSan": [
+        "Ne5+",
+        "Nxc6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1417,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3mtTOb3x/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jY9Z8",
+      "fen": "8/6pk/6rp/8/3q1p2/7P/5PP1/1QR3K1 w - - 4 35",
+      "playerMoves": [
+        "c1c6",
+        "b1a1"
+      ],
+      "opponentMoves": [
+        "d4a1"
+      ],
+      "solutionSan": [
+        "Rc6",
+        "Qxa1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1580,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/oAk00C1x/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_laiYp",
+      "fen": "8/5p2/p6p/3R4/5k2/P4q2/8/K2R4 w - - 4 45",
+      "playerMoves": [
+        "d1d4",
+        "d4d3",
+        "d5d3"
+      ],
+      "opponentMoves": [
+        "f4g3",
+        "f3d3"
+      ],
+      "solutionSan": [
+        "R1d4+",
+        "Rd3",
+        "Rxd3+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin",
+        "queenRookEndgame"
+      ],
+      "rating": 1478,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Dczric9W/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HITmG",
+      "fen": "5qk1/p3Rpp1/1prP3p/2p5/2Q1n3/6P1/PP3PP1/6K1 w - - 0 27",
+      "playerMoves": [
+        "c4e4",
+        "e7e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "c6d6",
+        "d6d8"
+      ],
+      "solutionSan": [
+        "Qxe4",
+        "Re8",
+        "Rxf8+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1462,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/aJDdJVT5/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_S2vng",
+      "fen": "rn4k1/pp3rpp/2b5/2p5/5PQ1/8/P1B1KPPP/q5NR w - - 0 17",
+      "playerMoves": [
+        "g4c8",
+        "c8e8",
+        "c2b3",
+        "b3c4",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "c6e8",
+        "f7f8",
+        "c5c4",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qc8+",
+        "Qxe8+",
+        "Bb3+",
+        "Bxc4+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "kingsideAttack",
+        "mate",
+        "mateIn5",
+        "middlegame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1715,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/MjqLFHVx/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CCDoN",
+      "fen": "r2qkbr1/pp3p1p/2n1p3/3pNpn1/3P1B2/2P2P2/PP1N2PP/R3QRK1 b q - 2 13",
+      "playerMoves": [
+        "g5h3",
+        "h3f4"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Nh3+",
+        "Nxf4"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "master",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1531,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/HkTfXvDx#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oxIMK",
+      "fen": "k3r3/1b6/pp4p1/5pPp/5P2/P1P3P1/1PB1r2q/1KQR2R1 b - - 6 36",
+      "playerMoves": [
+        "e2c2",
+        "b7e4"
+      ],
+      "opponentMoves": [
+        "c1c2"
+      ],
+      "solutionSan": [
+        "Rxc2",
+        "Be4"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1519,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/rKJfd10a#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SrVTL",
+      "fen": "8/1p2qRk1/p2N3p/2P1p1r1/1P1n4/P7/3Q2PP/6K1 b - - 0 30",
+      "playerMoves": [
+        "e7f7",
+        "d4f3",
+        "f3d2"
+      ],
+      "opponentMoves": [
+        "d6f7",
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Qxf7",
+        "Nf3+",
+        "Nxd2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1560,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/LLYygUuk#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bPF1B",
+      "fen": "rnQqk2r/p3bppp/8/1p6/4N3/5P2/PP3P2/2K1R2R w kq - 2 19",
+      "playerMoves": [
+        "e4d6",
+        "c8d8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "e8f8",
+        "e7d8"
+      ],
+      "solutionSan": [
+        "Nd6+",
+        "Qxd8+",
+        "Re8#"
+      ],
+      "themes": [
+        "deflection",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1453,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/7Fn4fdvg/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aJEQ0",
+      "fen": "6nr/p2kppbp/N1pp2p1/8/2p1bP2/8/PP4PP/R1BR3K w - - 2 17",
+      "playerMoves": [
+        "a6c5",
+        "c5e4"
+      ],
+      "opponentMoves": [
+        "d7c7"
+      ],
+      "solutionSan": [
+        "Nc5+",
+        "Nxe4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1450,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/EpwrkPkc/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZsAx3",
+      "fen": "r1r1bk2/pp3p2/4pQ2/3pN3/5P2/2P5/PP3q1P/2KR4 w - - 2 25",
+      "playerMoves": [
+        "e5g6",
+        "f6h8"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Qh8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1533,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BcpWknHi/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9XNMB",
+      "fen": "r3k3/4b2p/q5pP/1R2P1p1/1pP5/6Pb/P1Q1N3/1K1R4 b q - 3 33",
+      "playerMoves": [
+        "h3f5",
+        "f5d3",
+        "a6a2"
+      ],
+      "opponentMoves": [
+        "d1d3",
+        "c2d3"
+      ],
+      "solutionSan": [
+        "Bf5",
+        "Bxd3",
+        "Qxa2+"
+      ],
+      "themes": [
+        "crushing",
+        "long",
+        "middlegame",
+        "pin",
+        "queensideAttack"
+      ],
+      "rating": 1543,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FWoCCNT2#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jQ4Yy",
+      "fen": "8/p4rkp/6p1/2R5/P2pQ3/B2P2qP/5rP1/4R1K1 b - - 2 31",
+      "playerMoves": [
+        "f2g2",
+        "g3e1",
+        "f7f2"
+      ],
+      "opponentMoves": [
+        "e4g2",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Qxe1+",
+        "Rf2"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "discoveredAttack",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1542,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/9qu107yg#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NSVs0",
+      "fen": "2k4r/1pq4p/p4Q2/6p1/P1P3P1/1P3b2/5PnP/4R1K1 w - - 0 27",
+      "playerMoves": [
+        "f6h8",
+        "e1e8",
+        "h8e8"
+      ],
+      "opponentMoves": [
+        "c7d8",
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Qxh8+",
+        "Re8",
+        "Qxe8+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "long",
+        "pin"
+      ],
+      "rating": 1415,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/CcshEp5F/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GX1dA",
+      "fen": "1k1r4/pp1b4/4p1p1/q1p1P1Pp/3p1P2/PP1PnB1R/2PQ2P1/R3K3 b Q - 2 23",
+      "playerMoves": [
+        "e3c2",
+        "a5d2",
+        "c2a1"
+      ],
+      "opponentMoves": [
+        "e1e2",
+        "e2d2"
+      ],
+      "solutionSan": [
+        "Nxc2+",
+        "Qxd2+",
+        "Nxa1"
+      ],
+      "themes": [
+        "advantage",
+        "exposedKing",
+        "long",
+        "master",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1550,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/wzp8nO0z#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_t15TP",
+      "fen": "r2k3r/pp1n1Q2/2p1p3/3p4/3P2Pq/N1P5/PP2P1B1/R4RK1 b - - 2 18",
+      "playerMoves": [
+        "h4h2",
+        "h8f8",
+        "d7f8"
+      ],
+      "opponentMoves": [
+        "g1f2",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Rf8",
+        "Nxf8"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1403,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qSbNCT2m#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hPpDO",
+      "fen": "3Q1bk1/2p2p1p/2b3p1/4P3/2P5/1P2q2P/P5P1/4R1RK b - - 14 41",
+      "playerMoves": [
+        "e3h3"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Qxh3#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn1",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1503,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/HSSTqrgb#81",
+      "alternateWinningMoves": [
+        "e3h3"
+      ]
+    },
+    {
+      "id": "lichess_utfOi",
+      "fen": "r1b1r1k1/ppp2pBp/3p2p1/6q1/2P1Pn2/2N2P2/PP4PP/R2QRBK1 b - - 0 14",
+      "playerMoves": [
+        "f4h3",
+        "h3f2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Nh3+",
+        "Nf2+"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "master",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1553,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/TdHp4TTG#27",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xgU1X",
+      "fen": "2k5/1b2r3/p7/3pr2p/2q3p1/P3RpP1/2PQ1P1P/3R2K1 w - - 4 37",
+      "playerMoves": [
+        "e3c3",
+        "c3c4"
+      ],
+      "opponentMoves": [
+        "e7c7"
+      ],
+      "solutionSan": [
+        "Rc3",
+        "Rxc4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1446,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/sWQj0eek/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aBDZB",
+      "fen": "8/p1p2k2/3p3p/2pPr3/2P1Pq2/1P4PQ/P7/1B4RK b - - 0 41",
+      "playerMoves": [
+        "f4f3",
+        "e5h5",
+        "f3h5"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "h3h5"
+      ],
+      "solutionSan": [
+        "Qf3+",
+        "Rh5",
+        "Qxh5+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1475,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/YCgM3LEE#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k86IU",
+      "fen": "2r3k1/RQ6/4b3/8/4Pp1q/3P2N1/6PN/7K b - - 0 36",
+      "playerMoves": [
+        "c8c1",
+        "c1f1"
+      ],
+      "opponentMoves": [
+        "g3f1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1763,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3zCeU5mB#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sDXQ0",
+      "fen": "2r1k2r/pp3ppp/4p3/q2p4/1b1P1B2/3BPQ1P/P1R1KPP1/7R b k - 1 15",
+      "playerMoves": [
+        "c8c2",
+        "a5a2"
+      ],
+      "opponentMoves": [
+        "d3c2"
+      ],
+      "solutionSan": [
+        "Rxc2+",
+        "Qxa2"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1480,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/0k2DfHIb#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KkfrR",
+      "fen": "rn1q1r2/ppp3bk/3pp1p1/6Q1/2BPP2P/2N5/PPP2P2/2KR3R b - - 1 15",
+      "playerMoves": [
+        "g7h6",
+        "h6g5"
+      ],
+      "opponentMoves": [
+        "f2f4"
+      ],
+      "solutionSan": [
+        "Bh6",
+        "Bxg5"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1459,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/zMczFAwm#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fThVS",
+      "fen": "6k1/p4ppp/4p1n1/3pP3/1P2bP2/q6P/2NB2P1/3Q1R1K b - - 0 24",
+      "playerMoves": [
+        "a3h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1435,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Tq1swgrC#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WWPfX",
+      "fen": "4r1k1/6p1/pp2p2p/2q5/2PQ4/1P3P2/P5PP/3R2K1 b - - 2 28",
+      "playerMoves": [
+        "e8d8",
+        "d8d1",
+        "b6c5"
+      ],
+      "opponentMoves": [
+        "d4c5",
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Rd8",
+        "Rxd1+",
+        "bxc5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "intermezzo",
+        "long",
+        "master",
+        "pin",
+        "sacrifice",
+        "skewer"
+      ],
+      "rating": 1707,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/VwrnIn6S#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xq1Wc",
+      "fen": "4r2k/5Rp1/1p1r3p/p1p5/2P1q2P/1P4P1/P1Q2R1K/8 w - - 4 35",
+      "playerMoves": [
+        "f7f8",
+        "f8e8",
+        "f2c2"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "e4c2"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Rxe8",
+        "Rxc2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1471,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/pSLqNEzW/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vL4Uk",
+      "fen": "6r1/p1p1Q1pk/1p3R2/7p/3q3P/5PP1/PPb4K/8 w - - 1 35",
+      "playerMoves": [
+        "f6h6",
+        "e7g5",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h7h6",
+        "h6h7"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Qg5+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "deflection",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1488,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/D1lbyOS1/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_D11Uo",
+      "fen": "2rr2k1/5pp1/p7/3RP2p/4PP2/P5P1/P2p3P/3R2K1 b - - 2 27",
+      "playerMoves": [
+        "d8d5",
+        "c8c1",
+        "c1d1"
+      ],
+      "opponentMoves": [
+        "e4d5",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rxd5",
+        "Rc1",
+        "Rxd1+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin",
+        "rookEndgame"
+      ],
+      "rating": 1506,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ce3Eg0rU#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nc6sC",
+      "fen": "5k2/2r2pp1/4p3/pp1pP1N1/1b3R1P/4B3/n4P2/6K1 w - - 1 31",
+      "playerMoves": [
+        "g5e6",
+        "e6c7"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Nxe6+",
+        "Nxc7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1412,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ccaqfLQx/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IMD5e",
+      "fen": "1R6/K1P5/3q1k2/8/6p1/8/8/8 w - - 11 71",
+      "playerMoves": [
+        "b8b6",
+        "a7b6"
+      ],
+      "opponentMoves": [
+        "d6b6"
+      ],
+      "solutionSan": [
+        "Rb6",
+        "Kxb6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "pin",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 1587,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ItoJC0XE/black#140",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LJ71w",
+      "fen": "1r6/p3k2p/4pp2/4b3/5R1B/P7/1r4PP/4R2K w - - 3 29",
+      "playerMoves": [
+        "e1e5",
+        "e5e1",
+        "h4e1"
+      ],
+      "opponentMoves": [
+        "b2b1",
+        "b1e1"
+      ],
+      "solutionSan": [
+        "Rxe5",
+        "Re1",
+        "Bxe1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1414,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/WwWtfJWL/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XmDXX",
+      "fen": "7k/2b3p1/p6p/2pq4/4pP1Q/P3P3/1B4PP/6K1 w - - 0 30",
+      "playerMoves": [
+        "h4h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/gh5A5WjB/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PEQvg",
+      "fen": "r3k1nr/ppp1q1b1/2npp2p/8/3PP1Q1/2P3P1/PP5P/RNB2RK1 w kq - 3 13",
+      "playerMoves": [
+        "g4g6",
+        "f1f7"
+      ],
+      "opponentMoves": [
+        "e8d7"
+      ],
+      "solutionSan": [
+        "Qg6+",
+        "Rf7"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/kCvSXWke/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_r4Jlw",
+      "fen": "2kr1b1r/Qpp3pp/5p2/2q1p3/2B5/2N3P1/PPP2P2/R3nK2 w - - 1 18",
+      "playerMoves": [
+        "c4e6",
+        "a7a8"
+      ],
+      "opponentMoves": [
+        "d8d7"
+      ],
+      "solutionSan": [
+        "Be6+",
+        "Qa8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 1580,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/v0RLcjVe/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uQB1J",
+      "fen": "2r3k1/5p1p/3QP3/1pqpP3/2p5/7P/1P6/3R2K1 w - - 0 32",
+      "playerMoves": [
+        "d6c5",
+        "e6e7",
+        "d1d5",
+        "d5d8"
+      ],
+      "opponentMoves": [
+        "c8c5",
+        "c5c8",
+        "c8e8"
+      ],
+      "solutionSan": [
+        "Qxc5",
+        "e7",
+        "Rxd5",
+        "Rd8"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1447,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/w5FIIm1i/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eloAx",
+      "fen": "r1b1k2r/1pp2ppp/p1nb4/3P1q2/2P5/5p2/PP2BPPP/R1BQR1K1 w kq - 0 12",
+      "playerMoves": [
+        "e2d3",
+        "d3f5"
+      ],
+      "opponentMoves": [
+        "c6e5"
+      ],
+      "solutionSan": [
+        "Bd3+",
+        "Bxf5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1473,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/9bND6aI6/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FcuR7",
+      "fen": "8/6pk/1p1p3p/4pp1Q/pP2qn2/P4N1P/5PP1/6K1 w - - 6 37",
+      "playerMoves": [
+        "f3g5",
+        "h5e8"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Ng5+",
+        "Qe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1608,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jrswN7Hm/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7Fgxb",
+      "fen": "8/pQb2pk1/3q1r1p/7P/2R5/P2P2r1/5P2/1R4K1 w - - 0 36",
+      "playerMoves": [
+        "f2g3",
+        "b7g2"
+      ],
+      "opponentMoves": [
+        "d6g3"
+      ],
+      "solutionSan": [
+        "fxg3",
+        "Qg2"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1464,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/LHTjIwbG/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uKDsI",
+      "fen": "r1bk3r/pp1pb1Np/2n4B/q4n2/8/1B6/PP3PPP/R2Q1K1R w - - 5 17",
+      "playerMoves": [
+        "g7e6",
+        "d1h5"
+      ],
+      "opponentMoves": [
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Ne6+",
+        "Qh5#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/gaVmOsow/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bpZuN",
+      "fen": "6rk/p4p1p/2bQ1p2/4p3/3P2Pq/2PB1P2/PP4K1/R4R2 b - - 0 23",
+      "playerMoves": [
+        "g8g4"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Rxg4#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1482,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3QJj7e7a#45",
+      "alternateWinningMoves": [
+        "g8g4"
+      ]
+    },
+    {
+      "id": "lichess_6IMNZ",
+      "fen": "5r1k/p5p1/2Q4p/8/8/1PB3P1/P1P1qr1P/5RK1 w - - 0 34",
+      "playerMoves": [
+        "c6h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1469,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/f6i2lQCF/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Fvsc5",
+      "fen": "3r1rk1/p7/1p5p/2p1R3/2Pp2q1/1P1R4/P4QpP/6K1 w - - 0 36",
+      "playerMoves": [
+        "d3g3",
+        "g3g4",
+        "g1f2"
+      ],
+      "opponentMoves": [
+        "f8f2",
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Rg3",
+        "Rxg4+",
+        "Kxf2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "exposedKing",
+        "long",
+        "pin"
+      ],
+      "rating": 1503,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/t48yPSsG/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tJcvQ",
+      "fen": "2kr3r/pp3pp1/2Bqpnb1/3p4/3P4/2P2NQP/PP1N2PK/R4R2 b - - 0 17",
+      "playerMoves": [
+        "f6g4",
+        "d6g3"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Ng4+",
+        "Qxg3"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "master",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1631,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Aj2gzrhA#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qAA3t",
+      "fen": "3rr1k1/2q2bpp/p7/1p1B1p2/2pB1b2/2P4P/PP2QPP1/3RR1K1 w - - 2 28",
+      "playerMoves": [
+        "e2e8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Qxe8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1578,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/pUJrtWQR/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q3My7",
+      "fen": "3rr1k1/6b1/p1q1p1p1/1p3p2/3P1Pnp/PP1B3P/1B4Q1/1R2RN1K b - - 2 29",
+      "playerMoves": [
+        "g4f2",
+        "c6g2",
+        "f2d3"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "h2g2"
+      ],
+      "solutionSan": [
+        "Nf2+",
+        "Qxg2+",
+        "Nxd3"
+      ],
+      "themes": [
+        "advantage",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1472,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/l5VbtCSQ#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1khtN",
+      "fen": "r4r2/pb1q1pkp/1p1bpn2/2pp4/5P2/1P1PP3/PBP3PP/RN1Q2K1 w - - 0 15",
+      "playerMoves": [
+        "d1g4",
+        "b2f6"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Bxf6#"
+      ],
+      "themes": [
+        "deflection",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1590,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ZJiYSirl/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pRHnB",
+      "fen": "4rrk1/2p3b1/p1n2q2/1p1p3P/3P1B2/2PbPNQ1/PP3PP1/R3K2R b KQ - 0 20",
+      "playerMoves": [
+        "f6f4",
+        "f8f4"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Qxf4",
+        "Rxf4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1559,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/8CmPQ0YN#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eouHH",
+      "fen": "rnb1k2r/ppp2ppp/1b6/8/2BqnB2/8/PPP3PP/RN1QR2K w kq - 3 12",
+      "playerMoves": [
+        "d1d4",
+        "e1e4"
+      ],
+      "opponentMoves": [
+        "b6d4"
+      ],
+      "solutionSan": [
+        "Qxd4",
+        "Rxe4+"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1407,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/2YFVAdqP/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oWmMc",
+      "fen": "7k/1b2r2n/p3qp1Q/1pp5/6P1/P2P1P2/1PP2KP1/7R w - - 4 29",
+      "playerMoves": [
+        "h6f8",
+        "f8e7"
+      ],
+      "opponentMoves": [
+        "e6g8"
+      ],
+      "solutionSan": [
+        "Qf8+",
+        "Qxe7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1517,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/TuTF2ay0/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SUXn8",
+      "fen": "6k1/p4p2/1p4p1/2p1R2p/2Pn4/6PP/PP6/1q3QK1 b - - 1 29",
+      "playerMoves": [
+        "d4f3",
+        "b1f1",
+        "f3e5"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "g2f1"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qxf1+",
+        "Nxe5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long",
+        "pin"
+      ],
+      "rating": 1486,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/2ayXHopI#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zdvI1",
+      "fen": "2r3k1/4qpp1/p6p/P7/3pBn2/7P/5PP1/2R3K1 w - - 0 39",
+      "playerMoves": [
+        "c1c8",
+        "e4h7",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "e7f8",
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Rxc8+",
+        "Bh7+",
+        "Rxf8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1605,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jSpOKMaD/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ufcz4",
+      "fen": "1r2r1k1/8/1p2q1pp/pRp5/4QP2/P2B4/5P1P/6K1 w - - 0 31",
+      "playerMoves": [
+        "d3c4",
+        "e4c4"
+      ],
+      "opponentMoves": [
+        "e6c4"
+      ],
+      "solutionSan": [
+        "Bc4",
+        "Qxc4+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1407,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jw20blVo/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PJEr6",
+      "fen": "6qr/p1pk2pp/2p3n1/3pP1BQ/2rPp2R/8/P5PP/5RK1 w - - 0 20",
+      "playerMoves": [
+        "h5g4",
+        "f1f7"
+      ],
+      "opponentMoves": [
+        "g8e6"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Rf7+"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/dycZzXOw/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PF2dJ",
+      "fen": "1kq5/r5p1/1pb5/2b4B/P4R2/1Q2P2P/5PP1/1R5K b - - 0 39",
+      "playerMoves": [
+        "c8h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1544,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/sPM4ysFi#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VoSO1",
+      "fen": "1r6/R1p1k1b1/3p1pBp/P2Pp1pP/4P3/1p4P1/1Rr3PK/8 w - - 2 37",
+      "playerMoves": [
+        "b2c2",
+        "a7c7",
+        "c7c2"
+      ],
+      "opponentMoves": [
+        "b3c2",
+        "e7d8"
+      ],
+      "solutionSan": [
+        "Rxc2",
+        "Rxc7+",
+        "Rxc2"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1534,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/6kPHHrMC/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TJuF1",
+      "fen": "8/pp6/1b5p/1R4pk/1P2p3/6PN/1r3PKP/8 w - - 3 42",
+      "playerMoves": [
+        "h3f4",
+        "h2h3"
+      ],
+      "opponentMoves": [
+        "h5g4"
+      ],
+      "solutionSan": [
+        "Nf4+",
+        "h3#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1516,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/UQ8MQPGs/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Vi29f",
+      "fen": "2kr4/p1q2pp1/2p4p/2P5/3p4/P2Q3P/5PP1/1R4K1 w - - 3 26",
+      "playerMoves": [
+        "d3a6",
+        "b1b7"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Qa6+",
+        "Rb7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/eGKv74m1/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i454l",
+      "fen": "8/5p2/2p2Qpk/3b3p/1K1N4/2P5/PP1q4/8 w - - 8 40",
+      "playerMoves": [
+        "d4f5",
+        "f6g7"
+      ],
+      "opponentMoves": [
+        "h6h7"
+      ],
+      "solutionSan": [
+        "Nf5+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/7pCuGpRz/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fYJb4",
+      "fen": "r1b1kbnr/2p1qp2/pp3n2/3Pp1R1/2B5/2N2N2/PPP3PP/R2Q2K1 w kq - 0 17",
+      "playerMoves": [
+        "g5e5",
+        "f3e5",
+        "g1h1"
+      ],
+      "opponentMoves": [
+        "e7e5",
+        "f8c5"
+      ],
+      "solutionSan": [
+        "Rxe5",
+        "Nxe5",
+        "Kh1"
+      ],
+      "themes": [
+        "advantage",
+        "defensiveMove",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1418,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/fLgeAXgm/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xR2oQ",
+      "fen": "6k1/1p3pp1/p2q1n2/5RQr/3p4/8/PPP2P2/2KN4 w - - 2 32",
+      "playerMoves": [
+        "f5f6",
+        "g5h5",
+        "c1b1"
+      ],
+      "opponentMoves": [
+        "d6f6",
+        "f6f4"
+      ],
+      "solutionSan": [
+        "Rxf6",
+        "Qxh5",
+        "Kb1"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1401,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qwZ5HsMW/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nO3jZ",
+      "fen": "r1b2k1r/ppp3p1/3q1n1p/4Q3/8/2P5/P4PPP/RNB2RK1 w - - 1 16",
+      "playerMoves": [
+        "c1a3",
+        "a3d6"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Ba3",
+        "Bxd6"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1408,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Yuzviett/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5BcfE",
+      "fen": "4rk2/pp4rp/2p1qnpQ/5R2/4P3/2N5/PP5P/4R1K1 w - - 2 23",
+      "playerMoves": [
+        "f5f6",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "e6f6"
+      ],
+      "solutionSan": [
+        "Rxf6+",
+        "Rf1"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1531,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BZhPFKig/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SByT5",
+      "fen": "2r5/7p/p3PQpk/8/3N4/2q5/5P1P/3b2K1 w - - 0 36",
+      "playerMoves": [
+        "d4f5",
+        "f6h4"
+      ],
+      "opponentMoves": [
+        "h6h5"
+      ],
+      "solutionSan": [
+        "Nf5+",
+        "Qh4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1520,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/oHWg6aey/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jhGPw",
+      "fen": "rn2kb2/ppp4p/3p1p1n/8/4q2P/5R2/PPPPB1r1/RNBQK3 w Qq - 0 14",
+      "playerMoves": [
+        "f3e3",
+        "e2f1",
+        "d2e3"
+      ],
+      "opponentMoves": [
+        "g2g1",
+        "e4e3"
+      ],
+      "solutionSan": [
+        "Re3",
+        "Bf1",
+        "dxe3"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "opening",
+        "pin"
+      ],
+      "rating": 1479,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/2QBp4v05/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BKKF6",
+      "fen": "3rk2r/pp3ppp/4pn2/q7/1nP3b1/P2P1N2/1P1QBPPP/RN2K2R b KQk - 1 11",
+      "playerMoves": [
+        "b4c2",
+        "a5d2"
+      ],
+      "opponentMoves": [
+        "e1d1"
+      ],
+      "solutionSan": [
+        "Nc2+",
+        "Qxd2+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1646,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qDIYQcBi#21",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R4cwh",
+      "fen": "3R1rk1/1R4qp/p7/Q1B1p3/2P5/4p3/P5Pn/5BK1 b - - 0 35",
+      "playerMoves": [
+        "h2f3",
+        "g7h6"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1538,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/MFBTsLJV#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dvWbs",
+      "fen": "8/8/8/3p4/3k1p2/1pr2P2/1B2KP2/8 w - - 4 58",
+      "playerMoves": [
+        "e2d2",
+        "b2c3"
+      ],
+      "opponentMoves": [
+        "d4c4"
+      ],
+      "solutionSan": [
+        "Kd2",
+        "Bxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1494,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/DGf02Z8m/black#114",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fhWxb",
+      "fen": "4R3/ppkrQ1p1/2p4p/7P/6P1/2N5/Pr5q/2K5 w - - 4 32",
+      "playerMoves": [
+        "c3d5",
+        "e7c5"
+      ],
+      "opponentMoves": [
+        "c6d5"
+      ],
+      "solutionSan": [
+        "Nd5+",
+        "Qc5#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1661,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/XzVymlmI/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pZUHT",
+      "fen": "3r3k/p4rRp/4pqpP/1p2p3/8/1B2Q1P1/PP3P2/6K1 w - - 1 26",
+      "playerMoves": [
+        "g7f7",
+        "e3e5",
+        "b3e6"
+      ],
+      "opponentMoves": [
+        "f6f7",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxf7",
+        "Qxe5+",
+        "Bxe6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "master",
+        "pin"
+      ],
+      "rating": 1463,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/mJNGlFLu/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Zq0Sb",
+      "fen": "8/p1r3kp/1p1b2q1/3Q3R/1P6/4P1P1/P4PP1/6K1 w - - 6 39",
+      "playerMoves": [
+        "h5g5",
+        "d5g5"
+      ],
+      "opponentMoves": [
+        "g6g5"
+      ],
+      "solutionSan": [
+        "Rg5",
+        "Qxg5+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1434,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/EgXBFhr7/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UbhVs",
+      "fen": "4r1k1/1p6/7p/5QpP/p7/P2R1K2/5PP1/2q5 b - - 4 33",
+      "playerMoves": [
+        "e8f8",
+        "g8f8"
+      ],
+      "opponentMoves": [
+        "f5f8"
+      ],
+      "solutionSan": [
+        "Rf8",
+        "Kxf8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1638,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/fd24bSHU#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zbQkN",
+      "fen": "6k1/4q1pp/p4p2/1b1p4/pr1P4/Q4PB1/K1R3PP/8 w - - 4 30",
+      "playerMoves": [
+        "c2c8",
+        "c8c7",
+        "g3c7"
+      ],
+      "opponentMoves": [
+        "g8f7",
+        "e7c7"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rc7",
+        "Bxc7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1447,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/r22gTetZ/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6kWDz",
+      "fen": "N1bk3r/pp1p1ppp/7n/4N1P1/1b2P3/q7/3BQPP1/2R1KB1R b K - 0 16",
+      "playerMoves": [
+        "a3c1",
+        "b4d2"
+      ],
+      "opponentMoves": [
+        "e2d1"
+      ],
+      "solutionSan": [
+        "Qxc1+",
+        "Bxd2+"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1504,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/hQWAXIVr#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LY3wx",
+      "fen": "2k3r1/1pp5/p1n4p/2bNp2r/4R3/P2P2BP/1PPQ1P2/5RK1 b - - 0 23",
+      "playerMoves": [
+        "g8g3",
+        "h5h3"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Rhxh3#"
+      ],
+      "themes": [
+        "blindSwineMate",
+        "intermezzo",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BC8pt3Qf#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C0Ugx",
+      "fen": "6k1/5p2/3r2qp/3P4/4Qp2/P7/1P1R4/1K6 w - - 0 40",
+      "playerMoves": [
+        "d2g2",
+        "e4g2"
+      ],
+      "opponentMoves": [
+        "g6g2"
+      ],
+      "solutionSan": [
+        "Rg2",
+        "Qxg2+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "pin",
+        "short"
+      ],
+      "rating": 1708,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/5HeDxYu0/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3A8CJ",
+      "fen": "1r6/4kpp1/4p1p1/p2pP1q1/2pP2P1/PrP4P/1P1R1Q1K/4R3 b - - 14 33",
+      "playerMoves": [
+        "g5d2",
+        "b3b2",
+        "b2g2"
+      ],
+      "opponentMoves": [
+        "f2d2",
+        "d2g2"
+      ],
+      "solutionSan": [
+        "Qxd2",
+        "Rxb2",
+        "Rxg2+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1617,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FmClRr5w#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PpKf0",
+      "fen": "5k2/p3rpp1/1b1Q4/7p/1B6/4q2P/P5PK/5B2 w - - 2 27",
+      "playerMoves": [
+        "d6b8",
+        "b8d8"
+      ],
+      "opponentMoves": [
+        "b6d8"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1563,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/V1lwcvxx/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EV3SF",
+      "fen": "r1b4r/ppk3p1/n1p3n1/7p/5P2/2N1q3/PPQ3PP/1K1R3R w - - 0 17",
+      "playerMoves": [
+        "c3d5",
+        "d5e3"
+      ],
+      "opponentMoves": [
+        "c7b8"
+      ],
+      "solutionSan": [
+        "Nd5+",
+        "Nxe3"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1645,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3Spc5szc/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wbgRM",
+      "fen": "r4rk1/pp4p1/2p1p1p1/8/2BP4/2PK1p1R/PP4q1/7R w - - 0 27",
+      "playerMoves": [
+        "c4e6",
+        "h3h8"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Bxe6+",
+        "Rh8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1504,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/y8zXs0kR/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fHUA9",
+      "fen": "6k1/p5pp/2q5/3p4/PP1P4/1K1QPrP1/7P/5R2 b - - 4 29",
+      "playerMoves": [
+        "c6c4",
+        "d5c4",
+        "f3f1"
+      ],
+      "opponentMoves": [
+        "d3c4",
+        "b3c4"
+      ],
+      "solutionSan": [
+        "Qc4+",
+        "dxc4+",
+        "Rxf1"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1796,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/OnBdX8RG#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R5OGg",
+      "fen": "2r5/pR3pk1/4p1p1/3pPr2/5qQ1/2P2P1p/PP5P/6RK w - - 0 32",
+      "playerMoves": [
+        "g4g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1469,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ArJ8dhZk/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xm2k8",
+      "fen": "r1b5/pp3rkp/6p1/3Q4/4p3/4P1N1/PP1KN1q1/R6R b - - 0 22",
+      "playerMoves": [
+        "f7d7",
+        "g6f5",
+        "c8d7"
+      ],
+      "opponentMoves": [
+        "g3f5",
+        "d5d7"
+      ],
+      "solutionSan": [
+        "Rd7",
+        "gxf5",
+        "Bxd7"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1564,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FYAKCrRB#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Um2oY",
+      "fen": "3rr1k1/ppp2p1p/4qpbB/4n2P/8/2PP2Q1/P1PK1PP1/R4B1R b - - 0 18",
+      "playerMoves": [
+        "e5c4",
+        "e6e1"
+      ],
+      "opponentMoves": [
+        "d2d1"
+      ],
+      "solutionSan": [
+        "Nc4+",
+        "Qe1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1633,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/HKTfyASD#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hqudu",
+      "fen": "2r3k1/2p5/3p1q1p/1p3Np1/2b1PQ2/P4P2/1P3P2/4K1R1 w - - 0 40",
+      "playerMoves": [
+        "f5h6",
+        "g1g5",
+        "g5g8",
+        "f4h6"
+      ],
+      "opponentMoves": [
+        "f6h6",
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Nxh6+",
+        "Rxg5+",
+        "Rg8+",
+        "Qxh6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "exposedKing",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1711,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/d5LiZWOG/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xw046",
+      "fen": "r1bk1b1r/p2p1Qpp/5n2/1p2p3/2qNP3/2N5/PP3PPP/2KR3R w - - 0 14",
+      "playerMoves": [
+        "d4e6",
+        "f7e6"
+      ],
+      "opponentMoves": [
+        "c4e6"
+      ],
+      "solutionSan": [
+        "Ne6+",
+        "Qxe6"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1454,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/keuoIINE/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_02Q8P",
+      "fen": "r2q1r2/5p1k/ppb1p1p1/n7/P2P1B2/2PB4/5PPP/1R1Q2K1 w - - 0 20",
+      "playerMoves": [
+        "d1h5",
+        "d3g6",
+        "h5g6"
+      ],
+      "opponentMoves": [
+        "h7g8",
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Qh5+",
+        "Bxg6",
+        "Qxg6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1640,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/G8tpNnkz/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6veDY",
+      "fen": "r3rqkn/pp4b1/2p2pQ1/3p2p1/3P4/2NB4/PPP2PP1/1K5R w - - 0 31",
+      "playerMoves": [
+        "h1h8",
+        "g6h7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rxh8+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1544,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Boi2F32o/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_E25p1",
+      "fen": "4r1k1/pp6/2n1q1pp/8/5P2/1Q1p2R1/P5P1/1B4K1 w - - 0 42",
+      "playerMoves": [
+        "g3g6",
+        "g6e6"
+      ],
+      "opponentMoves": [
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Rxe6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1471,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/UHSWEtvL/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ezr80",
+      "fen": "r2q2rk/p2n1pp1/1bp1b2p/3pB3/NP5Q/P2B1P2/2P1R1PP/R6K w - - 3 23",
+      "playerMoves": [
+        "h4h6"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Qxh6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1411,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/cIFNRFX5/black#44",
+      "alternateWinningMoves": [
+        "h4h6"
+      ]
+    },
+    {
+      "id": "lichess_TMi6y",
+      "fen": "5r1k/pBpn2pp/8/8/3Pp2q/4P1b1/PPPBQ2P/6RK b - - 1 20",
+      "playerMoves": [
+        "f8f2",
+        "g3f2"
+      ],
+      "opponentMoves": [
+        "e2f2"
+      ],
+      "solutionSan": [
+        "Rf2",
+        "Bxf2"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1413,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/cphpyvBn#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_20zNv",
+      "fen": "5rk1/3r2pp/4Pp2/2p5/2B1P3/p4R1P/1q4PK/8 w - - 0 42",
+      "playerMoves": [
+        "e6e7",
+        "c4d5",
+        "e7e8q"
+      ],
+      "opponentMoves": [
+        "d7d5",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "Bxd5+",
+        "e8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "pin",
+        "promotion"
+      ],
+      "rating": 1714,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/87l5lPU5/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zEoeN",
+      "fen": "2r2Nk1/2n2p1p/1p1qp3/pB1b1p2/3P4/P2Q4/1P3PPP/1K1R3R b - - 0 26",
+      "playerMoves": [
+        "d5e4",
+        "f5e4"
+      ],
+      "opponentMoves": [
+        "d3e4"
+      ],
+      "solutionSan": [
+        "Be4",
+        "fxe4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1583,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/S5QLS7s8#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1dHqe",
+      "fen": "8/2p5/1p4p1/4p2p/Pk2P2P/1P1PB3/1qP2RK1/8 w - - 8 41",
+      "playerMoves": [
+        "c2c3",
+        "e3d2",
+        "f2d2"
+      ],
+      "opponentMoves": [
+        "b2c3",
+        "c3d2"
+      ],
+      "solutionSan": [
+        "c3+",
+        "Bd2",
+        "Rxd2"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1410,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/a6pJ4ym1/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Loxuh",
+      "fen": "7k/4n1rp/p7/1p2Q3/4pPq1/1P5n/P4P1P/3R1R1K w - - 0 37",
+      "playerMoves": [
+        "d1d8",
+        "d8g8",
+        "e5e8"
+      ],
+      "opponentMoves": [
+        "e7g8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxg8+",
+        "Qe8#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1400,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/TDBmf3Xj/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Qdmul",
+      "fen": "5k2/1Q5p/p1r2qp1/8/4P2P/2p5/PP6/R5K1 w - - 1 27",
+      "playerMoves": [
+        "a1f1",
+        "g1f1"
+      ],
+      "opponentMoves": [
+        "f6f1"
+      ],
+      "solutionSan": [
+        "Rf1",
+        "Kxf1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1439,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/ZgIvY8zL/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_j6QWL",
+      "fen": "1r5k/7p/5p2/3p1P2/3P2P1/1qp1P2P/2Q1RK2/8 b - - 9 44",
+      "playerMoves": [
+        "b3c2",
+        "b8b2"
+      ],
+      "opponentMoves": [
+        "e2c2"
+      ],
+      "solutionSan": [
+        "Qxc2",
+        "Rb2"
+      ],
+      "themes": [
+        "clearance",
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1479,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/LB4EyCxo#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4n5NE",
+      "fen": "1r4k1/5p1p/p5p1/8/3PQbq1/5N2/P5R1/3R2K1 b - - 5 34",
+      "playerMoves": [
+        "f4h2",
+        "g4e4"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Bh2+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1406,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/wDyAiDJV#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_E13yf",
+      "fen": "7k/1pp2p2/5N1p/8/p2pP1QN/Pr6/KPq5/1R6 b - - 5 40",
+      "playerMoves": [
+        "b3a3",
+        "c2b3"
+      ],
+      "opponentMoves": [
+        "a2a3"
+      ],
+      "solutionSan": [
+        "Rxa3+",
+        "Qb3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1492,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/mi4nVYIx#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WE4NG",
+      "fen": "r4rk1/1pp2p2/5Ppp/p3p3/P3P1Q1/1BPnq3/6PP/R4R1K w - - 0 21",
+      "playerMoves": [
+        "g4g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1473,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/HdZgwrkJ/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6d0iV",
+      "fen": "3r1rk1/1p3pp1/pqbb3p/4RB2/5BQ1/8/PP3PPP/4R1K1 w - - 2 22",
+      "playerMoves": [
+        "f4h6",
+        "e1e5",
+        "g4d1"
+      ],
+      "opponentMoves": [
+        "d6e5",
+        "d8d1"
+      ],
+      "solutionSan": [
+        "Bxh6",
+        "Rxe5",
+        "Qxd1"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1617,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/fa0aI6RT/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iSH7U",
+      "fen": "2kr1n2/pbpqpQ2/1p1p3N/8/2PP4/2N1P3/PP1B1PP1/R4R1K b - - 0 18",
+      "playerMoves": [
+        "d7h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1527,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/lCj1aG5D#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MHRKW",
+      "fen": "3r4/3P1bk1/6p1/3B2p1/p5P1/7P/7K/4R3 w - - 1 47",
+      "playerMoves": [
+        "e1e7",
+        "e7f7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Re7",
+        "Rxf7+"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "pin",
+        "short"
+      ],
+      "rating": 1654,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/NjnPQdTe/black#92",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6dfCJ",
+      "fen": "r3k1nr/ppp1q2p/2nbp3/8/4P3/3P1Q2/PPP3PP/RNB2RK1 w kq - 1 11",
+      "playerMoves": [
+        "f3h5",
+        "f1f7"
+      ],
+      "opponentMoves": [
+        "e8d7"
+      ],
+      "solutionSan": [
+        "Qh5+",
+        "Rf7"
+      ],
+      "themes": [
+        "advantage",
+        "clearance",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1483,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/fjwWizWH/black#20",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qdgj6",
+      "fen": "6k1/5qp1/2R1pr2/p2p3P/Pp1P4/1Pn1P1Q1/6R1/6K1 b - - 6 43",
+      "playerMoves": [
+        "f6f1",
+        "f7h5",
+        "f1h1",
+        "h5h3"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "g3h3",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Qxh5+",
+        "Rh1+",
+        "Qxh3+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "deflection",
+        "endgame",
+        "exposedKing",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1466,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/JGHizmt0#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_szo5A",
+      "fen": "6k1/p4p2/1p2nPPQ/4r3/q2pp3/P2P3P/8/1R3BK1 b - - 0 35",
+      "playerMoves": [
+        "e5g5",
+        "g5g6"
+      ],
+      "opponentMoves": [
+        "f1g2"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Rxg6"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1503,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BSejsQdJ#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GTxwf",
+      "fen": "r2qr1k1/2pp2pp/bp5b/p2p3N/P2P1PQ1/1NB3P1/1Pn4P/R3R1K1 w - - 0 20",
+      "playerMoves": [
+        "e1e8",
+        "h5f6",
+        "f6e8"
+      ],
+      "opponentMoves": [
+        "d8e8",
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Nf6+",
+        "Nxe8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1479,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/06Qq3MBs/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3xco3",
+      "fen": "r2qk2r/pp1n1pb1/2ppp3/3n1p1p/3P3P/2N2P2/PPPQBBP1/2KR2NR b kq - 1 12",
+      "playerMoves": [
+        "g7h6",
+        "h8h6"
+      ],
+      "opponentMoves": [
+        "d2h6"
+      ],
+      "solutionSan": [
+        "Bh6",
+        "Rxh6"
+      ],
+      "themes": [
+        "advantage",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1652,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/M9I5P6ZZ#23",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cblxy",
+      "fen": "6k1/pp4p1/4p1Qp/2pb4/4pPN1/1q2P1KP/8/8 w - - 0 38",
+      "playerMoves": [
+        "g4f6",
+        "g6h7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/NYB8u8d7/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TlQrQ",
+      "fen": "8/3kr3/6QK/8/1p5P/8/8/8 b - - 0 66",
+      "playerMoves": [
+        "e7e6",
+        "b4b3",
+        "e6g6",
+        "b3b2",
+        "b2b1q"
+      ],
+      "opponentMoves": [
+        "h4h5",
+        "h6h7",
+        "h5g6",
+        "g6g7"
+      ],
+      "solutionSan": [
+        "Re6",
+        "b3",
+        "Rxg6",
+        "b2",
+        "b1=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "endgame",
+        "pin",
+        "promotion",
+        "queenRookEndgame",
+        "veryLong"
+      ],
+      "rating": 1776,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Yt5TF9X5#131",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mtqNA",
+      "fen": "7r/2r2pk1/2pN2p1/4p3/PpQp3q/1Pb3R1/5P2/5RK1 w - - 1 38",
+      "playerMoves": [
+        "d6f5",
+        "f5h4"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf5+",
+        "Nxh4"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1448,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/AfhOEovT/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mYqFO",
+      "fen": "6k1/pp1Q4/6pp/6n1/2P5/7P/PP1R1qPK/8 b - - 0 35",
+      "playerMoves": [
+        "g5f3",
+        "f2f1"
+      ],
+      "opponentMoves": [
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1518,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/anTyXYQ1#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0ojQb",
+      "fen": "1R3bk1/5ppp/1Q1p1n2/5N2/2P2BP1/3P3P/5PK1/r3q3 b - - 6 33",
+      "playerMoves": [
+        "e1h1",
+        "a1g1",
+        "g1g4"
+      ],
+      "opponentMoves": [
+        "g2g3",
+        "g3h4"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Rg1+",
+        "Rxg4#"
+      ],
+      "themes": [
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1706,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qLhu1UPn#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tqga5",
+      "fen": "1k2r3/p4R2/1p6/4q3/8/5QPP/7K/8 b - - 0 48",
+      "playerMoves": [
+        "e5b2",
+        "e8e2"
+      ],
+      "opponentMoves": [
+        "f3f2"
+      ],
+      "solutionSan": [
+        "Qb2+",
+        "Re2"
+      ],
+      "themes": [
+        "clearance",
+        "crushing",
+        "endgame",
+        "master",
+        "pin",
+        "short"
+      ],
+      "rating": 1474,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/CyFsIFW8#95",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sp1S7",
+      "fen": "7k/5pp1/2R4p/r7/8/5qPP/1BR2P1K/8 w - - 1 39",
+      "playerMoves": [
+        "c6h6",
+        "c2c8"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Rc8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1604,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qH8fM8vt/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cWwv9",
+      "fen": "r1b4r/ppp1kpbN/3ppq2/7Q/2B1P3/2N5/PP1B1PP1/n4K2 w - - 1 14",
+      "playerMoves": [
+        "d2g5",
+        "g5f6",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Bg5",
+        "Bxf6+",
+        "Qxh7"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1532,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FpVO1oVC/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3kBZF",
+      "fen": "r4r1k/1pq4p/p1p1p1b1/2Pp4/3P2QR/P2BP3/2P4P/R5K1 b - - 0 21",
+      "playerMoves": [
+        "g6d3",
+        "f8g8"
+      ],
+      "opponentMoves": [
+        "c2d3"
+      ],
+      "solutionSan": [
+        "Bxd3",
+        "Rg8"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1428,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/BDwuDRVD#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1pEGj",
+      "fen": "7r/3Q2pp/P4p2/4p3/2Pn1k2/5P2/P3q2P/6RK w - - 5 33",
+      "playerMoves": [
+        "d7g4",
+        "g4e4",
+        "g1g2"
+      ],
+      "opponentMoves": [
+        "f4e3",
+        "e3d2"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qe4+",
+        "Rg2"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1535,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/obfz3oiG/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4kFT5",
+      "fen": "3R4/3R1pkp/p5pn/1p2P1N1/1P4P1/7P/r4r2/2K5 w - - 0 35",
+      "playerMoves": [
+        "g5e6"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Ne6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn1",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1419,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FS0N2pSS/black#68",
+      "alternateWinningMoves": [
+        "g5e6"
+      ]
+    },
+    {
+      "id": "lichess_aAPAe",
+      "fen": "8/4r1k1/6p1/2Q4p/4b3/4q2P/6P1/2R2R1K b - - 2 35",
+      "playerMoves": [
+        "e3h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1599,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/bKjQ43ep#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_05b0P",
+      "fen": "4rk2/pp2rpp1/2p4p/3p4/3P1N2/6nP/PPP1R1PK/5R2 w - - 0 24",
+      "playerMoves": [
+        "f4g6",
+        "g6e7",
+        "e2e7"
+      ],
+      "opponentMoves": [
+        "f8g8",
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Ng6+",
+        "Nxe7+",
+        "Rxe7"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1557,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/fcGa3frY/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HvUPU",
+      "fen": "4B3/R2br1kp/2p2p2/2P2P2/6P1/3p4/5K2/8 w - - 0 43",
+      "playerMoves": [
+        "a7d7",
+        "e8d7",
+        "f2e2",
+        "e2d1"
+      ],
+      "opponentMoves": [
+        "e7d7",
+        "d3d2",
+        "d2d1q"
+      ],
+      "solutionSan": [
+        "Rxd7",
+        "Bxd7",
+        "Ke2",
+        "Kxd1"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1560,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/U8hSxTpb/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_b80PE",
+      "fen": "4k3/pq3r2/8/4P1Qp/1p5P/4B3/PPr2P2/3R2K1 b - - 2 40",
+      "playerMoves": [
+        "f7g7",
+        "e8f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "d1d8",
+        "g5g7"
+      ],
+      "solutionSan": [
+        "Rg7",
+        "Kf7",
+        "Kxg7"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1403,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/zO6OSQib#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IbTl2",
+      "fen": "1k1r2r1/ppp3q1/1b3p2/3PpQ1p/4P3/2N3PP/PP3P2/3R1RK1 b - - 0 19",
+      "playerMoves": [
+        "g7g3",
+        "g3g2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxg3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1592,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/EAqWBmIK#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5kbuP",
+      "fen": "3r2k1/R5bp/2pN2p1/2P5/3P3r/2K5/8/6R1 w - - 1 35",
+      "playerMoves": [
+        "a7g7",
+        "d6f5",
+        "f5h4"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Nf5+",
+        "Nxh4"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long",
+        "pin",
+        "sacrifice"
+      ],
+      "rating": 1621,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/IH1rySMF/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aoJm6",
+      "fen": "r1b1k2r/bpqp1pp1/p1n1p3/6B1/4P1p1/1NNB2P1/PPP1QP2/R4RK1 b kq - 0 14",
+      "playerMoves": [
+        "c7g3"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Qxg3#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1440,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/JkgOgbd4#27",
+      "alternateWinningMoves": [
+        "c7g3"
+      ]
+    },
+    {
+      "id": "lichess_fcewe",
+      "fen": "2R5/1q2rrpk/p4P1p/8/2Q3P1/7P/PP6/2KR4 b - - 0 38",
+      "playerMoves": [
+        "e7c7",
+        "f7c7",
+        "b7c7"
+      ],
+      "opponentMoves": [
+        "c4c7",
+        "c8c7"
+      ],
+      "solutionSan": [
+        "Rc7",
+        "Rxc7+",
+        "Qxc7+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1588,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/LIOQ3Z1P#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jtU0P",
+      "fen": "3R4/4qp1k/4b1p1/3pP2p/1rp4P/5Q2/2B2PP1/6K1 w - - 9 44",
+      "playerMoves": [
+        "f3h5",
+        "h5h8"
+      ],
+      "opponentMoves": [
+        "h7g7"
+      ],
+      "solutionSan": [
+        "Qxh5+",
+        "Qh8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1531,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/jq6f7lqZ/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_72aO5",
+      "fen": "4r1k1/2p1r3/1p1p3q/p1bP2Qp/P1P2p2/5N1P/2R3P1/3N1R1K b - - 9 39",
+      "playerMoves": [
+        "h6g5",
+        "e7e1"
+      ],
+      "opponentMoves": [
+        "f3g5"
+      ],
+      "solutionSan": [
+        "Qxg5",
+        "Re1"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1466,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/oHAGFLiO#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TKDI8",
+      "fen": "5rk1/1p4p1/6P1/p2p3p/1P1Rq2P/1Q6/PP6/K6R b - - 0 29",
+      "playerMoves": [
+        "e4h1",
+        "f8f1",
+        "h1d5"
+      ],
+      "opponentMoves": [
+        "d4d1",
+        "b3d5"
+      ],
+      "solutionSan": [
+        "Qxh1+",
+        "Rf1",
+        "Qxd5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "hangingPiece",
+        "long",
+        "pin"
+      ],
+      "rating": 1553,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/hOh8LPbY#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vHry7",
+      "fen": "1k2r3/2p2p2/1p3Rpp/p1qPr3/P6N/2P2Q1P/6P1/R6K b - - 0 25",
+      "playerMoves": [
+        "e5e1",
+        "e8e1",
+        "c5g1",
+        "e1e3"
+      ],
+      "opponentMoves": [
+        "a1e1",
+        "h1h2",
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Rxe1+",
+        "Qg1+",
+        "Re3"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "middlegame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1405,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/VOnzugKa#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Uji4l",
+      "fen": "r3r1k1/p4pp1/1p6/2pRn2p/2B1Q1Pq/4B2P/PP3P1K/5R2 b - - 1 24",
+      "playerMoves": [
+        "e5g4",
+        "h5g4"
+      ],
+      "opponentMoves": [
+        "e4g4"
+      ],
+      "solutionSan": [
+        "Nxg4+",
+        "hxg4"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1478,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/TALgDba6#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_f63KI",
+      "fen": "5nk1/1b6/1Q6/5ppB/3p4/3Pq3/2P3P1/5R1K b - - 5 34",
+      "playerMoves": [
+        "e3h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1417,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/QJkbKfUD#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NJvpy",
+      "fen": "r1bqrnk1/pp2n1p1/2p1p2p/4P3/6Q1/3B4/PPP2PPP/R1B1R1K1 w - - 7 16",
+      "playerMoves": [
+        "c1h6",
+        "d3f5"
+      ],
+      "opponentMoves": [
+        "e7f5"
+      ],
+      "solutionSan": [
+        "Bxh6",
+        "Bxf5"
+      ],
+      "themes": [
+        "advantage",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1450,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/tjDEmiWC/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mw5vZ",
+      "fen": "1k6/1ppq1pr1/p2p4/4p3/4PbPp/2PP3P/PP3QK1/3R1R2 b - - 4 28",
+      "playerMoves": [
+        "g7g4",
+        "d7g4",
+        "g4h3",
+        "f4e3",
+        "h3e3"
+      ],
+      "opponentMoves": [
+        "h3g4",
+        "g2h1",
+        "h1g1",
+        "f2e3"
+      ],
+      "solutionSan": [
+        "Rxg4+",
+        "Qxg4+",
+        "Qh3+",
+        "Be3",
+        "Qxe3+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1666,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/lso0pWbt#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PbiSD",
+      "fen": "rn3knQ/1b1p1pp1/p3pq2/2p1P3/1p6/3P4/PPP1N1BP/R1B2R1K b - - 0 17",
+      "playerMoves": [
+        "f6f1",
+        "b7g2"
+      ],
+      "opponentMoves": [
+        "e2g1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Bxg2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/SBjYJKUK#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3sC1r",
+      "fen": "r1b2rk1/ppp2ppp/1bn5/4Bq2/2BP4/2P2N2/PP4PP/R2Q1RK1 b - - 6 14",
+      "playerMoves": [
+        "c6e5",
+        "f5e5"
+      ],
+      "opponentMoves": [
+        "f3e5"
+      ],
+      "solutionSan": [
+        "Nxe5",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1424,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/b4qerjzQ#27",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hpiUv",
+      "fen": "r1b2r1k/1pp1q1p1/p2p2nn/8/1PPQ4/P4PN1/5KB1/R6R w - - 4 30",
+      "playerMoves": [
+        "h1h6",
+        "h6g6"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Rxg6"
+      ],
+      "themes": [
+        "advantage",
+        "kingsideAttack",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1602,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/aI9BjsXN/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ko2RF",
+      "fen": "1k4r1/p1p5/1b1p4/5p1q/1Pp4P/P5P1/2P1QP2/4RRK1 b - - 1 30",
+      "playerMoves": [
+        "g8g3",
+        "h5h4"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Qxh4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1563,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Gvp28VJw#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NQoEa",
+      "fen": "r4k1r/p1p3pp/1pbb1q2/4nP2/2NQ4/2P5/PP2B1PP/R1B2RK1 b - - 1 18",
+      "playerMoves": [
+        "d6c5",
+        "b6c5"
+      ],
+      "opponentMoves": [
+        "d4c5"
+      ],
+      "solutionSan": [
+        "Bc5",
+        "bxc5"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1549,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/FXo3f79p#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jRLNy",
+      "fen": "r1b2rk1/ppB2ppp/2p5/8/2B5/7P/PPq3P1/4RQ1K w - - 0 18",
+      "playerMoves": [
+        "f1f7",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1459,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/4auVPg0K/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DxfKc",
+      "fen": "rn2k2r/p1Pqppb1/1p4p1/1Q6/2pP1p2/2P5/P4PPP/R3KB1R w KQkq - 1 16",
+      "playerMoves": [
+        "c7c8q"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "c8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove",
+        "pin",
+        "promotion"
+      ],
+      "rating": 1455,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/xVFRBpHw/black#30",
+      "alternateWinningMoves": [
+        "c7c8q",
+        "c7c8r"
+      ]
+    },
+    {
+      "id": "lichess_SMPYI",
+      "fen": "2rqr1k1/1p3ppp/p1bbpn2/3p4/3B4/2NB2QP/PPP2PP1/3RR1K1 w - - 8 19",
+      "playerMoves": [
+        "d4f6",
+        "f6d8",
+        "g1f2"
+      ],
+      "opponentMoves": [
+        "d6g3",
+        "g3f2"
+      ],
+      "solutionSan": [
+        "Bxf6",
+        "Bxd8",
+        "Kxf2"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1777,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/7TKk40iJ/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SO0eD",
+      "fen": "3n3r/p4p1p/1p2kPpP/4p3/3pN3/P1r2BP1/5PK1/3R4 w - - 2 33",
+      "playerMoves": [
+        "f3g4",
+        "e4c3"
+      ],
+      "opponentMoves": [
+        "e6d5"
+      ],
+      "solutionSan": [
+        "Bg4+",
+        "Nxc3+"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1559,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/4S4kgy3a/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7FEy0",
+      "fen": "3q1r1k/1pr3p1/p2NQnP1/P1p3B1/7P/2Pp4/1P3P2/R3K2R b KQ - 2 25",
+      "playerMoves": [
+        "c7e7",
+        "f8f7",
+        "e7e6"
+      ],
+      "opponentMoves": [
+        "d6f7",
+        "e1c1"
+      ],
+      "solutionSan": [
+        "Re7",
+        "Rfxf7",
+        "Rxe6"
+      ],
+      "themes": [
+        "advantage",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1557,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/J8yaZNhs#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_t70l5",
+      "fen": "r3nk2/pp2q1rN/5n2/3p4/3p1PbQ/3B4/PPP1N1P1/R3K2R b KQ - 5 22",
+      "playerMoves": [
+        "g7h7",
+        "f6h7"
+      ],
+      "opponentMoves": [
+        "h4h7"
+      ],
+      "solutionSan": [
+        "Rxh7",
+        "Nxh7"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1447,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/mQQiBAJW#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SU6mN",
+      "fen": "r1r5/3R2pk/5Q2/p3p2p/2B1b3/1P2q2P/P5P1/3R3K b - - 0 36",
+      "playerMoves": [
+        "e3h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1453,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qJsGRgDq#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TVyWy",
+      "fen": "5rk1/pb1q1ppp/8/2P5/3P4/2P3P1/P3QPP1/R3R2K b - - 0 22",
+      "playerMoves": [
+        "d7h3",
+        "h3g2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1499,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Cdo0OOft#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fWpMY",
+      "fen": "rr4k1/2p2pp1/n2q3p/1R6/p2Pp2P/Q3P3/PP2BPP1/1K5R b - - 0 24",
+      "playerMoves": [
+        "d6a3",
+        "b8b5",
+        "a8b8",
+        "b8b5"
+      ],
+      "opponentMoves": [
+        "b2a3",
+        "e2b5",
+        "b1c2"
+      ],
+      "solutionSan": [
+        "Qxa3",
+        "Rxb5+",
+        "Rb8",
+        "Rxb5"
+      ],
+      "themes": [
+        "advantage",
+        "clearance",
+        "intermezzo",
+        "middlegame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1403,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/mvUIz8PV#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uF4m1",
+      "fen": "7k/p4Rr1/6Pp/8/2qp4/6P1/2n4P/4R1K1 w - - 0 36",
+      "playerMoves": [
+        "e1e8",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rh7#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "pin",
+        "short"
+      ],
+      "rating": 1439,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/oIIZMk0v/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XV4eu",
+      "fen": "k3r3/1p6/p2QP1p1/3p4/4q2p/4PR1P/6PK/8 w - - 1 35",
+      "playerMoves": [
+        "f3f8",
+        "d6e6"
+      ],
+      "opponentMoves": [
+        "e4e6"
+      ],
+      "solutionSan": [
+        "Rf8",
+        "Qxe6"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "pin",
+        "short"
+      ],
+      "rating": 1571,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Rt6bKRvq/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cMdAB",
+      "fen": "r4rk1/p1q2ppp/4pb2/2pp3P/8/1P3Q1K/P4P2/6R1 w - - 0 31",
+      "playerMoves": [
+        "f3f6",
+        "h5h6",
+        "f6e5"
+      ],
+      "opponentMoves": [
+        "g7g6",
+        "c7e5"
+      ],
+      "solutionSan": [
+        "Qxf6",
+        "h6",
+        "Qxe5"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1635,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Ify8Gvot/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NH3QR",
+      "fen": "2b5/1p2kR2/8/1P3pN1/P4PpP/6P1/4rq2/1Q5K b - - 4 42",
+      "playerMoves": [
+        "e7e8",
+        "e2e1",
+        "f2e1"
+      ],
+      "opponentMoves": [
+        "b1g1",
+        "g1e1"
+      ],
+      "solutionSan": [
+        "Ke8",
+        "Re1",
+        "Qxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "defensiveMove",
+        "endgame",
+        "long",
+        "master",
+        "pin"
+      ],
+      "rating": 1548,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/qw4DEI62#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_my7Tg",
+      "fen": "6rk/q3Pp1r/p2p4/1p2p1B1/2p1P3/2Pn4/PP3PP1/R4K1R w - - 0 31",
+      "playerMoves": [
+        "g5f6",
+        "e7e8r"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Bf6+",
+        "e8=R#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "deflection",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "promotion",
+        "short"
+      ],
+      "rating": 1475,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/7H63DLik/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nj97u",
+      "fen": "8/8/1p1Pk1r1/p4N1P/P1P5/1P3K2/8/8 b - - 0 55",
+      "playerMoves": [
+        "g6f6",
+        "f6f5",
+        "f5f8",
+        "f8d8"
+      ],
+      "opponentMoves": [
+        "f3g4",
+        "d6d7",
+        "d7d8q"
+      ],
+      "solutionSan": [
+        "Rf6",
+        "Rxf5",
+        "Rf8",
+        "Rxd8"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "pin",
+        "quietMove",
+        "veryLong"
+      ],
+      "rating": 1411,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/3PEbI1qA#109",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fRJM7",
+      "fen": "5r1k/pQ3B1p/3b4/3P1p2/4p3/7R/PPr2RPP/6K1 b - - 0 26",
+      "playerMoves": [
+        "c2c1",
+        "d6c5",
+        "c5e3",
+        "c1f1"
+      ],
+      "opponentMoves": [
+        "f2f1",
+        "h3e3",
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Bc5+",
+        "Bxe3+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "pin",
+        "veryLong"
+      ],
+      "rating": 1699,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/RsVfI4ol#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pvZXK",
+      "fen": "8/5p1k/6pp/3pNb2/3Pq2P/4PQ2/8/6RK b - - 0 42",
+      "playerMoves": [
+        "e4h4",
+        "f5e4",
+        "e4f3"
+      ],
+      "opponentMoves": [
+        "h1g2",
+        "g2f1"
+      ],
+      "solutionSan": [
+        "Qxh4+",
+        "Be4",
+        "Bxf3"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1550,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/lJco5tkd#83",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aIydL",
+      "fen": "8/p4p2/5np1/4k2p/3rp3/1P2R2P/P2NK1P1/8 w - - 2 29",
+      "playerMoves": [
+        "d2f3",
+        "f3d4"
+      ],
+      "opponentMoves": [
+        "e5d5"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Nxd4"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1550,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/9AwFcZvY/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_K3dbk",
+      "fen": "r7/pp2q2k/2npPr2/2p2PQ1/4N3/8/PPP2P2/R4RK1 b - - 2 23",
+      "playerMoves": [
+        "a8g8",
+        "e7f6"
+      ],
+      "opponentMoves": [
+        "e4f6"
+      ],
+      "solutionSan": [
+        "Rg8",
+        "Qxf6"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1639,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/RFs2k46Q#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4MVep",
+      "fen": "5rk1/1p2q1pp/p3br2/2p5/2P1P3/P4BQ1/1P1RP2P/3R2K1 b - - 2 25",
+      "playerMoves": [
+        "f6g6",
+        "h7g6"
+      ],
+      "opponentMoves": [
+        "g3g6"
+      ],
+      "solutionSan": [
+        "Rg6",
+        "hxg6"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1429,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/56T3BLqP#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RkwoS",
+      "fen": "2k2r1r/ppqb3P/8/4QnB1/5P2/P1pB4/2P3P1/R3K2R b KQ - 2 27",
+      "playerMoves": [
+        "f8e8",
+        "e8e5"
+      ],
+      "opponentMoves": [
+        "e1c1"
+      ],
+      "solutionSan": [
+        "Re8",
+        "Rxe5"
+      ],
+      "themes": [
+        "advantage",
+        "master",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/RRGUPyHI#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zkXie",
+      "fen": "4b2k/1R3p2/1p4p1/3Pp2p/2rpP3/1p3P2/4K1P1/1B6 w - - 0 38",
+      "playerMoves": [
+        "b7b8",
+        "b8e8"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rb8",
+        "Rxe8"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "master",
+        "pin",
+        "short"
+      ],
+      "rating": 1440,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/MVfm0Sd2/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ra5a4",
+      "fen": "8/ppp4R/2k1prn1/2Pn4/3P4/P2K2P1/6P1/5R2 w - - 0 29",
+      "playerMoves": [
+        "f1f6",
+        "h7h6",
+        "d4e5"
+      ],
+      "opponentMoves": [
+        "d5f6",
+        "g6e5"
+      ],
+      "solutionSan": [
+        "Rxf6",
+        "Rh6",
+        "dxe5"
+      ],
+      "themes": [
+        "advantage",
+        "endgame",
+        "long",
+        "pin"
+      ],
+      "rating": 1493,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/IYBthOl3/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Sm0Gs",
+      "fen": "1k6/ppp2ppp/8/4P3/2P2P1P/PQ2q1P1/KP1rn3/R6R b - - 3 27",
+      "playerMoves": [
+        "e2c3",
+        "e3c3"
+      ],
+      "opponentMoves": [
+        "b3c3"
+      ],
+      "solutionSan": [
+        "Nc3+",
+        "Qxc3"
+      ],
+      "themes": [
+        "crushing",
+        "endgame",
+        "pin",
+        "short"
+      ],
+      "rating": 1453,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/bMlJzuMm#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ONNye",
+      "fen": "r1bq1rk1/ppp3bp/2n1p1nB/5pN1/3P4/5Q2/PPP2PP1/2KR1BNR b - - 1 12",
+      "playerMoves": [
+        "g7h6",
+        "d8g5"
+      ],
+      "opponentMoves": [
+        "h1h6"
+      ],
+      "solutionSan": [
+        "Bxh6",
+        "Qxg5+"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "opening",
+        "pin",
+        "short"
+      ],
+      "rating": 1441,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/umk0IYZv#23",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aSbvB",
+      "fen": "rnb2rk1/ppp2ppp/3p4/6q1/2B5/2P2Q2/P4PPP/1K2R1NR w - - 0 13",
+      "playerMoves": [
+        "f3f7",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Re8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pin",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1686,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/GYw6VUir/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LtplP",
+      "fen": "3q3k/p5rp/1p4r1/3p4/3B4/2P4Q/PP6/3K3R w - - 0 28",
+      "playerMoves": [
+        "h3h7"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Qxh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn1",
+        "oneMove",
+        "pin"
+      ],
+      "rating": 1567,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/03RwMWqy/black#54",
+      "alternateWinningMoves": [
+        "h3h7"
+      ]
+    },
+    {
+      "id": "lichess_yxybJ",
+      "fen": "r7/pR3rkp/2pppnp1/2p5/4P3/2qP3Q/P1P3PP/5R1K w - - 2 18",
+      "playerMoves": [
+        "b7f7",
+        "h3h7"
+      ],
+      "opponentMoves": [
+        "g7f7"
+      ],
+      "solutionSan": [
+        "Rxf7+",
+        "Qxh7+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1693,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/MANPzMPo/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IR0AL",
+      "fen": "8/ppk2p1p/1npR2p1/B7/8/7P/PPP1r1r1/1K1R4 w - - 3 26",
+      "playerMoves": [
+        "d6d7",
+        "d7d8",
+        "d8c8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c7b8",
+        "b6c8",
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Rd7+",
+        "Rd8+",
+        "Rxc8+",
+        "Rd8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "operaMate",
+        "pin",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1629,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/M7dWYvyO/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AmhyJ",
+      "fen": "5rk1/4qpp1/p4bQ1/2PBp3/6N1/p6P/5PPK/2n5 w - - 0 37",
+      "playerMoves": [
+        "g4h6",
+        "h6f7",
+        "d5f7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "e7f7"
+      ],
+      "solutionSan": [
+        "Nh6+",
+        "Nxf7+",
+        "Bxf7"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "long",
+        "middlegame",
+        "pin"
+      ],
+      "rating": 1659,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/8FOtHW13/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TuRIp",
+      "fen": "r4k2/2r3b1/p3pqQ1/1p1p4/3P4/2P3RP/PP3PP1/5RK1 w - - 1 27",
+      "playerMoves": [
+        "g3f3",
+        "f3f6"
+      ],
+      "opponentMoves": [
+        "c7f7"
+      ],
+      "solutionSan": [
+        "Rf3",
+        "Rxf6"
+      ],
+      "themes": [
+        "advantage",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1512,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/Xb3KD75w/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_G1G1k",
+      "fen": "2krr3/ppp2Qpp/3b4/8/8/2B2K1P/PP3PPq/3RR3 b - - 0 26",
+      "playerMoves": [
+        "e8f8",
+        "d8f8"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Rf8",
+        "Rxf8+"
+      ],
+      "themes": [
+        "crushing",
+        "middlegame",
+        "pin",
+        "short"
+      ],
+      "rating": 1507,
+      "hint": "A tactic involving pins, where a piece is unable to move without revealing an attack on a higher value piece.",
+      "source": "https://lichess.org/wOOzhnZ3#51",
+      "alternateWinningMoves": []
+    }
+  ]
+}

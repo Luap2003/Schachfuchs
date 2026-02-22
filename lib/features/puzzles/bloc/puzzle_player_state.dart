@@ -13,6 +13,11 @@ class PuzzlePlayerState extends Equatable {
     this.errorMessage,
     this.hintsUsed = 0,
     this.solved = false,
+    this.currentPlayerMoveIndex = 0,
+    this.puzzleStatusesById = const <String, PuzzleStatus>{},
+    this.solvedCount = 0,
+    this.attemptedCount = 0,
+    this.indexFilter = PuzzleStatusFilter.all,
     this.boardFen,
     this.positionVersion = 0,
   });
@@ -26,6 +31,11 @@ class PuzzlePlayerState extends Equatable {
   final String? errorMessage;
   final int hintsUsed;
   final bool solved;
+  final int currentPlayerMoveIndex;
+  final Map<String, PuzzleStatus> puzzleStatusesById;
+  final int solvedCount;
+  final int attemptedCount;
+  final PuzzleStatusFilter indexFilter;
   final String? boardFen;
   final int positionVersion;
 
@@ -35,6 +45,21 @@ class PuzzlePlayerState extends Equatable {
       return null;
     }
     return pack.puzzles[puzzleIndex];
+  }
+
+  PuzzleStatus get currentPuzzleStatus {
+    final puzzle = currentPuzzle;
+    if (puzzle == null) {
+      return PuzzleStatus.unplayed;
+    }
+    return puzzleStatusesById[puzzle.id] ?? PuzzleStatus.unplayed;
+  }
+
+  int get totalPuzzles => pack?.puzzles.length ?? 0;
+
+  int get openCount {
+    final open = totalPuzzles - solvedCount - attemptedCount;
+    return open < 0 ? 0 : open;
   }
 
   PuzzlePlayerState copyWith({
@@ -47,6 +72,11 @@ class PuzzlePlayerState extends Equatable {
     String? errorMessage,
     int? hintsUsed,
     bool? solved,
+    int? currentPlayerMoveIndex,
+    Map<String, PuzzleStatus>? puzzleStatusesById,
+    int? solvedCount,
+    int? attemptedCount,
+    PuzzleStatusFilter? indexFilter,
     Object? boardFen = _sentinel,
     int? positionVersion,
     bool clearError = false,
@@ -63,6 +93,12 @@ class PuzzlePlayerState extends Equatable {
       errorMessage: clearError ? null : (errorMessage ?? this.errorMessage),
       hintsUsed: hintsUsed ?? this.hintsUsed,
       solved: solved ?? this.solved,
+      currentPlayerMoveIndex:
+          currentPlayerMoveIndex ?? this.currentPlayerMoveIndex,
+      puzzleStatusesById: puzzleStatusesById ?? this.puzzleStatusesById,
+      solvedCount: solvedCount ?? this.solvedCount,
+      attemptedCount: attemptedCount ?? this.attemptedCount,
+      indexFilter: indexFilter ?? this.indexFilter,
       boardFen: boardFen == _sentinel ? this.boardFen : boardFen as String?,
       positionVersion: positionVersion ?? this.positionVersion,
     );
@@ -79,6 +115,11 @@ class PuzzlePlayerState extends Equatable {
     errorMessage,
     hintsUsed,
     solved,
+    currentPlayerMoveIndex,
+    puzzleStatusesById,
+    solvedCount,
+    attemptedCount,
+    indexFilter,
     boardFen,
     positionVersion,
   ];
