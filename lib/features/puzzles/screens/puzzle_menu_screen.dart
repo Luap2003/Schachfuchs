@@ -8,8 +8,21 @@ import 'package:schach_app/core/storage/repositories/auth_repository.dart';
 import 'package:schach_app/core/storage/repositories/progress_repository.dart';
 import 'package:schach_app/shared/widgets/app_back_button.dart';
 
-class PuzzleMenuScreen extends StatelessWidget {
+class PuzzleMenuScreen extends StatefulWidget {
   const PuzzleMenuScreen({super.key});
+
+  @override
+  State<PuzzleMenuScreen> createState() => _PuzzleMenuScreenState();
+}
+
+class _PuzzleMenuScreenState extends State<PuzzleMenuScreen> {
+  late Future<_PuzzleMenuViewData> _menuFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _menuFuture = _loadMenuViewData();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +32,7 @@ class PuzzleMenuScreen extends StatelessWidget {
         title: const Text('Puzzle Packs'),
       ),
       body: FutureBuilder<_PuzzleMenuViewData>(
-        future: _loadMenuViewData(),
+        future: _menuFuture,
         builder: (BuildContext context, AsyncSnapshot<_PuzzleMenuViewData> snapshot) {
           if (!snapshot.hasData) {
             if (snapshot.hasError) {
@@ -73,7 +86,15 @@ class PuzzleMenuScreen extends StatelessWidget {
                     ],
                   ),
                   trailing: const Icon(Icons.play_arrow),
-                  onTap: () => context.push('/puzzles/${pack.id}'),
+                  onTap: () async {
+                    await context.push('/puzzles/${pack.id}');
+                    if (!mounted) {
+                      return;
+                    }
+                    setState(() {
+                      _menuFuture = _loadMenuViewData();
+                    });
+                  },
                 ),
               );
             },
