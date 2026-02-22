@@ -44,4 +44,4 @@ flutter:
     - assets/content/lessons/
     - assets/content/lessons/pieces/
     - assets/content/puzzles/
-    - assets/content/puzzles/tactics/
+    - assets/content/puzzles/generated/

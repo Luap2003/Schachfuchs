@@ -31,14 +31,24 @@ class PuzzleMenuScreen extends StatelessWidget {
                 itemCount: packs.length,
                 itemBuilder: (BuildContext context, int index) {
                   final pack = packs[index];
+                  final title = pack.title ?? pack.id;
+                  final category = (pack.category ?? 'puzzles').replaceAll(
+                    '_',
+                    ' ',
+                  );
+                  final difficulty = pack.difficulty == null
+                      ? ''
+                      : ' · Level ${pack.difficulty}';
                   return Card(
                     margin: const EdgeInsets.symmetric(
                       horizontal: 16,
                       vertical: 8,
                     ),
                     child: ListTile(
-                      title: Text(pack.id),
-                      subtitle: Text('${pack.count ?? 0} Aufgaben'),
+                      title: Text(title),
+                      subtitle: Text(
+                        '$category$difficulty · ${pack.count ?? 0} Aufgaben',
+                      ),
                       trailing: const Icon(Icons.play_arrow),
                       onTap: () => context.push('/puzzles/${pack.id}'),
                     ),

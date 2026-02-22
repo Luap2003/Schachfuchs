@@ -95,11 +95,60 @@ class ContentLoader {
     }
 
     for (final puzzle in pack.puzzles) {
-      Setup.parseFen(puzzle.fen);
-      for (final move in puzzle.solutionMoves) {
-        if (Move.parse(move) == null) {
+      final setup = Setup.parseFen(puzzle.fen);
+      Position position = Chess.fromSetup(setup);
+      final startPosition = position;
+
+      if (puzzle.playerMoves.isEmpty) {
+        throw StateError('Puzzle ${puzzle.id} has no player moves');
+      }
+
+      if (puzzle.solutionSan.length != puzzle.playerMoves.length) {
+        throw StateError(
+          'Puzzle ${puzzle.id} has SAN length mismatch: expected ${puzzle.playerMoves.length}, found ${puzzle.solutionSan.length}',
+        );
+      }
+
+      for (var index = 0; index < puzzle.playerMoves.length; index++) {
+        final playerMove = Move.parse(puzzle.playerMoves[index]);
+        if (playerMove == null || !position.isLegal(playerMove)) {
           throw StateError(
-            'Puzzle ${puzzle.id} has invalid solution move $move',
+            'Puzzle ${puzzle.id} has illegal player move ${puzzle.playerMoves[index]} at ply $index',
+          );
+        }
+
+        final (afterPlayer, _) = position.makeSan(playerMove);
+        position = afterPlayer;
+
+        if (index < puzzle.opponentMoves.length) {
+          final opponentMove = Move.parse(puzzle.opponentMoves[index]);
+          if (opponentMove == null || !position.isLegal(opponentMove)) {
+            throw StateError(
+              'Puzzle ${puzzle.id} has illegal opponent move ${puzzle.opponentMoves[index]} at ply $index',
+            );
+          }
+          final (afterOpponent, _) = position.makeSan(opponentMove);
+          position = afterOpponent;
+        }
+      }
+
+      if (puzzle.opponentMoves.length > puzzle.playerMoves.length - 1) {
+        throw StateError(
+          'Puzzle ${puzzle.id} has too many opponent replies (${puzzle.opponentMoves.length})',
+        );
+      }
+
+      for (final move in puzzle.alternateWinningMoves) {
+        final parsed = Move.parse(move);
+        if (parsed == null || !startPosition.isLegal(parsed)) {
+          throw StateError(
+            'Puzzle ${puzzle.id} has illegal alternate winning move $move',
+          );
+        }
+        final (afterAlternate, _) = startPosition.makeSan(parsed);
+        if (!afterAlternate.isCheckmate) {
+          throw StateError(
+            'Puzzle ${puzzle.id} alternate move $move is not checkmate',
           );
         }
       }

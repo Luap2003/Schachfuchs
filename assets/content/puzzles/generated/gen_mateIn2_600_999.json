@@ -1,0 +1,5133 @@
+{
+  "packId": "gen_mateIn2_600_999",
+  "title": "Mate in 2 · Beginner",
+  "description": "Theme training: Mate in 2 (600-999).",
+  "category": "theme_training",
+  "tags": [
+    "mateIn2",
+    "600_999"
+  ],
+  "difficulty": 1,
+  "puzzles": [
+    {
+      "id": "lichess_cgozN",
+      "fen": "7k/2r5/p4pp1/4pN2/P3P1K1/6P1/Q2R4/5r1q w - - 0 42",
+      "playerMoves": [
+        "d2d8",
+        "a2g8"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Qg8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 989,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Y2Xo26Hb/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KSfmP",
+      "fen": "R1r5/3Rp1b1/1p3pk1/5np1/3P3p/P4N1P/1P3PPB/6K1 b - - 0 25",
+      "playerMoves": [
+        "c8c1",
+        "c1e1"
+      ],
+      "opponentMoves": [
+        "f3e1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 733,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Wf0StcuF#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4NwJW",
+      "fen": "8/r7/8/3p4/P2P1B2/1R1b1kPK/4pP2/4R3 b - - 2 41",
+      "playerMoves": [
+        "a7h7",
+        "h7h6"
+      ],
+      "opponentMoves": [
+        "f4h6"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 915,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/oaPEczIN#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_60dQl",
+      "fen": "r2q1rk1/5pp1/p1n1pn2/1p4p1/1P1PN3/P2Q2P1/5PP1/R3K2R w KQ - 0 17",
+      "playerMoves": [
+        "e4f6",
+        "d3h7"
+      ],
+      "opponentMoves": [
+        "d8f6"
+      ],
+      "solutionSan": [
+        "Nxf6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "clearance",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 986,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/PS3FaEkP/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aftj6",
+      "fen": "6k1/p2p3p/1pb1p1p1/8/4P3/P1qP2Q1/1r4PP/5R1K w - - 0 27",
+      "playerMoves": [
+        "g3b8",
+        "b8f8"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 995,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/XtIErtEL/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3qUz7",
+      "fen": "8/p1r4p/4k1p1/3pN1B1/R1P2K1P/8/P5b1/6r1 w - - 0 39",
+      "playerMoves": [
+        "a4a6",
+        "a6c6"
+      ],
+      "opponentMoves": [
+        "c7c6"
+      ],
+      "solutionSan": [
+        "Ra6+",
+        "Rxc6#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 916,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Z4Flmykt/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wEerY",
+      "fen": "r5k1/1bp2ppp/p1n5/1p1p2q1/3P4/2PQ4/P1B2PPP/4R1K1 w - - 0 18",
+      "playerMoves": [
+        "d3h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 945,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/c3pKCpt4/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bDL7M",
+      "fen": "r5k1/pp2b1p1/4p1P1/3bP3/3p4/q1P4Q/5P2/3RK3 w - - 2 33",
+      "playerMoves": [
+        "h3h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 867,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ATC98iBt/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_V7duF",
+      "fen": "2r5/pq3pk1/1p4p1/3R3p/4pQ2/1P2P3/PR3PPP/6K1 b - - 0 26",
+      "playerMoves": [
+        "c8c1",
+        "c1d1"
+      ],
+      "opponentMoves": [
+        "d5d1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 914,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/vj8XC6Py#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cFq9b",
+      "fen": "4r3/p3Np2/6pk/6qp/1Q6/8/PPPR1P1P/1K6 b - - 2 34",
+      "playerMoves": [
+        "g5g1",
+        "g1d1"
+      ],
+      "opponentMoves": [
+        "d2d1"
+      ],
+      "solutionSan": [
+        "Qg1+",
+        "Qxd1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 828,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/pnJ69ILU#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hq80e",
+      "fen": "8/7p/1p6/8/Pq5P/1Pp5/2P1QRbk/2K5 b - - 2 45",
+      "playerMoves": [
+        "b4a3",
+        "a3b2"
+      ],
+      "opponentMoves": [
+        "c1b1"
+      ],
+      "solutionSan": [
+        "Qa3+",
+        "Qb2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 895,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/oru8B5iW#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jy3WX",
+      "fen": "2kr1b1r/Q1P2ppp/1pb5/8/5B2/5N2/PPP1nPPP/1K1R4 b - - 0 15",
+      "playerMoves": [
+        "d8d1",
+        "d1c1"
+      ],
+      "opponentMoves": [
+        "f4c1"
+      ],
+      "solutionSan": [
+        "Rxd1+",
+        "Rxc1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 740,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/kgGva16o#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bUe4Y",
+      "fen": "4r1k1/1p3pP1/pp2bBnQ/3r3P/P3p1n1/2P5/1P4P1/5RK1 w - - 1 28",
+      "playerMoves": [
+        "h6h8",
+        "g7h8q"
+      ],
+      "opponentMoves": [
+        "g6h8"
+      ],
+      "solutionSan": [
+        "Qh8+",
+        "gxh8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "promotion",
+        "short"
+      ],
+      "rating": 913,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/zYOCDkpo/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MY8zD",
+      "fen": "3k3r/p4R2/B1b5/8/3p1Bp1/PN1P2P1/1P6/4bK2 b - - 2 34",
+      "playerMoves": [
+        "h8h1",
+        "c6f3"
+      ],
+      "opponentMoves": [
+        "f1e2"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Bf3#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 979,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/s83QL6aA#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B7gb0",
+      "fen": "4rr1k/1p2pp2/p2p2p1/3P1NQ1/1qP5/1P5P/P4PP1/6K1 w - - 0 32",
+      "playerMoves": [
+        "g5h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 970,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Gx6L30Xq/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tmgvs",
+      "fen": "r2qk2r/2pp3p/p2bpp2/1p2N1p1/1P1P3Q/2P5/P4PPP/R4RK1 w kq - 0 16",
+      "playerMoves": [
+        "h4h5",
+        "h5f7"
+      ],
+      "opponentMoves": [
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Qh5+",
+        "Qf7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 971,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/kPYnpYkm/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WyhVz",
+      "fen": "r2q2k1/pp3p1p/6pb/3p2N1/3PnQ1P/1PP5/1P4K1/RNB1r3 w - - 3 22",
+      "playerMoves": [
+        "f4f7",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 941,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/on72CSBD/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_My51f",
+      "fen": "r3r1k1/pp3p2/4n1p1/3b2N1/1P1p1Q2/P4PP1/2P3K1/8 w - - 3 34",
+      "playerMoves": [
+        "f4f7",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 910,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/scTeQ1p2/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_J6PnL",
+      "fen": "4r2r/pp4k1/4pnp1/3p2Q1/3P4/5q2/P4PR1/4R1K1 w - - 0 30",
+      "playerMoves": [
+        "g5g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 977,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/z20hcjLR/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EhjCY",
+      "fen": "2r1r1k1/pp1R1pbp/6p1/4p1q1/PP6/1Q2P3/1n3PPP/3R2K1 w - - 0 23",
+      "playerMoves": [
+        "b3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 958,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/hHe7ioMN/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ujVct",
+      "fen": "1b2rNk1/1b2n1pp/p2q4/1ppp4/3P4/1BN4P/PP1QRPP1/4R1K1 b - - 0 22",
+      "playerMoves": [
+        "d6h2",
+        "h2h1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 864,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/IAuIIXuL#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_D83l4",
+      "fen": "1r2r1k1/pR3ppp/8/2p5/1n6/5Q2/2P2PPP/4qBK1 w - - 4 24",
+      "playerMoves": [
+        "f3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 936,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/sSzoBmvs/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_STayK",
+      "fen": "8/6k1/R2P3p/4b1p1/8/N2r2PP/6PK/8 b - - 0 44",
+      "playerMoves": [
+        "e5g3",
+        "d3d1"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Bxg3+",
+        "Rd1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 899,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/LcAMLe6U#87",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CfnvY",
+      "fen": "1n1q1r1k/rb1nbpp1/6P1/p1pQ4/1p2P3/4BP2/PPP1N3/RN2KB2 w Q - 0 18",
+      "playerMoves": [
+        "d5h5",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qh5+",
+        "Qh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "opening",
+        "short"
+      ],
+      "rating": 917,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jVAQUIq6/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KBRdV",
+      "fen": "5B2/2p4k/bp1p1n2/3P1p2/2r2N1P/4PK2/6R1/8 w - - 4 37",
+      "playerMoves": [
+        "g2g7",
+        "f4g6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Ng6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 922,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/3asodNOO/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XiQ3i",
+      "fen": "6qk/pppQ3p/3p3r/6r1/8/2PB4/PP3PPP/4RRK1 b - - 9 25",
+      "playerMoves": [
+        "g5g2",
+        "g2h2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rgxh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 941,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/K5bgEKse#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_y2u6r",
+      "fen": "r2q1rk1/p1p2p2/4pP1p/3p4/Q6p/P3P3/5PPP/R4RK1 w - - 0 19",
+      "playerMoves": [
+        "a4g4",
+        "g4g7"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "kingsideAttack",
+        "master",
+        "masterVsMaster",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 909,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/cxr5C9TZ/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1mEum",
+      "fen": "8/8/R7/p1r2pkp/8/6P1/5PK1/8 w - - 2 42",
+      "playerMoves": [
+        "f2f4",
+        "a6g6"
+      ],
+      "opponentMoves": [
+        "g5g4"
+      ],
+      "solutionSan": [
+        "f4+",
+        "Rg6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 896,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/r96vYIGq/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_stXCn",
+      "fen": "6k1/1b3r1p/p3p1BQ/3pP3/P1pP4/6PR/1q3r1P/4R2K b - - 0 33",
+      "playerMoves": [
+        "f2f1",
+        "f7f1"
+      ],
+      "opponentMoves": [
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 927,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/I48lo1LT#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ubp70",
+      "fen": "r4r1k/3n4/2p4p/p2q4/3P4/8/PPQ3P1/K6R w - - 0 29",
+      "playerMoves": [
+        "h1h6",
+        "c2g6"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qg6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 890,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/1DDl5xhu/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Yacpz",
+      "fen": "8/8/2r5/3k4/3rp3/1P6/1P4Q1/1K6 b - - 1 56",
+      "playerMoves": [
+        "d4d1",
+        "c6a6"
+      ],
+      "opponentMoves": [
+        "b1a2"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Ra6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 807,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/bkZl1WUH#111",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HVfLY",
+      "fen": "8/1p1k4/p1b5/2Q2p1p/6pP/3PB1P1/P3rP2/6K1 b - - 5 34",
+      "playerMoves": [
+        "e2e1",
+        "e1h1"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Rh1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "short"
+      ],
+      "rating": 706,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/wn7F0TQ8#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7qCyK",
+      "fen": "r2qr1k1/ppn2p1p/3p2p1/2pPb1N1/P1P5/3b1Q1P/1P3PP1/R1B2RK1 w - - 0 17",
+      "playerMoves": [
+        "f3f7",
+        "f7h7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 969,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/K1u2qHOY/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qbiip",
+      "fen": "1r1r2k1/pR3pnp/2p3p1/8/2PP2P1/3B1Q1P/P2q1P2/6K1 w - - 1 26",
+      "playerMoves": [
+        "f3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 898,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/P3CcHyj0/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hVA2y",
+      "fen": "3r2k1/2Q2ppp/p3pq2/1p5r/3P3n/P1P3P1/1PB2P2/R4RK1 b - - 0 25",
+      "playerMoves": [
+        "h4f3",
+        "h5h2"
+      ],
+      "opponentMoves": [
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Rh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 941,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/cXIL4aI8#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_U1vOD",
+      "fen": "7k/pp1r2p1/2p3qp/4r3/2Q5/P1P3P1/1P5P/R4RK1 w - - 0 33",
+      "playerMoves": [
+        "f1f8",
+        "c4g8"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rf8+",
+        "Qg8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 922,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/qqnrEOtz/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xO6Nu",
+      "fen": "r5k1/pp1nrpp1/2p4p/6N1/3P3P/2nQP3/qP3PP1/2KR3R w - - 0 18",
+      "playerMoves": [
+        "d3h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 740,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/gzbW8nEn/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_skLMr",
+      "fen": "2r3k1/1R3pp1/2q1p2p/8/3P1Q2/6P1/2r2P1P/3R1K2 w - - 4 39",
+      "playerMoves": [
+        "f4f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 912,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/cAiMLfSg/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dk96O",
+      "fen": "6k1/pp3rp1/5b2/2B4Q/8/5P2/PP2R2K/2q2r2 w - - 0 28",
+      "playerMoves": [
+        "e2e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "short"
+      ],
+      "rating": 930,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Z4cl4yMU/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EitHp",
+      "fen": "8/7p/2R5/6pk/8/2P2KP1/2r5/8 w - - 2 38",
+      "playerMoves": [
+        "g3g4",
+        "c6h6"
+      ],
+      "opponentMoves": [
+        "h5h4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "Rh6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 976,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/r1LLivKg/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LooKR",
+      "fen": "r2q3r/pp3p1k/5p1p/2b1p3/3p2P1/2NP4/P1P2PP1/R1Q1K2R w KQ - 1 19",
+      "playerMoves": [
+        "c1h6",
+        "h6h8"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxh8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 969,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Az20TfpX/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LnDdt",
+      "fen": "2k5/ppp4R/8/5p2/8/2P2K2/Pr2r2P/3R4 w - - 0 24",
+      "playerMoves": [
+        "h7h8",
+        "h8e8"
+      ],
+      "opponentMoves": [
+        "e2e8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 888,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ecgq2k8L/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NJkMO",
+      "fen": "r7/ppp1k3/3p2Qp/4p3/2b1Pr1b/1NP5/PP3PP1/R2R2K1 b - - 0 19",
+      "playerMoves": [
+        "h4f2",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Bxf2+",
+        "Rh4#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 904,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/9y5pOXSq#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yrar3",
+      "fen": "r3r1k1/1pp1nppp/2n1b3/pN6/4PP2/q2BBN2/2PQ2PP/1K1R3R b - - 1 15",
+      "playerMoves": [
+        "a3a2",
+        "a2a1"
+      ],
+      "opponentMoves": [
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Qa2+",
+        "Qa1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 928,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/1QoiEZ0Z#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_n1bkW",
+      "fen": "4k3/8/q2PpQ1p/8/1P2Pp2/4nP1P/6P1/6K1 b - - 0 36",
+      "playerMoves": [
+        "a6f1",
+        "f1g2"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qf1+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 987,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/vHTxNKsg#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2j8oc",
+      "fen": "5r1k/2pR2p1/pq5p/1p2p3/8/1BP3QP/PP4P1/7K b - - 3 30",
+      "playerMoves": [
+        "f8f1",
+        "b6g1"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Qg1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 961,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2ciks3W7#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_U1D2R",
+      "fen": "6k1/3Qqppp/2B1r3/1P6/8/8/5PPP/1R4K1 b - - 4 34",
+      "playerMoves": [
+        "e6e1",
+        "e7e1"
+      ],
+      "opponentMoves": [
+        "b1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Qxe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 913,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/5QlfzBlq#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VhrlZ",
+      "fen": "r3kr2/ppp1n1pp/3qQ3/5pN1/6n1/7P/PP1PRPP1/R1B3K1 b q - 0 17",
+      "playerMoves": [
+        "d6h2",
+        "h2h1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 775,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/McfUgI0f#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_idMS6",
+      "fen": "1r3rk1/8/p5pP/1q1p4/3pn3/1P5P/P1P3Q1/2KR3R w - - 0 29",
+      "playerMoves": [
+        "g2g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 906,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/V6t0dM6K/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B7vNq",
+      "fen": "5r1k/1pp2p2/7p/4pQpN/q1PbP3/3P3P/6P1/1K5R w - - 2 32",
+      "playerMoves": [
+        "f5f6",
+        "f6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qf6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 969,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/qhnpPgQo/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nBCVb",
+      "fen": "2rqr3/pp2pp1k/1bbp1npB/8/4PN2/PQ1P3P/1P4P1/1R3R1K w - - 2 22",
+      "playerMoves": [
+        "b3f7",
+        "f7g6"
+      ],
+      "opponentMoves": [
+        "h7h6"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 902,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2ct2Gdh7/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Zlpls",
+      "fen": "8/1pr2p1k/p4P1r/2p5/8/3R4/P6P/6RK w - - 1 40",
+      "playerMoves": [
+        "g1g7",
+        "d3d8"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rd8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 991,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Tf5Va8P0/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1Jaaz",
+      "fen": "6k1/p4p1p/3p2pP/2p1P3/2PbQP2/8/4B1PK/rq6 w - - 0 36",
+      "playerMoves": [
+        "e4a8",
+        "a8b8"
+      ],
+      "opponentMoves": [
+        "b1b8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxb8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 837,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/fvyPFCkW/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aLkY8",
+      "fen": "6k1/5p1p/4p1p1/8/2Rq4/4Q3/5PPP/6K1 b - - 0 36",
+      "playerMoves": [
+        "d4d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e3e1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Qxe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 948,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/XqDoyrkc#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8otry",
+      "fen": "r4b1r/p1RR3p/1p3p2/kP2p1p1/2P5/P3P3/6PP/2K5 w - - 1 23",
+      "playerMoves": [
+        "c7a7",
+        "d7a7"
+      ],
+      "opponentMoves": [
+        "a8a7"
+      ],
+      "solutionSan": [
+        "Rxa7+",
+        "Rxa7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 744,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/bJD8dAkR/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nCs6C",
+      "fen": "2r2rk1/p2p1p1p/1pnPp1p1/q3Pn2/4N2Q/2N5/PP3PPP/2KR3R w - - 6 21",
+      "playerMoves": [
+        "e4f6",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 976,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/JxojZEJ8/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oYNTO",
+      "fen": "1r2n3/3b1k2/1q1pN1p1/3P1pPr/2B2P2/1PQ4p/7K/R1R5 b - - 4 41",
+      "playerMoves": [
+        "b6f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 938,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/OgR9D86e#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5cfxG",
+      "fen": "r1r3k1/3R1ppp/1q6/p2Qp3/4P3/2p2PP1/1P4K1/8 w - - 0 38",
+      "playerMoves": [
+        "d5f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 946,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/4mlkjTNi/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qY9KK",
+      "fen": "7k/6p1/1q3p1p/1P2p3/P3P3/3Q3P/2r2PP1/B2R2K1 b - - 0 35",
+      "playerMoves": [
+        "b6f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 736,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/E4t6588q#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8e56Y",
+      "fen": "r3r1k1/1R3pp1/p1p4p/2qp4/2n2QP1/2N4P/P1P2P2/1R4K1 w - - 4 25",
+      "playerMoves": [
+        "f4f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 950,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ewrV3PlY/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_x1LVd",
+      "fen": "1R1q4/5ppk/2rr4/P3p2p/8/8/1Q3PPP/1R4K1 b - - 5 30",
+      "playerMoves": [
+        "d6d1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "b1d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Qxd1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 910,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/wHKXcUwT#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ahNzi",
+      "fen": "1r1q1r1k/1p1bb3/1p3pB1/1Q5p/3P4/4P2P/PP3PP1/R3R1K1 w - - 0 25",
+      "playerMoves": [
+        "b5h5",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Qxh5+",
+        "Qh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 888,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/W0L8nqWX/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tu2Xa",
+      "fen": "2kr4/ppp3R1/2n5/4Np1b/8/2BPQ3/qPP2P2/2K5 b - - 0 23",
+      "playerMoves": [
+        "a2a1",
+        "a1d1"
+      ],
+      "opponentMoves": [
+        "c1d2"
+      ],
+      "solutionSan": [
+        "Qa1+",
+        "Qd1#"
+      ],
+      "themes": [
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 998,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/SGpgvp4P#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5j3ec",
+      "fen": "r4b1r/ppp1kBpp/2n5/3Q4/8/4K3/PP1P1P1P/R1B2bq1 w - - 3 14",
+      "playerMoves": [
+        "d5e6",
+        "e6e8"
+      ],
+      "opponentMoves": [
+        "e7d8"
+      ],
+      "solutionSan": [
+        "Qe6+",
+        "Qe8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 977,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/PoXHHz3A/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9pP3f",
+      "fen": "6rk/R7/5p2/3n1N1K/3P2PB/8/8/8 b - - 5 57",
+      "playerMoves": [
+        "d5f4",
+        "g8g6"
+      ],
+      "opponentMoves": [
+        "h5h6"
+      ],
+      "solutionSan": [
+        "Nf4+",
+        "Rg6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 907,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/rtfwdK7q#113",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IZckd",
+      "fen": "6rk/6pb/p1p1r3/1pPpBp1q/5P2/1PQ1P1R1/P4KP1/8 w - - 2 45",
+      "playerMoves": [
+        "e5g7",
+        "c3g7"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Bxg7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 914,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/IFVU3fTm/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Lw1pX",
+      "fen": "rn3r1k/pb2qBp1/1ppb2p1/8/3P4/2N1PQ2/PPP3PP/R4RK1 w - - 0 15",
+      "playerMoves": [
+        "f3h3",
+        "h3h4"
+      ],
+      "opponentMoves": [
+        "e7h4"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qxh4#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 775,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/wJ8ifVsB/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2VKqZ",
+      "fen": "1r3r1k/3n2p1/1qb3P1/p2p4/2pPp3/2P1P3/P2NB3/K1Q5 w - - 0 28",
+      "playerMoves": [
+        "c1h1",
+        "h1h7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Qh7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 940,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/SDf2bBZb/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HmxXb",
+      "fen": "2r3rk/1b2qp2/pp2pn1p/4P3/2P2Q2/P1b4P/1PB2PP1/2R2R1K w - - 0 29",
+      "playerMoves": [
+        "f4h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "f6h7"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 879,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ajHVWiv0/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KCZNQ",
+      "fen": "r3r1k1/2R2pb1/6pp/3p4/p2P4/3qPQ1P/5PP1/2R3K1 w - - 0 24",
+      "playerMoves": [
+        "f3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 998,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/B2HertWk/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UG6t8",
+      "fen": "6k1/3n3r/8/3q3p/1p3Qp1/2B3P1/PPr2P1P/4R1K1 w - - 0 33",
+      "playerMoves": [
+        "e1e8",
+        "f4f8"
+      ],
+      "opponentMoves": [
+        "d7f8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 867,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jmImwdq1/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Dz1DJ",
+      "fen": "8/7p/p5rk/5Q2/1ppB1P2/q6P/6PK/5R2 b - - 0 40",
+      "playerMoves": [
+        "a3g3",
+        "g3g2"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Qg3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 903,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/QVtvtjG4#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CiP6h",
+      "fen": "r7/p5Q1/1kp1Np2/1p5p/4q3/7B/P4KPP/8 w - - 0 29",
+      "playerMoves": [
+        "g7c7",
+        "e6c5"
+      ],
+      "opponentMoves": [
+        "b6a6"
+      ],
+      "solutionSan": [
+        "Qc7+",
+        "Nc5#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 950,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/QkB1jt4h/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pNHpk",
+      "fen": "r4r1k/1p1b1p2/p2p3p/7Q/3q4/3B1P2/2PK2PP/3R3R w - - 0 23",
+      "playerMoves": [
+        "h5h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 855,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/DC9DP859/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qPIk6",
+      "fen": "R7/5p2/P5k1/3N2pp/8/6PK/r7/8 b - - 0 47",
+      "playerMoves": [
+        "g5g4",
+        "a2h2"
+      ],
+      "opponentMoves": [
+        "h3h4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "Rh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 959,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/TWHgCbX3#93",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VsTSm",
+      "fen": "4r3/5kn1/p5p1/2Q2b2/2pr4/2N5/PP3PP1/2K2B1R b - - 0 25",
+      "playerMoves": [
+        "e8e1",
+        "e1d1"
+      ],
+      "opponentMoves": [
+        "c3d1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Rexd1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 915,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Z8dPcAP2#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7XZVa",
+      "fen": "KR6/1B1q2p1/1P5p/6kP/8/8/6P1/8 b - - 12 57",
+      "playerMoves": [
+        "d7a4",
+        "a4a6"
+      ],
+      "opponentMoves": [
+        "b7a6"
+      ],
+      "solutionSan": [
+        "Qa4+",
+        "Qxa6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 939,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/njdhq5pv#113",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e4dsW",
+      "fen": "6k1/p1p3p1/1qp5/7p/5Bn1/3P2P1/PPP2N2/R2Q2K1 b - - 0 20",
+      "playerMoves": [
+        "b6f2",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 968,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/xuKSGVmi#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gShkJ",
+      "fen": "6k1/p4pp1/2p1p1b1/1p1r4/3P3R/2P3Q1/5RKP/1q6 w - - 12 37",
+      "playerMoves": [
+        "g3b8",
+        "b8d8"
+      ],
+      "opponentMoves": [
+        "d5d8"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 827,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/vfnqdLbp/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eMsh9",
+      "fen": "1rqN2k1/3bQ1pp/1P2p3/P2pPp2/5P2/6PK/7P/8 w - - 4 37",
+      "playerMoves": [
+        "e7f7",
+        "f7f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qf7+",
+        "Qf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 993,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/oHhgVMJI/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iuOr9",
+      "fen": "2r2rk1/pp1qRpb1/8/6p1/8/Q1P5/PP3PPP/R1B3K1 b - - 0 20",
+      "playerMoves": [
+        "d7d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e7e1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Qxe1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 740,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/04qhnwa2#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jAkVU",
+      "fen": "5r1k/pb1R3p/3p2pN/2p5/2N5/1P1rQ3/P5PP/6K1 b - - 0 28",
+      "playerMoves": [
+        "d3d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e3e1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 800,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2RMzY4es#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0FY0C",
+      "fen": "1n1k1b1r/Rb1pp1pp/1Nq5/2P2p2/8/4P1PK/5PP1/3Q1BNR b - - 0 20",
+      "playerMoves": [
+        "c6h6",
+        "h6h5"
+      ],
+      "opponentMoves": [
+        "d1h5"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "opening",
+        "short"
+      ],
+      "rating": 954,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/z6blOesQ#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iMPGO",
+      "fen": "r4bkr/ppp1p1p1/2n3Bp/8/2P5/8/P4PRP/q1BQK3 w - - 2 15",
+      "playerMoves": [
+        "d1d5",
+        "d5e6"
+      ],
+      "opponentMoves": [
+        "e7e6"
+      ],
+      "solutionSan": [
+        "Qd5+",
+        "Qxe6#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 905,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/pbcVivIy/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kOERc",
+      "fen": "r5k1/pR3rp1/4p2p/4p2Q/3pP3/3q3P/P5P1/6K1 w - - 0 21",
+      "playerMoves": [
+        "h5f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 962,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/PNbLhqhi/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SwOrL",
+      "fen": "r4r1k/1p1b3p/p2p4/3P2Q1/4pR2/8/q5PP/5R1K w - - 2 24",
+      "playerMoves": [
+        "f4f8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "a8f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 920,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/MAzePy3w/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nZpqE",
+      "fen": "8/6kp/4Q3/2p2p1q/P2b2p1/6P1/3R2KP/8 b - - 0 31",
+      "playerMoves": [
+        "h5h3",
+        "h3f1"
+      ],
+      "opponentMoves": [
+        "g2h1"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qf1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 996,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/seZjYZAQ#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BNRFC",
+      "fen": "r5k1/ppp1qppp/2n1b3/4P3/1n3P2/3Q1NP1/PPB4P/1K5R w - - 6 21",
+      "playerMoves": [
+        "d3h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 919,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/TzCzRnpo/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wiQ5a",
+      "fen": "1rr3k1/1pq2pp1/p6p/3p1Q2/P1nP2n1/2PB4/1P4PP/R3R1K1 w - - 0 22",
+      "playerMoves": [
+        "f5h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 919,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/z8WQbbVP/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CSBhQ",
+      "fen": "r1q4r/1b2kp2/1p2p3/1pp1Pp1N/8/2P5/PP3PPP/3QK2R w K - 0 21",
+      "playerMoves": [
+        "d1d6",
+        "h5f6"
+      ],
+      "opponentMoves": [
+        "e7e8"
+      ],
+      "solutionSan": [
+        "Qd6+",
+        "Nf6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 954,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/nn9x3PuP/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nMuBd",
+      "fen": "4r1k1/p2Q1pp1/3b2bp/2pP4/8/1B3N1P/P3qPP1/4R1K1 b - - 6 32",
+      "playerMoves": [
+        "e2e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "f3e1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 621,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2MWykqY7#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qNdoe",
+      "fen": "r3r2k/pbq3bp/1p2QBp1/8/2n5/2P3N1/PP3PPP/4RRK1 w - - 7 25",
+      "playerMoves": [
+        "e6e8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "a8e8"
+      ],
+      "solutionSan": [
+        "Qxe8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 950,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/cwWsPGDL/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BjlMC",
+      "fen": "r4k2/pp3pb1/2p1b3/5pQ1/1qP5/1P6/5PBN/3R2K1 w - - 3 30",
+      "playerMoves": [
+        "d1d8",
+        "g5d8"
+      ],
+      "opponentMoves": [
+        "a8d8"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 912,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/UoThov3c/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LKaa4",
+      "fen": "7k/p4pp1/1p3q1p/3bp3/3P2QP/1P1B1P2/P5PK/8 w - - 0 30",
+      "playerMoves": [
+        "g4c8",
+        "c8d8"
+      ],
+      "opponentMoves": [
+        "f6d8"
+      ],
+      "solutionSan": [
+        "Qc8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 879,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ETlUY83M/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EZCTO",
+      "fen": "rn4k1/ppp3pp/3p4/4p1q1/4P1B1/3P4/PPn3PP/R4QK1 w - - 0 16",
+      "playerMoves": [
+        "g4e6",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Be6+",
+        "Qf8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 855,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/OQYv1P3w/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_alGt9",
+      "fen": "6k1/5pp1/2n4p/1R1p4/2pP1qn1/2P2PN1/1P2K1PP/3Q4 b - - 0 32",
+      "playerMoves": [
+        "f4e3",
+        "g4h2"
+      ],
+      "opponentMoves": [
+        "e2f1"
+      ],
+      "solutionSan": [
+        "Qe3+",
+        "Nxh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 985,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Pf14kzg7#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AmCMr",
+      "fen": "q5k1/3R1pp1/4p2p/b7/5Q2/P7/1P3PbP/2rB2K1 w - - 0 30",
+      "playerMoves": [
+        "f4f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 996,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/naXHJszg/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_M3bdV",
+      "fen": "4r1k1/6r1/p3R2Q/2p5/2Pp4/2q5/6PP/4R2K b - - 0 39",
+      "playerMoves": [
+        "c3e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "e6e1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short",
+        "xRayAttack"
+      ],
+      "rating": 789,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/k4wScV9o#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SIbYI",
+      "fen": "3r2k1/1p3ppp/pb6/8/4R3/1P2P3/P1r2PPP/3R2K1 w - - 2 25",
+      "playerMoves": [
+        "d1d8",
+        "e4e8"
+      ],
+      "opponentMoves": [
+        "b6d8"
+      ],
+      "solutionSan": [
+        "Rxd8+",
+        "Re8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 694,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/9h3y9xGl/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MXRn7",
+      "fen": "r1b3k1/1p4p1/p3Pn2/8/6qn/4P1B1/P1Q2P2/3R1RK1 w - - 1 28",
+      "playerMoves": [
+        "d1d8",
+        "d8e8"
+      ],
+      "opponentMoves": [
+        "f6e8"
+      ],
+      "solutionSan": [
+        "Rd8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 939,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/4FUNR9Rf/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VEHP7",
+      "fen": "6k1/4brp1/4p1Q1/4P1p1/1pp3q1/4P1BR/r4P2/5RK1 w - - 4 41",
+      "playerMoves": [
+        "g6h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 931,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ALzrjX5W/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L5OZh",
+      "fen": "r2r2k1/pp2qpp1/2p1b2p/2npP1N1/8/8/PPQB1PPP/R3R1K1 w - - 0 21",
+      "playerMoves": [
+        "c2h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 780,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/zKHSXjBb/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Yl9t8",
+      "fen": "2k1rB2/pp4p1/8/7p/3N4/1BP3b1/PP3RP1/4R2K b - - 0 25",
+      "playerMoves": [
+        "e8e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Rxe1+",
+        "Rxf1#"
+      ],
+      "themes": [
+        "hangingPiece",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 782,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/plzvt9IN#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6DwUI",
+      "fen": "2r3k1/1p3ppp/3Npn2/8/1P6/P7/7q/1KR5 w - - 0 30",
+      "playerMoves": [
+        "c1c8",
+        "c8e8"
+      ],
+      "opponentMoves": [
+        "f6e8"
+      ],
+      "solutionSan": [
+        "Rxc8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 843,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/7Dn9OQYD/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zumVq",
+      "fen": "6k1/5r1R/2pq2r1/pp1p2P1/3Pp3/4b3/PPP1N3/1K5R w - - 0 31",
+      "playerMoves": [
+        "h7h8",
+        "h1h7"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "R1h7#"
+      ],
+      "themes": [
+        "blindSwineMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 980,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/z3bHJ2xl/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yLpWa",
+      "fen": "1k1nr2r/pppqnppp/8/1P1pP3/Q7/2P1B3/P2NbPPP/R4RK1 w - - 0 15",
+      "playerMoves": [
+        "a4a7",
+        "a7a8"
+      ],
+      "opponentMoves": [
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Qxa7+",
+        "Qa8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 977,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/AWP8SlEq/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5ukwH",
+      "fen": "2rR3r/Qp2kp2/R3bp2/3p4/P2P4/4PNPp/1P3P1P/6K1 b - - 0 26",
+      "playerMoves": [
+        "c8c1",
+        "c1e1"
+      ],
+      "opponentMoves": [
+        "f3e1"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 794,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/l6tznOxG#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZDw5T",
+      "fen": "3N1rk1/6pp/pp6/4n3/3R2Pq/8/PPP3QP/1K2R3 b - - 0 25",
+      "playerMoves": [
+        "h4e1",
+        "e1d1"
+      ],
+      "opponentMoves": [
+        "d4d1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Qxd1#"
+      ],
+      "themes": [
+        "hangingPiece",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 803,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Lxp6CHe8#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_csYoa",
+      "fen": "1k2r2r/pbp2Rp1/1p6/8/4NQ1P/1P4P1/P3q3/6K1 w - - 0 25",
+      "playerMoves": [
+        "f4c7",
+        "c7b7"
+      ],
+      "opponentMoves": [
+        "b8a8"
+      ],
+      "solutionSan": [
+        "Qxc7+",
+        "Qxb7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 873,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/TXJwwCWx/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BPFb1",
+      "fen": "8/pb1Q1N1k/1p4p1/3p4/3P1q2/7r/PPP1BP2/R5K1 b - - 0 31",
+      "playerMoves": [
+        "f4h2",
+        "h2h1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 924,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/rCKpGoH6#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hBQ3V",
+      "fen": "3r1r1k/1p3p1p/6p1/p2p1NQ1/P5P1/1P3q1P/2P4K/8 w - - 2 37",
+      "playerMoves": [
+        "g5f6",
+        "f6g7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qf6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 912,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ueETOOgC/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_z3ciy",
+      "fen": "8/7R/6p1/4n3/R4pkP/6P1/5P1K/3r4 b - - 0 35",
+      "playerMoves": [
+        "e5f3",
+        "d1g1"
+      ],
+      "opponentMoves": [
+        "h2g2"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Rg1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 981,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/OFkk9A54#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gjWIC",
+      "fen": "2k3nr/ppp2Bpp/8/q7/1b3B2/2N2b2/PPP3PP/3R2K1 w - - 0 14",
+      "playerMoves": [
+        "f7e6",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "c8b8"
+      ],
+      "solutionSan": [
+        "Be6+",
+        "Rd8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 948,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/d6gXPN0n/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GCRVq",
+      "fen": "6k1/5ppp/p3p3/1p6/4rQ1P/3q4/PP4P1/K6R w - - 0 25",
+      "playerMoves": [
+        "f4b8",
+        "b8d8"
+      ],
+      "opponentMoves": [
+        "d3d8"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 830,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Rb3qrtc9/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lYtzm",
+      "fen": "2rq1r2/1p1b1k1p/n3pp1B/3p4/3P2Q1/5N1P/2P2PP1/b4RK1 w - - 2 24",
+      "playerMoves": [
+        "g4g7",
+        "g7f8"
+      ],
+      "opponentMoves": [
+        "f7e8"
+      ],
+      "solutionSan": [
+        "Qg7+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 920,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jtNFQxs6/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gf9Wp",
+      "fen": "4r3/1p5k/p6p/2PQRn2/2P5/8/5PPP/2q1N1K1 b - - 2 32",
+      "playerMoves": [
+        "c1e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "e5e1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short",
+        "xRayAttack"
+      ],
+      "rating": 668,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/x2i3UNaQ#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_alGvC",
+      "fen": "3rr1k1/p1p1qpp1/3bb2p/2pp4/8/2P1PP1P/PPQnN1P1/RB2R1K1 w - - 0 17",
+      "playerMoves": [
+        "c2h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 818,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ppmwU8V7/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XesSN",
+      "fen": "r1b1r3/pp3B1p/1qpB2pk/6N1/4P1nP/2Q3P1/PP3P2/R3R1K1 b - - 0 22",
+      "playerMoves": [
+        "b6f2",
+        "f2h2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 942,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ScMVx9eA#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1flJQ",
+      "fen": "k3r3/pp6/7p/8/3P4/5RQ1/P5Pq/5K2 b - - 0 39",
+      "playerMoves": [
+        "h2h1",
+        "h1e1"
+      ],
+      "opponentMoves": [
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Qe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 916,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/m4XqeVwu#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uK4e6",
+      "fen": "8/p3kppp/8/3PK3/r7/3N4/6PP/3R4 b - - 0 33",
+      "playerMoves": [
+        "f7f6",
+        "g7g6"
+      ],
+      "opponentMoves": [
+        "e5f5"
+      ],
+      "solutionSan": [
+        "f6+",
+        "g6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 987,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jdvk5dzt#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uIpav",
+      "fen": "2R4b/1p1n1p1k/1q2pPp1/3pP3/3P2r1/BN6/P4K2/5R2 w - - 2 33",
+      "playerMoves": [
+        "f1h1",
+        "h1h4"
+      ],
+      "opponentMoves": [
+        "g4h4"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 778,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/XJbzD6ii/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Rhoqf",
+      "fen": "rn6/p6k/1p5p/8/3pN3/3PnP2/PP5P/6RK w - - 0 31",
+      "playerMoves": [
+        "e4f6",
+        "g1g8"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Rg8#"
+      ],
+      "themes": [
+        "arabianMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 764,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/m40VrD84/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FbYhF",
+      "fen": "6k1/1p3ppp/p5q1/2Q1r3/6N1/1P4K1/P5PP/8 w - - 0 36",
+      "playerMoves": [
+        "c5c8",
+        "c8e8"
+      ],
+      "opponentMoves": [
+        "e5e8"
+      ],
+      "solutionSan": [
+        "Qc8+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 768,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/EIdqACYw/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ShyRh",
+      "fen": "3k4/2p5/r1BpQp1q/p2P4/4P1p1/6K1/5P2/R1B3R1 b - - 2 28",
+      "playerMoves": [
+        "h6h3",
+        "h3f3"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Qh3+",
+        "Qf3#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 903,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/m4NA1dA1#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1SwpQ",
+      "fen": "6k1/b4pp1/2Q4p/8/P4PNq/2P2R1P/3r4/4R2K b - - 0 29",
+      "playerMoves": [
+        "h4e1",
+        "e1f1"
+      ],
+      "opponentMoves": [
+        "f3f1"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Qxf1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 790,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/EwoqrvLx#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vMiwl",
+      "fen": "3b2k1/pbr2rpp/4N3/1p6/6P1/P1P5/1P3P1P/1K1R4 w - - 0 25",
+      "playerMoves": [
+        "d1d8",
+        "d8f8"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Rxd8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 918,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/MGUuv0Hx/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mP69x",
+      "fen": "3r2k1/R4pb1/6pp/6q1/8/3p2B1/7P/5QK1 w - - 0 36",
+      "playerMoves": [
+        "f1f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 782,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jwTQgFC6/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZNGzG",
+      "fen": "3r2k1/p4p1p/4qQp1/4p3/8/2r4P/5PP1/3R2K1 w - - 0 31",
+      "playerMoves": [
+        "d1d8",
+        "d8e8"
+      ],
+      "opponentMoves": [
+        "e6e8"
+      ],
+      "solutionSan": [
+        "Rxd8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 988,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/tYbE7Mwr/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iJInj",
+      "fen": "rnb2r1k/p2p3p/5N2/5n2/P1P2P2/6R1/7P/4KBR1 w - - 0 24",
+      "playerMoves": [
+        "g3g8",
+        "g1g8"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Rxg8#"
+      ],
+      "themes": [
+        "arabianMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 908,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/6nx4OOkn/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_S932M",
+      "fen": "2r3k1/3R1pp1/2q4p/1p3Q2/p1n5/P1r1P1P1/5P1P/R5K1 w - - 2 33",
+      "playerMoves": [
+        "f5f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 975,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/dj3dQmjx/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_euVkY",
+      "fen": "3r2k1/4Rpp1/5n1p/8/7q/1Q6/P4PP1/6K1 w - - 0 28",
+      "playerMoves": [
+        "b3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 956,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/DcOB2XHN/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OJ5ZW",
+      "fen": "3r2k1/2prqpp1/pp5p/3np1N1/2P5/PP4P1/5P1P/RQ2n1K1 w - - 0 24",
+      "playerMoves": [
+        "b1h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 686,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/lQuCuvwU/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6VOvl",
+      "fen": "r5k1/1R3ppp/4pq2/7Q/p3P3/6N1/P1r2PPP/3R2K1 b - - 0 29",
+      "playerMoves": [
+        "f6f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 914,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/aBcJLwRj#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fjGmg",
+      "fen": "2r5/3RQ3/p5pk/5q1p/P1p5/2P1P3/r5PP/2R3K1 b - - 1 37",
+      "playerMoves": [
+        "f5f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 954,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/9lHPlrcw#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SyWRz",
+      "fen": "r2qr1k1/pp1n1pbp/2p3p1/8/3BP3/2P2QN1/PP4PP/R4RK1 w - - 5 17",
+      "playerMoves": [
+        "f3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 904,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2SX8lPaE/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Rml1l",
+      "fen": "r2qr1k1/2p1bppp/2p5/3p4/1P1Bn3/P4Q2/2P1N1PP/4RRK1 w - - 3 19",
+      "playerMoves": [
+        "f3f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 973,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/GHbda7h3/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4X483",
+      "fen": "r6r/p1p1pp1k/1p1p2pb/3q4/2NP2P1/2P4R/PP1Q1P1K/8 w - - 0 25",
+      "playerMoves": [
+        "d2h6",
+        "h6h8"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Qxh8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 795,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/1p2Jynpv/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NA0T9",
+      "fen": "8/R7/6pk/p3rp2/6PP/P4K2/4n3/8 w - - 2 39",
+      "playerMoves": [
+        "g4g5",
+        "a7h7"
+      ],
+      "opponentMoves": [
+        "h6h5"
+      ],
+      "solutionSan": [
+        "g5+",
+        "Rh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 932,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/kXWzGkaT/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sfrgt",
+      "fen": "8/1R6/2r5/8/8/2p5/k1K5/8 w - - 4 61",
+      "playerMoves": [
+        "b7a7",
+        "a7a6"
+      ],
+      "opponentMoves": [
+        "c6a6"
+      ],
+      "solutionSan": [
+        "Ra7+",
+        "Rxa6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 981,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/CCBl0aeu/black#120",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_12ghw",
+      "fen": "6k1/p3R3/7p/5ppq/8/2Q1P3/PP3PPP/6K1 b - - 0 27",
+      "playerMoves": [
+        "h5d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "c3e1"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Qxe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 722,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/5saTKDck#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LN4EC",
+      "fen": "3RBn2/1p3Pk1/p4n2/8/2P4P/1P2r3/P5PK/8 b - - 4 41",
+      "playerMoves": [
+        "f6g4",
+        "e3e1"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Ng4+",
+        "Re1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 799,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/dHSZUMmV#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_c9MqU",
+      "fen": "5k2/p1p4P/1b1p1r2/1P1P4/2P3R1/3B1P2/6P1/7K b - - 0 45",
+      "playerMoves": [
+        "f6h6",
+        "h6h4"
+      ],
+      "opponentMoves": [
+        "g4h4"
+      ],
+      "solutionSan": [
+        "Rh6+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 802,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/mrYiEHn3#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xBGfz",
+      "fen": "8/p5pk/1p4b1/3p4/8/5rQP/P5RK/5q2 w - - 4 45",
+      "playerMoves": [
+        "g3g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 994,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/WAR3fD64/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yxKxr",
+      "fen": "k7/2p2pr1/p2b3p/P2q4/2p5/2P5/5PPP/1Q2R1K1 w - - 0 27",
+      "playerMoves": [
+        "e1e8",
+        "b1b8"
+      ],
+      "opponentMoves": [
+        "a8a7"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qb8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 911,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Eoa6XXoJ/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PxooF",
+      "fen": "r2k3r/p1p1q3/1p2P1Q1/3pR3/8/2P3Pp/PP1N2bP/R5K1 b - - 0 25",
+      "playerMoves": [
+        "e7c5",
+        "c5e3"
+      ],
+      "opponentMoves": [
+        "e5e3"
+      ],
+      "solutionSan": [
+        "Qc5+",
+        "Qxe3#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 858,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/WgsugidX#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_In3vh",
+      "fen": "r4rk1/pp3ppp/8/2bpB3/6b1/1P2P3/P4PPP/R3KB1R b KQ - 0 13",
+      "playerMoves": [
+        "c5b4",
+        "b4c3"
+      ],
+      "opponentMoves": [
+        "e5c3"
+      ],
+      "solutionSan": [
+        "Bb4+",
+        "Bxc3#"
+      ],
+      "themes": [
+        "bodenMate",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 820,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/kcWv1wTy#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_a2FwK",
+      "fen": "6k1/pp3rpp/q7/8/6rP/1P6/1KR2R2/8 w - - 0 36",
+      "playerMoves": [
+        "c2c8",
+        "f2f8"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Rc8+",
+        "Rfxf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 772,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/zRyQgmrl/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rf9Fl",
+      "fen": "6k1/p1Q2pp1/7p/8/8/P6P/1r2qPP1/2R3K1 b - - 0 25",
+      "playerMoves": [
+        "e2f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 922,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/uyvyO2yR#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BLcyQ",
+      "fen": "r2q1rk1/pbp2p2/1bp2P1p/8/8/1N1p2B1/PPP3PP/R2QK2R w KQ - 0 15",
+      "playerMoves": [
+        "d1g4",
+        "g4g7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 993,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/SXmaGQIa/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cSr2g",
+      "fen": "2b2Q2/5B1p/1kpP2p1/pp2R1q1/8/8/PP3PPP/6K1 b - - 0 25",
+      "playerMoves": [
+        "g5c1",
+        "c1e1"
+      ],
+      "opponentMoves": [
+        "e5e1"
+      ],
+      "solutionSan": [
+        "Qc1+",
+        "Qxe1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 953,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/0PB7PU1I#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kdepG",
+      "fen": "4r2k/1p2r1p1/p2q1p1p/3N4/2PB2Q1/7P/P4PP1/3R2K1 b - - 4 28",
+      "playerMoves": [
+        "e7e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Re1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 925,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ERfqp7Wk#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UsXvd",
+      "fen": "7k/pp2Rrpp/3p4/4b3/2B4P/8/Pr6/6K1 w - - 0 36",
+      "playerMoves": [
+        "e7e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 916,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/1leb7cEg/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_p8b8N",
+      "fen": "8/1b4k1/p4n2/1p4Np/3p4/1P1B2P1/P1Q2PPK/4r3 b - - 9 39",
+      "playerMoves": [
+        "f6g4",
+        "e1h1"
+      ],
+      "opponentMoves": [
+        "h2h3"
+      ],
+      "solutionSan": [
+        "Ng4+",
+        "Rh1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 966,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/mAfJlIpb#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sxUMM",
+      "fen": "1k1rr3/2pq1ppp/Q2b2b1/3P1n2/1n6/5P2/PP2NBPP/R3RNK1 w - - 1 19",
+      "playerMoves": [
+        "a6a7",
+        "a7a8"
+      ],
+      "opponentMoves": [
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Qa7+",
+        "Qa8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 989,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/I9AfTOZ6/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HEseD",
+      "fen": "8/p5pp/r1r3k1/5R2/P3P3/1B2K3/5P2/8 w - - 16 51",
+      "playerMoves": [
+        "b3f7",
+        "f5h5"
+      ],
+      "opponentMoves": [
+        "g6h6"
+      ],
+      "solutionSan": [
+        "Bf7+",
+        "Rh5#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "short"
+      ],
+      "rating": 999,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/8Cp2zL8x/black#100",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rWyTK",
+      "fen": "r1bqk3/pp3pp1/2p5/3pPB2/3P2n1/4P3/PPPNQ1P1/R1B2R1K b q - 0 16",
+      "playerMoves": [
+        "d8h4",
+        "h4h2"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qh4+",
+        "Qh2#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 908,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/fGPuFxMX#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LsSST",
+      "fen": "2k5/pbp2p1p/3p4/1P5N/P1P2p2/7P/1r6/4RK2 w - - 0 33",
+      "playerMoves": [
+        "e1e8",
+        "h5f6"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Nf6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 731,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/QlGADGXT/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3KCGT",
+      "fen": "5rk1/pp1RQ3/q1p3p1/4pBP1/1P2Pn2/P1N5/6P1/7K b - - 0 31",
+      "playerMoves": [
+        "a6f1",
+        "f1g2"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qf1+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 890,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/BraEsdjd#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KRWGY",
+      "fen": "2r4k/p5p1/6bp/Q7/1P2N3/P2rRP2/6PP/3R3K b - - 0 33",
+      "playerMoves": [
+        "d3d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "e3e1"
+      ],
+      "solutionSan": [
+        "Rxd1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "backRankMate",
+        "hangingPiece",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 639,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/w57p4Jgu#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i9nBP",
+      "fen": "8/4b1k1/4p3/p3Nppp/1pR2P2/1B5K/PP3P1P/6r1 b - - 0 35",
+      "playerMoves": [
+        "g5g4",
+        "h5g4"
+      ],
+      "opponentMoves": [
+        "e5g4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "hxg4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 997,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/rzEPK8Px#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xWr0X",
+      "fen": "8/8/7P/6P1/8/1R3Pk1/r7/6K1 b - - 0 58",
+      "playerMoves": [
+        "a2a1",
+        "a1b1"
+      ],
+      "opponentMoves": [
+        "b3b1"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Rxb1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 963,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/d4JEiVt1#115",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fHcOG",
+      "fen": "r1bqk2r/1p2np1p/p4bp1/2p5/3pN3/P2P4/1PPQBPPP/1R2K2R w Kkq - 0 15",
+      "playerMoves": [
+        "e4f6",
+        "d2h6"
+      ],
+      "opponentMoves": [
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Nxf6+",
+        "Qh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 992,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/16B1TvdT/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hHv7r",
+      "fen": "6k1/p4ppp/1p2p3/7P/4B3/P1P2PQ1/1P4PK/3r1q2 w - - 2 35",
+      "playerMoves": [
+        "g3b8",
+        "b8d8"
+      ],
+      "opponentMoves": [
+        "d1d8"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Qxd8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 837,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/PaWmWcYL/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6iVFf",
+      "fen": "r3kb1r/pp2pppp/8/3pP3/4n1Q1/1PPB4/Pq4PP/RN1K3R w kq - 0 13",
+      "playerMoves": [
+        "d3b5",
+        "g4d7"
+      ],
+      "opponentMoves": [
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Qd7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 977,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/0ABL1PnY/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aDXEH",
+      "fen": "1k6/3R2p1/pNp5/P1p2P2/6PK/1P4P1/2P5/4q3 b - - 0 45",
+      "playerMoves": [
+        "e1h1",
+        "h1h6"
+      ],
+      "opponentMoves": [
+        "h4g5"
+      ],
+      "solutionSan": [
+        "Qh1+",
+        "Qh6#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 934,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/P1OvE7Pj#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WEaop",
+      "fen": "2QR4/pp3p1k/4p1p1/4P3/5q2/1P6/PKP4r/8 w - - 0 31",
+      "playerMoves": [
+        "d8h8",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "h7g7"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qf8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short",
+        "triangleMate"
+      ],
+      "rating": 996,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/raAxVwqc/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_oIDgC",
+      "fen": "r4k2/1bq1b2B/p3p3/1ppnp3/P6p/2P4P/1PQN1P1B/6RK w - - 2 27",
+      "playerMoves": [
+        "g1g8",
+        "c2g6"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Rg8+",
+        "Qg6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short",
+        "triangleMate"
+      ],
+      "rating": 972,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/bBFk3f2q/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HYPYA",
+      "fen": "8/2r5/3k2p1/1R4Pn/6N1/4N3/KP1n3P/8 b - - 4 38",
+      "playerMoves": [
+        "c7a7",
+        "a7a5"
+      ],
+      "opponentMoves": [
+        "b5a5"
+      ],
+      "solutionSan": [
+        "Ra7+",
+        "Rxa5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 815,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/6zmSLCtl#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kGJMA",
+      "fen": "1q4k1/p4p1p/1nB3p1/3P4/2p1Qb2/2B4r/PP3K2/4R3 w - - 0 31",
+      "playerMoves": [
+        "e4e8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "b8e8"
+      ],
+      "solutionSan": [
+        "Qe8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 852,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/jTkDbxP9/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_X6rAu",
+      "fen": "2rqrk2/pp3p2/1n2pPp1/3p2Q1/3P4/6n1/PP3PPP/R3R1K1 w - - 0 22",
+      "playerMoves": [
+        "g5h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 945,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/tv5bu4ne/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sbzCh",
+      "fen": "6k1/pp3ppp/8/1P1p4/P2P4/B5PP/2Q4K/4rq2 w - - 1 34",
+      "playerMoves": [
+        "c2c8",
+        "c8e8"
+      ],
+      "opponentMoves": [
+        "e1e8"
+      ],
+      "solutionSan": [
+        "Qc8+",
+        "Qxe8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 800,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/9BOOgP4l/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MM9DS",
+      "fen": "r6k/Br4pp/3R4/8/K7/8/PP3PPP/R7 b - - 0 26",
+      "playerMoves": [
+        "a8a7",
+        "a7a6"
+      ],
+      "opponentMoves": [
+        "d6a6"
+      ],
+      "solutionSan": [
+        "Raxa7+",
+        "Rxa6#"
+      ],
+      "themes": [
+        "endgame",
+        "hangingPiece",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 989,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/fx2luuUL#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ca6kU",
+      "fen": "rnbq2k1/ppppb1p1/4prB1/7Q/3P4/4P3/PPP2PP1/RN2K1N1 w Q - 1 11",
+      "playerMoves": [
+        "h5h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "opening",
+        "short"
+      ],
+      "rating": 903,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/h6h8tnub/black#20",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wdEAA",
+      "fen": "6k1/p3r1p1/r1p3R1/q1p5/1p2N2P/3P3R/PPPQ1P2/1K6 b - - 3 30",
+      "playerMoves": [
+        "a5a2",
+        "a2a1"
+      ],
+      "opponentMoves": [
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Qxa2+",
+        "Qa1#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 753,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/uc9E1hSD#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IFvks",
+      "fen": "1r4k1/p1p1qp2/2p1p2R/2np4/3P4/3QP1P1/Pr1N1PP1/2K5 w - - 0 20",
+      "playerMoves": [
+        "d3h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 771,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/U2uNaSi6/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BfV04",
+      "fen": "2kr3r/1ppq4/2n3p1/4bp2/2Pp1P2/Q5P1/1B3PB1/3R2K1 w - - 0 28",
+      "playerMoves": [
+        "a3a8",
+        "a8b7"
+      ],
+      "opponentMoves": [
+        "c6b8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxb7#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 998,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/7Qzkjtjw/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_07fRV",
+      "fen": "8/6k1/3p1p2/p2B1Kn1/1p1PP1P1/1P6/P3R3/2r5 b - - 0 39",
+      "playerMoves": [
+        "c1f1",
+        "f1f2"
+      ],
+      "opponentMoves": [
+        "e2f2"
+      ],
+      "solutionSan": [
+        "Rf1+",
+        "Rxf2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 752,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/51D2bhp0#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k96fD",
+      "fen": "r6k/1p3pr1/4pNp1/4P1Qp/p2q2P1/7P/5P1K/8 w - - 2 34",
+      "playerMoves": [
+        "g5h6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "g7h7"
+      ],
+      "solutionSan": [
+        "Qh6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 836,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/sUdYhNDP/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jaIyL",
+      "fen": "1br1k2r/1Pqnn1pp/4p3/3p1p2/3P4/P1NBP2P/3BQPP1/R1R3K1 b k - 0 18",
+      "playerMoves": [
+        "c7h2",
+        "h2h1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qh2+",
+        "Qh1#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 753,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/aA5tawKI#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_re15g",
+      "fen": "6k1/p1q2ppp/4p3/2p5/1bPB4/5QP1/P4P1P/6K1 w - - 0 25",
+      "playerMoves": [
+        "f3a8",
+        "a8b8"
+      ],
+      "opponentMoves": [
+        "c7b8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Qxb8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 963,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ypyliF9s/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5PI51",
+      "fen": "6k1/5p2/p5p1/3PQb1p/2P2q2/4R2P/3r1PP1/2R3K1 b - - 4 35",
+      "playerMoves": [
+        "f4f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 960,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/RNrrJ93p#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Lu7rW",
+      "fen": "8/p3R3/1p4pk/8/4R1PP/2q5/2p3K1/8 w - - 2 36",
+      "playerMoves": [
+        "g4g5",
+        "e7h7"
+      ],
+      "opponentMoves": [
+        "h6h5"
+      ],
+      "solutionSan": [
+        "g5+",
+        "Rh7#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "queenRookEndgame",
+        "short"
+      ],
+      "rating": 996,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/R6pxJU3E/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jhpRh",
+      "fen": "2b5/4k2r/r2R1pQ1/4pP2/2p1P3/1P6/1P4PP/7K b - - 0 38",
+      "playerMoves": [
+        "a6a1",
+        "a1d1"
+      ],
+      "opponentMoves": [
+        "d6d1"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Rxd1#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 923,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/16lUj1RX#75",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Mheda",
+      "fen": "r2qr1k1/b1p4p/p1nppp1B/1p2p3/1P2P2N/P2P3P/2P2PP1/R2Q1RK1 w - - 0 17",
+      "playerMoves": [
+        "d1g4",
+        "g4g7"
+      ],
+      "opponentMoves": [
+        "g8f7"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Qg7#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 969,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/eUxSHTaD/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pbrWT",
+      "fen": "r3r1k1/pp2qppp/4bb2/8/1P6/P3P3/R1Q2PPP/1B1R2K1 w - - 4 21",
+      "playerMoves": [
+        "c2h7",
+        "h7h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 789,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/KNSdz4j3/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_x4F9v",
+      "fen": "r1bqr3/pp2Npbk/4pPp1/2p5/4P3/3P1R2/PP4PP/1RB3K1 w - - 0 18",
+      "playerMoves": [
+        "f3h3",
+        "h3h6"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rh3+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "short"
+      ],
+      "rating": 913,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/2aGTHQ0o/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_imI0a",
+      "fen": "r7/6p1/7p/5p2/5P2/6Pk/p4K2/R7 w - - 2 52",
+      "playerMoves": [
+        "a1h1",
+        "h1h4"
+      ],
+      "opponentMoves": [
+        "h3g4"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Rh4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 833,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/PB2EKsC2/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tRwyf",
+      "fen": "r1b1R3/ppp3bk/7p/3P2p1/8/1B4pP/PP3PP1/6K1 w - - 2 23",
+      "playerMoves": [
+        "b3c2",
+        "c2f5"
+      ],
+      "opponentMoves": [
+        "c8f5"
+      ],
+      "solutionSan": [
+        "Bc2+",
+        "Bxf5#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 975,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/fR2Qz3Ov/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jFDSM",
+      "fen": "5k2/6pQ/p1n1p1B1/q2pP3/2pP4/b1P3N1/r4rP1/4R1K1 w - - 2 31",
+      "playerMoves": [
+        "h7h8",
+        "h8e8"
+      ],
+      "opponentMoves": [
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Qh8+",
+        "Qe8#"
+      ],
+      "themes": [
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 990,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/EBjdisAg/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kFpL3",
+      "fen": "Q7/pp1kpp1p/1q1P2pP/8/1P2n3/8/P1PB2P1/4K2R b K - 0 23",
+      "playerMoves": [
+        "b6f2",
+        "f2d2"
+      ],
+      "opponentMoves": [
+        "e1d1"
+      ],
+      "solutionSan": [
+        "Qf2+",
+        "Qxd2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 930,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/iThbPK3V#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9jyUV",
+      "fen": "5qk1/p1p3pp/2p1R3/3n4/3P4/8/Pr3PPP/R2Q2K1 b - - 0 20",
+      "playerMoves": [
+        "f8f2",
+        "f2g2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 919,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/JtZ8ZIYx#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2o8Fy",
+      "fen": "6rk/3Q1R1p/p7/1p6/8/4q1P1/PP4PK/8 b - - 1 29",
+      "playerMoves": [
+        "e3g3",
+        "g3g2"
+      ],
+      "opponentMoves": [
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Qxg3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 961,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/HhZ1vDW5#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UhBfI",
+      "fen": "r3k2r/p2n1ppp/2pb4/1p2N1q1/3Pb3/PQ2P2P/1P3PP1/R1B2RK1 w kq - 2 18",
+      "playerMoves": [
+        "b3f7",
+        "f7d7"
+      ],
+      "opponentMoves": [
+        "e8d8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qxd7#"
+      ],
+      "themes": [
+        "attackingF2F7",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 956,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/ga7EZJeo/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yuCJY",
+      "fen": "6k1/5p1p/4pQp1/3pP3/Rpq5/6P1/5PKP/4r3 w - - 2 41",
+      "playerMoves": [
+        "a4a8",
+        "a8c8"
+      ],
+      "opponentMoves": [
+        "c4c8"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Rxc8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 947,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/YCso6tMN/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MKhiQ",
+      "fen": "5k2/R7/2p2PKp/4p3/5p1P/5P2/2P3p1/1r6 w - - 0 37",
+      "playerMoves": [
+        "a7a8",
+        "a8b8"
+      ],
+      "opponentMoves": [
+        "b1b8"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Rxb8#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 793,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/wGi3MYFq/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_S5hnh",
+      "fen": "8/6kp/2P2R2/6PR/7K/3r3P/8/6r1 b - - 8 49",
+      "playerMoves": [
+        "d3d4",
+        "d4f4"
+      ],
+      "opponentMoves": [
+        "f6f4"
+      ],
+      "solutionSan": [
+        "Rd4+",
+        "Rxf4#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 916,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Q9v4xvpz#97",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KzpmU",
+      "fen": "1r1rk3/pN4Q1/8/4P3/8/8/P1p2PPP/2R3K1 b - - 0 30",
+      "playerMoves": [
+        "d8d1",
+        "c2d1q"
+      ],
+      "opponentMoves": [
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Rd1+",
+        "cxd1=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "backRankMate",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "promotion",
+        "short"
+      ],
+      "rating": 982,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/l00JtnTT#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mrohP",
+      "fen": "8/8/p1p1kp1b/4p2P/2p1P1P1/2P2PK1/PP1r4/1R1R4 b - - 9 45",
+      "playerMoves": [
+        "h6f4",
+        "d2h2"
+      ],
+      "opponentMoves": [
+        "g3h4"
+      ],
+      "solutionSan": [
+        "Bf4+",
+        "Rh2#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 999,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/Jf6QZeSB#89",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4jzjJ",
+      "fen": "2k1r3/ppp4p/3b4/1P4p1/6N1/7P/1r3PP1/4R1K1 w - - 0 30",
+      "playerMoves": [
+        "e1e8",
+        "g4f6"
+      ],
+      "opponentMoves": [
+        "c8d7"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Nf6#"
+      ],
+      "themes": [
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 886,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/LcqTZDwW/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yRAAA",
+      "fen": "r2q4/1Q3p1k/3p1Pp1/3P1NPp/4P3/3n4/2p5/1R4K1 w - - 0 41",
+      "playerMoves": [
+        "b7f7",
+        "f7g7"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 903,
+      "hint": "Deliver checkmate in two moves.",
+      "source": "https://lichess.org/kLxvorLk/black#80",
+      "alternateWinningMoves": []
+    }
+  ]
+}

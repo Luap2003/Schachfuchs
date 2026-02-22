@@ -1,0 +1,5518 @@
+{
+  "packId": "gen_discoveredAttack_1400_1799",
+  "title": "Discovered attack · Advanced",
+  "description": "Theme training: Discovered attack (1400-1799).",
+  "category": "theme_training",
+  "tags": [
+    "discoveredAttack",
+    "1400_1799"
+  ],
+  "difficulty": 3,
+  "puzzles": [
+    {
+      "id": "lichess_fOuvQ",
+      "fen": "5r1k/1Rpq2p1/1p1b3p/3Q4/4N3/1P1P1p2/1PP2PPP/5RK1 b - - 3 23",
+      "playerMoves": [
+        "d6h2",
+        "d7d5"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Bxh2+",
+        "Qxd5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1601,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/hXMHdYbP#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vz1mn",
+      "fen": "4rr1k/p4p2/1pp3p1/3p2PN/3P4/2Pp4/PP6/1K5R w - - 0 34",
+      "playerMoves": [
+        "h5f6",
+        "h1h7"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Rh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "hookMate",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1415,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/P7DqN1mK/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lIprX",
+      "fen": "r2k1b1r/ppp3pp/2n5/8/4RBb1/2P2N2/PPP2PPP/R2K4 w - - 1 13",
+      "playerMoves": [
+        "f4g5",
+        "e4g4"
+      ],
+      "opponentMoves": [
+        "d8d7"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Rxg4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1402,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/3gupNwHN/black#24",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_25etE",
+      "fen": "r1b4k/pp1p2pB/4pq2/2P4Q/1P6/P7/3K4/6b1 w - - 5 29",
+      "playerMoves": [
+        "h7g6",
+        "h5h7",
+        "h7h8",
+        "h8e8"
+      ],
+      "opponentMoves": [
+        "h8g8",
+        "g8f8",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Bg6+",
+        "Qh7+",
+        "Qh8+",
+        "Qe8#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1514,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FRoaYSN2/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ph8Sk",
+      "fen": "b4rk1/5p2/5QPq/2pPP2p/8/7P/6BK/8 w - - 1 33",
+      "playerMoves": [
+        "g6f7",
+        "f6h6"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "gxf7+",
+        "Qxh6"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1482,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/zwkBjL6A/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ONKVu",
+      "fen": "r7/5p1p/2RP1kp1/p4p2/8/4P2P/P4KP1/8 w - - 1 31",
+      "playerMoves": [
+        "d6d7",
+        "c6c8",
+        "c8a8"
+      ],
+      "opponentMoves": [
+        "f6e7",
+        "e7d7"
+      ],
+      "solutionSan": [
+        "d7+",
+        "Rc8",
+        "Rxa8"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1478,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/X1TJjfUP/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zZXxv",
+      "fen": "4rr1k/p6p/1p6/4bpP1/P1P4q/5Q1P/1PP3B1/4RRK1 b - - 1 25",
+      "playerMoves": [
+        "e5d4",
+        "e8e1",
+        "h4e1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Bd4+",
+        "Rxe1",
+        "Qxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1606,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pqjxZ9E7#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FblQV",
+      "fen": "6rk/pp1n2p1/4Q1Rp/3p4/7P/P1qB4/2P2r2/3K2R1 w - - 0 26",
+      "playerMoves": [
+        "g6h6",
+        "g1g8"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Rxg8#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 1445,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Q047SGfK/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e6SLD",
+      "fen": "4r1k1/2p1npp1/Q2b2qp/P7/3P4/2P1B2P/R2N1PP1/6K1 b - - 0 24",
+      "playerMoves": [
+        "d6h2",
+        "g6a6"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Bh2+",
+        "Qxa6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1442,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FeBfYu3W#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YLNfg",
+      "fen": "4r1k1/1p6/p2q1n1Q/5p2/1PPp4/P2P1B1P/1B1K1P2/2R5 b - - 1 31",
+      "playerMoves": [
+        "f6e4",
+        "d6h6"
+      ],
+      "opponentMoves": [
+        "d3e4"
+      ],
+      "solutionSan": [
+        "Ne4+",
+        "Qxh6+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/6Onr6GyR#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BDEKR",
+      "fen": "2R2bk1/pp3p1p/3P1Bp1/8/8/5BP1/P3bPKP/4r3 b - - 4 33",
+      "playerMoves": [
+        "e2f1",
+        "f1h3"
+      ],
+      "opponentMoves": [
+        "g2h1"
+      ],
+      "solutionSan": [
+        "Bf1+",
+        "Bh3#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 1526,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Ttkd2evU#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZuMp7",
+      "fen": "3r4/8/1p2kpp1/p3p3/2rPR3/4K3/PP1R1P1P/8 w - - 2 39",
+      "playerMoves": [
+        "d4d5",
+        "e4c4"
+      ],
+      "opponentMoves": [
+        "d8d5"
+      ],
+      "solutionSan": [
+        "d5+",
+        "Rxc4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1446,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/OXRp3oyA/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9BDTK",
+      "fen": "r2q2rk/pb3p1p/1p1ppp2/n6Q/3P1B2/P2BP3/2P2PPP/R4RK1 b - - 5 17",
+      "playerMoves": [
+        "g8g2",
+        "g2g5",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f2f3"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rg5+",
+        "Rxh5"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1513,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/UQB4OKcl#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Y4RHE",
+      "fen": "8/8/1p5p/1P1Bp1p1/2Pb4/pk5P/6P1/1K6 w - - 2 43",
+      "playerMoves": [
+        "c4c5",
+        "c5c6",
+        "c6c7"
+      ],
+      "opponentMoves": [
+        "b3b4",
+        "b4c5"
+      ],
+      "solutionSan": [
+        "c5+",
+        "c6",
+        "c7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "bishopEndgame",
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1401,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/7uRXLaeI/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mIiwT",
+      "fen": "q1r5/5pk1/1pbp2pp/4p3/P3n3/1P3N2/2B1QPPP/2R3K1 w - - 0 31",
+      "playerMoves": [
+        "c2e4",
+        "c1c8",
+        "e2e4"
+      ],
+      "opponentMoves": [
+        "c6e4",
+        "a8c8"
+      ],
+      "solutionSan": [
+        "Bxe4",
+        "Rxc8",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1433,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/6X0wA5Oz/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gFZph",
+      "fen": "3R1rk1/p1q2ppp/1p2pn2/4N3/2P2B2/4b1P1/PP3PKP/5R2 w - - 0 20",
+      "playerMoves": [
+        "d8f8",
+        "e5g6",
+        "f4c7"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Ng6+",
+        "Bxc7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1404,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/sycPFJoT/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1RqDA",
+      "fen": "2kq3r/r1p1n1Q1/p1NbP3/1p6/4p3/2P5/PP3PPP/R1BR2K1 b - - 0 21",
+      "playerMoves": [
+        "d6h2",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Bxh2+",
+        "Qxd1#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1543,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ElgpGcxT#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_E0V9d",
+      "fen": "5r1k/ppq3pp/4Qp2/8/1PP3Br/P7/RB3PPb/5R1K b - - 2 23",
+      "playerMoves": [
+        "h2g1",
+        "c7h2"
+      ],
+      "opponentMoves": [
+        "g4h3"
+      ],
+      "solutionSan": [
+        "Bg1+",
+        "Qh2#"
+      ],
+      "themes": [
+        "clearance",
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1513,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/d0xbF5Ib#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bE9wG",
+      "fen": "8/8/rpK5/2p3R1/2R5/rP4Pk/P6P/8 b - - 0 37",
+      "playerMoves": [
+        "b6b5",
+        "b5c4"
+      ],
+      "opponentMoves": [
+        "c6c5"
+      ],
+      "solutionSan": [
+        "b5+",
+        "bxc4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "master",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1572,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/BTIWaNsT#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1HgZj",
+      "fen": "r1bq4/pp3rpk/2p1p2B/2bnP2Q/8/8/PPP2PPP/R4RK1 w - - 0 17",
+      "playerMoves": [
+        "h6g5",
+        "g5d8"
+      ],
+      "opponentMoves": [
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Bxd8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1489,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/cPGBvFIK/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WBEgX",
+      "fen": "8/pp6/5k2/3B1bpp/5r1P/P4PK1/1r4P1/3R3R w - - 0 33",
+      "playerMoves": [
+        "h4g5",
+        "h1h5",
+        "g3f4"
+      ],
+      "opponentMoves": [
+        "f6g5",
+        "g5h5"
+      ],
+      "solutionSan": [
+        "hxg5+",
+        "Rxh5+",
+        "Kxf4"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1420,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/yFVEU0Pr/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uLttW",
+      "fen": "2b3r1/3p2pk/2pN1P1p/p3P3/P1p4q/1r4R1/6P1/4Q1K1 w - - 0 39",
+      "playerMoves": [
+        "g3g7",
+        "e1h4"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qxh4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1638,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/f20uqyyT/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BVpr1",
+      "fen": "5k2/2p4p/3pQP2/4n1p1/8/2P5/P3q1PP/5RK1 b - - 0 31",
+      "playerMoves": [
+        "e5f3",
+        "e2e6"
+      ],
+      "opponentMoves": [
+        "f1f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qxe6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "short"
+      ],
+      "rating": 1468,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Uay6p4MY#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GwjEf",
+      "fen": "rn2k2r/1p2bppp/p3pn2/4NbB1/3q4/2NB4/PP3PPP/R2QK2R w KQkq - 0 11",
+      "playerMoves": [
+        "d3b5",
+        "d1d4"
+      ],
+      "opponentMoves": [
+        "a6b5"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Qxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "opening",
+        "short"
+      ],
+      "rating": 1429,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/44V837h6/black#20",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rqTOT",
+      "fen": "5rk1/5p2/p4Q2/1p1p4/5p2/P1n1PP2/1q4PP/R3R1K1 b - - 0 32",
+      "playerMoves": [
+        "c3e2",
+        "b2f6"
+      ],
+      "opponentMoves": [
+        "e1e2"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Qxf6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1577,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/M9YTtYAL#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_m2ayo",
+      "fen": "r4rk1/p1p2p2/Qb1q1p1B/3Bp3/8/8/P4PPP/R4RK1 b - - 0 21",
+      "playerMoves": [
+        "b6f2",
+        "d6a6"
+      ],
+      "opponentMoves": [
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Bxf2+",
+        "Qxa6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1484,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/aoe4mxXF#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8kVmo",
+      "fen": "r1q2rk1/pppb1pbp/3p1np1/3P4/2PQP3/2N3PP/PP3PBK/R1B2R2 b - - 2 13",
+      "playerMoves": [
+        "f6g4",
+        "g7d4"
+      ],
+      "opponentMoves": [
+        "h3g4"
+      ],
+      "solutionSan": [
+        "Ng4+",
+        "Bxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1502,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/qwwyduZf#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FKBHj",
+      "fen": "2rr2k1/6p1/pQqBpp1p/2Pp4/P2P4/2R1PN2/5PPP/6K1 b - - 0 30",
+      "playerMoves": [
+        "c6b6",
+        "c8c3"
+      ],
+      "opponentMoves": [
+        "c5b6"
+      ],
+      "solutionSan": [
+        "Qxb6",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1462,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FwPeAaRP#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7wHUf",
+      "fen": "4B3/8/1R6/2n2pk1/8/r5P1/5K2/8 w - - 3 44",
+      "playerMoves": [
+        "b6g6",
+        "g6a6",
+        "a6a3"
+      ],
+      "opponentMoves": [
+        "g5h5",
+        "h5g4"
+      ],
+      "solutionSan": [
+        "Rg6+",
+        "Ra6+",
+        "Rxa3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1400,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/V3mAIbhp/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6xd0U",
+      "fen": "q1r3k1/p4ppp/1p1bp3/2np4/1P6/P1N1PN2/2QK2PP/R4R2 b - - 0 20",
+      "playerMoves": [
+        "c5e4",
+        "c8c2",
+        "d5e4"
+      ],
+      "opponentMoves": [
+        "c3e4",
+        "d2c2"
+      ],
+      "solutionSan": [
+        "Ne4+",
+        "Rxc2+",
+        "dxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1404,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/apfwwFl8#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gD1Ed",
+      "fen": "3r4/1p3p1k/2p3p1/p1P1Q3/3N1n1P/1P3Pq1/P2R2B1/6K1 b - - 0 35",
+      "playerMoves": [
+        "f4h3",
+        "g3e5"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Nh3+",
+        "Qxe5"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1633,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/kXGNP9yb#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MtHYN",
+      "fen": "1r5k/1P5p/pRn5/q7/2P1Bp2/5P2/6P1/3R1K2 w - - 0 44",
+      "playerMoves": [
+        "b6c6",
+        "c6c8",
+        "e4b7"
+      ],
+      "opponentMoves": [
+        "b8b7",
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rxc6",
+        "Rc8+",
+        "Bxb7"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1510,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/QfQvQFAa/black#86",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IQOBt",
+      "fen": "3r1r2/5ppk/p6p/2q2P1Q/2N1P3/1P6/P1P4P/2K3R1 w - - 1 29",
+      "playerMoves": [
+        "g1g7",
+        "f5f6",
+        "h5c5"
+      ],
+      "opponentMoves": [
+        "h7g7",
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "f6+",
+        "Qxc5"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1666,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/f6TLEVkF/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aK9pz",
+      "fen": "4r1k1/1p3rp1/4b2p/p2Bn2P/8/B1P3P1/PP6/2KRR3 b - - 1 26",
+      "playerMoves": [
+        "e6d5",
+        "e5d3",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "d1d5",
+        "d5d3"
+      ],
+      "solutionSan": [
+        "Bxd5",
+        "Nd3+",
+        "Rxe1+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "master",
+        "middlegame",
+        "queensideAttack"
+      ],
+      "rating": 1406,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/UboMHaoW#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5TWrT",
+      "fen": "r3r1k1/1p3pp1/p6p/2pp4/P6q/3P2Rb/BPP1n1PK/R1B1Q3 w - - 0 20",
+      "playerMoves": [
+        "g3g7",
+        "e1h4"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qxh4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1574,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/5vshztGX/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ajB1i",
+      "fen": "2kr1b1N/ppp2p1p/2n3p1/4P2b/2P5/P2P4/1P4PP/R1B2RK1 b - - 0 15",
+      "playerMoves": [
+        "f8c5",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Bc5+",
+        "Rxh8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1425,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/UYj7LMzn#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iaQVj",
+      "fen": "5rk1/1r3p1p/1p2q3/p2R2p1/P1pP4/2P1B3/5PBP/2R3K1 w - - 1 25",
+      "playerMoves": [
+        "d5g5",
+        "g2b7"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Bxb7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1415,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/TR8uzJXh/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GqerG",
+      "fen": "r1b2r1k/ppp4B/2n1pq1Q/3p4/3P4/2P2NP1/P1P2PK1/R7 w - - 1 19",
+      "playerMoves": [
+        "h7g6",
+        "h6h7"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Bg6+",
+        "Qh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1452,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/aP9pm7KO/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_POrvA",
+      "fen": "6k1/4n1p1/3p1p2/3PpP1p/1p2P2P/5QP1/2r1N1RN/2qbK3 w - - 6 37",
+      "playerMoves": [
+        "e2c1",
+        "g2c2"
+      ],
+      "opponentMoves": [
+        "d1f3"
+      ],
+      "solutionSan": [
+        "Nxc1",
+        "Rxc2"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1428,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/KrgMs9Mc/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Cz62L",
+      "fen": "r3k2r/1p1nbppp/pq2p1n1/1N1pP3/3P4/2P2N1P/5PP1/1RBQR1K1 w kq - 0 16",
+      "playerMoves": [
+        "b5d6",
+        "b1b6"
+      ],
+      "opponentMoves": [
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Nd6+",
+        "Rxb6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1467,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ImhI6v1t/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_W7qf3",
+      "fen": "4k3/8/1p3BR1/p1p3P1/2P1r2P/2Pb4/P7/6K1 b - - 0 36",
+      "playerMoves": [
+        "e4g4",
+        "d3g6"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Rg4+",
+        "Bxg6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1482,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/34O71fVE#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rMXWl",
+      "fen": "r1r5/8/3p1k1p/4pPp1/3pP1P1/p5K1/RpqB1R2/1Q6 w - - 3 39",
+      "playerMoves": [
+        "d2g5",
+        "f2c2",
+        "b1c2"
+      ],
+      "opponentMoves": [
+        "h6g5",
+        "c8c2"
+      ],
+      "solutionSan": [
+        "Bxg5+",
+        "Rxc2",
+        "Qxc2"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1521,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/WiBJSGvB/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KFU8n",
+      "fen": "2kr1b1r/pp3p2/n1p1P3/3p1Q2/3P4/2P3B1/P5PN/qN4K1 w - - 1 21",
+      "playerMoves": [
+        "e6e7",
+        "e7e8q"
+      ],
+      "opponentMoves": [
+        "d8d7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "e8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "deflection",
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "promotion",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 1538,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/GAmvgKcv/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rD6Km",
+      "fen": "8/2r3pk/p5Rp/P3Nq2/1P1P1Q2/3bKP2/6PP/8 b - - 2 35",
+      "playerMoves": [
+        "f5f4",
+        "d3g6"
+      ],
+      "opponentMoves": [
+        "e3f4"
+      ],
+      "solutionSan": [
+        "Qxf4+",
+        "Bxg6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1408,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Ma1dIOvr#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3auaH",
+      "fen": "2kr3r/ppp3pp/8/3Ppp2/1q1nB3/2R5/PP1Q1PPP/4K2R w K - 0 17",
+      "playerMoves": [
+        "c3c7",
+        "d2b4"
+      ],
+      "opponentMoves": [
+        "c8c7"
+      ],
+      "solutionSan": [
+        "Rxc7+",
+        "Qxb4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "queensideAttack",
+        "short"
+      ],
+      "rating": 1427,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/yiVCIt95/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BBB9X",
+      "fen": "2kr3r/pppq2p1/4R3/3p4/3P2Q1/2PP4/P6P/5RK1 w - - 1 22",
+      "playerMoves": [
+        "f1f7",
+        "e6e7",
+        "e7f7"
+      ],
+      "opponentMoves": [
+        "d7f7",
+        "c8b8"
+      ],
+      "solutionSan": [
+        "Rf7",
+        "Re7+",
+        "Rxf7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1613,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/K7KooOvu/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SrBem",
+      "fen": "5rk1/1pp2ppp/1p4q1/4P3/5Pb1/2P1R3/PP3P1P/R3Q1K1 b - - 0 20",
+      "playerMoves": [
+        "g4f3",
+        "g6g2"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Bf3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1717,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/9s5iZqhm#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UaDyb",
+      "fen": "6kn/2p1q1p1/p6p/1p1Pp2P/4P3/1Q4P1/5r2/1K1R1B2 w - - 0 31",
+      "playerMoves": [
+        "d5d6",
+        "b3f7",
+        "d6d7"
+      ],
+      "opponentMoves": [
+        "e7f7",
+        "f2f7"
+      ],
+      "solutionSan": [
+        "d6+",
+        "Qxf7+",
+        "d7"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1473,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Hrcw3BOf/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_H1ylZ",
+      "fen": "5r2/5p2/3p2p1/7p/1NP1Pk2/1r3PRK/7P/8 w - - 0 37",
+      "playerMoves": [
+        "b4d5",
+        "f3f4",
+        "g3b3"
+      ],
+      "opponentMoves": [
+        "f4e5",
+        "e5e4"
+      ],
+      "solutionSan": [
+        "Nd5+",
+        "f4+",
+        "Rxb3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1766,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/SwAz981H/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aaKCr",
+      "fen": "r7/qp1n1Rbk/p2N2pp/P1p5/4P3/1Q1P4/1PP3PP/R5K1 b - - 2 26",
+      "playerMoves": [
+        "c5c4",
+        "d7b6"
+      ],
+      "opponentMoves": [
+        "b3b6"
+      ],
+      "solutionSan": [
+        "c4+",
+        "Nxb6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1419,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mJCE8l9F#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uL4i4",
+      "fen": "r5k1/1p1b1pp1/1P1qpn1p/r2pn3/3P4/2RBP3/NQ3PPP/R5K1 w - - 0 27",
+      "playerMoves": [
+        "d4e5",
+        "c3c8",
+        "b2e5"
+      ],
+      "opponentMoves": [
+        "d6e5",
+        "d7c8"
+      ],
+      "solutionSan": [
+        "dxe5",
+        "Rc8+",
+        "Qxe5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1575,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/EXNrFAap/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kCQQo",
+      "fen": "r1b2rk1/pp2bq1p/2n1p1pB/2ppPp2/6P1/2PBPN1Q/PP3P1P/R3K2R b KQ - 3 14",
+      "playerMoves": [
+        "f5g4",
+        "f7f3",
+        "f8f3"
+      ],
+      "opponentMoves": [
+        "h3g4",
+        "g4f3"
+      ],
+      "solutionSan": [
+        "fxg4",
+        "Qxf3",
+        "Rxf3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1477,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/OU2hkM5W#27",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qcW36",
+      "fen": "RQbq1k2/6pp/3n3b/2pB4/1p4pP/8/1Pr2P2/4R1K1 w - - 1 29",
+      "playerMoves": [
+        "b8d6",
+        "a8c8",
+        "c8d8"
+      ],
+      "opponentMoves": [
+        "d8d6",
+        "d6d8"
+      ],
+      "solutionSan": [
+        "Qxd6+",
+        "Rxc8+",
+        "Rxd8#"
+      ],
+      "themes": [
+        "deflection",
+        "discoveredAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1479,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/C9oeLMvR/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tOPpv",
+      "fen": "8/1p4pk/p7/3Q1Pb1/4pBq1/P3PbP1/1P3K2/5B2 b - - 2 35",
+      "playerMoves": [
+        "g5f4",
+        "e4e3",
+        "f3d5"
+      ],
+      "opponentMoves": [
+        "e3f4",
+        "f2e3"
+      ],
+      "solutionSan": [
+        "Bxf4",
+        "e3+",
+        "Bxd5"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1608,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/1wVb0bkp#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Be51D",
+      "fen": "r1b2rk1/ppq2ppp/3bp3/8/3nN3/8/PPQ2PP1/RBB1RK2 w - - 0 17",
+      "playerMoves": [
+        "e4f6",
+        "c2h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "opening",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1606,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/LbXDHKJ3/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4QjO2",
+      "fen": "4r1k1/5p2/1p1B2p1/p2Pb2p/3n4/1P5P/P4PP1/3BR1K1 b - - 3 28",
+      "playerMoves": [
+        "e5h2",
+        "e8e1",
+        "h2d6"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Bh2+",
+        "Rxe1+",
+        "Bxd6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long",
+        "master"
+      ],
+      "rating": 1431,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/XUnMH9w6#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lGVWX",
+      "fen": "r4r1k/1b3ppp/pq2pb1N/1p5Q/1P6/P2BP3/5PPP/R4RK1 w - - 0 20",
+      "playerMoves": [
+        "h6f7",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Nxf7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1428,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/nfCK3npB/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UCKPJ",
+      "fen": "2r2rk1/p5b1/1p2p3/4P1Rp/2b5/P7/1PqBQPPP/4R1K1 w - - 3 31",
+      "playerMoves": [
+        "g5g7",
+        "d2h6",
+        "e2c2"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Bh6+",
+        "Qxc2"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "master",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1553,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/UUKPUeZa/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2VpEF",
+      "fen": "8/7p/b4kp1/P1R2p2/8/4P1P1/4r2P/4RK2 b - - 2 39",
+      "playerMoves": [
+        "e2c2",
+        "c2c5"
+      ],
+      "opponentMoves": [
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxc5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "short"
+      ],
+      "rating": 1408,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/CW3rBXRq#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_V72me",
+      "fen": "2kb4/pb4p1/1p6/3qN2p/1P1QnP2/P7/1BP3PP/R4R1K b - - 0 23",
+      "playerMoves": [
+        "e4g3",
+        "d5g2"
+      ],
+      "opponentMoves": [
+        "h2g3"
+      ],
+      "solutionSan": [
+        "Ng3+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1578,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/yEM9hJqL#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UHtuc",
+      "fen": "8/7k/8/5Rpr/7P/6K1/8/8 b - - 0 50",
+      "playerMoves": [
+        "g5h4",
+        "h5f5",
+        "h4h3",
+        "h3h2"
+      ],
+      "opponentMoves": [
+        "g3f4",
+        "f4f5",
+        "f5e4"
+      ],
+      "solutionSan": [
+        "gxh4+",
+        "Rxf5+",
+        "h3",
+        "h2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "rookEndgame",
+        "veryLong"
+      ],
+      "rating": 1411,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/m9mspjkz#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uKw1p",
+      "fen": "r3k2r/pp1bb1pp/4pn2/6B1/N2q4/3B4/P4PPP/1R1Q1K1R w kq - 0 15",
+      "playerMoves": [
+        "d3g6",
+        "d1d4"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Bg6+",
+        "Qxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1460,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Dm7QKaZ9/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OOv3h",
+      "fen": "8/8/8/8/pp6/8/k1K4R/n7 w - - 4 68",
+      "playerMoves": [
+        "c2c1",
+        "c1b1",
+        "b1a1"
+      ],
+      "opponentMoves": [
+        "a2a3",
+        "b4b3"
+      ],
+      "solutionSan": [
+        "Kc1+",
+        "Kb1",
+        "Kxa1"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1585,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/d2PaUT92/black#134",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FzxD0",
+      "fen": "6rr/pb4k1/2p1p1nb/1p1pPp1R/3P3N/P1NBP3/1PP2KP1/7R b - - 2 26",
+      "playerMoves": [
+        "h6e3",
+        "h8h5",
+        "h5f5",
+        "e6f5"
+      ],
+      "opponentMoves": [
+        "f2e3",
+        "h4f5",
+        "d3f5"
+      ],
+      "solutionSan": [
+        "Bxe3+",
+        "Rxh5",
+        "Rxf5",
+        "exf5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1555,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/7ukn0RQS#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ngvyy",
+      "fen": "1k6/p1p5/7Q/3p2p1/8/5KNP/PP1q4/8 b - - 0 46",
+      "playerMoves": [
+        "g5g4",
+        "d2h6"
+      ],
+      "opponentMoves": [
+        "h3g4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "Qxh6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1629,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/hjYRfSAL#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ijiYx",
+      "fen": "2kr4/6QR/p1qBp3/3bP3/3P1P1P/8/P3p1PK/1r6 w - - 0 36",
+      "playerMoves": [
+        "g7c7",
+        "h7c7",
+        "c7c1",
+        "c1b1"
+      ],
+      "opponentMoves": [
+        "c6c7",
+        "c8b8",
+        "b8a7"
+      ],
+      "solutionSan": [
+        "Qc7+",
+        "Rxc7+",
+        "Rc1+",
+        "Rxb1"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "exposedKing",
+        "middlegame",
+        "queensideAttack",
+        "veryLong"
+      ],
+      "rating": 1642,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/s5UWECMI/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L1gG5",
+      "fen": "1b1r3k/1p1r1qpp/pP6/P1P5/3B4/1Q1RP1P1/5P2/6K1 w - - 1 34",
+      "playerMoves": [
+        "b3f7",
+        "d4g7",
+        "d3d8"
+      ],
+      "opponentMoves": [
+        "d7f7",
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Qxf7",
+        "Bxg7+",
+        "Rxd8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1418,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pvffpYCH/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KAQ5Q",
+      "fen": "R3b1r1/7k/p3p2p/3p4/1P1P4/4B3/1P3P1P/5K2 b - - 0 39",
+      "playerMoves": [
+        "e8b5",
+        "g8a8"
+      ],
+      "opponentMoves": [
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Rxa8"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1448,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/BmZ52y9A#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3H5Q8",
+      "fen": "3R4/ppk5/2p4p/4bp2/6r1/1P2PQ2/P1P1K1P1/3R3q b - - 4 29",
+      "playerMoves": [
+        "g4g2",
+        "g2d2",
+        "h1f3"
+      ],
+      "opponentMoves": [
+        "e2d3",
+        "d3d2"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rd2+",
+        "Qxf3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1604,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/SKmqWEwm#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cl21n",
+      "fen": "1rb1k2r/3p1pnp/1q2p3/p1R2n2/1P1Q4/P3P1P1/5PBP/5RK1 w k - 2 20",
+      "playerMoves": [
+        "c5c8",
+        "d4b6",
+        "c8h8"
+      ],
+      "opponentMoves": [
+        "e8e7",
+        "b8b6"
+      ],
+      "solutionSan": [
+        "Rxc8+",
+        "Qxb6",
+        "Rxh8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1469,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/v8UPCr6Y/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xJl4Q",
+      "fen": "5rk1/4q1n1/p6Q/1p4p1/3pP3/3P2BP/P1P3P1/R5K1 b - - 0 27",
+      "playerMoves": [
+        "f8f6",
+        "f6f1",
+        "e7g5"
+      ],
+      "opponentMoves": [
+        "h6g5",
+        "a1f1"
+      ],
+      "solutionSan": [
+        "Rf6",
+        "Rf1+",
+        "Qxg5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1520,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/zZce8TD9#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LY03K",
+      "fen": "r4rk1/pq2nppp/2p1p3/4n3/4N3/3Q4/PP3PPP/1BRR2K1 w - - 2 22",
+      "playerMoves": [
+        "e4f6",
+        "d3h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1668,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/3zRGdS69/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZWSX2",
+      "fen": "r4rk1/ppBn1ppp/6q1/3P4/2P5/2NQn2b/PP2BRPP/R6K b - - 4 17",
+      "playerMoves": [
+        "h3g2",
+        "g2e4",
+        "e4d3"
+      ],
+      "opponentMoves": [
+        "h1g1",
+        "c7g3"
+      ],
+      "solutionSan": [
+        "Bxg2+",
+        "Be4+",
+        "Bxd3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1438,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ntBjRgzS#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cqAbM",
+      "fen": "r4rk1/5ppp/p1p1b3/1p2P3/8/P1qB1QP1/2P4P/4RR1K w - - 1 22",
+      "playerMoves": [
+        "d3h7",
+        "f3c3"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Bxh7+",
+        "Qxc3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1521,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/8yNVdq2Z/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q9yFh",
+      "fen": "r7/3kBQ1p/pq2r1p1/1pnb4/5P2/1P4N1/6PP/1BR1R2K b - - 0 29",
+      "playerMoves": [
+        "e6e1",
+        "d5f7"
+      ],
+      "opponentMoves": [
+        "c1e1"
+      ],
+      "solutionSan": [
+        "Rxe1+",
+        "Bxf7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1597,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/i1lpRFgm#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fEcDH",
+      "fen": "6rk/5p1N/2q5/1pp1n3/3p3Q/3P4/2P4P/5RK1 w - - 3 35",
+      "playerMoves": [
+        "h7g5",
+        "h4h7",
+        "f1f7",
+        "h7f7"
+      ],
+      "opponentMoves": [
+        "h8g7",
+        "g7f8",
+        "e5f7"
+      ],
+      "solutionSan": [
+        "Ng5+",
+        "Qh7+",
+        "Rxf7+",
+        "Qxf7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "exposedKing",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1462,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pWB7GMkv/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_u7pdH",
+      "fen": "4b1k1/1p5p/3Q4/2pPn3/2P2q2/PP6/1B2B1PP/6K1 b - - 0 30",
+      "playerMoves": [
+        "e5f3",
+        "f4d6"
+      ],
+      "opponentMoves": [
+        "e2f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Qxd6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1429,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/wF5mMbPx#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_d6GJu",
+      "fen": "8/8/R4N2/6p1/P4bP1/5k2/r7/3K4 b - - 1 50",
+      "playerMoves": [
+        "a2d2",
+        "d2d6",
+        "d6a6"
+      ],
+      "opponentMoves": [
+        "d1c1",
+        "c1c2"
+      ],
+      "solutionSan": [
+        "Rd2+",
+        "Rd6+",
+        "Rxa6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1679,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/YHhMMlvE#99",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cbAyZ",
+      "fen": "5rk1/pb6/1p2p1p1/3pP2p/2pP2qP/2P2rP1/PPB1QPK1/R4R2 b - - 2 25",
+      "playerMoves": [
+        "f3g3",
+        "g4e2"
+      ],
+      "opponentMoves": [
+        "f2g3"
+      ],
+      "solutionSan": [
+        "Rxg3+",
+        "Qxe2+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1553,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Lw0T0KsQ#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OkhW5",
+      "fen": "7k/6pp/p1R5/PpP2p2/1P6/2P2BP1/4bPKP/4r3 b - - 4 33",
+      "playerMoves": [
+        "e2f1",
+        "f1h3"
+      ],
+      "opponentMoves": [
+        "g2h1"
+      ],
+      "solutionSan": [
+        "Bf1+",
+        "Bh3#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "short"
+      ],
+      "rating": 1504,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ovG23frb#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Yhbo9",
+      "fen": "5rk1/pp2R2p/3Q1P2/3p1qp1/8/8/PP3PKP/8 w - - 2 31",
+      "playerMoves": [
+        "e7g7",
+        "d6f8"
+      ],
+      "opponentMoves": [
+        "g8h8"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Qxf8#"
+      ],
+      "themes": [
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/dOqrSM5k/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zamnh",
+      "fen": "2Bqr1k1/pp3pbp/2p2np1/4n3/8/2P2NP1/PP3P1P/R1BQR1K1 b - - 0 15",
+      "playerMoves": [
+        "e5f3",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "d1f3"
+      ],
+      "solutionSan": [
+        "Nxf3+",
+        "Rxe1+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1628,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FA4iBsZA#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2NyQs",
+      "fen": "1Q6/8/p1k1B3/2qp4/P1br4/8/6P1/2R1R1K1 b - - 0 43",
+      "playerMoves": [
+        "d4h4",
+        "c5e3"
+      ],
+      "opponentMoves": [
+        "e1e3"
+      ],
+      "solutionSan": [
+        "Rh4+",
+        "Qxe3#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/dzBIPp0c#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KIgMq",
+      "fen": "2k5/p4p2/7p/5P2/P5P1/2PK1prP/1P6/7R b - - 1 35",
+      "playerMoves": [
+        "f3f2",
+        "g3g1",
+        "g1h1"
+      ],
+      "opponentMoves": [
+        "d3e2",
+        "e2f2"
+      ],
+      "solutionSan": [
+        "f2+",
+        "Rg1",
+        "Rxh1"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1418,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/hxBqYZtc#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7zoql",
+      "fen": "8/5Nkp/3q1npb/8/2B4P/1p3b2/1Pp3P1/2Q4K w - - 2 39",
+      "playerMoves": [
+        "c1h6",
+        "f7d6"
+      ],
+      "opponentMoves": [
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Nxd6+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1521,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/o6W29c9W/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8i0t3",
+      "fen": "3r2k1/p4q2/3p3p/2p2QP1/7B/8/P5PP/6K1 w - - 1 28",
+      "playerMoves": [
+        "f5f7",
+        "g5g6",
+        "h4d8"
+      ],
+      "opponentMoves": [
+        "g8f7",
+        "f7g6"
+      ],
+      "solutionSan": [
+        "Qxf7+",
+        "g6+",
+        "Bxd8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1608,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/3xNy1Rvb/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MoHmF",
+      "fen": "5k2/p4p2/Q3p2p/3p2b1/2r5/6B1/P1q2PP1/R4K1R b - - 3 26",
+      "playerMoves": [
+        "c2d3",
+        "c4c1",
+        "d3a6"
+      ],
+      "opponentMoves": [
+        "f1g1",
+        "a1c1"
+      ],
+      "solutionSan": [
+        "Qd3+",
+        "Rc1+",
+        "Qxa6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1509,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/XPj5mPdV#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WrY2X",
+      "fen": "8/1p1b4/p3r2p/P2RBKp1/1P1P4/3k1P1P/6P1/8 b - - 0 47",
+      "playerMoves": [
+        "e6d6"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Rd6#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "mate",
+        "mateIn1",
+        "morphysMate",
+        "oneMove"
+      ],
+      "rating": 1436,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mzF2WIkP#93",
+      "alternateWinningMoves": [
+        "e6d6"
+      ]
+    },
+    {
+      "id": "lichess_7mXry",
+      "fen": "2nr1rk1/5pp1/p1Nq3p/1p1PR3/1P1Q4/P2P3P/5PP1/R5K1 b - - 6 34",
+      "playerMoves": [
+        "d6c6",
+        "d8d4"
+      ],
+      "opponentMoves": [
+        "d5c6"
+      ],
+      "solutionSan": [
+        "Qxc6",
+        "Rxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1543,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ZvYwVJgM#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rvZ6D",
+      "fen": "5rk1/ppqb1p2/3p1Qp1/2pPr3/P1P1PRp1/2PB3P/8/5RK1 w - - 0 23",
+      "playerMoves": [
+        "f6g6",
+        "f4f8",
+        "f1f7",
+        "f8h8",
+        "h3h4"
+      ],
+      "opponentMoves": [
+        "f7g6",
+        "g8h7",
+        "h7h6",
+        "h6g5"
+      ],
+      "solutionSan": [
+        "Qxg6+",
+        "Rxf8+",
+        "R1f7+",
+        "Rh8+",
+        "h4#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn5",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1711,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/EecxLac2/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KKOKO",
+      "fen": "r3r1k1/3q1ppp/p2b1n2/8/3Q4/P1N4P/1P3PP1/R2RB1K1 b - - 0 20",
+      "playerMoves": [
+        "e8e1",
+        "d6h2",
+        "d7d4"
+      ],
+      "opponentMoves": [
+        "d1e1",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Rxe1+",
+        "Bh2+",
+        "Qxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1454,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/3Sk21E81#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lKqfA",
+      "fen": "8/4k1p1/2p1p3/1p1p3p/3P2Nn/2P2PqP/3Q2P1/7K w - - 0 41",
+      "playerMoves": [
+        "d2g5",
+        "g4f6",
+        "g5g3"
+      ],
+      "opponentMoves": [
+        "e7e8",
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Qg5+",
+        "Nf6+",
+        "Qxg3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1578,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/tXWkKPU6/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Exyiw",
+      "fen": "3r4/3r3k/1n2p3/ppq1Pp1p/2pR1Pp1/2P3P1/PP3Q1P/2BR3K w - - 2 41",
+      "playerMoves": [
+        "d4d7",
+        "f2c5",
+        "h1g2"
+      ],
+      "opponentMoves": [
+        "d8d7",
+        "d7d1"
+      ],
+      "solutionSan": [
+        "Rxd7+",
+        "Qxc5",
+        "Kg2"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1437,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/dWZCe7Oz/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8ZGzX",
+      "fen": "q3r3/pp1Rbppk/2nB3p/8/8/8/PPP1QPPP/2K1R3 b - - 5 18",
+      "playerMoves": [
+        "e7g5",
+        "e8e2"
+      ],
+      "opponentMoves": [
+        "f2f4"
+      ],
+      "solutionSan": [
+        "Bg5+",
+        "Rxe2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1473,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ahJGlvDY#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_enP5r",
+      "fen": "6k1/pp4r1/2b1p2Q/8/2PR3P/4Pr2/P5P1/6K1 b - - 0 31",
+      "playerMoves": [
+        "g7g2",
+        "f3f6",
+        "f6h6"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "g2h3"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rf6+",
+        "Rxh6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long",
+        "master",
+        "sacrifice"
+      ],
+      "rating": 1556,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/2eHTy8FZ#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R97KX",
+      "fen": "r4rk1/pp3p1p/2Bp2p1/3N4/3bPP1q/7b/PPP3P1/R1BQ1R1K b - - 0 15",
+      "playerMoves": [
+        "h3g4"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Bg4#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove"
+      ],
+      "rating": 1526,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/PZOCcUlU#29",
+      "alternateWinningMoves": [
+        "h3c8",
+        "h3d7",
+        "h3e6",
+        "h3f5",
+        "h3g4"
+      ]
+    },
+    {
+      "id": "lichess_ruTDi",
+      "fen": "r6r/pp1n1kp1/2p1pn1p/4b1B1/3R4/1BN5/PP2Q1P1/5R1K b - - 0 16",
+      "playerMoves": [
+        "h6g5",
+        "e5d4"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "hxg5+",
+        "Bxd4+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "hangingPiece",
+        "intermezzo",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1623,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/uOG6ed3D#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k22ud",
+      "fen": "8/1p1b1rb1/3p3k/1P1Pp2p/4Pp1q/r4P1P/5N2/2R1QBRK w - - 3 35",
+      "playerMoves": [
+        "f2g4",
+        "e1h4"
+      ],
+      "opponentMoves": [
+        "d7g4"
+      ],
+      "solutionSan": [
+        "Ng4+",
+        "Qxh4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1406,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/qL2BTCH1/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ISYhO",
+      "fen": "r4k2/1pp4R/3p1q2/p2Ppb2/5R2/6Q1/PPP5/3K2N1 b - - 0 26",
+      "playerMoves": [
+        "e5f4",
+        "f5c2",
+        "f6f4"
+      ],
+      "opponentMoves": [
+        "g3f4",
+        "d1c2"
+      ],
+      "solutionSan": [
+        "exf4",
+        "Bxc2+",
+        "Qxf4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1563,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/JZrAn4PC#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xX1qD",
+      "fen": "4r1k1/pp1nrpbp/3qn1p1/3p1PP1/2pP4/P1P1BQNP/1P6/1B1RR1K1 b - - 0 22",
+      "playerMoves": [
+        "e6g5",
+        "e7e1"
+      ],
+      "opponentMoves": [
+        "e3g5"
+      ],
+      "solutionSan": [
+        "Nxg5",
+        "Rxe1+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1402,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/WUHW0M2B#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2Uxtg",
+      "fen": "2rq1rk1/1p2b1pp/p2nb3/4Pp2/P1p2B2/2Pp4/BP1Q1PPP/1R2R1K1 w - - 0 21",
+      "playerMoves": [
+        "e5d6",
+        "e1e6",
+        "d2f4"
+      ],
+      "opponentMoves": [
+        "e7d6",
+        "d6f4"
+      ],
+      "solutionSan": [
+        "exd6",
+        "Rxe6",
+        "Qxf4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1441,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/xkQwBOFp/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_q0C5f",
+      "fen": "3r4/1p3pk1/2p1q1p1/p2n1p2/Pb1P4/1Q2PBP1/NP3PK1/7R b - - 4 30",
+      "playerMoves": [
+        "d5f4",
+        "e6b3"
+      ],
+      "opponentMoves": [
+        "g3f4"
+      ],
+      "solutionSan": [
+        "Nf4+",
+        "Qxb3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1770,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/IKyxiAkp#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_07XXn",
+      "fen": "8/2p4p/2p1Q1pk/p7/3PN3/1KP1n1P1/PP6/6q1 b - - 0 27",
+      "playerMoves": [
+        "g1d1",
+        "e3c2",
+        "c2d4"
+      ],
+      "opponentMoves": [
+        "b3a3",
+        "a3a4"
+      ],
+      "solutionSan": [
+        "Qd1+",
+        "Nc2+",
+        "Nxd4+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1530,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/5OsQXTiD#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fQ1bI",
+      "fen": "r1b1r1k1/2q1bppp/p1p2B2/3p4/5P2/2NB4/PPP1Q1PP/4RRK1 b - - 0 15",
+      "playerMoves": [
+        "e7c5",
+        "e8e2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Bc5+",
+        "Rxe2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1592,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/V9fFbs2A#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yrXwc",
+      "fen": "1r3rk1/2pn1ppp/8/8/Qb1q4/2N2BP1/PP2PP1P/3RK2R b K - 1 17",
+      "playerMoves": [
+        "b4c3",
+        "d4a4"
+      ],
+      "opponentMoves": [
+        "b2c3"
+      ],
+      "solutionSan": [
+        "Bxc3+",
+        "Qxa4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1462,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/uH9Ubama#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R9KdV",
+      "fen": "2k3r1/pp3Q2/2p1p2p/6q1/8/1NP3bP/PP2B1P1/5RK1 b - - 0 25",
+      "playerMoves": [
+        "g3h2",
+        "g5g2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Bh2+",
+        "Qxg2#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1626,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/WosMuWTM#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_h5Aop",
+      "fen": "6k1/8/6p1/3rp1R1/8/5KP1/7P/8 b - - 1 46",
+      "playerMoves": [
+        "e5e4",
+        "d5g5",
+        "e4e3"
+      ],
+      "opponentMoves": [
+        "f3f4",
+        "f4g5"
+      ],
+      "solutionSan": [
+        "e4+",
+        "Rxg5",
+        "e3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long",
+        "rookEndgame"
+      ],
+      "rating": 1411,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/4oDYMA0e#91",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BsWit",
+      "fen": "Q1bq2k1/p1p2ppp/8/3p4/8/8/PPP3PP/RNB1rRK1 b - - 2 16",
+      "playerMoves": [
+        "e1f1",
+        "c8a6",
+        "d8a8"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Ba6+",
+        "Qxa8"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1404,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/K2fem1V1#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vZfNv",
+      "fen": "7Q/p3k3/b3pn2/PpNpq3/1P1r4/8/3N1P1P/1R1K4 b - - 4 29",
+      "playerMoves": [
+        "d4d2",
+        "f6e4",
+        "e5h8"
+      ],
+      "opponentMoves": [
+        "d1d2",
+        "c5e4"
+      ],
+      "solutionSan": [
+        "Rxd2+",
+        "Ne4+",
+        "Qxh8"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "discoveredAttack",
+        "exposedKing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1577,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/d9GOuz15#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kxlUr",
+      "fen": "2r1k3/3b1p2/p3pb1r/1p1NqP1p/3Q4/5B2/PPP3PP/1K1R4 w - - 0 21",
+      "playerMoves": [
+        "d5f6",
+        "d4d7"
+      ],
+      "opponentMoves": [
+        "e5f6"
+      ],
+      "solutionSan": [
+        "Nxf6+",
+        "Qxd7+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1499,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/0kZgVpWZ/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_f7CyQ",
+      "fen": "6k1/p2r1pqp/1p2p3/8/4Q2P/2rB2P1/P4PK1/3R4 w - - 8 32",
+      "playerMoves": [
+        "e4a8",
+        "d3h7",
+        "a8f8",
+        "d1d7"
+      ],
+      "opponentMoves": [
+        "g7f8",
+        "g8g7",
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Qa8+",
+        "Bxh7+",
+        "Qxf8+",
+        "Rxd7"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1568,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/NIhKIY2J/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xAbYK",
+      "fen": "3rk2r/pp4pp/3bpn2/4n3/3Q4/2N5/PP3PPP/R1B3K1 b k - 2 15",
+      "playerMoves": [
+        "e5f3",
+        "d6h2",
+        "d8d4"
+      ],
+      "opponentMoves": [
+        "g2f3",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Bxh2+",
+        "Rxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1449,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/lYtc8bdJ#29",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fYbHG",
+      "fen": "4r3/pp3pkp/5q2/1PP1n2n/4Q1p1/4P1P1/P2N1P1P/3R1RK1 b - - 0 27",
+      "playerMoves": [
+        "e5f3",
+        "e8e4"
+      ],
+      "opponentMoves": [
+        "d2f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Rxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1407,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/QzdPwndb#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KiTg2",
+      "fen": "8/6k1/r2N1Rp1/3P4/8/5p1P/7n/4K3 w - - 3 52",
+      "playerMoves": [
+        "d6e8",
+        "f6a6"
+      ],
+      "opponentMoves": [
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Ne8+",
+        "Rxa6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1539,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mVQSvewW/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dYPL5",
+      "fen": "r5r1/ppp2k2/2n2p1p/3p4/6b1/PP2PN2/1BR1BPKP/5R2 b - - 0 22",
+      "playerMoves": [
+        "g4f5",
+        "f5c2"
+      ],
+      "opponentMoves": [
+        "g2h1"
+      ],
+      "solutionSan": [
+        "Bf5+",
+        "Bxc2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1401,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/UVNCEjgu#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Yy5rP",
+      "fen": "8/p4p2/1p1p4/2pknK2/P4R2/R1P3r1/8/8 w - - 11 43",
+      "playerMoves": [
+        "c3c4",
+        "a3g3"
+      ],
+      "opponentMoves": [
+        "e5c4"
+      ],
+      "solutionSan": [
+        "c4+",
+        "Rxg3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1413,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ZYpaJhR3/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_73YX1",
+      "fen": "rnbq1r2/ppp1b1pk/7B/7Q/2Bpp3/8/PPP2PPP/R4RK1 w - - 2 13",
+      "playerMoves": [
+        "h6d2"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Bd2#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove"
+      ],
+      "rating": 1483,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/QaK0vaET/black#24",
+      "alternateWinningMoves": [
+        "h6c1",
+        "h6d2",
+        "h6e3",
+        "h6f4",
+        "h6g5"
+      ]
+    },
+    {
+      "id": "lichess_KGZb4",
+      "fen": "r5r1/pp3qbk/3P2RB/2p2p1p/2P5/7P/PP1Q3K/6R1 b - - 0 35",
+      "playerMoves": [
+        "g7e5",
+        "g8g6"
+      ],
+      "opponentMoves": [
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Be5+",
+        "Rxg6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1459,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/6EhPIRoF#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UZaym",
+      "fen": "r3r1k1/pp1n2pp/2p5/4qP2/4Q1P1/7P/PPP5/1K1RR3 w - - 0 21",
+      "playerMoves": [
+        "e4c4",
+        "e1e5"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qc4+",
+        "Rxe5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1418,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/BAdxEb9n/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ea7Pg",
+      "fen": "5rk1/1p2q2p/p3pRp1/3pP1Q1/3P4/P1r1P3/3R2P1/4n1K1 w - - 2 26",
+      "playerMoves": [
+        "f6g6",
+        "g5e7"
+      ],
+      "opponentMoves": [
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Rxg6+",
+        "Qxe7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1502,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/SCpfvnBE/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zO4dQ",
+      "fen": "8/p4kp1/1p3p1p/2n1p2P/6q1/5N2/PPP2P2/1K1Q4 w - - 0 27",
+      "playerMoves": [
+        "f3e5",
+        "d1g4"
+      ],
+      "opponentMoves": [
+        "f6e5"
+      ],
+      "solutionSan": [
+        "Nxe5+",
+        "Qxg4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/KF3OxV1C/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_z6uWb",
+      "fen": "r2q1rk1/1b2bpp1/p3p3/1ppnP1R1/7P/2NBP3/PPQ2PP1/R3K3 w Q - 1 17",
+      "playerMoves": [
+        "d3h7",
+        "g5h5",
+        "h7g6"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "g7g6"
+      ],
+      "solutionSan": [
+        "Bh7+",
+        "Rh5",
+        "Bxg6+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "quietMove"
+      ],
+      "rating": 1657,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/r967E5l8/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Kq3iP",
+      "fen": "6k1/1p6/p3pr1p/2q3p1/P2rPp2/N1Q5/BP2b1PP/R4RK1 b - - 3 30",
+      "playerMoves": [
+        "d4c4",
+        "c4c3"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rc4+",
+        "Rxc3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1696,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/hNESuebv#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_B3e2b",
+      "fen": "r2q1r1k/pp3ppn/4p2B/4P3/2p3bQ/2PB4/P1P4P/R4RK1 w - - 1 19",
+      "playerMoves": [
+        "h6g7",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Bxg7+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "attraction",
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1449,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/emqktHsk/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_lQWPV",
+      "fen": "r1bq1rk1/ppp2ppp/1b1p4/4P1N1/1nB1NP2/3Q2PP/PPP5/R3K2R w KQ - 4 15",
+      "playerMoves": [
+        "e4f6",
+        "d3h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1747,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/RQB8DKgO/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yPVw4",
+      "fen": "6r1/2p5/1p2NP1k/1P1P3p/2P1PP1p/7r/6Rb/3R3K b - - 2 54",
+      "playerMoves": [
+        "h2f4",
+        "f4e3",
+        "h3h1"
+      ],
+      "opponentMoves": [
+        "h1g1",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Bxf4+",
+        "Be3+",
+        "Rh1+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1725,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/oQL4XhSE#107",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_luzeW",
+      "fen": "3r2k1/pp3p1p/6p1/5q2/5P2/1PNn2P1/P1Q1RPKP/8 b - - 2 25",
+      "playerMoves": [
+        "d3e1",
+        "f5c2"
+      ],
+      "opponentMoves": [
+        "e2e1"
+      ],
+      "solutionSan": [
+        "Ne1+",
+        "Qxc2"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1499,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/oRhwFu3a#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_v9GVU",
+      "fen": "r7/pppq4/5kp1/5p2/2Q2n2/N1Pn1P2/PP4PP/3R1RK1 b - - 5 23",
+      "playerMoves": [
+        "f4e2",
+        "d3f2",
+        "d7d1",
+        "d1f1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f1f2",
+        "f2f1"
+      ],
+      "solutionSan": [
+        "Ne2+",
+        "Nf2+",
+        "Qxd1+",
+        "Qxf1#"
+      ],
+      "themes": [
+        "deflection",
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1412,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/G0iHFcQK#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WyoCs",
+      "fen": "r1b2knr/ppNp1pbp/2n3p1/2p5/2B1PB2/5Q2/PqP2PPP/R3K2R w KQ - 2 12",
+      "playerMoves": [
+        "f4d6",
+        "f3f7"
+      ],
+      "opponentMoves": [
+        "c6e7"
+      ],
+      "solutionSan": [
+        "Bd6+",
+        "Qxf7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1471,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mzENc3gU/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6rVUV",
+      "fen": "r2r2k1/ppq2p1p/2p1pp2/4N3/3P4/2PQ4/PP4PP/1R5K w - - 0 25",
+      "playerMoves": [
+        "d3g3",
+        "e5g6",
+        "g3c7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h7g6"
+      ],
+      "solutionSan": [
+        "Qg3+",
+        "Ng6+",
+        "Qxc7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1630,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/CLOLPrWh/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_P8LXo",
+      "fen": "rn2k2r/pp3ppp/4b3/3qp3/8/3B1P2/PP1Q2PP/3RK1NR w Kkq - 1 14",
+      "playerMoves": [
+        "d3b5",
+        "d2d5",
+        "d1d5"
+      ],
+      "opponentMoves": [
+        "b8c6",
+        "e6d5"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Qxd5",
+        "Rxd5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1524,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/OVraLkFR/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QvllN",
+      "fen": "1k3r2/ppp5/8/2PP3p/1P2qn1P/P3NRp1/3Q2P1/6K1 b - - 1 32",
+      "playerMoves": [
+        "f4h3",
+        "f8f3",
+        "e4f3"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "g2f3"
+      ],
+      "solutionSan": [
+        "Nh3+",
+        "Rxf3+",
+        "Qxf3+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1569,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/BpHciu4o#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9gxFW",
+      "fen": "6r1/pp5k/2p2b1p/3p1PB1/3P3Q/2P5/PP3P2/6K1 b - - 2 39",
+      "playerMoves": [
+        "g8g5",
+        "g5g2",
+        "f6h4"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g2"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Rg2+",
+        "Bxh4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1597,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/ljxyAdQa#77",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C94pQ",
+      "fen": "3R4/6bk/4r1pp/pp3p2/4N3/2P1Q1P1/1q3PKP/8 w - - 0 34",
+      "playerMoves": [
+        "e4g5",
+        "e3e6"
+      ],
+      "opponentMoves": [
+        "h6g5"
+      ],
+      "solutionSan": [
+        "Ng5+",
+        "Qxe6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1593,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/8TAe2iif/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bT1HM",
+      "fen": "3rr1k1/5p2/p4Q1p/1p2R3/8/1Pqb1P1P/6P1/6K1 w - - 2 36",
+      "playerMoves": [
+        "e5e8",
+        "f6c3"
+      ],
+      "opponentMoves": [
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Qxc3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1401,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Lo1WDzRc/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IGJjE",
+      "fen": "r4rk1/p4ppp/2p2B2/q2p4/N5b1/5pP1/PP4BP/R2QR1K1 b - - 0 18",
+      "playerMoves": [
+        "f3f2",
+        "g4d1"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "f2+",
+        "Bxd1"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "discoveredAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1401,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/JgPHEsEQ#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1PCBU",
+      "fen": "5Q2/2R4p/pq4p1/3p1pkP/1P6/P7/4rP2/6K1 w - - 3 36",
+      "playerMoves": [
+        "f8d8",
+        "c7c4",
+        "d8b6"
+      ],
+      "opponentMoves": [
+        "g5g4",
+        "d5c4"
+      ],
+      "solutionSan": [
+        "Qd8+",
+        "Rc4+",
+        "Qxb6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1675,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/aheH7G3m/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0oP1Q",
+      "fen": "3r4/3kqp2/4p3/p2nQ3/3P4/2r3R1/P4PPP/4R1K1 w - - 0 34",
+      "playerMoves": [
+        "e5d5",
+        "e1e7",
+        "g3c3"
+      ],
+      "opponentMoves": [
+        "e6d5",
+        "d7e7"
+      ],
+      "solutionSan": [
+        "Qxd5+",
+        "Rxe7+",
+        "Rxc3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1568,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/SFF9GqzL/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Qrk2B",
+      "fen": "3r2k1/p5p1/1p1PR3/2p4p/2B5/6PP/P1Pr2K1/8 w - - 3 35",
+      "playerMoves": [
+        "e6e2",
+        "e2d2"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Re2+",
+        "Rxd2"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "short"
+      ],
+      "rating": 1481,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Y5kAgYCB/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yqWHI",
+      "fen": "8/2p2kp1/3rp2p/5b2/5n2/1Q6/PP3PPP/5K1R b - - 3 23",
+      "playerMoves": [
+        "f5d3",
+        "f4g2",
+        "d3c4",
+        "c4b3"
+      ],
+      "opponentMoves": [
+        "f1e1",
+        "e1d2",
+        "d2c3"
+      ],
+      "solutionSan": [
+        "Bd3+",
+        "Nxg2+",
+        "Bc4+",
+        "Bxb3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1406,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/KjXRntrq#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PldNV",
+      "fen": "r1b2k1r/1pp2ppp/p1n4q/8/5P2/2PB3P/PP3bP1/RNBQ1R1K b - - 1 17",
+      "playerMoves": [
+        "c8h3",
+        "h3g4",
+        "g4d1"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Bxh3",
+        "Bg4+",
+        "Bxd1"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "kingsideAttack",
+        "long",
+        "opening",
+        "sacrifice"
+      ],
+      "rating": 1586,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/yvtrS0Fy#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_G6zvC",
+      "fen": "8/p1r1kppp/4p3/2b5/2Q5/2N2B2/P4PPP/q3RK2 b - - 4 23",
+      "playerMoves": [
+        "a1e1",
+        "c5f2",
+        "c7c4"
+      ],
+      "opponentMoves": [
+        "f1e1",
+        "e1f2"
+      ],
+      "solutionSan": [
+        "Qxe1+",
+        "Bxf2+",
+        "Rxc4"
+      ],
+      "themes": [
+        "advantage",
+        "attackingF2F7",
+        "attraction",
+        "discoveredAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1466,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/kkcMNGEd#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fiLFF",
+      "fen": "3r4/pp1R2bp/2p1q1pk/2P5/1P5P/2n1P1P1/P2Q4/6K1 w - - 0 33",
+      "playerMoves": [
+        "e3e4",
+        "d2g5"
+      ],
+      "opponentMoves": [
+        "g6g5"
+      ],
+      "solutionSan": [
+        "e4+",
+        "Qxg5#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1438,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mKE2Yc0S/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_diHeD",
+      "fen": "rn2q3/1p4pk/2p1N1rp/p2p3Q/8/P1P4P/5PP1/R1B1R1K1 b - - 0 24",
+      "playerMoves": [
+        "g6g2",
+        "e8h5"
+      ],
+      "opponentMoves": [
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Qxh5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/r2eExyfm#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hW40y",
+      "fen": "2rr2k1/3b1p1p/p1n2np1/1p6/3N4/1P2PB2/P3KPPP/R2R4 w - - 2 22",
+      "playerMoves": [
+        "d4c6",
+        "d1d8",
+        "f3c6"
+      ],
+      "opponentMoves": [
+        "d7c6",
+        "c8d8"
+      ],
+      "solutionSan": [
+        "Nxc6",
+        "Rxd8+",
+        "Bxc6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1643,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Cj07dX9L/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_KTjMT",
+      "fen": "r3k2r/pp2p3/1q1pP1p1/2p1b2p/5p1P/P1N5/1P1QBnPK/1R5R w kq - 0 21",
+      "playerMoves": [
+        "e2b5",
+        "d2f2"
+      ],
+      "opponentMoves": [
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Bb5+",
+        "Qxf2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1452,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/M3AYOW4i/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QlmuZ",
+      "fen": "2r2k2/R4pp1/p2P3p/4Pp2/r1pKbP2/1PR3P1/P6P/2B5 b - - 0 37",
+      "playerMoves": [
+        "c4b3",
+        "c8c3"
+      ],
+      "opponentMoves": [
+        "d4e3"
+      ],
+      "solutionSan": [
+        "cxb3+",
+        "Rxc3+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "short"
+      ],
+      "rating": 1425,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/CFWi3sBq#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IDjTz",
+      "fen": "r1b2rk1/pp1nb1pp/4pp2/3pP3/3q1B2/1P1B4/P4PPP/RN1Q1RK1 w - - 0 14",
+      "playerMoves": [
+        "d3h7",
+        "d1d4"
+      ],
+      "opponentMoves": [
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Bxh7+",
+        "Qxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1446,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/tgwD1Xmb/black#26",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_X6BAr",
+      "fen": "7r/1p3ppp/3k1n2/1Bp5/3r1b2/Q1N4q/PP3P2/R4RK1 w - - 0 21",
+      "playerMoves": [
+        "c3e4",
+        "a3h3"
+      ],
+      "opponentMoves": [
+        "d6c7"
+      ],
+      "solutionSan": [
+        "Ne4+",
+        "Qxh3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1575,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/mDikV50N/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_X4Skc",
+      "fen": "3r2k1/p5p1/1p5p/2p2Q2/1P2R3/2Pq3P/6PK/8 w - - 2 32",
+      "playerMoves": [
+        "e4e8",
+        "f5d3"
+      ],
+      "opponentMoves": [
+        "d8e8"
+      ],
+      "solutionSan": [
+        "Re8+",
+        "Qxd3"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/eBcmoP2V/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RJYN1",
+      "fen": "6k1/5pp1/7p/p7/P2qp3/1PRb1PP1/3Q2KP/8 b - - 1 29",
+      "playerMoves": [
+        "d3f1",
+        "d4d2",
+        "g8h7"
+      ],
+      "opponentMoves": [
+        "g2f1",
+        "c3c8"
+      ],
+      "solutionSan": [
+        "Bf1+",
+        "Qxd2",
+        "Kh7"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1510,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/fS3jnMIW#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_N6yss",
+      "fen": "2kr3r/Qpp2ppp/3b1n2/8/8/2N1P3/PPqB1PPP/2R1K2R b K - 1 13",
+      "playerMoves": [
+        "c2d2",
+        "d6c5",
+        "c5a7"
+      ],
+      "opponentMoves": [
+        "e1d2",
+        "d2e2"
+      ],
+      "solutionSan": [
+        "Qxd2+",
+        "Bc5+",
+        "Bxa7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1688,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/OWfAdytg#25",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_R2lJ1",
+      "fen": "r2r4/p2Qb1p1/1kn5/1q5p/1p1P3P/1N2BN1R/5PP1/4K3 w - - 5 26",
+      "playerMoves": [
+        "d4d5",
+        "d7c6",
+        "d5c6"
+      ],
+      "opponentMoves": [
+        "b6a6",
+        "b5c6"
+      ],
+      "solutionSan": [
+        "d5+",
+        "Qxc6+",
+        "dxc6"
+      ],
+      "themes": [
+        "advantage",
+        "deflection",
+        "discoveredAttack",
+        "discoveredCheck",
+        "exposedKing",
+        "long",
+        "master",
+        "masterVsMaster",
+        "middlegame"
+      ],
+      "rating": 1587,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/dUoQwUmL/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wJ06r",
+      "fen": "7Q/3k3p/8/4Pp2/2b5/2q3B1/7P/3K4 w - - 2 39",
+      "playerMoves": [
+        "e5e6",
+        "h8c3"
+      ],
+      "opponentMoves": [
+        "d7e6"
+      ],
+      "solutionSan": [
+        "e6+",
+        "Qxc3"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1673,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/IUWF2od3/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Kovby",
+      "fen": "6k1/pQ3p1p/2p2qp1/4p3/4n3/1BP4P/Pr3PP1/5RK1 w - - 0 23",
+      "playerMoves": [
+        "b3f7",
+        "b7b2"
+      ],
+      "opponentMoves": [
+        "f6f7"
+      ],
+      "solutionSan": [
+        "Bxf7+",
+        "Qxb2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1423,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/M0tqYFe7/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XeZWQ",
+      "fen": "4r3/1b3pkp/p4q2/1pp5/4PQ2/2P5/1P4BP/4R1K1 w - - 3 30",
+      "playerMoves": [
+        "f4f6",
+        "e4e5",
+        "g2b7"
+      ],
+      "opponentMoves": [
+        "g7f6",
+        "f6e6"
+      ],
+      "solutionSan": [
+        "Qxf6+",
+        "e5+",
+        "Bxb7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1685,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pTWlgkTa/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XlE0q",
+      "fen": "8/4k3/4pp1p/rp2P2P/3R1KP1/p4P2/P7/8 b - - 0 40",
+      "playerMoves": [
+        "f6e5",
+        "b5b4",
+        "b4b3",
+        "a3a2"
+      ],
+      "opponentMoves": [
+        "f4e5",
+        "e5e4",
+        "a2b3"
+      ],
+      "solutionSan": [
+        "fxe5+",
+        "b4+",
+        "b3",
+        "a2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "master",
+        "masterVsMaster",
+        "rookEndgame",
+        "veryLong"
+      ],
+      "rating": 1421,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/0QkP4nNc#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZYctN",
+      "fen": "1r6/5nk1/p2p1q2/2pP1Bp1/2p1P3/5R2/PP3Q2/2K5 w - - 0 40",
+      "playerMoves": [
+        "f5e6",
+        "f3f6"
+      ],
+      "opponentMoves": [
+        "f7e5"
+      ],
+      "solutionSan": [
+        "Be6",
+        "Rxf6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1469,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/jMMiIpXb/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0RTpc",
+      "fen": "3r1r2/p5bk/1p6/4p3/3nn1N1/P2B2PP/1P3P2/1RB2RK1 b - - 4 25",
+      "playerMoves": [
+        "d4f3",
+        "d8d3"
+      ],
+      "opponentMoves": [
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Rxd3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1429,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/sXSgcf2V#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YNhin",
+      "fen": "r6r/1bpnb1p1/p3kn1p/1p6/4N3/3P4/qPPBQPPP/2KR3R w - - 0 17",
+      "playerMoves": [
+        "e4c3",
+        "c3a2"
+      ],
+      "opponentMoves": [
+        "e6f7"
+      ],
+      "solutionSan": [
+        "Nc3+",
+        "Nxa2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1448,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/u3GCd0AU/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_pYfTc",
+      "fen": "6k1/4b1pp/2q1p3/p1p2r2/4N3/3Q3P/PPP3P1/3R3K b - - 4 24",
+      "playerMoves": [
+        "f5d5",
+        "d5d1",
+        "c6e4"
+      ],
+      "opponentMoves": [
+        "d3e2",
+        "e2d1"
+      ],
+      "solutionSan": [
+        "Rd5",
+        "Rxd1+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1510,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/daXaoDPj#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_elKGd",
+      "fen": "4kr2/1p1rp3/p1b2n1p/4QP2/2B2P2/P3R3/2P2q2/2K1R3 w - - 11 40",
+      "playerMoves": [
+        "e5b8",
+        "e3e7"
+      ],
+      "opponentMoves": [
+        "d7d8"
+      ],
+      "solutionSan": [
+        "Qb8+",
+        "Rxe7#"
+      ],
+      "themes": [
+        "deflection",
+        "discoveredAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1400,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pa0GNwj1/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hihHJ",
+      "fen": "6k1/3R3p/p4p1B/1p6/2n4p/2r5/P4PP1/6K1 w - - 2 34",
+      "playerMoves": [
+        "d7g7",
+        "g7g3",
+        "g3c3"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8f7"
+      ],
+      "solutionSan": [
+        "Rg7+",
+        "Rg3+",
+        "Rxc3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "long"
+      ],
+      "rating": 1539,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/PeXZY6b9/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mJ0Y4",
+      "fen": "8/ppk4p/3b3R/3p4/5p1B/5P1r/PPK2P2/8 w - - 0 34",
+      "playerMoves": [
+        "h4d8",
+        "h6h3"
+      ],
+      "opponentMoves": [
+        "c7d8"
+      ],
+      "solutionSan": [
+        "Bd8+",
+        "Rxh3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1573,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/6Bx2nLz0/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jBO9m",
+      "fen": "q3k2r/p1pn1ppp/3pb3/4p3/1PPNn3/P1N3P1/3PPP1P/R1BQK2R b KQk - 0 10",
+      "playerMoves": [
+        "e4c3",
+        "a8h1"
+      ],
+      "opponentMoves": [
+        "d2c3"
+      ],
+      "solutionSan": [
+        "Nxc3",
+        "Qxh1+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1483,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FA8bdKET#19",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_E7V03",
+      "fen": "4r3/1p1b1pk1/2p2p1p/1P1p1PnQ/3P2RN/2bBP2P/6PK/3q4 w - - 7 31",
+      "playerMoves": [
+        "g4g5",
+        "h5d1"
+      ],
+      "opponentMoves": [
+        "h6g5"
+      ],
+      "solutionSan": [
+        "Rxg5+",
+        "Qxd1"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1501,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/AHRRLYe7/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1LJkI",
+      "fen": "r1b2r2/2q1bp1k/p2ppn1p/1p4Qn/3NP1P1/2NB4/PPP2P1P/R4RK1 w - - 0 17",
+      "playerMoves": [
+        "e4e5",
+        "g5h6"
+      ],
+      "opponentMoves": [
+        "h7h8"
+      ],
+      "solutionSan": [
+        "e5+",
+        "Qxh6+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "discoveredAttack",
+        "discoveredCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/0sV9S8Fi/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_97Xa3",
+      "fen": "r1b1k2r/ppQ2ppp/8/2b1P3/2q1n3/B4N1P/P4PP1/RN3RK1 b kq - 1 17",
+      "playerMoves": [
+        "c5f2",
+        "c4c7"
+      ],
+      "opponentMoves": [
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Bxf2+",
+        "Qxc7"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "opening",
+        "short"
+      ],
+      "rating": 1563,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/L0zlzJzb#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GPWOH",
+      "fen": "4R3/p4p1k/1p1q1P2/2prn1Qp/8/7P/PP4P1/5RK1 b - - 0 36",
+      "playerMoves": [
+        "e5f3",
+        "d5g5"
+      ],
+      "opponentMoves": [
+        "f1f3"
+      ],
+      "solutionSan": [
+        "Nf3+",
+        "Rxg5"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1449,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/NsZYydeM#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vB7e3",
+      "fen": "5k2/1R5p/4P1p1/3B4/3p4/2bP2P1/4K2P/1q4r1 w - - 0 41",
+      "playerMoves": [
+        "e6e7",
+        "e7e8q"
+      ],
+      "opponentMoves": [
+        "f8g7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "e8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "crushing",
+        "deflection",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "promotion",
+        "short"
+      ],
+      "rating": 1590,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Qw5egcDm/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Yes0n",
+      "fen": "r7/2k3p1/1pp3p1/4p3/pn6/RbN2P2/1P4PP/R5K1 w - - 2 33",
+      "playerMoves": [
+        "a3b3",
+        "a1a8"
+      ],
+      "opponentMoves": [
+        "a4b3"
+      ],
+      "solutionSan": [
+        "Rxb3",
+        "Rxa8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1441,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/Sxvdcy7L/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tvK3V",
+      "fen": "r4r2/3qppk1/p2p2p1/1p2bP1p/6QP/P2B4/2P3P1/3R1RK1 w - - 0 22",
+      "playerMoves": [
+        "f5f6",
+        "g4d7"
+      ],
+      "opponentMoves": [
+        "e7f6"
+      ],
+      "solutionSan": [
+        "f6+",
+        "Qxd7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1503,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/jIpdkKig/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zj1E9",
+      "fen": "3r2k1/p1q3p1/Pp3r1p/1P3Q2/2P5/8/6P1/1B3RK1 w - - 1 38",
+      "playerMoves": [
+        "f5h7",
+        "f1f6"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Rxf6+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1486,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/e9K1RMCj/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XtSfV",
+      "fen": "6rq/2p1k3/p2pb3/4P3/P4nn1/R4P1p/1B1N4/4Q2K w - - 0 36",
+      "playerMoves": [
+        "e5d6",
+        "b2h8"
+      ],
+      "opponentMoves": [
+        "c7d6"
+      ],
+      "solutionSan": [
+        "exd6+",
+        "Bxh8"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1474,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/F73ADplF/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_waj8n",
+      "fen": "r3k1rb/1p3p2/p3b2p/2pBP2q/P1P5/5RPP/1P2Q2K/4R3 w q - 3 28",
+      "playerMoves": [
+        "d5e6",
+        "f3f8",
+        "e2h5"
+      ],
+      "opponentMoves": [
+        "f7e6",
+        "e8e7"
+      ],
+      "solutionSan": [
+        "Bxe6",
+        "Rf8+",
+        "Qxh5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1418,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/sSBilQoA/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SrooH",
+      "fen": "5r1k/Q5p1/3p2pp/8/1PP5/P5qP/5rP1/4R1RK b - - 0 27",
+      "playerMoves": [
+        "f2g2",
+        "g3e1"
+      ],
+      "opponentMoves": [
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Rxg2",
+        "Qxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1599,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/33dPIEKa#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NmKQT",
+      "fen": "6k1/1p2pb1p/4q1p1/1PP1b3/2P1Q1B1/8/6PP/3R2K1 b - - 1 35",
+      "playerMoves": [
+        "e5h2",
+        "e6e4"
+      ],
+      "opponentMoves": [
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Bxh2+",
+        "Qxe4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1412,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/xZmtgytD#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5ZZzE",
+      "fen": "r4rk1/pp3ppp/2p3q1/4p3/4P3/3Q1N1b/PPP2PPP/R3R1K1 w - - 1 15",
+      "playerMoves": [
+        "f3h4",
+        "d3h3",
+        "g2h3"
+      ],
+      "opponentMoves": [
+        "g6g4",
+        "g4h3"
+      ],
+      "solutionSan": [
+        "Nh4",
+        "Qxh3",
+        "gxh3"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1514,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/gQrwpGKX/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_U8OxK",
+      "fen": "6rk/ppp3Rp/5Q2/1q1Pbp2/8/1B3P1b/PPP4P/7K w - - 1 30",
+      "playerMoves": [
+        "g7g8",
+        "d5d6"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxg8+",
+        "d6+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "doubleCheck",
+        "kingsideAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1761,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pbf00y8c/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2A4mF",
+      "fen": "r1b2bk1/pp4pp/4p3/3pq3/8/4B3/P2NQ2P/5RK1 w - - 0 20",
+      "playerMoves": [
+        "f1f8",
+        "e3c5",
+        "e2e5"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Bc5+",
+        "Qxe5"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "discoveredAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1473,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/RsPSqn9u/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MbsXz",
+      "fen": "r2q1rk1/1p2bpBp/3p4/2p1pP2/4P3/2NP3P/PpP1n3/1K4RR w - - 0 19",
+      "playerMoves": [
+        "g7f6",
+        "h1g1"
+      ],
+      "opponentMoves": [
+        "e2g1"
+      ],
+      "solutionSan": [
+        "Bf6+",
+        "Rxg1#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1591,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/PygpLCi7/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_CATAO",
+      "fen": "3q2k1/5p1p/4r3/3p1p2/2rQ1B2/P1p4P/1b3PP1/3R1RK1 w - - 2 29",
+      "playerMoves": [
+        "d4c4",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "d5c4"
+      ],
+      "solutionSan": [
+        "Qxc4",
+        "Rxd8+"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1546,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/fqiGy3nt/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kxdhD",
+      "fen": "3rr1k1/ppp2ppp/2n5/4p2b/2PbP3/P4N1P/1P1BB1P1/2KR1R2 w - - 2 17",
+      "playerMoves": [
+        "f3d4",
+        "e2h5"
+      ],
+      "opponentMoves": [
+        "e5d4"
+      ],
+      "solutionSan": [
+        "Nxd4",
+        "Bxh5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1444,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/giHlilX1/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fF3S3",
+      "fen": "r1b1RBk1/pp3ppp/8/3p4/8/6K1/PP2q1PP/nN6 w - - 0 17",
+      "playerMoves": [
+        "f8e7"
+      ],
+      "opponentMoves": [],
+      "solutionSan": [
+        "Be7#"
+      ],
+      "themes": [
+        "backRankMate",
+        "discoveredAttack",
+        "discoveredCheck",
+        "mate",
+        "mateIn1",
+        "middlegame",
+        "oneMove"
+      ],
+      "rating": 1502,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/QLKNfdra/black#32",
+      "alternateWinningMoves": [
+        "f8e7"
+      ]
+    },
+    {
+      "id": "lichess_ML9cG",
+      "fen": "rn3rk1/pp2nppp/1qp5/3p2P1/2PbN1P1/8/PPQBPP2/2KR3R w - - 0 17",
+      "playerMoves": [
+        "e4f6",
+        "c2h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1468,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/VN6J21cM/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Er8Lv",
+      "fen": "3r4/3P1Qpk/p4b2/5q2/5P2/6P1/P5P1/1R1R2K1 b - - 0 34",
+      "playerMoves": [
+        "f6d4",
+        "f5f7"
+      ],
+      "opponentMoves": [
+        "d1d4"
+      ],
+      "solutionSan": [
+        "Bd4+",
+        "Qxf7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1559,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/4ae2WPKR#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_655RL",
+      "fen": "r1b1k1n1/1p3pQp/p3pn2/3pq3/1B1N4/2P2P2/P1P2KPP/R4B1R b q - 1 19",
+      "playerMoves": [
+        "f6e4",
+        "e5g7"
+      ],
+      "opponentMoves": [
+        "f3e4"
+      ],
+      "solutionSan": [
+        "Ne4+",
+        "Qxg7"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1400,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/87JtT2GM#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_3ghx0",
+      "fen": "r3qrk1/p1pn3p/1p1bp1p1/6P1/4Nn2/1P1B1N2/PBPP3Q/2KR3R b - - 4 17",
+      "playerMoves": [
+        "f4d3",
+        "d6h2"
+      ],
+      "opponentMoves": [
+        "c2d3"
+      ],
+      "solutionSan": [
+        "Nxd3+",
+        "Bxh2"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1443,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/tnYrAa0w#33",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_biFcN",
+      "fen": "r3k2r/ppp2ppp/5n2/q3p3/3n4/P1PP2P1/2PBbPBP/R2Q1RK1 w kq - 0 12",
+      "playerMoves": [
+        "c3d4",
+        "d2a5"
+      ],
+      "opponentMoves": [
+        "e2d1"
+      ],
+      "solutionSan": [
+        "cxd4",
+        "Bxa5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1464,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/FiK1A6iI/black#22",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4OWBg",
+      "fen": "2r5/pn3ppk/1pr1p2p/3pP1q1/3P3N/1PP1Q2R/P1R3PP/6K1 w - - 23 31",
+      "playerMoves": [
+        "e3g5",
+        "h4f5",
+        "f5e7"
+      ],
+      "opponentMoves": [
+        "h6g5",
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Qxg5",
+        "Nf5+",
+        "Ne7+"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1466,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/bhLnxnF6/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yn3By",
+      "fen": "2r2rk1/pp3ppp/1qn1p3/4P1N1/1b1PN3/3Qn3/PP4PP/R4RK1 w - - 0 16",
+      "playerMoves": [
+        "e4f6",
+        "d3h7"
+      ],
+      "opponentMoves": [
+        "g7f6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "Qxh7#"
+      ],
+      "themes": [
+        "discoveredAttack",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1435,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/hNWOob2t/black#30",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aE1FW",
+      "fen": "8/8/1R3k2/7p/2b5/3r3P/P1P2PP1/5K2 b - - 1 34",
+      "playerMoves": [
+        "d3d6",
+        "d6b6"
+      ],
+      "opponentMoves": [
+        "f1e1"
+      ],
+      "solutionSan": [
+        "Rd6+",
+        "Rxb6"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "discoveredCheck",
+        "endgame",
+        "short"
+      ],
+      "rating": 1543,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/gygOwIHR#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xGWj7",
+      "fen": "3r2k1/p1p2ppp/2Qb1r2/8/7R/1P2P1Pq/PBP2P1P/5RK1 b - - 2 25",
+      "playerMoves": [
+        "h3h4",
+        "d6h2",
+        "f6c6"
+      ],
+      "opponentMoves": [
+        "g3h4",
+        "g1h2"
+      ],
+      "solutionSan": [
+        "Qxh4",
+        "Bxh2+",
+        "Rxc6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1701,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/p4ad0ZoN#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4yUaL",
+      "fen": "5rk1/p5pp/Rbr5/3p4/3P2P1/1RP1B1K1/5P2/8 b - - 9 27",
+      "playerMoves": [
+        "b6c7",
+        "c6a6"
+      ],
+      "opponentMoves": [
+        "g3h3"
+      ],
+      "solutionSan": [
+        "Bc7+",
+        "Rxa6"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/s5bkeR2l#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_W5Kfo",
+      "fen": "1r4k1/2q3pp/p1p1pp2/3pn2P/3Q1Bb1/2N5/PPP2P2/2K4R w - - 0 22",
+      "playerMoves": [
+        "f4e5",
+        "d4g4"
+      ],
+      "opponentMoves": [
+        "c7e5"
+      ],
+      "solutionSan": [
+        "Bxe5",
+        "Qxg4"
+      ],
+      "themes": [
+        "advantage",
+        "capturingDefender",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1484,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/bdrV9yEz/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wz2Xv",
+      "fen": "1r4k1/p4pbp/6p1/1q2r3/3QR3/3P4/PP1B1P1P/1R4K1 b - - 0 26",
+      "playerMoves": [
+        "e5g5",
+        "g7d4"
+      ],
+      "opponentMoves": [
+        "d2g5"
+      ],
+      "solutionSan": [
+        "Rg5+",
+        "Bxd4"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1581,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/thvSDq5b#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iAXTy",
+      "fen": "6k1/p6p/4N1p1/2P3b1/4p3/2PrP3/P3K2P/2R5 b - - 3 29",
+      "playerMoves": [
+        "d3e3",
+        "e3d3",
+        "g5c1"
+      ],
+      "opponentMoves": [
+        "e2d1",
+        "d1c2"
+      ],
+      "solutionSan": [
+        "Rxe3+",
+        "Rd3+",
+        "Bxc1"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1497,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/jgLg1y4d#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PMEqP",
+      "fen": "4r1k1/ppp1r1p1/7p/3P1p2/PPPNn3/7P/5PP1/3RRK2 b - - 1 24",
+      "playerMoves": [
+        "e4d2",
+        "e7e1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "f1g1",
+        "d1e1"
+      ],
+      "solutionSan": [
+        "Nd2+",
+        "Rxe1+",
+        "Rxe1+"
+      ],
+      "themes": [
+        "crushing",
+        "deflection",
+        "discoveredAttack",
+        "endgame",
+        "long"
+      ],
+      "rating": 1412,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/uBePunpO#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QEERr",
+      "fen": "8/8/5p2/4bk2/1Br2p1R/2P5/4KP2/8 b - - 0 60",
+      "playerMoves": [
+        "f4f3",
+        "c4h4"
+      ],
+      "opponentMoves": [
+        "e2f3"
+      ],
+      "solutionSan": [
+        "f3+",
+        "Rxh4"
+      ],
+      "themes": [
+        "crushing",
+        "discoveredAttack",
+        "endgame",
+        "master",
+        "short"
+      ],
+      "rating": 1527,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/eak07XJW#119",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jkwjj",
+      "fen": "r2q1rk1/p1p2ppp/1pnb1nb1/3N2B1/8/5PP1/PPP1P1BP/R2QNRK1 b - - 2 12",
+      "playerMoves": [
+        "d6c5",
+        "d8d5"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Bc5+",
+        "Qxd5"
+      ],
+      "themes": [
+        "advantage",
+        "discoveredAttack",
+        "opening",
+        "short"
+      ],
+      "rating": 1513,
+      "hint": "Moving a piece (such as a knight), that previously blocked an attack by a long range piece (such as a rook), out of the way of that piece.",
+      "source": "https://lichess.org/pDAfKFIC#23",
+      "alternateWinningMoves": []
+    }
+  ]
+}

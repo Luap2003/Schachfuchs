@@ -1,0 +1,5899 @@
+{
+  "packId": "gen_attraction_1400_1799",
+  "title": "Attraction · Advanced",
+  "description": "Theme training: Attraction (1400-1799).",
+  "category": "theme_training",
+  "tags": [
+    "attraction",
+    "1400_1799"
+  ],
+  "difficulty": 3,
+  "puzzles": [
+    {
+      "id": "lichess_vHVzY",
+      "fen": "1r2br1k/p4Bpp/3q1p2/4p2Q/2PpP3/6R1/P4PPP/3R2K1 w - - 2 24",
+      "playerMoves": [
+        "h5h7",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1420,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/6AvSKvjc/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qVEio",
+      "fen": "r2q2rk/pp2bppp/2p1p3/4B1Q1/3Pn3/7R/PPP3PP/5R1K w - - 0 20",
+      "playerMoves": [
+        "h3h7",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1445,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/JtXAmz0h/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Jpq6U",
+      "fen": "5rk1/6p1/6RP/p3p1Q1/1p1pPq2/1P1P4/1KP2r2/8 w - - 1 37",
+      "playerMoves": [
+        "g6g7",
+        "g7h7",
+        "g5g7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Rh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1612,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/wkK41kff/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_liVER",
+      "fen": "2R2rk1/4pp2/5qp1/3Pp3/p3P2Q/1r5P/6P1/2R4K w - - 4 35",
+      "playerMoves": [
+        "c8f8",
+        "c1c8",
+        "h4h8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8g7"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Rc8+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1427,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/L8Eq2qLy/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1zx3Y",
+      "fen": "3Q4/5rkp/3p2p1/2p5/1p1qPp2/1P1P1P1R/r1P1K1P1/2R5 w - - 5 32",
+      "playerMoves": [
+        "h3h7",
+        "c1h1",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "g7h7",
+        "h7g7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Rh1+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1433,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/KVHMvzUE/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PTe31",
+      "fen": "4rk2/3b1Pp1/8/7q/2p1p3/2P1P2P/1B6/5RK1 w - - 1 36",
+      "playerMoves": [
+        "b2a3",
+        "a3e7",
+        "f7f8q"
+      ],
+      "opponentMoves": [
+        "e8e7",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "Ba3+",
+        "Bxe7+",
+        "f8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "long",
+        "promotion"
+      ],
+      "rating": 1404,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ueu41iLo/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_N7HyF",
+      "fen": "3R1bk1/5p2/2r2qp1/p5Np/Pp1Q1P2/7P/1P4P1/7K w - - 7 38",
+      "playerMoves": [
+        "d8f8",
+        "g5h7"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Nh7+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "master",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1526,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/qLvpAXWR/black#74",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_horHc",
+      "fen": "8/1p4pk/p5np/2P5/5r2/P2Q1pNq/5P1P/4R1RK b - - 7 33",
+      "playerMoves": [
+        "h3h2",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1498,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/lWqRFwXy#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rfwll",
+      "fen": "6rk/2p4p/1p4r1/p2Pp2q/2P2p2/4NP2/PP2Q1PP/R5RK b - - 0 27",
+      "playerMoves": [
+        "h5h2",
+        "g6h6"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh6#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1408,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/0w0PNcUq#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FK9Rf",
+      "fen": "2k3r1/ppq2p1p/2n1p3/3p1pr1/3P4/2PN4/PP1Q1PPP/R5RK b - - 1 19",
+      "playerMoves": [
+        "c7h2",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1455,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/kuKctJgH#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TduBi",
+      "fen": "r1b2rk1/p4ppp/1p2p3/1N6/1Q3P1B/4q3/P5PP/3R3K w - - 0 24",
+      "playerMoves": [
+        "b4f8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rd8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1513,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yuBi4H3q/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_N8YFK",
+      "fen": "r4r2/1p3p1k/pbb1pPpp/5q2/5NQ1/1P5R/1P4PP/5R1K w - - 4 30",
+      "playerMoves": [
+        "h3h6",
+        "g4h4",
+        "f4h5"
+      ],
+      "opponentMoves": [
+        "h7h6",
+        "f5h5"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qh4+",
+        "Nxh5"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1400,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/5cxONe1L/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5cyHG",
+      "fen": "3r3r/1p3kp1/1p4p1/4p3/8/2Np1B2/PP3bPP/R2R3K b - - 1 24",
+      "playerMoves": [
+        "h8h2",
+        "d8h8",
+        "h8h5"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "f3h5"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Rh8+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1417,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/PL9ELDgj#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5GHri",
+      "fen": "2k4r/pppq4/3p4/3PpR2/4P1n1/1P6/P1P1Q1P1/1R4K1 b - - 2 23",
+      "playerMoves": [
+        "h8h1",
+        "d7h7",
+        "h7h5",
+        "h5h2",
+        "h2h1"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f5h5",
+        "h1g1",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qh7+",
+        "Qxh5+",
+        "Qh2+",
+        "Qh1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn5",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1572,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/DbieQNjK#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ONLru",
+      "fen": "r4rk1/5ppp/1pN5/1Pn4R/2P5/p4Q2/1q3PPP/3R2K1 w - - 0 28",
+      "playerMoves": [
+        "c6e7",
+        "h5h7",
+        "f3h5"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1436,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yA7kn7pi/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_9V2pk",
+      "fen": "7k/5Q2/7p/2pn3r/4q3/4PP2/7B/6RK b - - 0 40",
+      "playerMoves": [
+        "h5h2",
+        "e4h4",
+        "d5e3"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "h2g2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4+",
+        "Nxe3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "exposedKing",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1423,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/bZbne9J3#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_PJBdA",
+      "fen": "3r1r1k/4Nppp/4n3/p7/P1R5/3Q4/1q3PPP/4R1K1 w - - 6 28",
+      "playerMoves": [
+        "d3h7",
+        "c4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1550,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/eRjT4P9V/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Uqgwc",
+      "fen": "5rk1/1p3ppp/3Qp3/3pP3/1r2b2B/6P1/1P2q2P/R1R3K1 w - - 5 30",
+      "playerMoves": [
+        "d6f8",
+        "a1a8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Ra8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1442,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/eDzstMQn/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FYxS3",
+      "fen": "5qrk/1b3p1p/2n1pPpQ/1p2b1B1/3p4/1B1p1R2/1PP3PP/6K1 w - - 4 24",
+      "playerMoves": [
+        "h6h7",
+        "f3h3",
+        "h3h6"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "f8h6"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1525,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/t2oLUfN5/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VdTpO",
+      "fen": "4r1k1/p4p1p/q1p3p1/3p1b2/P3r3/2P2Q2/1PBR1PPP/5RK1 b - - 2 23",
+      "playerMoves": [
+        "a6f1",
+        "e4e1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Re1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1477,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ueDhg3Kb#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_06a9D",
+      "fen": "4k3/4q3/8/1P1pp1QK/4p1B1/4P1P1/P4n1P/8 b - - 0 43",
+      "playerMoves": [
+        "e7h7",
+        "h7h6",
+        "f2g4"
+      ],
+      "opponentMoves": [
+        "g5h6",
+        "h5h6"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Qxh6+",
+        "Nxg4+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1451,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/vydL3xX6#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ruo1A",
+      "fen": "6rk/1p1r1ppp/p1b1p3/2R4Q/6R1/1q2P3/PP3PPP/6K1 w - - 0 25",
+      "playerMoves": [
+        "h5h7",
+        "c5h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1417,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/YfXP1Lnb/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_iyjTQ",
+      "fen": "r3r3/1p3p1k/p1q1n2p/P1p2p2/2P1R3/3P2RP/3Q1PP1/6K1 w - - 0 28",
+      "playerMoves": [
+        "d2h6",
+        "e4h4"
+      ],
+      "opponentMoves": [
+        "h7h6"
+      ],
+      "solutionSan": [
+        "Qxh6+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1466,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/OOuW43Nq/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eb8Rq",
+      "fen": "2r2r2/2q4k/p3b1Rp/1p1p1p1P/1P1PpP2/P1N1P1Q1/3K4/5B2 w - - 8 43",
+      "playerMoves": [
+        "g6h6",
+        "g3g6"
+      ],
+      "opponentMoves": [
+        "h7h6"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qg6#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1591,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/kn5fHHUd/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7DCAD",
+      "fen": "6rk/5R1p/b4Pp1/p3p1Q1/2p1P3/q7/2p3PP/r1R4K w - - 1 36",
+      "playerMoves": [
+        "f7h7",
+        "g5h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh4#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/HlciyTcK/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eQcEw",
+      "fen": "6rk/4p2n/p2p1pRB/2pP3Q/2P1q3/7P/6PK/8 w - - 0 41",
+      "playerMoves": [
+        "g6g8",
+        "h5e8",
+        "e8f8",
+        "f8g7"
+      ],
+      "opponentMoves": [
+        "h8g8",
+        "h7f8",
+        "g8h7"
+      ],
+      "solutionSan": [
+        "Rxg8+",
+        "Qe8+",
+        "Qxf8+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "exposedKing",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1528,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/jjxPH62D/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_erBom",
+      "fen": "5rk1/4bppp/p7/3RP3/3B2Q1/6P1/2q2P1P/1r3RK1 b - - 0 25",
+      "playerMoves": [
+        "b1f1",
+        "c2c4"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Qc4+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1624,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/jPQ8uNLb#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_P1V1J",
+      "fen": "r4rk1/p2n1qpR/1p2p1Q1/3p2P1/3P1P2/4P3/PP2K3/R7 w - - 4 25",
+      "playerMoves": [
+        "h7h8",
+        "a1h1",
+        "g6h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rh1+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1530,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/jWPiBZqL/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_T34pG",
+      "fen": "6rk/1p3Qpp/p2B4/2pP4/3bP2n/3q2P1/P6P/5R1K w - - 0 28",
+      "playerMoves": [
+        "f7g8",
+        "f1f8"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxg8+",
+        "Rf8#"
+      ],
+      "themes": [
+        "attraction",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1499,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/m3kEPprh/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Xq0cR",
+      "fen": "2r2k2/pR4b1/4P1bp/2qQ2p1/2Pp2P1/8/P4P1P/6K1 w - - 0 31",
+      "playerMoves": [
+        "e6e7",
+        "b7e7",
+        "d5b7"
+      ],
+      "opponentMoves": [
+        "c5e7",
+        "f8e7"
+      ],
+      "solutionSan": [
+        "e7+",
+        "Rxe7",
+        "Qb7+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1498,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yAaPNLQR/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZSobt",
+      "fen": "2r2r1k/pp2q1pp/5p2/4pP1Q/2Bb4/3R4/P1P2PPP/5RK1 w - - 2 23",
+      "playerMoves": [
+        "h5h7",
+        "d3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1500,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/gP0Ux6Ym/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UIW2S",
+      "fen": "6k1/p4p1p/5p2/2Q5/5N2/4PbPq/PP1r1P1P/5RK1 b - - 3 24",
+      "playerMoves": [
+        "h3f1",
+        "d2d1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Rd1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1463,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/BffwxZ39#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_H9QSh",
+      "fen": "4r1rk/p4p1p/2pq1p2/1p6/2BP1nQ1/5P1R/PP3P1P/6RK w - - 4 22",
+      "playerMoves": [
+        "h3h7",
+        "g4h4",
+        "h4h5"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "f4h5"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh4+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1525,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/u2jPQc1s/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Gary0",
+      "fen": "r5k1/1bq2p1p/3p2pP/4p3/4P3/1p1B1P2/1PPR1QP1/1K1R4 b - - 2 25",
+      "playerMoves": [
+        "a8a1",
+        "c7a5",
+        "a5a2",
+        "a2a1"
+      ],
+      "opponentMoves": [
+        "b1a1",
+        "a1b1",
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Qa5+",
+        "Qa2+",
+        "Qa1#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1597,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/FvvSYfnx#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7rf3T",
+      "fen": "8/1R4R1/p4p1k/P5p1/6qp/2P3B1/1PB2PK1/4r3 b - - 0 40",
+      "playerMoves": [
+        "h4h3",
+        "e1h1",
+        "g4f3",
+        "f3g2"
+      ],
+      "opponentMoves": [
+        "g2h2",
+        "h2h1",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "h3+",
+        "Rh1+",
+        "Qf3+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1570,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/cYJjj4Wd#79",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ljam0",
+      "fen": "4R3/k1p2pq1/Pb1p4/1P3KN1/P4p2/3P4/2Q5/6q1 w - - 4 41",
+      "playerMoves": [
+        "e8a8",
+        "c2c6",
+        "c6b7"
+      ],
+      "opponentMoves": [
+        "a7a8",
+        "a8a7"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "Qc6+",
+        "Qb7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "exposedKing",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1616,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/xeFOAXvb/black#80",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kQijM",
+      "fen": "6rk/pb1n1p1p/1p1pq1pQ/2p2N2/4PP2/6R1/P1P4P/4R1K1 w - - 5 28",
+      "playerMoves": [
+        "h6h7",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1518,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/3TKaJQMR/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5qFMq",
+      "fen": "2r2b2/pQ1b1k2/4pp2/3p1q2/8/8/PP2BP1P/2RKR3 b - - 0 25",
+      "playerMoves": [
+        "c8c1",
+        "f8h6",
+        "h6f4",
+        "f5b1"
+      ],
+      "opponentMoves": [
+        "d1c1",
+        "f2f4",
+        "c1d1"
+      ],
+      "solutionSan": [
+        "Rxc1+",
+        "Bh6+",
+        "Bxf4+",
+        "Qb1#"
+      ],
+      "themes": [
+        "attraction",
+        "exposedKing",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1538,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/49xqXf5q#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C7RuL",
+      "fen": "Q4bk1/3P1p1p/6pP/5p2/8/4PBP1/1q3PK1/q7 w - - 0 39",
+      "playerMoves": [
+        "a8f8",
+        "d7d8q"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "d8=Q#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "promotion",
+        "short"
+      ],
+      "rating": 1475,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/P8IPAE4L/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_e9H9C",
+      "fen": "4qr1k/2r1b1pp/ppn1Bp2/4pP1Q/3pNP2/P4R2/1PP3PP/R6K w - - 2 21",
+      "playerMoves": [
+        "h5h7",
+        "f3h3",
+        "h3h5"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "e8h5"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1431,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/rriL1sR5/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bZz9s",
+      "fen": "4q1rk/pp1n1ppp/4p3/3rN3/7Q/6R1/PPP2PPP/4R1K1 w - - 13 25",
+      "playerMoves": [
+        "h4h7",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/CfOhRkCI/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wZyoV",
+      "fen": "5rk1/5ppp/p2QbP2/8/8/2q5/PrP2PPP/R2R2K1 w - - 1 23",
+      "playerMoves": [
+        "d6f8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rd8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1467,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/W3klwtEa/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MeCBJ",
+      "fen": "2r2rk1/pp3ppp/4p3/4N3/1P1P2P1/1Pp4P/q1Q2P2/2KRR3 b - - 0 22",
+      "playerMoves": [
+        "a2a1",
+        "a1b1",
+        "c3c2"
+      ],
+      "opponentMoves": [
+        "c2b1",
+        "c1b1"
+      ],
+      "solutionSan": [
+        "Qa1+",
+        "Qxb1+",
+        "c2+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "attraction",
+        "exposedKing",
+        "long",
+        "middlegame",
+        "queensideAttack"
+      ],
+      "rating": 1466,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/rZq0DI0r#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nPSC9",
+      "fen": "5rk1/1p3ppp/p1pQ4/1q2N3/8/1Pn5/P4PPP/4R1K1 w - - 0 20",
+      "playerMoves": [
+        "d6f8",
+        "e5d7",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Nd7+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1445,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Kiud2buJ/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FHcus",
+      "fen": "1n6/2b3k1/2pq4/3p1pp1/3P3r/1Q2PB2/PPR2PP1/2R3K1 b - - 5 27",
+      "playerMoves": [
+        "h4h1",
+        "d6h2"
+      ],
+      "opponentMoves": [
+        "g1h1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qh2#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1713,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/AXaQ4vwd#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZxwFJ",
+      "fen": "5rk1/b7/4p1qp/p3B1p1/PpPp4/1Q3R1P/1P4P1/7K w - - 1 34",
+      "playerMoves": [
+        "f3f8",
+        "b3f3",
+        "f3a8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "g6f5"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qf3+",
+        "Qa8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "long"
+      ],
+      "rating": 1518,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/tBz8kLR9/black#66",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ywtm2",
+      "fen": "5rk1/p1r2ppp/1b6/6q1/1Q4B1/6PP/P3RP2/4R1K1 w - - 4 32",
+      "playerMoves": [
+        "b4f8",
+        "e2e8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1410,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/vmihhOLx/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_XDyhB",
+      "fen": "2kr4/1p2qQp1/p3p1r1/3p4/P1p4P/2N4K/1PP5/4RR2 b - - 4 27",
+      "playerMoves": [
+        "e7h4",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "h3h4"
+      ],
+      "solutionSan": [
+        "Qxh4+",
+        "Rh8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1450,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/eBTAW82d#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VijZe",
+      "fen": "r6r/kpR4p/p2pP1pb/Q2N4/3q2P1/P6P/1P3P2/6K1 w - - 9 30",
+      "playerMoves": [
+        "c7b7",
+        "a5c7"
+      ],
+      "opponentMoves": [
+        "a7b7"
+      ],
+      "solutionSan": [
+        "Rxb7+",
+        "Qc7#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1428,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/gbt1ziPR/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wt8EY",
+      "fen": "6rk/p4p1p/2p1qPpQ/3p4/5R2/4p3/PP3PPP/6K1 w - - 2 30",
+      "playerMoves": [
+        "h6h7",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1425,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/2NbZuvLe/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nCpbl",
+      "fen": "6r1/2p5/p2p4/1p4n1/6rk/8/PPB1Q2P/6RK b - - 5 32",
+      "playerMoves": [
+        "g4g1",
+        "g5h3",
+        "g8g1"
+      ],
+      "opponentMoves": [
+        "h1g1",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rxg1+",
+        "Nh3+",
+        "Rg1#"
+      ],
+      "themes": [
+        "attraction",
+        "discoveredCheck",
+        "doubleCheck",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1435,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/LMQbcAkF#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_25Yhz",
+      "fen": "5r1k/1p1n1pR1/4p2p/pP1pP2N/P2P4/6Q1/1n1q2PP/2r2RK1 w - - 3 25",
+      "playerMoves": [
+        "g7h7",
+        "g3g7"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1465,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/acHmS5CS/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_scf9f",
+      "fen": "r4rk1/p5bp/p1p5/3p2N1/2PBb3/8/PP3PP1/2KR1B2 w - - 0 21",
+      "playerMoves": [
+        "d4g7",
+        "g5e6"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Bxg7",
+        "Ne6+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "kingsideAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1576,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/5IyJB8Q9/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JNjUz",
+      "fen": "3q2rk/1pp2p1p/1p1p1PpQ/3np3/8/1P1P1R2/1PP1N1PP/6K1 w - - 0 20",
+      "playerMoves": [
+        "h6h7",
+        "f3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1433,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/WjoXxbTz/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_rnMj2",
+      "fen": "1knR4/1pp5/1q6/4p3/Q1K1P3/2P5/P6r/8 w - - 0 39",
+      "playerMoves": [
+        "d8c8",
+        "a4e8"
+      ],
+      "opponentMoves": [
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Rxc8+",
+        "Qe8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "master",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1576,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/VQOQm65B/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Tnp4G",
+      "fen": "1r2r2k/p4pbp/4pBp1/q7/2p1p1N1/1BPb3P/PP1Q1PP1/4R1K1 w - - 0 24",
+      "playerMoves": [
+        "f6g7",
+        "d2h6",
+        "g4f6",
+        "f6h5"
+      ],
+      "opponentMoves": [
+        "h8g7",
+        "g7h8",
+        "a5h5"
+      ],
+      "solutionSan": [
+        "Bxg7+",
+        "Qh6+",
+        "Nf6",
+        "Nxh5"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "kingsideAttack",
+        "middlegame",
+        "veryLong"
+      ],
+      "rating": 1610,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/o7vmxcvU/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6a0EU",
+      "fen": "r1b1Rbk1/1ppqnp1p/p5p1/8/3P4/5N2/P1PQ1PPP/R5K1 w - - 4 18",
+      "playerMoves": [
+        "e8f8",
+        "d2h6",
+        "f3g5"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qh6+",
+        "Ng5"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1527,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/MckyQUPr/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_mhfc7",
+      "fen": "5r1k/Q1R3Rp/p3pP2/3p1bp1/q7/4P3/P4PPP/1r3BK1 b - - 2 27",
+      "playerMoves": [
+        "b1f1",
+        "a4d1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Qd1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1404,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fpvrak3e#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LQwLM",
+      "fen": "5rk1/pp4pp/2p1q3/3p2RP/3Pr3/1P3Q2/PKP5/7R w - - 7 29",
+      "playerMoves": [
+        "g5g7",
+        "h1g1"
+      ],
+      "opponentMoves": [
+        "g8g7"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Rg1+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1452,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Vsm4MK5s/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_l5LVD",
+      "fen": "7R/k5rP/8/8/8/8/6p1/6K1 w - - 1 52",
+      "playerMoves": [
+        "h8a8",
+        "h7h8q"
+      ],
+      "opponentMoves": [
+        "a7a8"
+      ],
+      "solutionSan": [
+        "Ra8+",
+        "h8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "master",
+        "promotion",
+        "rookEndgame",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/4oOL2pjt/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GfleW",
+      "fen": "6k1/1p5p/p2Qp2r/4Npp1/3P3P/4P1PK/5q2/2R5 b - - 0 36",
+      "playerMoves": [
+        "g5g4",
+        "f5g4",
+        "f2f5"
+      ],
+      "opponentMoves": [
+        "e5g4",
+        "h3g4"
+      ],
+      "solutionSan": [
+        "g4+",
+        "fxg4+",
+        "Qf5#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1605,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/M2bkHCgj#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YMUzF",
+      "fen": "8/p6p/1rb1pQpk/4N3/8/2q3P1/P3PPBP/R5K1 b - - 0 25",
+      "playerMoves": [
+        "c3a1",
+        "a1f1",
+        "b6b1"
+      ],
+      "opponentMoves": [
+        "g2f1",
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qxa1+",
+        "Qxf1+",
+        "Rb1#"
+      ],
+      "themes": [
+        "attraction",
+        "hangingPiece",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate"
+      ],
+      "rating": 1614,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/6bgdi7HB#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_bQNmT",
+      "fen": "8/4Q1p1/4p1k1/3p2p1/2pP1q2/2r2P2/6K1/R4R2 b - - 2 41",
+      "playerMoves": [
+        "c3c2",
+        "c2f2",
+        "f4d4"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "g2f2"
+      ],
+      "solutionSan": [
+        "Rc2+",
+        "Rxf2+",
+        "Qxd4+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1551,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/5Dqn7Gp2#81",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Utel0",
+      "fen": "r3k1nr/3bbpp1/1q2p3/3pP3/1p1P1PP1/1p1QBN1p/1P1NB2P/1KR4R b kq - 1 24",
+      "playerMoves": [
+        "a8a1",
+        "b6a5",
+        "a5a2"
+      ],
+      "opponentMoves": [
+        "b1a1",
+        "a1b1"
+      ],
+      "solutionSan": [
+        "Ra1+",
+        "Qa5+",
+        "Qa2#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1430,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/jx03QGoB#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VqNss",
+      "fen": "r2q3Q/pbpnbkp1/1p2p3/3pP1P1/5r2/4P3/PPP2PP1/R3K2R w KQ - 2 17",
+      "playerMoves": [
+        "g5g6",
+        "h8h5"
+      ],
+      "opponentMoves": [
+        "f7g6"
+      ],
+      "solutionSan": [
+        "g6+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1741,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ISeimcqa/black#32",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2YX3t",
+      "fen": "2k3r1/1bppqp2/ppn1p3/8/2NPP3/2PB3r/PP2QP1N/R5RK b - - 1 18",
+      "playerMoves": [
+        "h3h2",
+        "e7h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1454,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Hw2vXFpC#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GdIad",
+      "fen": "2kq4/1b2n3/1R2p1p1/2p1P3/5Pp1/2P5/3r1Q1P/1R4K1 w - - 0 31",
+      "playerMoves": [
+        "f2c5",
+        "c5c7",
+        "b6b7"
+      ],
+      "opponentMoves": [
+        "d8c7",
+        "c8c7"
+      ],
+      "solutionSan": [
+        "Qxc5+",
+        "Qxc7+",
+        "Rxb7+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "exposedKing",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1438,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/CFnFEvF6/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6Qkjs",
+      "fen": "2q2r1k/3RR1p1/p6p/2pB3r/2PpQ3/P4pP1/5Pb1/6K1 w - - 18 37",
+      "playerMoves": [
+        "e4h7",
+        "e7g7",
+        "g7h7"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Qh7+",
+        "Rxg7+",
+        "Rh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1572,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/QrFU38Tj/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_IPRxw",
+      "fen": "1r6/kP3ppp/3Rpn2/8/Pp6/7P/2q2QP1/5K1R b - - 3 23",
+      "playerMoves": [
+        "c2f2",
+        "f6e4"
+      ],
+      "opponentMoves": [
+        "f1f2"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Ne4+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "short"
+      ],
+      "rating": 1695,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/phpyuI0q#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_g4pDp",
+      "fen": "8/1p3pnk/1p4pP/6P1/6N1/2P2K1R/PP2r3/4r3 w - - 0 40",
+      "playerMoves": [
+        "g4f6",
+        "h6g7",
+        "h3h7",
+        "h7h8",
+        "h8e8",
+        "e8e2"
+      ],
+      "opponentMoves": [
+        "h7h8",
+        "h8g7",
+        "g7f8",
+        "f8e7",
+        "e7d6"
+      ],
+      "solutionSan": [
+        "Nf6+",
+        "hxg7+",
+        "Rh7+",
+        "Rh8+",
+        "Re8+",
+        "Rxe2"
+      ],
+      "themes": [
+        "advancedPawn",
+        "advantage",
+        "attraction",
+        "discoveredCheck",
+        "doubleCheck",
+        "endgame",
+        "veryLong"
+      ],
+      "rating": 1629,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/KdW0v0wg/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RK65M",
+      "fen": "3r3k/p4Q1p/6p1/4Np2/5P1b/4B3/PP2r1PP/3R3K b - - 0 29",
+      "playerMoves": [
+        "d8d1",
+        "d1g1",
+        "e2e1"
+      ],
+      "opponentMoves": [
+        "e3g1",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rxd1+",
+        "Rxg1+",
+        "Re1#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate"
+      ],
+      "rating": 1482,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/U37Ht7GT#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wlkmb",
+      "fen": "2kr2r1/1pp1qp1p/p1n5/3B4/5P2/bP1P2P1/1BPQ3P/2KRR3 b - - 1 20",
+      "playerMoves": [
+        "a3b2",
+        "e7f6",
+        "d8d5"
+      ],
+      "opponentMoves": [
+        "c1b2",
+        "c2c3"
+      ],
+      "solutionSan": [
+        "Bxb2+",
+        "Qf6+",
+        "Rxd5"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "long",
+        "middlegame",
+        "queensideAttack"
+      ],
+      "rating": 1545,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Qjf9t9Ey#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fjegd",
+      "fen": "3r3k/1p4p1/2p2p1p/1p4nq/1P4Q1/P3PPP1/6KP/1R3R2 b - - 3 31",
+      "playerMoves": [
+        "d8d2",
+        "d2f2",
+        "h5h2"
+      ],
+      "opponentMoves": [
+        "f1f2",
+        "g2f2"
+      ],
+      "solutionSan": [
+        "Rd2+",
+        "Rxf2+",
+        "Qxh2+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "long"
+      ],
+      "rating": 1591,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/7jCrN32q#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OtTgP",
+      "fen": "3r1Bk1/5p2/p5p1/1p1ppr2/6q1/2P5/PP1Q3R/7K w - - 6 40",
+      "playerMoves": [
+        "h2h8",
+        "d2h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1589,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/IH1lLRI4/black#78",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7fEkK",
+      "fen": "r5k1/p1p2ppp/1p1p1nb1/3Pr2q/1PPNp3/P1B1PnPP/4BPK1/R2Q1R2 b - - 4 19",
+      "playerMoves": [
+        "h5h3",
+        "e5h5",
+        "h5h2"
+      ],
+      "opponentMoves": [
+        "g2h3",
+        "h3g2"
+      ],
+      "solutionSan": [
+        "Qxh3+",
+        "Rh5+",
+        "Rh2#"
+      ],
+      "themes": [
+        "attraction",
+        "hookMate",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1788,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fniXI2hF#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AsHvg",
+      "fen": "6rk/p4Qp1/1p4Pp/2p3q1/3b4/6P1/4R1K1/8 w - - 7 46",
+      "playerMoves": [
+        "f7g8",
+        "e2e8"
+      ],
+      "opponentMoves": [
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Qxg8+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1512,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/HbiLmgYr/black#90",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ipxlm",
+      "fen": "r4r1k/ppp1Nppp/3pb3/7R/8/5Q2/PqP2PPP/4R1K1 w - - 4 19",
+      "playerMoves": [
+        "h5h7",
+        "f3h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/EXMVWyQi/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yYGmV",
+      "fen": "5r2/2p3k1/1p1p2r1/p3qp2/P1P5/1P6/7R/1B1Q1R1K b - - 3 36",
+      "playerMoves": [
+        "e5h2",
+        "f8h8",
+        "h8h5"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "d1h5"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh8+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "exposedKing",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1548,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/aCVwMDIL#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yPkKH",
+      "fen": "r2q2k1/3N2pp/1p2p2r/2bp1p2/5P2/2N5/PP2Q1PP/4RR1K b - - 0 19",
+      "playerMoves": [
+        "h6h2",
+        "d8h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1545,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/HESPDF4W#37",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wyerh",
+      "fen": "r1bq3k/pp2r1bp/5p2/3BnP1R/8/8/PP4P1/R1BQ1K2 w - - 3 20",
+      "playerMoves": [
+        "h5h7",
+        "d1h5",
+        "h5h6"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "g7h6"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh5+",
+        "Qxh6#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "opening",
+        "sacrifice"
+      ],
+      "rating": 1578,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/czBLXGKW/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vhSO1",
+      "fen": "2R2Q2/2R2p1p/1p1p1kp1/nP2p3/8/5PPK/P3q2P/8 b - - 2 30",
+      "playerMoves": [
+        "e2f1",
+        "g6g5",
+        "h7h5",
+        "f1h3"
+      ],
+      "opponentMoves": [
+        "h3h4",
+        "h4g4",
+        "g4h5"
+      ],
+      "solutionSan": [
+        "Qf1+",
+        "g5+",
+        "h5+",
+        "Qh3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1419,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fp2nws5r#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_VeSbq",
+      "fen": "5r1k/pp2Nppp/5b2/8/4QP2/P5K1/2P3R1/3q4 w - - 6 33",
+      "playerMoves": [
+        "e4h7",
+        "g2h2",
+        "h2h4",
+        "h4h5"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "f6h4",
+        "d1h5"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh2+",
+        "Rxh4+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1498,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/bjReTvBU/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_f0woc",
+      "fen": "1r4k1/p3ppP1/7Q/q1pP2B1/1r2p1P1/3b4/PP6/K1R4R b - - 0 27",
+      "playerMoves": [
+        "a5a2",
+        "b4a4"
+      ],
+      "opponentMoves": [
+        "a1a2"
+      ],
+      "solutionSan": [
+        "Qxa2+",
+        "Ra4#"
+      ],
+      "themes": [
+        "attraction",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1432,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/WCiwrjnx#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DRXgb",
+      "fen": "5nk1/p3qbp1/1p2p3/4P1R1/3P4/2r1QPK1/P7/7R w - - 5 35",
+      "playerMoves": [
+        "g5g7",
+        "e3h6",
+        "h6h8"
+      ],
+      "opponentMoves": [
+        "g8g7",
+        "g7g8"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Qh6+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1634,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/zV0q3mjk/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_8afcN",
+      "fen": "2r2b1r/2k1NQ2/1qN1Pp1p/p1nP2p1/P7/1pp1P2P/1pP3P1/1K1RR3 b - - 0 29",
+      "playerMoves": [
+        "b3c2",
+        "b6b3",
+        "c3c2"
+      ],
+      "opponentMoves": [
+        "b1c2",
+        "c2b1"
+      ],
+      "solutionSan": [
+        "bxc2+",
+        "Qb3+",
+        "c2#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack"
+      ],
+      "rating": 1413,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/AQgW0DHF#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_AHqrd",
+      "fen": "1rb3k1/p2P2p1/2p4p/2p2r2/2N1p3/1P2PpPq/P4P1P/2RQ2RK b - - 0 23",
+      "playerMoves": [
+        "h3h2",
+        "f5h5"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1546,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fZK8SuAJ#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_EEmxI",
+      "fen": "2r1r2k/pp5p/3QR1p1/3p4/3q4/7P/P5P1/5R1K w - - 2 33",
+      "playerMoves": [
+        "e6e8",
+        "f1f8",
+        "f8e8"
+      ],
+      "opponentMoves": [
+        "c8e8",
+        "h8g7"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Rf8+",
+        "Rxe8"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "long"
+      ],
+      "rating": 1474,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/96bKgXGf/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_u4yGk",
+      "fen": "8/4P1k1/1p3p2/p4P2/3P1K2/1P1BB2r/P5p1/8 b - - 0 43",
+      "playerMoves": [
+        "h3e3",
+        "g2g1q"
+      ],
+      "opponentMoves": [
+        "f4e3"
+      ],
+      "solutionSan": [
+        "Rxe3",
+        "g1=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "promotion",
+        "short"
+      ],
+      "rating": 1622,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/wT5MJauw#85",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1HXGs",
+      "fen": "5r1k/4Np1q/1Q6/7R/P4B2/1b4P1/5PK1/b2q4 w - - 1 43",
+      "playerMoves": [
+        "h5h7",
+        "b6h6"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh6#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1500,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/TlKSQ0ET/black#84",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ttukr",
+      "fen": "8/4k1pp/1pQ1p3/4P1q1/5P2/1P2p1r1/P2r3P/3R1R1K b - - 1 28",
+      "playerMoves": [
+        "d2h2",
+        "g5h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1523,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/6pQWy3z1#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6HfOL",
+      "fen": "2r2r2/1p2q1kp/p2p2p1/3Pp3/2P2p2/5P1R/PPQ2P2/1K4R1 w - - 1 26",
+      "playerMoves": [
+        "h3h7",
+        "c2g6",
+        "g1h1",
+        "h1h4"
+      ],
+      "opponentMoves": [
+        "g7h7",
+        "h7h8",
+        "e7h4"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qxg6+",
+        "Rh1+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1458,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yAJ3BBpK/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jkgfd",
+      "fen": "2Q5/1p3bkp/6p1/p2qP2P/5PP1/2P3K1/8/8 w - - 0 45",
+      "playerMoves": [
+        "h5h6",
+        "c8f8"
+      ],
+      "opponentMoves": [
+        "g7h6"
+      ],
+      "solutionSan": [
+        "h6+",
+        "Qf8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1506,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/gjQbYm4c/black#88",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Vz4Gf",
+      "fen": "4r1k1/1pp2p2/1b1p3Q/p6R/P3r3/6B1/1P2qPPP/5RK1 b - - 0 27",
+      "playerMoves": [
+        "e2f1",
+        "e4e1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Re1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1476,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/7hC2pmFj#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_0k5In",
+      "fen": "1r4k1/2pp1pp1/7p/4qP2/8/PrPQ2P1/K6P/1R1R4 b - - 0 30",
+      "playerMoves": [
+        "b3a3",
+        "e5a5"
+      ],
+      "opponentMoves": [
+        "a2a3"
+      ],
+      "solutionSan": [
+        "Rxa3+",
+        "Qa5#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1547,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/cgscINrl#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_UedUl",
+      "fen": "1k6/5p2/p1p5/1p2PRK1/7r/8/PP3N1r/4R3 b - - 5 37",
+      "playerMoves": [
+        "h4h5",
+        "h5f5",
+        "h2f2"
+      ],
+      "opponentMoves": [
+        "g5f6",
+        "f6f5"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Rxf5+",
+        "Rxf2+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1525,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ale9fMTY#73",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_reyyL",
+      "fen": "2k3r1/pp3p1p/2p1ppr1/4q3/4P3/1P1P4/1PP2QPP/1R4RK b - - 6 25",
+      "playerMoves": [
+        "e5h2",
+        "g6h6",
+        "h6h4"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "f2h4"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh6+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1497,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/XWRrGhSv#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_MH4Lx",
+      "fen": "r2q1rk1/1pp2pp1/1b2p3/p3P1N1/5P2/P6R/1P3QPP/n1B4K w - - 0 23",
+      "playerMoves": [
+        "h3h8",
+        "f2h4",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh4+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1410,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/SpvQ5Hvd/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_WSgyP",
+      "fen": "2rq2rk/pb3p1p/1p3PpQ/2p1P3/4PR2/3B4/Pp5P/R5K1 w - - 0 24",
+      "playerMoves": [
+        "h6h7",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1534,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/mGoE6X6z/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LOC0l",
+      "fen": "3Q1K2/1b3N1k/p2P2p1/1p4p1/1q6/5r2/8/1B6 w - - 1 48",
+      "playerMoves": [
+        "b1g6",
+        "d8g5",
+        "g5h6"
+      ],
+      "opponentMoves": [
+        "h7g6",
+        "g6h7"
+      ],
+      "solutionSan": [
+        "Bxg6+",
+        "Qxg5+",
+        "Qh6#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1411,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/RlSKESii/black#94",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4B8FW",
+      "fen": "5rk1/pR2Q1pp/6r1/2p2p2/4n3/7P/4q1P1/2BR2K1 w - - 5 29",
+      "playerMoves": [
+        "e7f8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rd8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1629,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/dhvOB2AC/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_d4lyK",
+      "fen": "1R3bk1/5p1p/p2P2p1/4Q3/8/P6P/2r1r3/7K w - - 2 35",
+      "playerMoves": [
+        "b8f8",
+        "e5h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1629,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/IQQ5Cnj8/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tf2Qp",
+      "fen": "4rb2/1ppr2pk/p3qp1p/4pN2/1P2p2P/2PPQ3/P3KPR1/6R1 w - - 0 26",
+      "playerMoves": [
+        "g2g7",
+        "g1g7",
+        "e3h6",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "f8g7",
+        "d7g7",
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Rxg7+",
+        "Rxg7+",
+        "Qxh6+",
+        "Qxg7#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1583,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/JOfjRUKF/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_fuOVK",
+      "fen": "r4rk1/pp3qpR/2pp1pQ1/2nPp1p1/4P3/2N5/PPP2PK1/R7 w - - 4 20",
+      "playerMoves": [
+        "h7h8",
+        "a1h1",
+        "g6h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rh1+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1553,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/u3kGfJGd/black#38",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_p0pwo",
+      "fen": "4rk1r/p4ppp/q1pP4/3p4/8/5Q2/3N1PPP/4R1K1 w - - 1 21",
+      "playerMoves": [
+        "e1e8",
+        "f3e3",
+        "e3e7",
+        "e7c7"
+      ],
+      "opponentMoves": [
+        "f8e8",
+        "e8d7",
+        "d7c8"
+      ],
+      "solutionSan": [
+        "Rxe8+",
+        "Qe3+",
+        "Qe7+",
+        "Qc7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1539,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/lsOyFjqR/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_u6Ves",
+      "fen": "3q1rk1/1p3pp1/p4rP1/2p1p1p1/P3Q3/3P2P1/1PP5/R3K2R w KQ - 0 23",
+      "playerMoves": [
+        "h1h8",
+        "e4h1",
+        "h1h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh1+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1723,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/PRMCKe2y/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_5cXbx",
+      "fen": "3R1rk1/p3pp1p/6p1/8/3Q4/8/q3rPPP/3R2K1 w - - 0 22",
+      "playerMoves": [
+        "d8f8",
+        "d4h8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1476,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/SRMe2e1u/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HSC5j",
+      "fen": "5r2/3n2k1/q1p1pr1p/p1Pp2p1/3Pp3/P3P3/5PPP/1R1QNRK1 b - - 7 27",
+      "playerMoves": [
+        "a6f1",
+        "f6f2",
+        "f2f1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Rxf2+",
+        "Rf1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1401,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/HtTE8gtc#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hu2Wm",
+      "fen": "6rk/2q4p/4bPpQ/2B1p3/1p1p4/5P2/r1P5/2KR3R w - - 0 28",
+      "playerMoves": [
+        "h6h7",
+        "h1h7",
+        "d1h1",
+        "h1h3"
+      ],
+      "opponentMoves": [
+        "c7h7",
+        "h8h7",
+        "e6h3"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rxh7+",
+        "Rh1+",
+        "Rxh3#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1411,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/GKpxF8SJ/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NQ34W",
+      "fen": "2b2rkb/4Qp1p/1p1P1Pp1/3q2Pn/3P4/1p2B3/PP6/K1R5 w - - 0 33",
+      "playerMoves": [
+        "e7f8",
+        "c1c8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rxc8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1445,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/2SQoDyxT/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xIJhn",
+      "fen": "rnb2rk1/pp3ppp/2pQ2q1/8/2PB4/5N2/5PPP/4R1K1 w - - 2 19",
+      "playerMoves": [
+        "d6f8",
+        "d4c5",
+        "c5d6",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "g6d6",
+        "f8g8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Bc5+",
+        "Bxd6+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "backRankMate",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1623,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/1cvq4QOf/black#36",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_prv0o",
+      "fen": "5r1r/pp3pk1/1n4p1/3pN3/6bq/2PQ1R2/PPB2P2/4RK2 w - - 0 29",
+      "playerMoves": [
+        "f3f7",
+        "d3g6",
+        "g6f7"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "g7f8"
+      ],
+      "solutionSan": [
+        "Rxf7+",
+        "Qxg6+",
+        "Qxf7#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1586,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/VeVw01t5/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_4Sf40",
+      "fen": "3r2k1/p1p2ppp/2p2q2/3P3P/4NPb1/6P1/PrPR2Q1/2K4R b - - 1 21",
+      "playerMoves": [
+        "b2b1",
+        "d8b8",
+        "f6b2"
+      ],
+      "opponentMoves": [
+        "c1b1",
+        "b1c1"
+      ],
+      "solutionSan": [
+        "Rb1+",
+        "Rb8+",
+        "Qb2#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1742,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ApFboSg8#41",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LXz5a",
+      "fen": "5rk1/5ppp/3p3P/3Np3/3nP3/5P2/P1qQ2P1/5K2 w - - 1 29",
+      "playerMoves": [
+        "d5e7",
+        "h6g7",
+        "d2g5",
+        "g5f6"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g7",
+        "g7h8"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "hxg7+",
+        "Qg5+",
+        "Qf6#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn4",
+        "veryLong"
+      ],
+      "rating": 1565,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Cb3FJ2wk/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1DmAu",
+      "fen": "1r3r1k/6pp/8/8/1P1RB3/P7/3QbqPP/6RK b - - 5 33",
+      "playerMoves": [
+        "f2g1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxg1+",
+        "Rf1#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1446,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/UWudCAfD#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_eCYD1",
+      "fen": "4k3/R7/1p6/PP1p4/2bP3P/2B4r/2K1p3/8 b - - 0 48",
+      "playerMoves": [
+        "h3c3",
+        "e2e1q"
+      ],
+      "opponentMoves": [
+        "c2c3"
+      ],
+      "solutionSan": [
+        "Rxc3+",
+        "e1=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "master",
+        "promotion",
+        "short"
+      ],
+      "rating": 1521,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/CACzjGrA#95",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QEagg",
+      "fen": "1k4r1/ppp5/6qp/QP2p3/3pPp2/3P1P2/5BrP/R5RK b - - 3 28",
+      "playerMoves": [
+        "g2h2",
+        "g6h5",
+        "h5h4"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "f2h4"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh5+",
+        "Qxh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1479,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/wbJSgm1h#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_T1y26",
+      "fen": "8/pPk1bp1p/2P1p3/1B6/8/5b2/r6P/2R2K2 w - - 0 27",
+      "playerMoves": [
+        "b7b8q",
+        "c6c7",
+        "b5d7",
+        "c7c8q"
+      ],
+      "opponentMoves": [
+        "c7b8",
+        "b8c8",
+        "c8d7"
+      ],
+      "solutionSan": [
+        "b8=Q+",
+        "c7+",
+        "Bd7+",
+        "c8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "exposedKing",
+        "promotion",
+        "veryLong"
+      ],
+      "rating": 1436,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/jB2zZ9SZ/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_M4ftE",
+      "fen": "3Nk3/5p2/5n1p/2bBp1r1/4Pp2/5Pq1/1PP1Q1PN/R4R1K b - - 0 24",
+      "playerMoves": [
+        "g3h2",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1453,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/RbI7D6dJ#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_RWXR9",
+      "fen": "3q1r1k/1p2bpR1/7P/p3p3/P1p1P3/5P2/bPP5/2KB2Q1 w - - 6 28",
+      "playerMoves": [
+        "g7h7",
+        "g1g7"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1414,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/o7EtBVod/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_dYA3u",
+      "fen": "4r1k1/p1p5/1p1p3p/2P2Qp1/3Pn3/8/PP3PPP/4rNK1 b - - 1 24",
+      "playerMoves": [
+        "e1f1",
+        "e4d2",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "g1f1",
+        "f1g1"
+      ],
+      "solutionSan": [
+        "Rxf1+",
+        "Nd2+",
+        "Re1#"
+      ],
+      "themes": [
+        "attraction",
+        "backRankMate",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1662,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/5gtkAFDl#47",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yhPev",
+      "fen": "6rk/5p1p/p3pPpQ/3pP3/2pP1R2/2P4P/q2r2P1/6K1 w - - 0 31",
+      "playerMoves": [
+        "h6h7",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1410,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/UyNhBUyU/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_85lnQ",
+      "fen": "3r1r2/1pR4p/p3Q1pk/3P4/8/1q6/7P/6RK w - - 2 32",
+      "playerMoves": [
+        "c7h7",
+        "e6g6",
+        "g6g7"
+      ],
+      "opponentMoves": [
+        "h6h7",
+        "h7h8"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qxg6+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1548,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Y15XZ7rZ/black#62",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YwkQt",
+      "fen": "5r2/4qkr1/4b2Q/2ppP1pR/6p1/pP6/P1P2PP1/2K4R w - - 4 30",
+      "playerMoves": [
+        "h6g7",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "f7g7"
+      ],
+      "solutionSan": [
+        "Qxg7+",
+        "Rh7+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1507,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/BgsXYsHW/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QbdSh",
+      "fen": "3r2rk/p4pRp/2p2P1Q/1p3q1P/3P4/8/bP3P2/2K3R1 w - - 0 29",
+      "playerMoves": [
+        "g7g8",
+        "g1g8",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "d8g8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxg8+",
+        "Rxg8+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1568,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/UzscI1T8/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HRPtr",
+      "fen": "5rk1/2p2p2/2Qbpp1p/7R/5P1q/4PBrP/3P1KP1/2R5 b - - 1 33",
+      "playerMoves": [
+        "g3f3",
+        "h4h5"
+      ],
+      "opponentMoves": [
+        "f2f3"
+      ],
+      "solutionSan": [
+        "Rxf3+",
+        "Qxh5+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "discoveredCheck",
+        "doubleCheck",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1487,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Wju9hIeg#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_aqirI",
+      "fen": "1k3r1r/p3b3/1p1q3p/5pp1/2Pp4/5QPP/2P2P1N/R3R1K1 w - - 0 23",
+      "playerMoves": [
+        "a1a7",
+        "e1a1"
+      ],
+      "opponentMoves": [
+        "b8a7"
+      ],
+      "solutionSan": [
+        "Rxa7",
+        "Ra1+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1400,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/d5VrHJuG/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_M8SBr",
+      "fen": "4r2r/1Qpk4/5q1p/4bb1p/2B5/N1P5/PP4PP/R3R1K1 b - - 0 18",
+      "playerMoves": [
+        "e5h2",
+        "f6h4",
+        "e8e1",
+        "h4e1"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g1",
+        "a1e1"
+      ],
+      "solutionSan": [
+        "Bxh2+",
+        "Qh4+",
+        "Rxe1+",
+        "Qxe1+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "kingsideAttack",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1776,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/JIyEitRX#35",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NYcMl",
+      "fen": "1k1r3r/pp3Qp1/2nb4/8/3PB3/P1N1Pb1q/1P1B1P2/R3KR2 b Q - 0 22",
+      "playerMoves": [
+        "h3f1",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "e1f1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Rh1#"
+      ],
+      "themes": [
+        "attraction",
+        "master",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1536,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/mdCPsWuO#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_TZ9xb",
+      "fen": "3r1k1r/ppp1Rp2/2q3p1/8/8/2P2PPp/PP2Q2P/4R2K w - - 3 23",
+      "playerMoves": [
+        "e7f7",
+        "e2e7",
+        "e7d8"
+      ],
+      "opponentMoves": [
+        "f8f7",
+        "f7g8"
+      ],
+      "solutionSan": [
+        "Rxf7+",
+        "Qe7+",
+        "Qxd8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "interference",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1463,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/C7LU0jCm/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_426nd",
+      "fen": "r4r1k/2p2p1p/4pp2/n1PqP3/5P2/p5R1/PpQ2P1P/1K4R1 w - - 0 31",
+      "playerMoves": [
+        "c2h7",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1523,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/KidT2GiM/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Hm0hG",
+      "fen": "r4rk1/5ppp/2N1p3/pq1p4/R6Q/4PP2/1PP2P1P/7K w - - 0 25",
+      "playerMoves": [
+        "c6e7",
+        "h4h7",
+        "a4h4"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1463,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/DQcuFmfK/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_NFFuh",
+      "fen": "6rk/2qb1p1n/p2p2r1/2p1bN2/1pP1P3/1P1PBR1Q/1P3K1P/R7 w - - 3 30",
+      "playerMoves": [
+        "h3h7",
+        "f3h3",
+        "h3h6"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "g6h6"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "attraction",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1508,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/zrmVE48n/black#58",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_uFyp4",
+      "fen": "7k/2p4p/1pPpp3/pP1P4/P2P2q1/3Q3p/6r1/4RR1K b - - 0 34",
+      "playerMoves": [
+        "g2h2",
+        "g4g2"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1510,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/UMlG3ZmU#67",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_FX6FI",
+      "fen": "1r5k/6pp/p2pQ2P/2p5/4P3/q1p1NP2/PrP3P1/KR5R b - - 0 27",
+      "playerMoves": [
+        "b2b1",
+        "b8b1",
+        "a3b2"
+      ],
+      "opponentMoves": [
+        "h1b1",
+        "a1b1"
+      ],
+      "solutionSan": [
+        "Rxb1+",
+        "Rxb1+",
+        "Qb2#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1591,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Sgb4UGxt#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_d8IGf",
+      "fen": "2kr3r/1pp2Qp1/4q1p1/4P3/Pp1p4/3P4/1PP4P/RN3RK1 b - - 0 20",
+      "playerMoves": [
+        "e6g4",
+        "h8h2",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qg4+",
+        "Rxh2+",
+        "Rh8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1602,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/AlyNTvni#39",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_nI3Jt",
+      "fen": "r5rk/p4p1p/4pPnQ/P5R1/2p1qP2/2pn4/1P5P/3R1K2 w - - 0 31",
+      "playerMoves": [
+        "h6h7",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1490,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/3kFnJbP3/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xYLmq",
+      "fen": "4r1rk/5pRp/p4P1Q/1p1p4/2p1b2P/8/PPP2q1B/2K3R1 w - - 4 31",
+      "playerMoves": [
+        "g7g8",
+        "g1g8",
+        "h6g7"
+      ],
+      "opponentMoves": [
+        "e8g8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rxg8+",
+        "Rxg8+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1673,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/0eWZfjn4/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yoUYP",
+      "fen": "r7/1b1Rqkp1/8/1Q2b3/P1N5/4P1Pp/5Pp1/4R1K1 b - - 1 28",
+      "playerMoves": [
+        "h3h2",
+        "a8h8",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g1"
+      ],
+      "solutionSan": [
+        "h2+",
+        "Rh8+",
+        "Rh1#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "long",
+        "master",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1420,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/whWCb8PX#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_hk85V",
+      "fen": "5rk1/p5pp/1p6/3PB3/4P3/6Q1/PP2bqPP/6RK b - - 4 31",
+      "playerMoves": [
+        "f2g1",
+        "f8f1"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Qxg1+",
+        "Rf1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1413,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Wft13Xef#61",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OMxiU",
+      "fen": "4Q3/5Rpk/5q1p/8/7r/5PR1/P4PKP/3r4 b - - 0 33",
+      "playerMoves": [
+        "h4h2",
+        "f6h4",
+        "h4f2"
+      ],
+      "opponentMoves": [
+        "g2h2",
+        "g3h3"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4+",
+        "Qxf2#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1407,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yPpewU8A#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Wgz8V",
+      "fen": "5rk1/p3n1p1/1p5p/2p1N3/2Pn4/r5P1/P3R1KP/2B2R2 w - - 4 27",
+      "playerMoves": [
+        "f1f8",
+        "e2f2"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Rf2+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1734,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/iajaVL1F/black#52",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Enndf",
+      "fen": "5r2/1p3Pk1/1q4p1/6Np/Q4P1P/p1P5/1r6/K2R3R b - - 3 33",
+      "playerMoves": [
+        "b2a2",
+        "b6b2"
+      ],
+      "opponentMoves": [
+        "a1a2"
+      ],
+      "solutionSan": [
+        "Ra2+",
+        "Qb2#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1570,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/GVsWUmvm#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_sBtHT",
+      "fen": "1r2k3/3b1p2/p3pBn1/3pP3/3p4/1qP3Q1/8/2K4R w - - 0 37",
+      "playerMoves": [
+        "h1h8",
+        "h8f8",
+        "g3g7",
+        "g7h8"
+      ],
+      "opponentMoves": [
+        "g6f8",
+        "e8f8",
+        "f8e8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Rxf8+",
+        "Qg7+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1559,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/FMGCS8hf/black#72",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZSE8d",
+      "fen": "2k3rr/2q2p1p/p1p1p3/2Pp4/8/1PQ1B3/P3bPPP/R3R1K1 b - - 2 23",
+      "playerMoves": [
+        "g8g2",
+        "h8g8",
+        "g8g5"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "e3g5"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Rg8+",
+        "Rxg5+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "kingsideAttack",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1415,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ExGsuR8n#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Qj2rE",
+      "fen": "4Rbk1/p4ppp/8/1B3q2/2p5/2K1B3/1P6/4R3 w - - 2 33",
+      "playerMoves": [
+        "e8f8",
+        "e3c5",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "f5c5"
+      ],
+      "solutionSan": [
+        "Rxf8+",
+        "Bc5+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "clearance",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1520,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/VBB9WFXk/black#64",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_qK2ZF",
+      "fen": "rnb2rk1/ppp3p1/4p1P1/4pp2/2PPnP2/2PKP3/P4qP1/R2Q1B1R w - - 0 15",
+      "playerMoves": [
+        "h1h8",
+        "d1h5",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh5+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1526,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/JDGYZ6Hm/black#28",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_6wOIa",
+      "fen": "3r3r/Ppp1n1q1/4k3/P2pNp2/3Pn3/2PB2P1/2Q3KP/R4R2 b - - 0 25",
+      "playerMoves": [
+        "h8h2",
+        "g7g3",
+        "d8h8",
+        "g3h2"
+      ],
+      "opponentMoves": [
+        "g2h2",
+        "h2h1",
+        "c2h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qxg3+",
+        "Rh8+",
+        "Qxh2#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1515,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/q2CsdjRe#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_k5BlM",
+      "fen": "3r1r1k/4Nqpp/3p4/8/2ppQP2/5R2/1P4PP/6K1 w - - 2 26",
+      "playerMoves": [
+        "e4h7",
+        "f3h3",
+        "h3h5"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "f7h5"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3+",
+        "Rxh5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1474,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fE6rytNt/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_F95Ja",
+      "fen": "8/1p4qk/p2p3p/2p1pR1p/1PP1Pn1Q/3P3P/P5r1/R6K b - - 3 33",
+      "playerMoves": [
+        "g2h2",
+        "g7g2"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1565,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Ztngn37G#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_28d6F",
+      "fen": "k5r1/1p6/pP1Q2pp/8/7K/6P1/P2R3P/5q2 b - - 3 32",
+      "playerMoves": [
+        "g6g5",
+        "h6h5",
+        "f1h3"
+      ],
+      "opponentMoves": [
+        "h4g4",
+        "g4h5"
+      ],
+      "solutionSan": [
+        "g5+",
+        "h5+",
+        "Qh3#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3"
+      ],
+      "rating": 1468,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/LSEF6cIB#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_o7DTL",
+      "fen": "5rk1/3b3p/4pbp1/3p4/3N1P2/1P1P4/RPq2QPP/R5K1 b - - 0 27",
+      "playerMoves": [
+        "c2f2",
+        "f6d4"
+      ],
+      "opponentMoves": [
+        "g1f2"
+      ],
+      "solutionSan": [
+        "Qxf2+",
+        "Bxd4+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "intermezzo",
+        "kingsideAttack",
+        "master",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/kuqRpWcX#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_jG7aw",
+      "fen": "6rk/1pp2p2/1q3p2/4p2P/1b5Q/1B1b1P2/PP2N1R1/3R1K2 b - - 6 25",
+      "playerMoves": [
+        "d3e2",
+        "g8g2"
+      ],
+      "opponentMoves": [
+        "f1e2"
+      ],
+      "solutionSan": [
+        "Bxe2+",
+        "Rxg2+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "middlegame",
+        "short"
+      ],
+      "rating": 1564,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/aLzVaPtd#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_GD71N",
+      "fen": "3r3r/5k2/5p2/ppqpPPp1/6Q1/2P3P1/PP4K1/3RR3 b - - 0 36",
+      "playerMoves": [
+        "h8h2",
+        "c5f2",
+        "d8h8"
+      ],
+      "opponentMoves": [
+        "g2h2",
+        "h2h1"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Qf2+",
+        "Rh8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "long",
+        "sacrifice"
+      ],
+      "rating": 1554,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/oqaRxvxw#71",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Y1hNS",
+      "fen": "2k5/pp1b1p2/2p5/4P1q1/3P4/2R1Q2p/PP3Pr1/2R4K b - - 5 33",
+      "playerMoves": [
+        "g2h2",
+        "g5g2"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rh2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1593,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/sHr8jhXR#65",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gDdAK",
+      "fen": "r5rk/p1q2p1p/2p1nPpQ/1p3b2/4pR2/1PNp3P/P5P1/R2B2K1 w - - 6 23",
+      "playerMoves": [
+        "h6h7",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1548,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/X4deHIHI/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_xnjIe",
+      "fen": "5r1k/pp2bBpp/qnp5/7Q/4P3/5R2/P2r2PP/2R3K1 w - - 0 24",
+      "playerMoves": [
+        "h5h7",
+        "f3h3",
+        "h3h4"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "e7h4"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1606,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/B2xO5yaP/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Fvug7",
+      "fen": "3r1r1k/1pp1q1pp/8/3B1p2/1pPn1P2/b3B3/P3QP2/1K5R w - - 4 29",
+      "playerMoves": [
+        "h1h7",
+        "e2h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1464,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/fz4uHTfW/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SiECO",
+      "fen": "r1b1r3/3k4/p1p5/3PQ3/Pp4P1/1Pp5/5P1P/6K1 w - - 1 42",
+      "playerMoves": [
+        "d5c6",
+        "e5e8"
+      ],
+      "opponentMoves": [
+        "d7c6"
+      ],
+      "solutionSan": [
+        "dxc6+",
+        "Qxe8+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "short"
+      ],
+      "rating": 1451,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/TsmJJFzy/black#82",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_DWUM2",
+      "fen": "r6k/4qpR1/p1n1p2P/3pPp2/3P4/2p3Q1/Pp3P2/1K6 w - - 0 29",
+      "playerMoves": [
+        "g7h7",
+        "g3g7"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1426,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/eoF4xJ2H/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_A3QSK",
+      "fen": "r5rk/3b3n/p3pPp1/3pP3/qp6/3B4/PPP3P1/2KR3R w - - 0 24",
+      "playerMoves": [
+        "h1h7",
+        "d1h1"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Rh1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1491,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/7BZhyuaR/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_zVLLy",
+      "fen": "8/6P1/3kb3/1pp2p1R/p7/2K5/8/8 w - - 1 52",
+      "playerMoves": [
+        "h5h6",
+        "h6e6",
+        "g7g8q"
+      ],
+      "opponentMoves": [
+        "d6e7",
+        "e7e6"
+      ],
+      "solutionSan": [
+        "Rh6",
+        "Rxe6+",
+        "g8=Q+"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "crushing",
+        "endgame",
+        "long",
+        "promotion"
+      ],
+      "rating": 1514,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/h5a47xqt/black#102",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ruCQH",
+      "fen": "6rk/R4Qpp/5p2/8/3P4/4rqP1/7P/1R4K1 w - - 2 31",
+      "playerMoves": [
+        "f7g8",
+        "b1b8",
+        "b8e8"
+      ],
+      "opponentMoves": [
+        "h8g8",
+        "e3e8"
+      ],
+      "solutionSan": [
+        "Qxg8+",
+        "Rb8+",
+        "Rxe8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "sacrifice"
+      ],
+      "rating": 1566,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/0GwkLyq9/black#60",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_HY8rm",
+      "fen": "3r2k1/p5pp/2p1r3/2p5/2NbPp1q/1P3P2/P1P3PP/1R2QR1K b - - 2 23",
+      "playerMoves": [
+        "h4h2",
+        "e6h6",
+        "h6h4"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "e1h4"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh6+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "pillsburysMate",
+        "sacrifice"
+      ],
+      "rating": 1407,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/YrAlXN0q#45",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Qx5yf",
+      "fen": "6rk/4pp2/3p4/1pp1P2p/3PQprq/2P2P2/1P5N/1R4RK b - - 0 35",
+      "playerMoves": [
+        "h4h2",
+        "g4h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1670,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/T0kjx4Rq#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JIAyC",
+      "fen": "r1b2rk1/1p3ppp/1ppQ4/4R3/8/2P5/qP3PPP/2KR4 w - - 0 18",
+      "playerMoves": [
+        "d6f8",
+        "d1d8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rd8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1409,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/MMQt8Qh7/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_SyYtg",
+      "fen": "5rk1/6pp/p3p1q1/1p1bRp2/2pP1P1r/P1P3PP/1P3Q1K/3B1R2 b - - 0 30",
+      "playerMoves": [
+        "h4h3",
+        "g6h6",
+        "h6h5"
+      ],
+      "opponentMoves": [
+        "h2h3",
+        "d1h5"
+      ],
+      "solutionSan": [
+        "Rxh3+",
+        "Qh6+",
+        "Qxh5#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1542,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/ECD9cWtI#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YXvGP",
+      "fen": "r4rk1/3b1ppp/p2p4/3NbP1R/p1p1q3/8/PPP2P2/R2Q1K2 w - - 0 24",
+      "playerMoves": [
+        "d5e7",
+        "h5h7",
+        "d1h5"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1430,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/bIFxiT1V/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_90MZK",
+      "fen": "1n3r1k/r4pRp/p1b2P2/3p3N/1p6/6Q1/Pq4PP/2q2RK1 w - - 0 26",
+      "playerMoves": [
+        "g7h7",
+        "g3g7"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qg7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1507,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/TCDJNvBP/black#50",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_wIJxk",
+      "fen": "r1b2rk1/ppp3p1/4p3/6N1/7R/3PQ3/PP3q2/2K5 w - - 0 22",
+      "playerMoves": [
+        "h4h8",
+        "e3h3",
+        "h3h4",
+        "h4h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "f2h4",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh3+",
+        "Qxh4+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1582,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/kfvycda7/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tmWHT",
+      "fen": "r7/ppQ2p1k/7p/3P1br1/2P5/4BpPq/PPP2P1P/R5RK b - - 0 29",
+      "playerMoves": [
+        "h3h2",
+        "g5h5"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1592,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/QXa2GQUD#57",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_llBCs",
+      "fen": "r2q1r1k/1p2b1pp/p1n1B3/2pnP3/8/1P5R/1BP3PP/R2Q2K1 w - - 0 22",
+      "playerMoves": [
+        "h3h7",
+        "d1h5"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1471,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/qXvKQFd3/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JNBFh",
+      "fen": "5rk1/p3Qppp/1q6/2pb4/B2p4/8/2P2PPP/4R1K1 w - - 3 24",
+      "playerMoves": [
+        "e7f8",
+        "e1e8"
+      ],
+      "opponentMoves": [
+        "g8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Re8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "operaMate",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1485,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/344liBTm/black#46",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_gZUTi",
+      "fen": "2r1kr2/3b1pQ1/1q2pP2/8/3b3R/3P4/Bp3P2/1K1R4 w - - 0 35",
+      "playerMoves": [
+        "g7f8",
+        "h4h8"
+      ],
+      "opponentMoves": [
+        "e8f8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Rh8#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1526,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/HpXs5spu/black#68",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ZRSuZ",
+      "fen": "r3k2r/pbpq4/1p1pp3/3P1p2/2P2P2/2P1PBp1/P2Q1BP1/2R2RK1 b kq - 1 22",
+      "playerMoves": [
+        "h8h1",
+        "d7h7",
+        "h7h5",
+        "h5h2"
+      ],
+      "opponentMoves": [
+        "g1h1",
+        "f3h5",
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rh1+",
+        "Qh7+",
+        "Qxh5+",
+        "Qh2#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1563,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/QtFRqV9a#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_ug22F",
+      "fen": "r3k2r/1pp2p2/p1p4n/4P1B1/4P3/2P2bPp/PP1N1P2/R4RK1 b kq - 2 16",
+      "playerMoves": [
+        "h3h2",
+        "h6g4",
+        "h8h1"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g1"
+      ],
+      "solutionSan": [
+        "h2+",
+        "Ng4+",
+        "Rh1#"
+      ],
+      "themes": [
+        "advancedPawn",
+        "attraction",
+        "doubleCheck",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame"
+      ],
+      "rating": 1462,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/yQeWuf3h#31",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_OgXZK",
+      "fen": "2N2r2/2Q2ppk/1p1p4/6q1/4P3/7p/P3QPrP/1R5K b - - 0 28",
+      "playerMoves": [
+        "g2h2",
+        "g5g2"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qg2#"
+      ],
+      "themes": [
+        "attraction",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1455,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/pBgj8Pd5#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_N4v8k",
+      "fen": "3r4/Q1p2k2/1p2p2p/5pp1/2P2n2/P1R2P2/5P1P/3r2RK b - - 0 30",
+      "playerMoves": [
+        "d1g1",
+        "d8d1"
+      ],
+      "opponentMoves": [
+        "h1g1"
+      ],
+      "solutionSan": [
+        "Rxg1+",
+        "Rd1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1494,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/IdUZEMAv#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_1zlJ8",
+      "fen": "2r5/2kp1N1p/p2bp1p1/1p6/8/4P3/P5PP/5RK1 w - - 2 29",
+      "playerMoves": [
+        "f1c1",
+        "c1c8",
+        "f7d6"
+      ],
+      "opponentMoves": [
+        "c7b8",
+        "b8c8"
+      ],
+      "solutionSan": [
+        "Rc1+",
+        "Rxc8+",
+        "Nxd6+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1468,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/l75htvpk/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yuGPt",
+      "fen": "5rk1/p4ppp/2N1n3/2p4R/1p1b1r2/3R4/2K5/8 w - - 4 39",
+      "playerMoves": [
+        "c6e7",
+        "h5h7",
+        "d3h3",
+        "h3h4"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8h7",
+        "f4h4"
+      ],
+      "solutionSan": [
+        "Ne7+",
+        "Rxh7+",
+        "Rh3+",
+        "Rxh4#"
+      ],
+      "themes": [
+        "anastasiaMate",
+        "attraction",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1488,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/qKSbBHrA/black#76",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vqHIP",
+      "fen": "6k1/p2P1ppp/8/4r2q/1r6/2NQ1bP1/PP3P1P/R1B2RK1 b - - 0 22",
+      "playerMoves": [
+        "h5h2",
+        "e5h5",
+        "h5h1"
+      ],
+      "opponentMoves": [
+        "g1h2",
+        "h2g1"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh5+",
+        "Rh1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1625,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/MMNHZebA#43",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Bu0Ab",
+      "fen": "r5rk/1ppq1ppp/p7/5PBQ/3p4/2Pn2R1/PP5P/7K w - - 0 23",
+      "playerMoves": [
+        "h5h7",
+        "g3h3"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh3#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1425,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/7HDgz7bz/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_YQJG2",
+      "fen": "6k1/4rppp/Q1p1r2q/3pP3/1Pp2n2/2P3R1/P2N1P1B/6RK b - - 6 27",
+      "playerMoves": [
+        "h6h2",
+        "e6h6",
+        "h6h3"
+      ],
+      "opponentMoves": [
+        "h1h2",
+        "g3h3"
+      ],
+      "solutionSan": [
+        "Qxh2+",
+        "Rh6+",
+        "Rxh3#"
+      ],
+      "themes": [
+        "attraction",
+        "exposedKing",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1465,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/PBFL3daM#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_vM9Ek",
+      "fen": "4r1k1/pp3p2/6p1/8/1n1p3Q/P7/1P3PP1/KR2r3 b - - 2 28",
+      "playerMoves": [
+        "e1b1",
+        "e8e1"
+      ],
+      "opponentMoves": [
+        "a1b1"
+      ],
+      "solutionSan": [
+        "Rxb1+",
+        "Re1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "short"
+      ],
+      "rating": 1657,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/bk0TqSTJ#55",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_JiQnI",
+      "fen": "2R5/5ppk/7p/3p4/3Pn2q/3NPP1P/r5P1/1Q4K1 b - - 6 35",
+      "playerMoves": [
+        "a2g2",
+        "h4g3"
+      ],
+      "opponentMoves": [
+        "g1g2"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Qg3+"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "endgame",
+        "master",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1514,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/Gsc1q3dq#69",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kHPQ5",
+      "fen": "8/4k3/3r1p2/2BP1R2/4K1P1/1p3P2/8/3r4 w - - 2 49",
+      "playerMoves": [
+        "c5d6",
+        "f5f6",
+        "f6c6"
+      ],
+      "opponentMoves": [
+        "e7d6",
+        "d6c5"
+      ],
+      "solutionSan": [
+        "Bxd6+",
+        "Rxf6+",
+        "Rc6+"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "endgame",
+        "long"
+      ],
+      "rating": 1415,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/th7Ofstr/black#96",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Elj8h",
+      "fen": "6rk/p4p1p/1p1p1PpQ/1bpPr1P1/4PR2/1P2q2P/P4RK1/1B6 w - - 1 36",
+      "playerMoves": [
+        "h6h7",
+        "f4h4"
+      ],
+      "opponentMoves": [
+        "h8h7"
+      ],
+      "solutionSan": [
+        "Qxh7+",
+        "Rh4#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn2",
+        "middlegame",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1436,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/VGK55AHf/black#70",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_L8JhX",
+      "fen": "3r2k1/pp2P2p/6p1/3r4/5p2/2B2N2/1P2qbP1/RQ3R1K b - - 0 26",
+      "playerMoves": [
+        "d5h5",
+        "h5h2",
+        "e2h5"
+      ],
+      "opponentMoves": [
+        "f3h2",
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rh5+",
+        "Rxh2+",
+        "Qh5#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1443,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/vu8xuw9x#51",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_2rUoX",
+      "fen": "1k2r3/1p5p/pP6/P2p4/1Rq4r/2P2Q2/5PP1/5RK1 b - - 3 27",
+      "playerMoves": [
+        "c4f1",
+        "h4h1"
+      ],
+      "opponentMoves": [
+        "g1f1"
+      ],
+      "solutionSan": [
+        "Qxf1+",
+        "Rh1#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1485,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/tcZUCnHs#53",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_cc6GV",
+      "fen": "3r1r1k/pQ3Rbn/6p1/3N2q1/3pP3/1B6/PPP3PP/5R1K b - - 0 25",
+      "playerMoves": [
+        "f8f7",
+        "d8f8",
+        "f8f7"
+      ],
+      "opponentMoves": [
+        "b7f7",
+        "d5f4"
+      ],
+      "solutionSan": [
+        "Rxf7",
+        "Rf8",
+        "Rxf7"
+      ],
+      "themes": [
+        "advantage",
+        "attraction",
+        "clearance",
+        "long",
+        "middlegame"
+      ],
+      "rating": 1423,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/6DZMCiSg#49",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_BoDTq",
+      "fen": "6rk/p1q2r1p/2p2p1B/3p4/P5Q1/6P1/5P1P/4R1K1 w - - 6 29",
+      "playerMoves": [
+        "g4g8",
+        "e1e8",
+        "e8f8"
+      ],
+      "opponentMoves": [
+        "h8g8",
+        "f7f8"
+      ],
+      "solutionSan": [
+        "Qxg8+",
+        "Re8+",
+        "Rxf8#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "long",
+        "mate",
+        "mateIn3",
+        "operaMate",
+        "sacrifice"
+      ],
+      "rating": 1633,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/mGpwj7yH/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_Ee1rT",
+      "fen": "kr5r/ppq2np1/2p1p3/3pPp1P/5Bp1/QRPPP3/P3KP2/1R6 w - - 13 23",
+      "playerMoves": [
+        "a3a7",
+        "b3a3",
+        "a3a5"
+      ],
+      "opponentMoves": [
+        "a8a7",
+        "c7a5"
+      ],
+      "solutionSan": [
+        "Qxa7+",
+        "Ra3+",
+        "Rxa5#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "queensideAttack",
+        "sacrifice"
+      ],
+      "rating": 1442,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/tTNC9Roe/black#44",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_QF2bU",
+      "fen": "2r1brk1/pp2b1p1/1qn1ppP1/3pn3/3P1P2/2P4R/PP1N3P/R1BQ3K w - - 0 18",
+      "playerMoves": [
+        "h3h8",
+        "d1h5",
+        "h5h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh5+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "opening",
+        "sacrifice"
+      ],
+      "rating": 1626,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/wyzu02lO/black#34",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_i7DWU",
+      "fen": "4b1rk/n1p2p1p/3p2r1/1p1PpN2/p3P3/P1PB1P1R/1P6/1K1R4 w - - 1 29",
+      "playerMoves": [
+        "h3h7",
+        "d1h1",
+        "h1h6"
+      ],
+      "opponentMoves": [
+        "h8h7",
+        "g6h6"
+      ],
+      "solutionSan": [
+        "Rxh7+",
+        "Rh1+",
+        "Rxh6#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1596,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/kMwsNiEp/black#56",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7ZpE7",
+      "fen": "r1b2rk1/4bNpp/2p1p3/3n4/1p1q4/3B4/PpPBQ1PP/1K1R1R2 w - - 1 22",
+      "playerMoves": [
+        "d3h7",
+        "e2h5",
+        "h5h8"
+      ],
+      "opponentMoves": [
+        "g8h7",
+        "h7g8"
+      ],
+      "solutionSan": [
+        "Bxh7+",
+        "Qh5+",
+        "Qh8#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1541,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/0abujzb3/black#42",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_kswj5",
+      "fen": "3q4/p4pk1/1p4p1/4p2r/2Pb4/1PB2P2/P2Q2PP/3R3K b - - 3 32",
+      "playerMoves": [
+        "h5h2",
+        "d8h4"
+      ],
+      "opponentMoves": [
+        "h1h2"
+      ],
+      "solutionSan": [
+        "Rxh2+",
+        "Qh4#"
+      ],
+      "themes": [
+        "attraction",
+        "endgame",
+        "mate",
+        "mateIn2",
+        "sacrifice",
+        "short"
+      ],
+      "rating": 1427,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/BvYR0Xa7#63",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_yxVUy",
+      "fen": "r4r2/pp2qp1k/2p2npp/4P2R/4Q3/8/PBP3PP/1R5K w - - 2 25",
+      "playerMoves": [
+        "h5h6",
+        "e4h4",
+        "h4e7"
+      ],
+      "opponentMoves": [
+        "h7h6",
+        "f6h5"
+      ],
+      "solutionSan": [
+        "Rxh6+",
+        "Qh4+",
+        "Qxe7"
+      ],
+      "themes": [
+        "attraction",
+        "crushing",
+        "long",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1571,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/2awro86U/black#48",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_7Hyt3",
+      "fen": "7r/pkp5/R6q/3N2p1/2Q1P1r1/7P/1P3PP1/5RK1 b - - 1 30",
+      "playerMoves": [
+        "g4g2",
+        "h6h3",
+        "h3h2"
+      ],
+      "opponentMoves": [
+        "g1g2",
+        "g2g1"
+      ],
+      "solutionSan": [
+        "Rxg2+",
+        "Qxh3+",
+        "Qh2#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1677,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/SyxCndRX#59",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_LSlR1",
+      "fen": "r2qbrk1/pp4p1/2n1ppB1/3p2pR/3P4/4PN2/PP2KPP1/2RQ4 w - - 4 21",
+      "playerMoves": [
+        "h5h8",
+        "d1h1",
+        "h1h7"
+      ],
+      "opponentMoves": [
+        "g8h8",
+        "h8g8"
+      ],
+      "solutionSan": [
+        "Rh8+",
+        "Qh1+",
+        "Qh7#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1542,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/TvA8D5dW/black#40",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_C9wpE",
+      "fen": "Q4rk1/5ppp/8/1pr5/2np4/8/1q3PPP/R3R1K1 w - - 0 28",
+      "playerMoves": [
+        "a8f8",
+        "a1a8",
+        "a8c8"
+      ],
+      "opponentMoves": [
+        "g8f8",
+        "c5c8"
+      ],
+      "solutionSan": [
+        "Qxf8+",
+        "Ra8+",
+        "Rxc8#"
+      ],
+      "themes": [
+        "attraction",
+        "long",
+        "mate",
+        "mateIn3",
+        "middlegame",
+        "sacrifice"
+      ],
+      "rating": 1418,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/G1QhVjeu/black#54",
+      "alternateWinningMoves": []
+    },
+    {
+      "id": "lichess_tAa92",
+      "fen": "3r3k/p4Rpp/8/4bNq1/4Qn2/1B3P2/PP1r1P1P/6RK b - - 19 31",
+      "playerMoves": [
+        "g5g1",
+        "d2d1",
+        "d8d1",
+        "d1e1"
+      ],
+      "opponentMoves": [
+        "h1g1",
+        "b3d1",
+        "e4e1"
+      ],
+      "solutionSan": [
+        "Qxg1+",
+        "Rd1+",
+        "Rxd1+",
+        "Rxe1#"
+      ],
+      "themes": [
+        "attraction",
+        "kingsideAttack",
+        "mate",
+        "mateIn4",
+        "middlegame",
+        "sacrifice",
+        "veryLong"
+      ],
+      "rating": 1554,
+      "hint": "An exchange or sacrifice encouraging or forcing an opponent piece to a square that allows a follow-up tactic.",
+      "source": "https://lichess.org/8kmGD6PT#61",
+      "alternateWinningMoves": []
+    }
+  ]
+}

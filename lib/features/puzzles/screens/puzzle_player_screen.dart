@@ -46,6 +46,9 @@ class PuzzlePlayerScreen extends StatelessWidget {
             if (puzzle == null) {
               return const Center(child: Text('Keine Puzzle gefunden.'));
             }
+            final currentMoveDisplay = state.solved
+                ? puzzle.playerMoves.length
+                : state.currentPlayerMoveIndex + 1;
 
             final bloc = context.read<PuzzlePlayerBloc>();
 
@@ -65,6 +68,8 @@ class PuzzlePlayerScreen extends StatelessWidget {
                   Text(
                     'Aufgabe ${state.puzzleIndex + 1}/${state.pack!.puzzles.length}',
                   ),
+                  const SizedBox(height: 4),
+                  Text('Zug $currentMoveDisplay/${puzzle.playerMoves.length}'),
                   const SizedBox(height: 12),
                   Expanded(
                     child: PuzzleBoard(
@@ -123,6 +128,14 @@ class PuzzlePlayerScreen extends StatelessWidget {
                   if (state.feedback != null) ...<Widget>[
                     const SizedBox(height: 8),
                     Text(state.feedback!),
+                  ],
+                  if (state.solved &&
+                      puzzle.solutionSan.isNotEmpty) ...<Widget>[
+                    const SizedBox(height: 8),
+                    Text(
+                      'Lösung (SAN): ${puzzle.solutionSan.join(' ')}',
+                      style: const TextStyle(fontStyle: FontStyle.italic),
+                    ),
                   ],
                   if (state.status == PuzzlePlayerStatus.completed) ...<Widget>[
                     const SizedBox(height: 8),

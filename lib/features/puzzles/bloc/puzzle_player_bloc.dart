@@ -43,6 +43,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
           feedback: null,
           hintsUsed: 0,
           solved: false,
+          currentPlayerMoveIndex: 0,
           boardFen: _engine.boardState.fen,
           positionVersion: state.positionVersion + 1,
         ),
@@ -69,7 +70,11 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
     emit(
       state.copyWith(
         hintsUsed: state.hintsUsed + 1,
-        feedback: puzzle.hint ?? 'Suche einen Zug mit Doppelangriff.',
+        feedback:
+            puzzle.hint ??
+            (puzzle.solutionSan.isNotEmpty
+                ? 'Denke an ${puzzle.solutionSan.first}.'
+                : 'Suche den besten Zug.'),
       ),
     );
   }
@@ -113,8 +118,15 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
       ),
     );
 
-    final expectedMove = puzzle.solutionMoves.first;
-    if (selectedMove != expectedMove) {
+    final moveIndex = state.currentPlayerMoveIndex;
+    if (moveIndex >= puzzle.playerMoves.length) {
+      return;
+    }
+
+    final expectedMove = puzzle.playerMoves[moveIndex];
+    final allowsMateInOneAlternative =
+        moveIndex == 0 && puzzle.alternateWinningMoves.contains(selectedMove);
+    if (selectedMove != expectedMove && !allowsMateInOneAlternative) {
       await _saveProgress(solved: false, puzzle: puzzle, packId: pack.packId);
       emit(
         state.copyWith(
@@ -127,8 +139,48 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
       return;
     }
 
-    await _saveProgress(solved: true, puzzle: puzzle, packId: pack.packId);
-    emit(state.copyWith(solved: true, feedback: 'Perfekt gelöst!'));
+    final nextPlayerMoveIndex = moveIndex + 1;
+    final isSolved = nextPlayerMoveIndex >= puzzle.playerMoves.length;
+    final alternateMateSolution =
+        allowsMateInOneAlternative && puzzle.playerMoves.length == 1;
+    if (isSolved || alternateMateSolution) {
+      await _saveProgress(solved: true, puzzle: puzzle, packId: pack.packId);
+      emit(
+        state.copyWith(
+          solved: true,
+          currentPlayerMoveIndex: nextPlayerMoveIndex,
+          feedback: 'Perfekt gelöst!',
+          selectedMove: null,
+        ),
+      );
+      return;
+    }
+
+    if (moveIndex < puzzle.opponentMoves.length) {
+      final opponentMove = puzzle.opponentMoves[moveIndex];
+      final opponentMoveResult = _engine.makeMove(opponentMove);
+      if (!opponentMoveResult.isLegal) {
+        emit(
+          state.copyWith(
+            status: PuzzlePlayerStatus.error,
+            errorMessage:
+                'Puzzle-Datenfehler: Gegnerzug ist illegal ($opponentMove).',
+          ),
+        );
+        return;
+      }
+    }
+
+    emit(
+      state.copyWith(
+        solved: false,
+        currentPlayerMoveIndex: nextPlayerMoveIndex,
+        boardFen: _engine.boardState.fen,
+        legalMoves: _engine.allLegalMoves(),
+        feedback: 'Richtig. Finde den nächsten Zug.',
+        selectedMove: null,
+      ),
+    );
   }
 
   Future<void> nextPuzzle() async {
@@ -161,6 +213,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         selectedMove: null,
         feedback: null,
         solved: false,
+        currentPlayerMoveIndex: 0,
         boardFen: _engine.boardState.fen,
         positionVersion: state.positionVersion + 1,
       ),
@@ -186,6 +239,7 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         feedback: null,
         hintsUsed: 0,
         solved: false,
+        currentPlayerMoveIndex: 0,
         boardFen: _engine.boardState.fen,
         positionVersion: state.positionVersion + 1,
       ),
@@ -205,6 +259,8 @@ class PuzzlePlayerBloc extends Cubit<PuzzlePlayerState> {
         positionVersion: state.positionVersion + 1,
         selectedMove: null,
         feedback: null,
+        solved: false,
+        currentPlayerMoveIndex: 0,
       ),
     );
   }

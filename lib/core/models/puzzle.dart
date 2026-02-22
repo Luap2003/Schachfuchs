@@ -8,11 +8,14 @@ abstract class Puzzle with _$Puzzle {
   const factory Puzzle({
     required String id,
     required String fen,
-    required List<String> solutionMoves,
-    required String firstMoveBy,
+    required List<String> playerMoves,
+    required List<String> opponentMoves,
+    required List<String> solutionSan,
+    required List<String> themes,
+    required int rating,
     String? hint,
-    @Default('tactic') String theme,
-    @Default(600) int rating,
+    String? source,
+    @Default(<String>[]) List<String> alternateWinningMoves,
   }) = _Puzzle;
 
   factory Puzzle.fromJson(Map<String, dynamic> json) => _$PuzzleFromJson(json);
