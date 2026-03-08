@@ -33,7 +33,7 @@ class StepGuidedMove extends StatelessWidget {
       children: <Widget>[
         Text(text, style: const TextStyle(fontSize: 16)),
         const SizedBox(height: 8),
-        const Text('Ziehe eine Figur per Drag-and-Drop auf das Zielfeld.'),
+        const Text('Tippe eine Figur an und dann auf ein Zielfeld.'),
         const SizedBox(height: 10),
         if (FeatureFlags.manualMoveDebugEnabled) ...<Widget>[
           DropdownButtonFormField<String>(

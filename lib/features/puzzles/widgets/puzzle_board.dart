@@ -4,6 +4,7 @@ import 'package:schach_app/shared/widgets/chess_board_widget.dart';
 class PuzzleBoard extends StatelessWidget {
   const PuzzleBoard({
     required this.fen,
+    required this.legalMoves,
     required this.positionVersion,
     required this.onUserMoveUci,
     this.isInputLocked = false,
@@ -11,6 +12,7 @@ class PuzzleBoard extends StatelessWidget {
   });
 
   final String fen;
+  final List<String> legalMoves;
   final int positionVersion;
   final ValueChanged<String> onUserMoveUci;
   final bool isInputLocked;
@@ -23,6 +25,7 @@ class PuzzleBoard extends StatelessWidget {
       enableUserMoves: true,
       isInputLocked: isInputLocked,
       onUserMoveUci: onUserMoveUci,
+      legalMoves: legalMoves,
     );
   }
 }

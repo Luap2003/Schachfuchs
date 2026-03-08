@@ -57,6 +57,7 @@ class GameScreen extends StatelessWidget {
                   Expanded(
                     child: GameBoard(
                       fen: fen,
+                      legalMoves: state.legalMoves,
                       isInputLocked:
                           state.isOpponentThinking ||
                           state.status == GameStatus.finished,
@@ -64,7 +65,9 @@ class GameScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 12),
-                  const Text('Ziehe eine Figur auf das Zielfeld.'),
+                  const Text(
+                    'Tippe eine Figur an und wähle dann ein Zielfeld.',
+                  ),
                   const SizedBox(height: 8),
                   GameMoveInputSection(
                     legalMoves: state.legalMoves,

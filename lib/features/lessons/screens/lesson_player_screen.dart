@@ -75,6 +75,7 @@ class LessonPlayerScreen extends StatelessWidget {
                       enableUserMoves: step.type != LessonStepType.explanation,
                       isInputLocked:
                           state.status == LessonPlayerStatus.completed,
+                      legalMoves: state.legalMoves,
                       onUserMoveUci: (String uci) =>
                           context.read<LessonPlayerBloc>().onUserMove(uci),
                       highlightSquares: step.highlightSquares,
