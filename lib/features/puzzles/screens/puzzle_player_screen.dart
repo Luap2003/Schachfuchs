@@ -109,15 +109,14 @@ class PuzzlePlayerScreen extends StatelessWidget {
                   Expanded(
                     child: PuzzleBoard(
                       fen: state.boardFen ?? puzzle.fen,
+                      legalMoves: state.legalMoves,
                       positionVersion: state.positionVersion,
                       isInputLocked: false,
                       onUserMoveUci: bloc.onUserMove,
                     ),
                   ),
                   const SizedBox(height: 12),
-                  const Text(
-                    'Ziehe eine Figur per Drag-and-Drop auf das Zielfeld.',
-                  ),
+                  const Text('Tippe eine Figur an und dann auf ein Zielfeld.'),
                   const SizedBox(height: 8),
                   if (FeatureFlags.manualMoveDebugEnabled) ...<Widget>[
                     DropdownButtonFormField<String>(
